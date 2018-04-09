@@ -1,8 +1,8 @@
 # Simple Odoo is...
 
-## Mục tiêu
+## Aim...
 
-1. Python cơ bản
+1. Python basic
     - Hello world
     - Cú pháp
     - Phân chia module
