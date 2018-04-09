@@ -1,4 +1,4 @@
-# Odoo is Simple
+# Simple Odoo is...
 
 ## Mục tiêu
 
