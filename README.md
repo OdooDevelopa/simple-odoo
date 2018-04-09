@@ -39,4 +39,5 @@
       - Qweb
 5. Tìm hiểu nghiệp vụ
 6. Các kỹ năng khác
-    -  Git
+    - Git
+    - CI
