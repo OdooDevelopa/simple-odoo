@@ -38,11 +38,11 @@
       - Graph
       - Pivot
       - Calendar
-      - Config
+      - Search
     - Report
       - SQL
       - Qweb
-    - Ir module: cron, mail, ...
+    - Ir module: cron, mail, config,...
     
 5. Tìm hiểu nghiệp vụ
 
