@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <record id="dtc1" model="bms.document.template.category">
+        <field name="name">ĐĂNG KÝ CON DẤU</field>
+        <field name="parent_id"></field>
+    </record>
+    <record id="dtc2" model="bms.document.template.category">
+        <field name="name">HỒ SƠ ĐĂNG KÝ MẪU CON DẤU MỚI</field>
+        <field name="parent_id" ref = 'dtc1'></field>
+    </record>
+    <record id="dtc3" model="bms.document.template.category">
+        <field name="name">HỒ SƠ ĐĂNG KÝ DẤU NỔI, DẤU THU NHỎ, DẤU XI</field>
+        <field name="parent_id" ref = 'dtc1'></field>
+    </record>
+    <record id="dtc4" model="bms.document.template.category">
+        <field name="name">HỒ SƠ ĐỀ NGHỊ ĐĂNG KÝ LẠI MẪU CON DẤU</field>
+        <field name="parent_id" ref = 'dtc1'></field>
+    </record>
+    <record id="dtc5" model="bms.document.template.category">
+        <field name="name">HỒ SƠ ĐỀ NGHỊ ĐĂNG KÝ THÊM CON DẤU</field>
+        <field name="parent_id" ref = 'dtc1'></field>
+    </record>
+    <record id="dtc6" model="bms.document.template.category">
+        <field name="name">HỒ SƠ ĐỀ NGHỊ ĐỔI, CẤP LẠI  GIẤY CHỨNG NHẬN ĐĂNG KÝ MẪU CON DẤU</field>
+        <field name="parent_id" ref = 'dtc1'></field>
+    </record>
+</odoo>

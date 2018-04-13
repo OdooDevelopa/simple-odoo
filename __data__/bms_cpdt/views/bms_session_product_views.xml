@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Action -->
+    <record id="bms_session_product_action_form" model="ir.actions.act_window">
+        <field name="name">Seal price</field>
+        <field name="res_model">product.product</field>
+        <field name="view_mode">kanban,tree,form</field>
+    </record>
+    <!-- Form view -->
+    <!-- Customize product view -->
+    <record id="product_template_form_view_inherit" model="ir.ui.view">
+        <field name="name">product.template.common.form</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="product.product_normal_form_view"/>
+        <field name="arch" type="xml">
+            <data>
+                <field name="default_code" position="replace">
+                    <field name="default_code" required='1'/>
+                </field>
+                <xpath expr="//div[@name='options']/div[2]"
+                       position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </xpath>
+                <field name="standard_price" position="replace"/>
+                <page name="sales" position="replace"/>
+            </data>
+        </field>
+    </record>
+    <!-- <record id="product_product_view_form_procurement_button_inherit" model="ir.ui.view">
+      <field name="name">product.product.procurement.stat.button.form</field>
+      <field name="model">product.product</field>
+      <field name="inherit_id" ref="procurement.product_product_view_form_procurement_button"/>
+      <field name="arch" type="xml">
+        <data>
+          <button name="130" position="replace"/>
+        </data>
+      </field>
+    </record> -->
+    <!-- Kanban view -->
+    <!-- Inherit Kanban view -->
+    <record id="product_product_kanban_view_inherit" model="ir.ui.view">
+        <field name="name">product.product.form</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="product.product_kanban_view"/>
+        <field name="arch" type="xml">
+            <data>
+                <img t-att-src="kanban_image('product.product', 'image_small', record.id.value)"
+                     position="replace">
+                    <img t-att-src="kanban_image('product.product', 'image_small', record.id.value)"
+                         style='box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.09), 0 3px 3px 0 rgba(0, 0, 0, 0.08);padding: 2px;'/>
+                </img>
+                <field name="name" position="before">
+                    <div>
+                        <span style="background-color:#d56363;color:#FFF;padding: 0.5px 5px;border-radius: 2px;">
+                            <field name="default_code"/>
+                        </span>
+                    </div>
+                </field>
+            </data>
+        </field>
+    </record>
+    <!-- Inherit view -->
+</odoo>

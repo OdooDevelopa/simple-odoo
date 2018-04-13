@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Session -->
+    <record id="view_session_form" model="ir.ui.view">
+        <field name="name">session.form</field>
+        <field name="model">bms.session</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button name="action_confirm" type="object" states="draft,rework" string="Confirm" class="oe_highlight" groups="bms_cpdt.group_e_gov_user"/>
+                    <button name="action_approval" string="Approval" type="object" class="oe_highlight" states="awaiting_approval" groups="bms_cpdt.group_e_gov_manager"/>
+                    <button name="action_re_work" string="Re-Work" type="object" class="oe_highlight" states="awaiting_approval" groups="bms_cpdt.group_e_gov_manager"/>
+                    <button name="action_vn_post_done" string="VN Post Done" type="object" class="oe_highlight" attrs="{'invisible': ['!','|','&amp;',('state', '=', 'approved'), ('document_send_type','=','vn_post'),
+                                                          ('state', '=', 'missing_profile'),
+                                                          ('state', '!=', 'vn_post_lost')]}" groups="bms_cpdt.group_e_gov_user"/>
+                    <button name="action_mark_lost_document" string="Mark Lost" type="object" class="oe_highlight" attrs="{'invisible': ['|',('profile_received','=',True), ('state', '!=', 'vn_post_done')]}" groups="bms_cpdt.group_e_gov_manager"/>
+                    <button name="action_mark_done" string="Mark Done" type="object" class="oe_highlight" attrs="{'invisible': ['!', '|', '&amp;',('document_receive_type','=','vn_post'),('state', '=', 'result_profile_returned'),
+                                                            '&amp;', ('document_receive_type','!=','vn_post'),
+                                                                  '|', '&amp;',('state', '=', 'vn_post_check'),('document_send_type','=','vn_post'),
+                                                                       '&amp;',('state', '=', 'approved'),('document_send_type','!=','vn_post')]}" groups="bms_cpdt.group_e_gov_manager"/>
+                    <button name="action_mark_close" string="Mark Close" type="object" class="oe_highlight" states="profile_returned,done" groups="bms_cpdt.group_e_gov_manager"/>
+                    <button name="action_mark_cancel" string="Mark Cancel" type="object" class="oe_highlight" attrs="{'invisible': ['!', '|', ('state', '=', 'awaiting_approval'),
+                                                  '&amp;', ('state','=','approved'),
+                                                  '&amp;', ('document_receive_type','=','direct'),
+                                                            ('document_receive_type', '=', 'direct'),]}" groups="bms_cpdt.group_e_gov_manager"/>
+                    <button name="action_money_received" string="Money Received" type="object" class="oe_highlight" attrs="{'invisible': ['|',('payment','=',True), ('state', '!=', 'vn_post_done')]}" groups="bms_cpdt.group_e_gov_manager"/>
+                    <button name="action_mark_received_document" string="Profile Received" type="object" class="oe_highlight" attrs="{'invisible': ['|',('profile_received','=',True), ('state', '!=', 'vn_post_done')]}" groups="bms_cpdt.group_e_gov_manager"/>
+                    <button name="action_missing_profile" string="Missing profile" type="object" class="oe_highlight" states="vn_post_check" groups="bms_cpdt.group_e_gov_manager"/>
+                    <button name="action_result_profile_sent" type="object" class="oe_highlight" string="Result profile sent" attrs="{'invisible': ['!','&amp;',('document_receive_type','=','vn_post'),
+                                                              '|', '&amp;',('state', '=', 'vn_post_check'),('document_send_type','=','vn_post'),
+                                                                   '&amp;',('state', '=', 'approved'),('document_send_type','!=','vn_post')]}" groups="bms_cpdt.group_e_gov_manager"/>
+                    <button name="action_result_profile_returned" string="Result profile returned" type="object" class="oe_highlight" states="result_profile_sent" groups="bms_cpdt.group_e_gov_user"/>
+                    <button name="%(wizard_bms_idea_box_action_form)d" string="Create idea box"
+                        type="action" class="oe_highlight"
+                        groups="bms_cpdt.group_e_gov_manager,
+                            bms_cpdt.group_e_gov_super_manager,bms_cpdt.group_e_gov_user"/>
+                    <button name="%(bms_idea_box_action_form_open_from_session)d"
+                            string="View idea" class="oe_highlight" type="action"
+                        groups="bms_cpdt.group_e_gov_manager,bms_cpdt.group_e_gov_super_manager,bms_cpdt.group_e_gov_user"/>
+
+                    <field name="state" widget="statusbar" statusbar_visible="draft,approved,done"/>
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button class="oe_stat_button" type="object"
+                            name="schedule_meeting"
+                            icon="fa-calendar" invisible="1"
+                            context="{'partner_id': active_id, 'partner_name': name}"
+                            string="Schedule meeting">
+                        </button>
+                    </div>
+                    <div class="oe_title">
+                        <label string="Session Online Number"/>
+                        <h1>
+                            <field name="name" invisible="1"/>
+                            <field name="name2"/>
+                        </h1>
+                    </div>
+                    <group string="Information">
+                        <group>
+                            <field name="partner_id" readonly="1" context="{'search_default_customer':1, 'show_address': 1}" options="{&quot;always_reload&quot;: True}" domain="[('customer', '=', True)]"/>
+                            <field name="department_id"
+                                   groups='bms_cpdt.group_e_gov_manager,bms_cpdt.group_e_gov_manager'
+                                   attrs="{'readonly': [('state', 'in', ['done', 'close', 'cancel'])]}"/>
+                            <field name="handler" groups='bms_cpdt.group_e_gov_manager,bms_cpdt.group_e_gov_manager' attrs="{'readonly': [('state', 'in', ['done', 'close', 'cancel'])]}"/>
+                        </group>
+                        <group>
+                            <field name="date" required="1"
+                                   attrs="{'readonly': [('state', 'in', ['done', 'close', 'cancel'])]}"
+                                   string="Date submission"/>
+                            <field name="date_vn_post_send" readonly="0"
+                                   attrs="{'readonly': [('state', 'in', ['done', 'close', 'cancel'])]}"
+                                   invisible="context.get('send_a_copy', False)"/>
+                            <!--<field name="receive_doc_via_sms" attrs="{'readonly': [('state', 'in', ['done', 'close', 'cancel'])]}"/>-->
+                            <field name="profile_received"
+                                   groups='bms_cpdt.group_e_gov_manager,bms_cpdt.group_e_gov_manager'
+                                   attrs="{'readonly': [('state', 'in', ['done', 'close', 'cancel'])]}"
+                                   invisible="context.get('send_a_copy', False)"/>
+                            <field name="payment"
+                                   groups='bms_cpdt.group_e_gov_manager,bms_cpdt.group_e_gov_manager'
+                                   attrs="{'readonly': [('state', 'in', ['done', 'close', 'cancel'])]}"
+                                   invisible="context.get('send_a_copy', False)"/>
+                            <field name="user_id" invisible="1"/>
+                            <field name="company_id" invisible="1"/>
+                            <field name="warning_miss_document" invisible="1"/>
+                        </group>
+                        <group>
+                            <field name="code" readonly="1"/>
+                            <field name="type" invisible="1"/>
+                        </group>
+                        <group>
+                            <field name="mobile" readonly="1"/>
+                            <field name="email" readonly="1"/>
+                        </group>
+                    </group>
+                    <group>
+                        <separator string="Request settlement" colspan="4" col="4"/>
+                        <field name="document_template_ids" widget="many2many_checkboxes"
+                               required="1" coslpan="4" col="4" nolabel="1"
+                               attrs="{'readonly': [('state', 'in', ['done', 'close', 'cancel'])]}">
+                            <!--<tree create="true" delete="true">-->
+                                <!--<field name="name"/>-->
+                            <!--</tree>-->
+                        </field>
+                    </group>
+
+                    <!--<separator string="File Template"/>-->
+                    <!--<group>-->
+                        <!--<field name="description" col="4" colspan="4"-->
+                           <!--attrs="{'readonly': [('state', 'in', ['done', 'close', 'cancel'])]}"/>-->
+                        <!--<field name="attachment_ids" widget="many2many_binary"-->
+                               <!--readonly="1" col="4" colspan="4" invisible="1"/>-->
+                        <!--<field name="note" col="4" colspan="4"-->
+                               <!--attrs="{'readonly': [('state', 'in', ['done', 'close', 'cancel'])]}"/>-->
+                    <!--</group>-->
+
+                    <group>
+                        <separator string="Attachment of User"/>
+                        <label string="File được đính kèm phải dưới 25Mb"
+                               for="attachment_ids_2" col="4" colspan="4"/>
+                        <field name="attachment_papers_ids" nolabel="1"
+                               col="4" colspan="4"
+                               attrs="{'readonly':[('state', 'not in', ('draft', 'rework'))]}">
+                            <tree create="false" delete="false">
+                                <field name="name" invisible="1"/>
+                                <field name="attachment_papers_id"
+                                       readonly="1" string = "Papers name"/>
+                                <field name="user_attachment_ids"
+                                       widget="many2many_tags"/>
+                                <field name="paper_datas_fname" invisible="1"/>
+                                <!--<field name="paper_datas"-->
+                                       <!--filename="paper_datas_fname"-->
+                                       <!--readonly="1"/>-->
+                                <!--<field name="description" string="note"/>-->
+                            </tree>
+                            <form create="false" delete="false">
+                                <sheet>
+                                    <group>
+                                        <group>
+                                            <field name="name" invisible="1"/>
+                                            <field name="attachment_papers_id"
+                                                   readonly="1" string = "Papers name"/>
+                                            <field name="paper_datas_fname" invisible="1"/>
+                                        </group>
+                                        <group>
+                                            <field name="paper_datas"
+                                                   filename="paper_datas_fname"
+                                                   readonly="1"/>
+                                        </group>
+                                    </group>
+                                    <group>
+                                        <label for="user_attachment_ids"
+                                               string="User attachments"
+                                               col="4" colspan="4"/>
+                                        <field name="user_attachment_ids"
+                                               widget="many2many_binary"
+                                               nolabel="1" col="4" colspan="4">
+                                        </field>
+                                    </group>
+                                    <group>
+                                        <field name="description" col="4"
+                                               string ="note" cospan="4"/>
+                                    </group>
+                                </sheet>
+                            </form>
+                        </field>
+                        <field name="attachment_ids_2"
+                               widget="many2many_binary"
+                               col="4" colspan="4" invisible="1"
+                               attrs="{'readonly': [('state', 'in', ['done', 'close', 'cancel'])]}"/>
+                        <field name="note_2" invisible="1"
+                               col="4" colspan="4"
+                               attrs="{'readonly': [('state', 'in', ['done', 'close', 'cancel'])]}"/>
+                    </group>
+
+                    <separator string="Seal order"
+                               invisible="context.get('send_a_copy', False)"/>
+                    <field name="next_sequence" invisible="1"/>
+                    <field name="product_line_ids" nolabel="1"
+                           invisible="context.get('send_a_copy', False)"
+                           context="{'default_sequence': next_sequence}"
+                           attrs="{'readonly': ['|',('state', 'in', ['done', 'close', 'cancel']),('payment_status','=','paid')]}">
+                        <tree editable="bottom">
+                            <field name="code" invisible="1"/>
+                            <field name="sequence"/>
+                            <field name="name"/>
+                            <field name="product_id" options="{'no_create_edit': True}"/>
+                            <field name="quantity"/>
+                            <field name="price_unit" invisible="1"/>
+                            <field name="price_subtotal"/>
+                            <field name="price_subtotal_tax" invisible="1"/>
+                        </tree>
+                    </field>
+                    <group invisible="context.get('send_a_copy', False)">
+                        <group>
+                            <label for="user_confirm"/>
+                            <div class="oe_inline">
+                                <field name="user_confirm" invisible="1"/>
+                                <button name="user_confirmed" type="object" icon="fa-check" attrs="{'invisible': [('user_confirm','=','apply')]}" class="oe_highlight"/>
+                                <button name="user_unconfirmed" type="object" icon="fa-times" attrs="{'invisible': [('user_confirm','=','cancel')]}"/>
+                            </div>
+                            <label for="manager_confirm"/>
+                            <div class="oe_inline">
+                                <field name="manager_confirm" invisible="1"/>
+                                <button name="manager_confirmed" type="object" icon="fa-check" attrs="{'invisible': [('manager_confirm','=','apply')]}" class="oe_highlight" groups="bms_cpdt.group_e_gov_manager"/>
+                                <button name="manager_unconfirmed" type="object" icon="fa-times" attrs="{'invisible': [('manager_confirm','=','cancel')]}" groups="bms_cpdt.group_e_gov_manager"/>
+                            </div>
+                            <field name="payment_checked" invisible="1" attrs="{'readonly': [('state', 'in', ['done', 'close', 'cancel'])]}"/>
+                            <field name="payment_status" invisible='0' readonly='1'/>
+                            <button name="payment_online" type="object" icon="fa-dollar" string="Payment Online" class="oe_highlight" attrs="{'invisible': ['!','&amp;', ('payment_checked','=',True),
+                                                ('payment_status','not in',['paid'])
+                                            ]}"/>
+                        </group>
+                        <field name="bank_transfer_config"
+                               readonly="1" nolabel="1" colspan="8" col="8"/>
+
+                        <group class="oe_subtotal_footer oe_right">
+                            <field name="amount_untaxed"/>
+                            <field name="amount_tax"/>
+                            <field name="amount_total" class="oe_subtotal_footer_separator"/>
+                        </group>
+                    </group>
+
+                    <group>
+                        <group>
+                            <field name="document_send_type" required="1"
+                                   attrs="{'readonly': [('state', 'in', ['done', 'close', 'cancel'])]}"
+                                   invisible="context.get('send_a_copy', False)"/>
+                            <field name="document_receive_type" required="1"
+                                   attrs="{'readonly': [('state', 'in', ['done', 'close', 'cancel'])]}"
+                                   invisible="context.get('send_a_copy', False)"/>
+                        </group>
+                    </group>
+
+                    <!--<group>-->
+                        <!--<separator string="SMS Log"/>-->
+                        <!--<field name="sms_log_ids" nolabel="1"-->
+                            <!--col="4" colspan="4">-->
+                            <!--<tree>-->
+                                <!--<field name="date"/>-->
+                                <!--<field name="name"/>-->
+                                <!--<field name="code"/>-->
+                                <!--<field name="session_id" invisible="1"/>-->
+                            <!--</tree>-->
+                        <!--</field>-->
+                    <!--</group>-->
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" widget="mail_followers"
+                           attrs="{'readonly': [('state', 'in', ['done', 'close', 'cancel'])]}"/>
+                    <field name="message_ids" widget="mail_thread"
+                           attrs="{'readonly': [('state', 'in', ['done', 'close', 'cancel'])]}"/>
+                </div>
+            </form>
+        </field>
+    </record>
+    <record id="view_session_tree" model="ir.ui.view">
+        <field name="name">session.tree</field>
+        <field name="model">bms.session</field>
+        <field name="arch" type="xml">
+            <tree decoration-danger="warning_miss_document==True">
+                <field name="name"/>
+                <field name="date"/>
+                <!--<field name="document_template_id"/>-->
+                <!-- <field name="document_send_type"/> -->
+                <field name="partner_id"/>
+                <field name="warning_miss_document" invisible="1"/>
+                <!-- <field name="state"/> -->
+                <field name="mobile"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="search_session_filter">
+        <field name="name">session.filter</field>
+        <field name="model">bms.session</field>
+        <field name="arch" type="xml">
+            <search string="Session Filter">
+                <field name="name" string="Session Name" filter_domain="[('name','ilike',self)]"/>
+                <field name="date"/>
+                <field name="partner_id"/>
+                <field name="mobile"/>
+                <filter string="My Sessions" name="my_sessions" domain="[('user_id','=',uid)]"/>
+                <filter string="Today" name="today" domain="[('date','&gt;=', datetime.datetime.combine(context_today(), datetime.time(0,0,0))), ('date','&lt;=', datetime.datetime.combine(context_today(), datetime.time(23,59,59)))]"/>
+                <group expand="0" string="Group By">
+                    <!--<filter string="Document Template" domain="[]"-->
+                    <!--context="{'group_by':'document_template_id'}"/>-->
+                    <filter string="Company" domain="[]" context="{'group_by':'company_id'}"/>
+                    <filter string="User" domain="[]" context="{'group_by':'user_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+    <record id="action_session_form" model="ir.actions.act_window">
+        <field name="name">Session</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">bms.session</field>
+        <field name="view_type">form</field>
+        <field name="view_id" ref="view_session_tree"/>
+        <field name="search_view_id" ref="search_session_filter"/>
+        <field name="context">{"search_default_today":1}</field>
+        <field name="domain">[('type', '=', 'normal')]</field>
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+                Click to add a Session.
+            </p>
+            <p>
+                This is the list of all the file you recorded.
+            </p>
+        </field>
+    </record>
+    <record id="action_view_my_session" model="ir.actions.act_window">
+        <field name="name">Register resolve procedures</field>
+        <field name="res_model">bms.session</field>
+        <field name="view_mode">tree,form</field>
+        <field name="context">
+            {'search_default_user_id': uid, 'default_user_id': uid,
+            'readonly_by_pass': ['attachment_ids','']}
+        </field>
+        <field name="domain">[('user_id','=',uid),('type', '=', 'normal')]</field>
+        <field name="search_view_id" ref="search_session_filter"/>
+        <field name="help" type="html">
+            <p>
+                Manage session of you.
+            </p>
+        </field>
+    </record>
+    <record id="open_view_session_list_tree" model="ir.actions.act_window.view">
+        <field name="sequence" eval="1"/>
+        <field name="view_mode">tree</field>
+        <field name="act_window_id" ref="action_view_my_session"/>
+    </record>
+
+    <record id="action_session_send_a_copy_form"
+            model="ir.actions.act_window">
+        <field name="name">Send a copy</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">bms.session</field>
+        <field name="view_type">form</field>
+        <field name="view_id" ref="view_session_tree"/>
+        <field name="search_view_id" ref="search_session_filter"/>
+        <field name="context">{"send_a_copy":1, "default_type": "send_a_copy"}</field>
+        <field name="domain">[('type', '=', 'send_a_copy')]</field>
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+                Click to add a Session.
+            </p>
+            <p>
+                This is the list of all the file you recorded.
+            </p>
+        </field>
+    </record>
+
+    <record id="bms_session_more_menu_server_action" model="ir.actions.server">
+        <field name="name">SMS Session</field>
+        <field name="model_id" ref="model_bms_session"/>
+        <field name="condition">True</field>
+        <field name="state">code</field>
+        <field name="code">action = record.sms_action()</field>
+    </record>
+    <record id="bms_session_more_menu_client_action" model="ir.values">
+        <field name="key2" eval=""/>
+        <field name="model" eval="'bms.session'"/>
+        <field name="name">SMS Session</field>
+        <field name="value" eval="'ir.actions.server,%d'%bms_session_more_menu_server_action"/>
+    </record>
+
+
+</odoo>

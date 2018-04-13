@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="bms_sms_compose_view_form" model="ir.ui.view">
+        <field name="name">bms.sms.compose.view.form</field>
+        <field name="model">bms.sms.compose</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <field name="session_id" readonly="1"/>
+                    <field name="to_number" required="1"/>
+                    <field name="message" required="1"/>
+                </group>
+                <footer>
+                    <button type="object" name="send_entity" string="Send SMS"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>

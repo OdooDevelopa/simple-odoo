@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo noupdate="1">
+    <record id="website.default_website" model="website">
+        <field name="social_twitter"></field>
+        <field name="social_facebook"></field>
+        <field name="social_googleplus"></field>
+        <field name="social_github"></field>
+        <field name="social_youtube"></field>
+        <field name="social_linkedin"></field>
+    </record>
+
+    <record id="website.menu_ligalbasic" model="website.menu">
+        <field name="name">Cơ sở pháp lý</field>
+        <field name="url">/co-so-phap-ly</field>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">21</field>
+        <field name="website_id" ref="website.default_website"/>
+    </record>
+
+    <record id="calendar_title" model="ir.config_parameter">
+        <field name="key">calendar_title</field>
+        <field name="value">Lịch làm việc của phòng ban ...</field>
+    </record>
+</odoo>

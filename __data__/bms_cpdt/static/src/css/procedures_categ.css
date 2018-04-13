@@ -1,0 +1,35 @@
+#main-content {padding-left: 0; padding-top: 0px;}
+#main-content ul {
+    list-style-type: none;
+    text-align: left;
+}
+#main-content ul .menu_categ {
+    border: 0;
+    list-style-type: none;
+    text-align: left;
+    float: left;
+    margin: 0;
+    padding: 0; }
+
+#main-content ul li {
+    margin: 0;
+    padding: 0 0 2px 0;
+    border: 0;
+    list-style-type: none;
+    line-height: 1.6;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.menu-left-nag {float: left; text-align: left;}
+hr {
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #eeeeee;
+}
+
+

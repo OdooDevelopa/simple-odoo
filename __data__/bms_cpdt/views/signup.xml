@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="signup_change" inherit_id="auth_signup.signup" name="Sign up login">
+        <xpath expr="//form[@class='oe_signup_form']" position="attributes">
+            <attribute name="class">login-grid-column</attribute>
+        </xpath>
+
+        <xpath expr="//div[@class='clearfix oe_login_buttons']" position="attributes">
+            <attribute name="class">col-md-12-3 fix-button</attribute>
+        </xpath>
+
+        <xpath expr="//a[@class='btn btn-link pull-right']" position="attributes">
+            <attribute name="class">btn btn-link</attribute>
+        </xpath>
+    </template>
+
+    <template id="sigin-change" inherit_id="web.login" name="Sign up - Reset Password">
+        <xpath expr="//form[@class='oe_login_form']" position="attributes">
+            <attribute name="class">login-grid-column</attribute>
+        </xpath>
+
+
+        <xpath expr="//div[@class='form-group field-db']" position="attributes">
+            <attribute name="class">col-md-6-change</attribute>
+        </xpath>
+
+        <xpath expr="//div[@class='form-group field-login']" position="attributes">
+            <attribute name="class">col-md-6-change</attribute>
+        </xpath>
+
+        <xpath expr="//div[@class='form-group field-password']" position="attributes">
+            <attribute name="class">col-md-6-change</attribute>
+        </xpath>
+
+        <xpath expr="//div[@class='clearfix oe_login_buttons']" position="attributes">
+            <attribute name="class">col-md-6-change2</attribute>
+        </xpath>
+
+
+        <xpath expr="//button[@class='btn btn-primary']" position="attributes">
+            <attribute name="class">btn btn-primary pull-left</attribute>
+        </xpath>
+    </template>
+
+    <template id="auth_signup_login_change" inherit_id="auth_signup.login" name="Sign up login">
+        <xpath expr="//a[@t-if='reset_password_enabled']" position="attributes">
+            <attribute name="class">btn btn-link</attribute>
+        </xpath>
+
+        <xpath expr="//a[@t-if='signup_enabled']" position="attributes">
+            <attribute name="class">btn btn-link</attribute>
+        </xpath>
+    </template>
+
+    <template id="bms_signup_fields" inherit_id="auth_signup.fields">
+        <xpath expr="//t[@name='Auth Signup/ResetPassword form fields']" position="replace">
+            <t name="Auth Signup/ResetPassword form fields"
+               class="contai-sig" t-name="auth_signup.fields">
+
+                <!--29/12-->
+
+                <div t-if="not only_passwords" class="col-md-12-2">
+                    <div class="fix-flogin">
+                        <label for="name" class="control-label">Your Name</label>
+                        <input type="text" name="name" t-att-value="name" id="name" class="form-control" placeholder="e.g. Le Hoang Thanh" required="required" t-att-readonly="'readonly' if only_passwords else None" t-att-autofocus="'autofocus' if login and not only_passwords else None"/>
+                    </div>
+                </div>
+                <div t-if="not only_passwords" class="col-md-12-2">
+                    <div class="fix-flogin">
+                        <label for="identification_number" class="control-label">ID Number</label>
+                        <input type="text" name="identification_number"
+                        id="identification_number"
+                        class="form-control" required="required"
+                        t-att-value="identification_number"
+                        t-att-readonly="'readonly' if only_passwords else None"
+                        />
+                    </div>
+                </div>
+                <div t-if="not only_passwords" class="col-md-12-2">
+                    <div class="fix-flogin">
+                        <label for="mobile" class="control-label">Mobile Number</label>
+                        <input type="text" name="mobile" id="mobile"
+                        class="form-control" required="required"
+                        pattern='^\+?\d{1,3}?[- .]?\(?(?:\d{2,3})\)?[- .]?\d\d\d[- .]?\d\d\d\d$'
+                        t-att-value="mobile" t-att-readonly="'readonly' if only_passwords else None"
+                        />
+                    </div>
+                </div>
+                <div t-if="not only_passwords" class="col-md-12-2">
+                    <div class="fix-flogin">
+                        <label for="login" class="control-label">Your Email</label>
+                        <input type="text" name="login" t-att-value="login"
+                               id="login" class="form-control" autofocus="autofocus" autocapitalize="off"
+                               required="required" t-att-readonly="'readonly' if only_passwords else None"
+                                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{2,4}$"/>
+                    </div>
+                </div>
+
+                <div t-if="not only_passwords" class="col-md-12-2">
+                    <div class="fix-flogin">
+                        <label for="organization_name" class="control-label">Organization name</label>
+                        <input type="text" name="organization_name"
+                        id="organization_name" class="form-control"
+                        required="required" t-att-value="organization_name"
+                        t-att-readonly="'readonly' if only_passwords else None"
+                        />
+                    </div>
+                </div>
+                <br/>
+                <div>
+                    <div class="form-group field-password">
+                        <label for="password" class="control-label">Password</label>
+                        <input type="password" name="password" id="password" class="form-control"
+                               required="required" t-att-autofocus="'autofocus' if only_passwords else None"/>
+                    </div>
+
+                    <div class="form-group field-confirm_password">
+                        <label for="confirm_password" class="control-label">Confirm Password</label>
+                        <input type="password" name="confirm_password" id="confirm_password" class="form-control" required="required"/>
+                    </div>
+                </div>
+            </t>
+        </xpath>
+
+        <!--<xpath expr="//div[@class='col-md-12-2']" position="attributes">-->
+            <!--<attribute name="t-if">not only_passwords</attribute>-->
+        <!--</xpath>-->
+
+    </template>
+
+    <!-- Inherit Form view -->
+    <record id="view_partner_form_inherit" model="ir.ui.view">
+        <field name="name">res.partner.form.inherit</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"
+        />
+        <field name="arch" type="xml">
+            <xpath expr="//sheet/group/group[2]" position="after">
+                <group>
+                    <field name="identification_number" />
+                    <field name="provide_by" />
+                    <field name="provide_date" />
+                    <field name="organization_name" />
+                    <field name="organization_address" />
+                </group>
+            </xpath>
+        </field>
+    </record>
+
+    <template id="login_layout" inherit_id="website.login_layout" name="Website Login Layout">
+        <xpath expr="//div[@class='oe_website_login_container']" position="attributes">
+            <attribute name="class">contai-sig</attribute>
+        </xpath>
+    </template>
+</odoo>

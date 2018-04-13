@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo noupdate="0">
+    <template name="Homepage" priority="29" t-name="website.homepage">
+        <link rel="stylesheet" href="bms_cpdt/static/src/css/au_gov1.css"/>
+        <link rel="stylesheet" href="bms_cpdt/static/src/css/au_gov2.css"/>
+        <link rel="stylesheet" href="bms_cpdt/static/src/css/au_gov3.css"/>
+        <link rel="stylesheet" href="bms_cpdt/static/src/css/au_gov4.css"/>
+        <link rel="stylesheet" href="bms_cpdt/static/src/css/popup-style.css"/>
+        <link rel="stylesheet" href="bms_cpdt/static/src/css/fix-blog.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+        <t t-call="website.layout">
+            <header id="header" role="banner" class="clearfix">
+                <div class="header midd_div" style="left: 0;background-color: #587E43;
+                margin: 0; padding: 0; z-index: -999;">
+                    <div class="container" style="z-index: 999;">
+                        <div class="navbar-header">
+                            <aside class="col-md-4">
+                                <section id="sidebar-first"
+                                         class="sidebar clearfix panel-group"
+                                         style="padding: 0;">
+                                    <div class="tagline" style="padding-top: 15px;">
+                                        <b style="color: #fff; line-height: 1.6em;
+                                        font-family: open sans; padding-top: 10px;">
+                                            Chính phủ điện tử 4.0
+                                            giúp người dân hoàn thành thủ tục
+                                            hành chính mà không cần
+                                            bước chân ra khỏi nhà.
+                                        </b>
+                                        <span style="color: #fff; font-size: 14px;" class="glyphicon glyphicon-arrow-right" data-unicode="e092"></span>
+                                        <a href="#intro_register" style="color:#fff; font-size: 16px;">Hướng dẫn đăng ký chi tiết</a>
+                                    </div>
+                                </section>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div id="wrap" class="container O_editable" style="margin-top: 10px; margin-bottom: 15px; border: solid 1px #eee;">
+                <div class="row">
+                    <div class="col-md-9" style="margin-top: 10px;">
+                        <div class="row">
+                            <a href="http://www.congansonla.gov.vn/">
+                                <div class="first leaf has-children
+                                menu-mlid-752 col-md-4 col-sm-4 col-xs-12 repo-width hover01"
+                                     style="">
+                                    <div class="hover-item" id="tile-topic-item-benefits-and-payments">
+                                        <figure>
+                                            <a href="http://www.congansonla.gov.vn/">
+                                                <img style="margin: 0; padding: 0; width: 100%; height: 272px;"
+                                                 src="bms_cpdt/static/src/img/home/quan-ly-xuat-nhap-canh.jpg"
+                                                     alt="Cinque Terre"/>
+                                            </a>
+                                        </figure>
+                                        <a href="http://www.congansonla.gov.vn/">
+                                            <div class="col-md-12 repo-text hover-item"
+                                                 style="z-index: 4;">
+                                                <h4 class="title tile-topic-description"
+                                                    style="padding: 10px 15px 0 15px; margin: 0;">
+                                                    <a href="http://www.congansonla.gov.vn/"
+                                                       target="_blank">1. Quản lý xuất, nhập cảnh
+                                                    </a>
+                                                </h4>
+                                                <div class="title tile-topic-description
+                                                cell-home-layout-detail">
+                                                    <p style="padding: 10px 15px 0 15px;">
+                                                        Cổng trực tuyến giúp bạn đăng ký làm thủ tục cấp
+                                                        Hộ Chiếu một cách nhanh chóng và tiện lợi.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="first leaf has-children
+                            menu-mlid-752 col-md-4 col-sm-4 col-xs-12 repo-width hover01" style="">
+                                <a href="/dang-ky-quan-ly-con-dau">
+                                    <article id="tile-topic-item-business-and-industry">
+                                        <figure>
+                                            <a href="/dang-ky-quan-ly-con-dau">
+                                                <img style="margin: 0; padding: 0; width: 100%; height: 272px;"
+                                                 src="bms_cpdt/static/src/img/home/quan-ly-con-dau.jpg"
+                                                     alt="Cinque Terre"/>
+                                            </a>
+                                        </figure>
+                                        <div class="col-md-12 repo-text hover-item" style="z-index: 4;">
+                                            <h4 class="tile-topic-description"
+                                                style="padding: 10px 15px 0 15px; margin: 0;">
+                                                <a href="/dang-ky-quan-ly-con-dau">2.
+                                                    Đăng ký, quản lý con dấu
+                                                </a>
+                                            </h4>
+                                            <div class="tile-topic-description
+                                            cell-home-layout-detail">
+                                                <p style="padding: 10px 15px 0 15px;">
+                                                    Cổng trực tuyến giúp bạn đăng ký làm thủ tục
+                                                    Đăng ký, quản lý con dấu một cách nhanh chóng
+                                                    và tiện lợi.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </a>
+                            </div>
+
+                            <div class="first leaf has-children
+                            menu-mlid-752 col-md-4 col-sm-4 col-xs-12 repo-width hover01" style="">
+                                <a href="http://www.congansonla.gov.vn/">
+                                    <article id="tile-topic-item-culture-and-arts">
+                                        <figure>
+                                            <a href="http://www.congansonla.gov.vn/">
+                                                <img style="margin: 0; padding: 0; width: 100%; height: 272px;"
+                                                 src="bms_cpdt/static/src/img/home/quan-ly-nganh-nghe-kinh-doanh.jpg"
+                                                 alt="Cinque Terre"/>
+                                            </a>
+                                        </figure>
+                                        <div class="col-md-12 repo-text hover-item" style="z-index: 4;">
+                                            <h4 class="tile-topic-description"
+                                                style="padding: 10px 15px 0 15px; margin: 0;">
+                                                <a href="http://www.congansonla.gov.vn/"
+                                                   target="_blank">3. Quản lý ngành, nghề đầu
+                                                    tư kinh doanh có điều kiện về ANTT
+                                                </a>
+                                            </h4>
+                                            <div class="tile-topic-description
+                                            cell-home-layout-detail">
+                                                <p style="padding: 10px 15px 0 15px;">
+                                                    Cổng trực tuyến giúp bạn đăng ký làm thủ tục
+                                                    Quản lý ngành, nghề đầu tư kinh doanh có điều
+                                                    kiện về ANTT một cách nhanh chóng và tiện lợi.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </a>
+                            </div>
+                        </div>
+
+                        <hr style=" float:left; height: 0px;
+                            border-top: solid 1px #eeeeee; width: 95%; margin-left: 20px;"/>
+
+                        <div class="row">
+                            <div class="first leaf has-children
+                            menu-mlid-752 col-md-4 col-sm-4 col-xs-12 repo-width hover01"
+                                 style="">
+                                <a href="http://www.congansonla.gov.vn/">
+                                    <article id="tile-topic-item-education-and-training">
+                                        <figure>
+                                            <a href="http://www.congansonla.gov.vn/">
+                                                <img style="margin: 0; padding: 0; width: 100%; height: 272px;"
+                                                 src="bms_cpdt/static/src/img/home/quan-ly-vu-khi-vat-lieu-no.jpg"
+                                                 alt="Cinque Terre"/>
+                                            </a>
+                                        </figure>
+                                        <div class="col-md-12 repo-text hover-item" style="z-index: 4;">
+                                            <h4 class="tile-topic-description"
+                                                style="padding: 10px 15px 0 15px; margin: 0;">
+                                                <a href="http://www.congansonla.gov.vn/"
+                                                   target="_blank">4. Quản lý vũ khí, vật liệu
+                                                    nổ, công cụ hỗ trợ
+                                                </a>
+                                            </h4>
+                                            <div class="tile-topic-description
+                                            cell-home-layout-detail">
+                                                <p style="padding: 10px 15px 0 15px;">
+                                                    Cổng trực tuyến giúp bạn đăng ký làm thủ tục
+                                                    Quản lý vũ khí, vật liệu nổ, công cụ hỗ trợ một
+                                                    cách nhanh chóng và tiện lợi.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </a>
+                            </div>
+
+                            <div class="first leaf has-children
+                            menu-mlid-752 col-md-4 col-sm-4 col-xs-12 repo-width hover01"
+                                 style="">
+                                <a href="http://www.congansonla.gov.vn/">
+                                    <article id="tile-topic-item-environment">
+                                        <figure>
+                                            <a href="http://www.congansonla.gov.vn/">
+                                                <img style="margin: 0; padding: 0; width: 100%; height: 272px;"
+                                                 src="bms_cpdt/static/src/img/home/5.jpg" alt="Cinque Terre"/>
+                                            </a>
+                                        </figure>
+                                        <div class="col-md-12 repo-text hover-item" style="z-index: 4;">
+                                            <h4 class="tile-topic-description"
+                                                style="padding: 10px 15px 0 15px; margin: 0;">
+                                                <a href="http://www.congansonla.gov.vn/"
+                                                   target="_blank">5. Cấp, quản lý CMND, căn
+                                                    cước công dân
+                                                </a>
+                                            </h4>
+                                            <div class="tile-topic-description
+                                            cell-home-layout-detail">
+                                                <p style="padding: 10px 15px 0 15px;">
+                                                    Cổng trực tuyến giúp bạn đăng ký làm thủ tục
+                                                    Cấp, quản lý CMND, căn cước công dân một cách
+                                                    nhanh chóng và tiện lợi.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </a>
+                            </div>
+
+                            <div class="first leaf has-children
+                            menu-mlid-752 col-md-4 col-sm-4 col-xs-12 repo-width hover01"
+                                 style="">
+                                <a href="http://www.congansonla.gov.vn/">
+                                    <article id="tile-topic-item-family-and-community">
+                                        <figure>
+                                            <a href="http://www.congansonla.gov.vn/">
+                                                <img style="margin: 0; padding: 0; width: 100%; height: 272px;"
+                                                 src="bms_cpdt/static/src/img/home/6.jpg" alt="Cinque Terre"/>
+                                            </a>
+                                        </figure>
+                                        <div class="col-md-12 repo-text hover-item" style="z-index: 4;">
+                                            <h4 class="tile-topic-description"
+                                                style="padding: 10px 15px 0 15px; margin: 0;">
+                                                <a href="http://www.congansonla.gov.vn/"
+                                                   target="_blank">6. Đăng ký, quản lý phương
+                                                    tiện giao thông cơ giới đường bộ
+                                                </a>
+                                            </h4>
+                                            <div class="tile-topic-description
+                                            cell-home-layout-detail">
+                                                <p style="padding: 10px 15px 0 15px;">
+                                                    Cổng trực tuyến giúp bạn đăng ký làm thủ tục
+                                                    Đăng ký, quản lý phương tiện giao thông cơ giới
+                                                    đường bộ một cách nhanh chóng và tiện lợi.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </a>
+                            </div>
+                        </div>
+
+                        <hr style=" float:left; height: 0px;
+                        border-top: solid 1px #eeeeee; width: 95%; margin-left: 20px;"/>
+
+                        <div class="row">
+                            <div class="first leaf has-children menu-mlid-752
+                            col-md-4 col-sm-4 col-xs-12 repo-width hover01" style="">
+                                <a href="http://www.congansonla.gov.vn/">
+                                    <article id="tile-topic-item-health">
+                                        <figure>
+                                            <a href="http://www.congansonla.gov.vn/">
+                                                <img style="margin: 0; padding: 0; width: 100%; height: 272px;"
+                                                src="bms_cpdt/static/src/img/home/7.jpg" alt="Cinque Terre"/>
+                                            </a>
+                                        </figure>
+                                        <div class="col-md-12 repo-text hover-item" style="z-index: 4;">
+                                            <h4 class="tile-topic-description"
+                                                style="padding: 10px 15px 0 15px; margin: 0;">
+                                                <a href="http://www.congansonla.gov.vn/"
+                                                   target="_blank">7. Đăng ký, quản lý cư trú
+                                                </a>
+                                            </h4>
+                                            <div class="tile-topic-description
+                                            cell-home-layout-detail">
+                                                <p style="padding: 10px 15px 0 15px;">
+                                                    Cổng trực tuyến giúp bạn đăng ký làm thủ tục
+                                                    Đăng ký, quản lý cư trú một cách nhanh chóng và
+                                                    tiện lợi.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </a>
+                            </div>
+
+                            <div class="first leaf has-children
+                            menu-mlid-752 col-md-4 col-sm-4 col-xs-12 repo-width hover01" style="">
+                                <a href="http://www.congansonla.gov.vn/">
+                                    <article id="tile-topic-item-immigration-and-visas">
+                                        <figure>
+                                            <a href="http://www.congansonla.gov.vn/">
+                                                <img style="margin: 0; padding: 0; width: 100%; height: 272px;"
+                                                 src="bms_cpdt/static/src/img/home/8.jpg" alt="Cinque Terre"/>
+                                            </a>
+                                        </figure>
+                                        <div class="col-md-12 repo-text hover-item" style="z-index:4;">
+                                            <h4 class="tile-topic-description"
+                                                style="padding: 10px 15px 0 15px; margin: 0;">
+                                                <a href="http://www.congansonla.gov.vn/"
+                                                   target="_blank">8. Quản lý phòng cháy và
+                                                    chữa cháy
+                                                </a>
+                                            </h4>
+                                            <div class="tile-topic-description
+                                            cell-home-layout-detail">
+                                                <p style="padding: 10px 15px 0 15px;">
+                                                    Cổng trực tuyến giúp bạn đăng ký làm thủ tục Quản
+                                                    lý phòng cháy và chữa cháy một cách nhanh chóng
+                                                    và tiện lợi.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </a>
+                            </div>
+
+                            <div class="first leaf has-children
+                            menu-mlid-752 col-md-4 col-sm-4 col-xs-12 repo-width hover01"
+                                 style="">
+                                <a href="http://www.congansonla.gov.vn/">
+                                    <article id="tile-topic-item-it-and-communications">
+                                        <figure>
+                                            <a href="http://www.congansonla.gov.vn/">
+                                                <img style="margin: 0; padding: 0; width: 100%; height: 272px;"
+                                                 src="bms_cpdt/static/src/img/home/9.jpg" alt="Cinque Terre"/>
+                                            </a>
+                                        </figure>
+                                        <div class="col-md-12 repo-text hover-item" style="z-index:4;">
+                                            <h4 class="tile-topic-description"
+                                                style="padding: 10px 15px 0 15px; margin: 0;">
+                                                <a href="http://www.congansonla.gov.vn/"
+                                                   target="_blank">9. Khiếu nại, tố cáo liên
+                                                    quan đến công tác đảm bảo ANTT
+                                                </a>
+                                            </h4>
+                                            <div class="tile-topic-description
+                                            cell-home-layout-detail">
+                                                <p style="padding: 10px 5px 0 20px;">
+                                                    Cổng trực tuyến giúp bạn đăng ký làm thủ tục
+                                                    Khiếu nại, tố cáo liên quan đến công tác đảm
+                                                    bảo ANTT một cách nhanh chóng và tiện lợi.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </a>
+                            </div>
+                        </div>
+
+                        <hr style=" float:left; height: 0px;
+                        border-top: solid 1px #eeeeee; width: 95%; margin-left: 20px;"/>
+
+                        <div class="row">
+                            <div class="first leaf has-children
+                            menu-mlid-752 col-md-4 col-sm-4 col-xs-12 repo-width hover01"
+                                 style="">
+                                <a href="http://www.congansonla.gov.vn/">
+                                    <article id="tile-topic-item-jobs-and-workplace">
+                                        <figure>
+                                            <a href="http://www.congansonla.gov.vn/">
+                                                <img style="margin: 0; padding: 0; width: 100%; height: 272px;"
+                                                 src="bms_cpdt/static/src/img/home/10.jpg" alt="Cinque Terre"/>
+                                            </a>
+                                        </figure>
+                                        <div class="col-md-12 repo-text hover-item" style="z-index:4;">
+                                            <h4 class="tile-topic-description"
+                                                style="padding: 10px 15px 0 15px; margin: 0;">
+                                                <a href="http://www.congansonla.gov.vn/"
+                                                   target="_blank">10. Công tác tổ chức, cán bộ
+                                                    lực lượng CAND
+                                                </a>
+                                            </h4>
+                                            <div class="tile-topic-description
+                                            cell-home-layout-detail">
+                                                <p style="padding: 10px 15px 0 15px;">
+                                                    Cổng trực tuyến giúp bạn đăng ký làm thủ tục
+                                                    Công tác tổ chức, cán bộ lực lượng CAND một
+                                                    cách nhanh chóng và tiện lợi.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </a>
+                            </div>
+
+                            <div class="first leaf has-children
+                            menu-mlid-752 col-md-4 col-sm-4 col-xs-12 repo-width hover01" style="">
+                                <a href="http://www.congansonla.gov.vn/">
+                                    <article id="tile-topic-item-money-and-tax">
+                                        <figure>
+                                            <a href="http://www.congansonla.gov.vn/">
+                                                <img style="margin: 0; padding: 0; width: 100%; height: 272px;"
+                                                 src="bms_cpdt/static/src/img/home/11_1.jpg" alt="Cinque Terre"/>
+                                            </a>
+                                        </figure>
+                                        <div class="col-md-12 repo-text hover-item" style="z-index:4;">
+                                            <h4 class="tile-topic-description"
+                                                style="padding: 10px 15px 0 15px; margin: 0;">
+                                                <a href="http://www.congansonla.gov.vn/"
+                                                   target="_blank">11. Thực hiện chế độ, chính
+                                                    sách CAND
+                                                </a>
+                                            </h4>
+                                            <div class="tile-topic-description
+                                            cell-home-layout-detail">
+                                                <p style="padding: 10px 15px 0 15px;">
+                                                    Cổng trực tuyến giúp bạn đăng ký làm thủ tục
+                                                    Thực hiện chế độ, chính sách CAND một cách
+                                                    nhanh chóng và tiện lợi.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--finished top content home page-->
+
+                    <!--Start top Content right-->
+
+                    <div class="col-md-3" style="">
+                        <div class="row" style="border: solid 1px #587E43; margin-top:30px; margin-right:0px;">
+                            <div class="col-md-12" style="border-bottom: solid 1px #587E43; height: 50px;">
+                                <h3 style="text-align: center; margin: 5px 0 10px 0;
+                                font-family: inherit; color: #007dab;">Tin Tức</h3>
+                            </div>
+                            <div class="col-md-12" style="">
+                                <t t-set="blog_posts" t-value="website.get_blog_data()"/>
+                                <ul style="list-style-type: none; padding: 10 0 10 0px;
+                                text-decoration: none; height: auto;">
+                                    <t t-foreach="blog_posts.keys()" t-as="post_id">
+                                        <li class="white_color_bold_font" style="display: block; padding-left: 5px;">
+                                            <a t-attf-href="{{blog_posts[post_id][1]}}">
+                                                - <t t-esc="blog_posts[post_id][0]"/>
+                                            </a>
+                                        </li>
+                                    </t>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--finished top Content right-->
+
+                <!--start bottom content home page-->
+
+                <div class="row">
+                    <div class="col-md-12" style="margin-bottom: 20px;">
+                        <h2>
+                            <p style="padding: 0 10px 0 10px; font-family: inherit; color: #007dab;">
+                                Chính phủ điện tử là gì?
+                            </p>
+                            <hr style="border-top: solid 2px #587E43; padding: 0 5px 0 5px"/>
+                        </h2>
+
+                        <div class="row">
+
+                            <div class="first leaf has-children menu-mlid-752
+                            col-md-6 col-sm-6 col-xs-12 repo-width5 hover02">
+                                <a href="/page/website.cpdt_la_gi_1">
+                                    <figure>
+                                        <a href="/page/website.cpdt_la_gi_1">
+                                            <img src="bms_cpdt/static/src/img/home/chinhphudientu-1.jpg"
+                                             style="margin: 0; height: 200px; width: 100%;"
+                                             alt="Cinque Terre"/>
+                                        </a>
+                                    </figure>
+                                    <div class="col-md-12 fix-text6 hover-item" style="z-index:4;">
+                                        <h4 class="tile-topic-description" style="font-family: inherit; padding: 0;">
+                                            <a href="/page/website.cpdt_la_gi_1"
+                                               target="_blank">
+                                                Tỉnh Sơn La chính thức triển khai chính phủ
+                                                điện tử
+                                            </a>
+                                        </h4>
+                                        <p style="font-family: inherit;
+                                        padding: 0;">
+                                            Chính phủ điện tử ích nước lợi nhà.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="first leaf has-children
+                            menu-mlid-752 col-md-6 col-sm-6 col-xs-12 repo-width5 hover02" style="">
+                                <a href="/page/website.cpdt_la_gi_2">
+                                    <figure>
+                                        <a href="/page/website.cpdt_la_gi_2">
+                                            <img src="bms_cpdt/static/src/img/home/chinhphudientu-2.jpg"
+                                             style="margin: 0; height: 200px;
+                                             width: 100%;" alt="Cinque Terre"/>
+                                        </a>
+                                    </figure>
+                                    <div class="col-md-12 fix-text6 hover-item" style="z-index:4;">
+                                        <h4 class="tile-topic-description" style="font-family: inherit; padding: 0;">
+                                            <a href="/page/website.cpdt_la_gi_2"
+                                               target="_blank">
+                                                Bốn mức chính phủ điện tử
+                                            </a>
+                                        </h4>
+                                        <p style="font-family: inherit;
+                                        padding: 0;">
+                                            Chính phủ điện tử ích nước lợi nhà.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div id="intro_register"></div>
+                        <div class="row">
+                            <div class="first leaf has-children
+                            menu-mlid-752 col-md-3 col-sm-3 col-xs-12 repo-width4 hover01" style="">
+                                <a href="/page/website.cpdt_la_gi_3">
+                                    <figure>
+                                        <a href="/page/website.cpdt_la_gi_3">
+                                            <img src="bms_cpdt/static/src/img/home/chinhphudientu-3.jpg"
+                                             style="margin: 0;height: 270px; width: 100%;"
+                                             alt="Cinque Terre"/>
+                                        </a>
+                                    </figure>
+                                    <div class="col-md-12 fix-text7 hover-item" style="z-index:4;">
+                                        <h4 style="font-family: inherit; padding: 0;">
+                                            <a href="/page/website.cpdt_la_gi_3"
+                                               target="_blank">
+                                                Bước 1: Đăng ký
+                                            </a>
+                                        </h4>
+                                        <p class="text" style="font-family: inherit;
+                                        padding: 0;">
+                                            Đăng ký tài khoản để có thể tham gia sử dụng chính phủ điện tử
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="first leaf has-children
+                            menu-mlid-752 col-md-3 col-sm-3 col-xs-12 repo-width4 hover01" style="">
+                                <a href="/page/website.cpdt_la_gi_4">
+                                    <figure>
+                                        <a href="/page/website.cpdt_la_gi_4">
+                                            <img src="bms_cpdt/static/src/img/home/chinhphudientu-4.jpg"
+                                             style="margin: 0;height: 270px; width: 100%;"
+                                             alt="Cinque Terre"/>
+                                        </a>
+                                    </figure>
+                                    <div class="col-md-12 fix-text7 hover-item" style="z-index:4;">
+                                        <h4 style="font-family: inherit; padding: 0;">
+                                            <a href="/page/website.cpdt_la_gi_4"
+                                               target="_blank">
+                                                Bước 2: Tạo phiên làm việc
+                                            </a>
+                                        </h4>
+                                        <p class="text" style="font-family: inherit;
+                                        padding: 0;">
+                                            Tạo phiên làm việc, điền đầy đủ thông tin các thủ tục cần làm và chờ được phê duyệt
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="first leaf has-children
+                            menu-mlid-752 col-md-3 col-sm-3 col-xs-12 repo-width4 hover01" style="">
+                                <a href="/page/website.cpdt_la_gi_5">
+                                    <figure>
+                                        <a href="/page/website.cpdt_la_gi_5">
+                                            <img src="bms_cpdt/static/src/img/home/chinhphudientu-5.jpg"
+                                             style="margin: 0;height: 270px; width: 100%;"
+                                             alt="Cinque Terre"/>
+                                        </a>
+                                    </figure>
+                                    <div class="col-md-12 fix-text7 hover-item" style="z-index:4;">
+                                        <h4 style="font-family: inherit; padding: 0;">
+                                            <a href="/page/website.cpdt_la_gi_5"
+                                               target="_blank">
+                                                Bước 3: Nộp hồ sơ và thanh toán
+                                            </a>
+                                        </h4>
+                                        <p class="text" style="font-family: inherit;
+                                        padding: 0;">
+                                            Nộp hồ sơ trực tiếp hoặc qua bưu điện sau khi phiên làm việc được duyệt,
+                                            sau đó thanh toán lệ phí trực tiếp hoặc qua tài khoản ngân hàng
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="first leaf has-children
+                            menu-mlid-752 col-md-3 col-sm-3 col-xs-12 repo-width4 hover01" style="">
+                                <a href="/page/website.cpdt_la_gi_6">
+                                    <figure>
+                                        <a href="/page/website.cpdt_la_gi_6">
+                                            <img src="bms_cpdt/static/src/img/home/chinhphudientu-6.jpg"
+                                             style="margin: 0; height: 270px; width: 100%;"
+                                             alt="Cinque Terre"/>
+                                        </a>
+                                    </figure>
+                                    <div class="col-md-12 fix-text7 hover-item" style="z-index:4;">
+                                        <h4 style="font-family: inherit; padding: 0;">
+                                            <a href="/page/website.cpdt_la_gi_6"
+                                               target="_blank">
+                                                Bước 4: Hoàn tất
+                                            </a>
+                                        </h4>
+                                        <p class="text" style="font-family: inherit;
+                                        padding: 0;">
+                                            Nhận kết quả qua bưu điện hoặc trực tiếp
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="clickToViewDetail">
+                                   <!--<a id="lnkDetail" class="btnDKTrucTuyen" href="javascript:void(0);">Xem hướng dẫn chi tiết đăng ký</a>-->
+                                <a href="#" class="btnDKTrucTuyen" data-toggle="modal" data-target="#myModal">Xem hướng dẫn chi tiết đăng ký</a>
+                            </div>
+                            <!--<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>-->
+                            <!-- Modal -->
+                            <div class="modal fade" id="myModal" role="dialog">
+                                <div class="modal-dialog">
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                          <!--<button type="button" class="close" data-dismiss="modal">times</button>-->
+                                          <h4 class="modal-title">Hướng dẫn các bước đăng ký thủ tục hành chính</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="box">
+                                                <div class="stepsPopup pp-ctx">
+                                                    <div class="cont">
+                                                        <div class="boxDetail">
+                                                            <span class="num">01</span>
+                                                            <ul class="text">
+                                                                <li>Truy cập vào trang web http://cpdt.congansonla.gov.vn</li>
+                                                                <li>Nhập đầy đủ thông tin vào các ô quy định trong phần đăng ký (Lưu ý: Những ô có dấu ! vàng là thông tin bắt buộc phải nhập)</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="boxDetail">
+                                                            <span class="num">02</span>
+                                                            <ul class="text">
+                                                                <li>Tạo phiên làm việc.</li>
+                                                                <li>Điền đầy đủ các thông tin cần thiết.</li>
+                                                                <li>Chờ được phê duyệt.</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="boxDetail">
+                                                            <span class="num">03</span>
+                                                            <ul class="text">
+                                                                <li>Nộp hồ sơ trực tiếp hoặc qua bưu điện sau khi phiên làm việc được duyệt.</li>
+                                                                <li>Thanh toán lệ phí trực tiếp hoặc qua tài khoản ngân hàng.</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="boxDetail">
+                                                            <span class="num">04</span>
+                                                            <ul class="text">
+                                                                <li>Hoàn tất</li>
+                                                                <li>Nhận kết quả trực tiếp hoặc qua bưu điện.</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button style="height:40px; with: 86px; float: right;" type="button" class="btn btn-default" data-dismiss="modal">Đóng</button>
+
+                                            <button onclick="location.href = '/web/login';"
+                                                    style="align: left; float: right; margin-right: 190px;margin-bottom: 22px; margin-left: 20px;
+                                                    height: 40px; with: 86px; background-color: #eee;
+                                                    color: #003300; border: 0; padding-left: 15px; padding-right: 15px;"
+                                                    id="login" class="float-right submit-button"
+                                            ><b>Đăng nhập</b></button>
+                                            <button onclick="location.href = '/web/signup';"
+                                                    style="align: left; float: right;
+                                                    margin-bottom: 22px; margin-left: 20px;
+                                                    height: 40px; with: 86px; background-color: #eee;
+                                                    color: #003300; border: 0; padding-left: 15px; padding-right: 15px;"
+                                                    id="signup" class="float-right submit-button"><b>Đăng ký ngay</b>
+                                            </button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--box pop-up-->
+
+                        <!--end box pop-up-->
+                    </div>
+                </div>
+                <!--finished bottom content home page-->
+            </div>
+        </t>
+    </template>
+
+    <template id="assets_frontend_change"
+              inherit_id="web.assets_frontend"
+              name="Assets frontend change"
+              customize_show="True">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet"
+                  href="bms_cpdt/static/src/css/home_page_footer.css"/>
+        </xpath>
+    </template>
+
+    <template id="layout_change_footer"
+              inherit_id="website.layout"
+              name="Main layout change"
+              customize_show="True">
+        <xpath expr="//footer" position="attributes">
+            <attribute name="class">footer-background</attribute>
+        </xpath>
+        <xpath expr="//div[@class='navbar navbar-default navbar-static-top']" position="attributes">
+            <attribute name="style">background-color: #fff;</attribute>
+        </xpath>
+        <xpath expr="//div[@class='navbar navbar-default navbar-static-top']" position="before">
+            <div style="width: 100%; height: 40px; background-color: #eee;"/>
+        </xpath>
+    </template>
+
+    <delete id="website_blog.header_footer_custom" model="ir.ui.view"/>
+
+    <template id="footer_default_cpdt_casl"
+              inherit_id="website.footer_default"
+              customize_show="True"
+              name="Automatic Footer">
+        <xpath expr="//div[@id='footer']" position="replace">
+            <div class="signup_login_div col-md-12">
+                <div>
+                    <button onclick="location.href = '/web/login';"
+                            style="align: right; float: right; margin-right: 190px;
+                            margin-top: 22px; margin-bottom: 22px; margin-left: 20px;
+                            height: 40px; with: 86px; background-color: #ffffff;
+                            color: #003300; border: 0; padding-left: 15px; padding-right: 15px;"
+                            id="login" class="float-right submit-button"
+                    ><b>Đăng nhập</b></button>
+                    <button onclick="location.href = '/web/signup';"
+                            style="align: right; float: right; margin-top: 22px;
+                            margin-bottom: 22px; margin-left: 20px;
+                            height: 40px; with: 86px; background-color: #ffffff;
+                            color: #003300; border: 0; padding-left: 15px; padding-right: 15px;"
+                            id="signup" class="float-right submit-button"
+                    ><b>Đăng ký ngay</b></button>
+
+                </div>
+            </div>
+            <!--[if IE]>Mã CSS<![endif]-->
+
+            <div id="footer" class="row hidden-print full-height">
+                <div class="col-md-3 full-height repo-foot" style="background-color: #587E43;">
+
+                    <div class="row-1" style="padding-top: 40px;">
+                        <div class="col-md-12-4" >
+                            <h3 class="" style="margin: 0; padding: 0;">
+                                <b style="font-family: inherit;
+                                color: #fff; display: inline;" t-field="res_company.name"/>
+                                <b>
+                                    - <a style="font-family: inherit;
+                                    color: #fff; border-bottom: #fff; display: block;"
+                                       href="/page/website.aboutus">About us</a>
+                                </b>
+                            </h3><br/>
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="row-1">-->
+                        <!--<div class="col-md-12-42">-->
+                            <!--<h5 style="">-->
+                            <span>
+                                <strong>Giấy phép số:</strong>
+                                02/GP-TTĐT, ngày 12/8/2015 của
+                                Sở Thông tin và Truyền thông tỉnh Sơn La.
+                                <br/>
+                                <strong>Trụ sở:</strong>
+                                Số 53, Đường Tô Hiệu, TP Sơn La
+                                <br/>
+                                <strong>Ghi rõ nguồn "Trang thông tin điện thử Công an tỉnh Sơn La"
+                                    khi sử dụng lại thông tin trên website này.
+                                </strong>
+                            </span>
+                            <!--</h5>-->
+                        </div>
+                    </div>
+                    <!--<div class="row" style="padding: 10px 30px 0 30px;"><t t-call="website.language_selector"/></div>-->
+
+                </div>
+                <div class="col-md-3 full-height repo-foot" style="background-color: #D8A52F;">
+                    <div class="row-1" style="padding-top: 40px;">
+                        <div class="col-md-12-4">
+                            <hr width="40%" style="height: 0px; border-top: solid 3px #B5BD00;
+                             margin: 0px; float: left;"/><br/>
+                        </div>
+                        <div class="col-md-12-42">
+                            <h3 style="margin-top: 10px; font-family: inherit;">Our Products &amp; Services</h3>
+                            <ul class="list-unstyled" id="products" style="color: fff; border-bottom: #fff;
+                                    line-height: 1.6em; font-family: inherit;">
+                                <li>
+                                    <a style="color: fff; border-bottom: #fff;
+                                    line-height: 1.6em; font-family: inherit;" href="/">Home</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 full-height repo-foot" style="background-color: #444444;">
+                    <div class="row-1" style="padding-top: 40px;">
+                        <div class="col-md-12-4">
+                            <hr width="40%" style="height: 0px; border-top: solid 3px #B5BD00;
+                             margin: 0px; float: left;"/><br/>
+                        </div>
+                        <div class="col-md-12-42">
+                            <h3 style="margin-top: 10px;
+                            line-height: 1.6em; font-family: inherit;">Connect with us</h3>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a style="line-height: 1.6em; font-family: inherit; color: fff; border-bottom: #fff;"
+                                       href="/page/website.contactus">Contact us
+                                    </a>
+                                </li>
+                                <li style="line-height: 1.6em; font-family: inherit;" t-ignore="true">Mobile Phone :
+                                    <i class="fa fa-phone"/>
+                                    <span style="line-height: 1.6em; font-family: inherit;" t-field="res_company.phone"/>
+                                </li>
+                                <li style="line-height: 1.6em; font-family: inherit;" t-ignore="true">Email :
+                                    <i class="fa fa-envelope"/>
+                                    <span style="line-height: 1.6em; font-family: inherit;" t-field="res_company.email"/>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--<ul></ul>-->
+                </div>
+                <div class="col-md-3 full-height repo-foot" style="background-color: #BFBDB4;">
+                    <div class="row-1" style="padding-top: 40px;">
+                        <div class="col-md-12-4">
+                            <hr width="40%" style="height: 0px; border-top: solid 3px #B5BD00;
+                             margin: 0px; float: left;"/><br/>
+                        </div>
+                        <div class="col-md-12-42">
+                            <h3 style="margin-top: 10px;">Thông Tin Trợ Giúp</h3>
+                            <ul style="text-align: left; line-height: 1.6em; font-family: inherit; color: #fff;">
+                                <li class="white_color_bold_font">
+                                    <a class="white_color_bold_font" style="line-height: 1.6em;
+                                font-family: inherit; color: fff; border-bottom: #fff;"
+                                       href="/page/website.help">Trợ giúp</a>
+                                </li>
+                                <li class="white_color_bold_font" style="line-height: 1.6em;
+                                font-family: inherit; color: fff;">
+                                    <a class="white_color_bold_font" style="line-height: 1.6em;
+                                font-family: inherit; color: fff; border-bottom: #fff;"
+                                       href="/page/website.user_guide">Hướng dẫn sử dụng</a>
+                                </li>
+                                <li class="white_color_bold_font" style="line-height: 1.6em;
+                                font-family: inherit; color: fff;">
+                                    <a class="white_color_bold_font" style="line-height: 1.6em;
+                                font-family: inherit; color: fff; border-bottom: #fff;"
+                                       href="/page/website.faq">Các câu hỏi thường gặp</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+    <template id="remove_layout_footer_copyright"
+              inherit_id="website.layout_footer_copyright"
+              name="Remove Footer Copyright">
+        <xpath expr="//div[@class='container mt16 mb8']"
+               position="replace">
+        </xpath>
+    </template>
+    <template id="aboutus_cpdt_casl" inherit_id="website.aboutus"
+              name="About us">
+        <xpath expr="//div[@class='col-md-12']/h3" position="replace">
+            <h3 class="text-muted text-center">Cổng thông tin điện tử Công an
+                tỉnh Sơn La
+            </h3>
+        </xpath>
+        <xpath expr="//div[@class='col-md-6 mt32']" position="replace">
+            <div class="col-md-6 mt32">
+                <p>
+                    Sau đại thắng mùa xuân năm 1975 và bước vào thời kỳ đổi
+                    mới,
+                    lực lượng Công an nhân dân Sơn La đã tiếp tục phát huy vai
+                    trò là lực lượng chủ công,
+                    nòng cốt trong đảm bảo an ninh chính trị, giữ gìn trật tự
+                    an
+                    toàn xã hội trên địa bàn.
+                </p>
+                <p>
+                    Chủ động tham mưu với cấp ủy, chính quyền các cấp triển
+                    khai
+                    kịp thời,
+                    đồng bộ các văn bản lãnh đạo của Đảng, Nhà nước về đảm bảo
+                    an ninh quốc gia,
+                    chiến lược bảo vệ Tổ quốc trong tình hình mới.
+                </p>
+            </div>
+        </xpath>
+    </template>
+
+    <template id="show_sign_up" customize_show="True"
+              inherit_id="website.show_sign_in" name="Show Sign Up">
+        <xpath expr="//a[@t-attf-href='/web/login']" position="after">
+            <li groups="base.group_public">
+                <a t-attf-href="/web/signup">
+                    <b>Sign up</b>
+                </a>
+            </li>
+        </xpath>
+    </template>
+
+    <template id="header_footer_custom_livechat_change" customize_show="True"
+              inherit_id="website_livechat.header_footer_custom"
+              name="Footer Rating Livechat Link">
+        <xpath expr="//a[@href='/livechat/']"
+               position="attributes">
+            <attribute name="class">fix-footer-text</attribute>
+        </xpath>
+    </template>
+
+    <template id="assets_frontend_signup_change_blog"
+              inherit_id="website_blog.opt_blog_post_complete_read_next"
+              name="Assets frontend change"
+              customize_show="True">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" href="bms_cpdt/static/src/css/fix-blog.css"/>
+        </xpath>
+    </template>
+
+    <!--<template id="assets_frontend_signup_change_blog22"-->
+              <!--inherit_id="website_blog.opt_blog_post_complete_read_next"-->
+              <!--name="Assets frontend change22"-->
+              <!--customize_show="True">-->
+        <!--<xpath expr="//h2[@t-field='next_post.subtitle']"-->
+               <!--position="replace">-->
+        <!--</xpath>-->
+
+    <!--</template>-->
+
+</odoo>

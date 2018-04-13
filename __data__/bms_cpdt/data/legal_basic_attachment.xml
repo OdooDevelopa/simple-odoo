@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate='0'>
+
+  <record id="file1_582001" model="ir.attachment">
+    <field name="public" eval="True"/>
+    <field name="name">582001.pdf</field>
+    <field name="datas_fname">582001.pdf</field>
+    <field name="res_model">bms.legal.basic</field>
+    <field name="type">url</field>
+    <field name="url">/bms_cpdt/static/files/582001.pdf</field>
+  </record>
+
+  <record id="file2_31_2009" model="ir.attachment">
+    <field name="public" eval="True"/>
+    <field name="name">31_2009_ND-CP.doc</field>
+    <field name="datas_fname">31_2009_ND-CP_ngay_1_4_09.doc</field>
+    <field name="res_model">bms.legal.basic</field>
+    <field name="type">url</field>
+    <field name="url">/bms_cpdt/static/files/31_2009_ND-CP_ngay_1_4_09.doc</field>
+  </record>
+
+  <record id="file3_36a_NQ_CP" model="ir.attachment">
+    <field name="public" eval="True"/>
+    <field name="name">36a_NQ-CP.pdf</field>
+    <field name="datas_fname">36a_NQ-CP-ve-chinh-phu-dien-tu.pdf</field>
+    <field name="res_model">bms.legal.basic</field>
+    <field name="type">url</field>
+    <field name="url">/bms_cpdt/static/files/36a_NQ-CP-ve-chinh-phu-dien-tu.pdf</field>
+  </record>
+
+  <record id="file4_43_2001" model="ir.attachment">
+    <field name="public" eval="True"/>
+    <field name="name">43_2001_ND_CP.pdf</field>
+    <field name="datas_fname">43_2001_ND_CP.pdf</field>
+    <field name="res_model">bms.legal.basic</field>
+    <field name="type">url</field>
+    <field name="url">/bms_cpdt/static/files/43_2001_ND_CP.pdf</field>
+  </record>
+
+  <record id="file5_21-2012" model="ir.attachment">
+    <field name="public" eval="True"/>
+    <field name="name">21-2012-TT-BCA.pdf</field>
+    <field name="datas_fname">21-2012-TT-BCA.pdf</field>
+    <field name="res_model">bms.legal.basic</field>
+    <field name="type">url</field>
+    <field name="url">/bms_cpdt/static/files/21-2012-TT-BCA.pdf</field>
+  </record>
+
+  <record id="file6_07_2010" model="ir.attachment">
+    <field name="public" eval="True"/>
+    <field name="name">07_2010_TT_BCA.pdf</field>
+    <field name="datas_fname">07_2010_TT_BCA.pdf</field>
+    <field name="res_model">bms.legal.basic</field>
+    <field name="type">url</field>
+    <field name="url">/bms_cpdt/static/files/07_2010_TT_BCA.pdf</field>
+  </record>
+
+  <record id="file7_83_2010" model="ir.attachment">
+    <field name="public" eval="True"/>
+    <field name="name">83_2010_TTLT-BQP-BCA.pdf</field>
+    <field name="datas_fname">83_2010_TTLT-BQP-BCA.pdf</field>
+    <field name="res_model">bms.legal.basic</field>
+    <field name="type">url</field>
+    <field name="url">/bms_cpdt/static/files/83_2010_TTLT-BQP-BCA.pdf</field>
+  </record>
+
+  <record id="file8_04-2000" model="ir.attachment">
+    <field name="public" eval="True"/>
+    <field name="name">04-2000-TTLT-BCA-HCCBVN.pdf</field>
+    <field name="datas_fname">04-2000-TTLT-BCA-HCCBVN.pdf</field>
+    <field name="res_model">bms.legal.basic</field>
+    <field name="type">url</field>
+    <field name="url">/bms_cpdt/static/files/04-2000-TTLT-BCA-HCCBVN.pdf</field>
+  </record>
+
+  <record id="file9_03_2000" model="ir.attachment">
+    <field name="public" eval="True"/>
+    <field name="name">03_2000_TTLT_BCA_TLD.pdf</field>
+    <field name="datas_fname">03_2000_TTLT_BCA_TLD.pdf</field>
+    <field name="res_model">bms.legal.basic</field>
+    <field name="type">url</field>
+    <field name="url">/bms_cpdt/static/files/03_2000_TTLT_BCA_TLD.pdf</field>
+  </record>
+
+  <record id="file10_20_2012" model="ir.attachment">
+    <field name="public" eval="True"/>
+    <field name="name">20_2012_TT-BCA.pdf</field>
+    <field name="datas_fname">20_2012_TT-BCA.pdf</field>
+    <field name="res_model">bms.legal.basic</field>
+    <field name="type">url</field>
+    <field name="url">/bms_cpdt/static/files/20_2012_TT-BCA.pdf</field>
+  </record>
+
+</odoo>

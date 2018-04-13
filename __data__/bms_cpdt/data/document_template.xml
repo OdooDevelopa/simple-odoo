@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <!-- 
+    Chú thích đặt id trong đó: 
+        dt: document template.
+        01: là muc I (tương tự với mục II, III, IV, V).
+        01: là mục 1 trong I.
+    -->
+    <!-- [dtc2] HỒ SƠ ĐĂNG KÝ MẪU CON DẤU MỚI -->
+    <record id="dt0101" model="bms.document.template">
+        <field name="name">HỒ SƠ ĐĂNG KÝ MẪU CON DẤU MỚI: Đối với cơ quan, tổ chức, chức danh nhà nước sử dụng con dấu có hình Quốc huy</field>
+        <field name="tmpl_category_id" ref="bms_cpdt.dtc2"/>
+        <field name="description">Quyết định thành lập hoặc văn bản quy định về tổ chức, hoạt động của cơ quan có thẩm quyền.</field>
+        <field name="active" eval="True"/>
+        <field name="note">Không có</field>
+    </record>
+    <record id="dt0102" model="bms.document.template">
+        <field name="name">HỒ SƠ ĐĂNG KÝ MẪU CON DẤU MỚI: Đối với cơ quan có chức năng quản lý nhà nước, cơ quan chuyên môn</field>
+        <field name="tmpl_category_id" ref="bms_cpdt.dtc2"/>
+        <field name="description">Quyết định thành lập hoặc văn bản quy định về tổ chức, hoạt động của cơ quan có thẩm quyền.</field>
+        <field name="active" eval="True"/>
+        <field name="note">Không có</field>
+    </record>
+    <record id="dt0103" model="bms.document.template">
+        <field name="name">HỒ SƠ ĐĂNG KÝ MẪU CON DẤU MỚI: Đối với tổ chức sự nghiệp</field>
+        <field name="tmpl_category_id" ref="bms_cpdt.dtc2"/>
+        <field name="description">a) Quyết định thành lập hoặc văn bản quy định về tổ chức, hoạt động của cơ quan có thẩm quyền;
+b) Giấy phép hoạt động do cơ quan có thẩm quyền cấp đối với tổ chức phải đăng ký về lĩnh vực hoạt động theo quy định của pháp luật.</field>
+        <field name="active" eval="True"/>
+        <field name="note">Không có</field>
+    </record>
+    <record id="dt0104" model="bms.document.template">
+        <field name="name">HỒ SƠ ĐĂNG KÝ MẪU CON DẤU MỚI: Đối với Mặt trận Tổ quốc Việt Nam, tổ chức chính trị - xã hội, tổ chức chính trị xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp, quỹ xã hội, quỹ từ thiện, tổ chức phi chính phủ</field>
+        <field name="tmpl_category_id" ref="bms_cpdt.dtc2"/>
+        <field name="description">a) Quyết định thành lập hoặc giấy phép hoạt động của cơ quan có thẩm quyền;
+b) Điều lệ hoạt động của tổ chức đã được cơ quan có thẩm quyền phê duyệt.</field>
+        <field name="active" eval="True"/>
+        <field name="note">Không có</field>
+    </record>
+    <record id="dt0105" model="bms.document.template">
+        <field name="name">HỒ SƠ ĐĂNG KÝ MẪU CON DẤU MỚI: Đối với Tổ chức trực thuộc Mặt trận Tổ quốc Việt Nam, tổ chức chính trị - xã hội, tổ chức chính trị xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp, quỹ xã hội, quỹ từ thiện, tổ chức phi chính phủ</field>
+        <field name="tmpl_category_id" ref="bms_cpdt.dtc2"/>
+        <field name="description">a) Quyết định thành lập hoặc giấy phép hoạt động của cơ quan có thẩm quyền;
+b) Văn bản quy định về tổ chức, hoạt động do cơ quan có thẩm quyền cấp cho tổ chức theo quy định của pháp luật;
+c) Giấy phép hoạt động do cơ quan có thẩm quyền cấp đối với tổ chức phải đăng ký về lĩnh vực hoạt động theo quy định của pháp luật.</field>
+        <field name="active" eval="True"/>
+        <field name="note">Không có</field>
+    </record>
+    <record id="dt0106" model="bms.document.template">
+        <field name="name">HỒ SƠ ĐĂNG KÝ MẪU CON DẤU MỚI: Đối với tổ chức tôn giáo</field>
+        <field name="tmpl_category_id" ref="bms_cpdt.dtc2"/>
+        <field name="description">Quyết định công nhận tổ chức của cơ quan có thẩm quyền.</field>
+        <field name="active" eval="True"/>
+        <field name="note">Không có</field>
+    </record>
+    <record id="dt0107" model="bms.document.template">
+        <field name="name">HỒ SƠ ĐĂNG KÝ MẪU CON DẤU MỚI: Đối với Tổ chức trực thuộc tổ chức tôn giáo</field>
+        <field name="tmpl_category_id" ref="bms_cpdt.dtc2"/>
+        <field name="description">a) Quyết định của tổ chức tôn giáo về việc thành lập tổ chức tôn giáo trực thuộc;
+b) Văn bản của cơ quan có thẩm quyền chấp thuận việc thành lập tổ chức tôn giáo trực thuộc;
+c) Giấy phép hoạt động do cơ quan có thẩm quyền cấp đối với tổ chức phải đăng ký về lĩnh vực hoạt động theo quy định của pháp luật.</field>
+        <field name="active" eval="True"/>
+        <field name="note">Không có</field>
+    </record>
+    <record id="dt0108" model="bms.document.template">
+        <field name="name">HỒ SƠ ĐĂNG KÝ MẪU CON DẤU MỚI: Đối với doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã; chi nhánh, văn phòng đại diện của doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã</field>
+        <field name="tmpl_category_id" ref="bms_cpdt.dtc2"/>
+        <field name="description">Giấy phép thành lập và hoạt động hoặc giấy đăng ký hoạt động hoặc giấy phép hoạt động của cơ quan có thẩm quyền cấp cho tổ chức theo quy định của pháp luật.</field>
+        <field name="active" eval="True"/>
+        <field name="note">Không có</field>
+    </record>
+    <record id="dt0109" model="bms.document.template">
+        <field name="name">HỒ SƠ ĐĂNG KÝ MẪU CON DẤU MỚI: Đối với Tổ chức trực thuộc doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã được thành lập, hoạt động theo quy định của pháp luật</field>
+        <field name="tmpl_category_id" ref="bms_cpdt.dtc2"/>
+        <field name="description">a) Quyết định thành lập của cơ quan có thẩm quyền;
+b) Giấy phép hoạt động do cơ quan có thẩm quyền cấp đối với tổ chức phải đăng ký về lĩnh vực hoạt động theo quy định của pháp luật.</field>
+        <field name="active" eval="True"/>
+        <field name="note">Không có</field>
+    </record>
+    <record id="dt0110" model="bms.document.template">
+        <field name="name">HỒ SƠ ĐĂNG KÝ MẪU CON DẤU MỚI: Đối với tổ chức nước ngoài không có chức năng ngoại giao hoạt động hợp pháp tại Việt Nam</field>
+        <field name="tmpl_category_id" ref="bms_cpdt.dtc2"/>
+        <field name="description">Giấy phép hoạt động của cơ quan có thẩm quyền Việt Nam.</field>
+        <field name="active" eval="True"/>
+        <field name="note">Không có</field>
+    </record>
+    <record id="dt0111" model="bms.document.template">
+        <field name="name">HỒ SƠ ĐĂNG KÝ MẪU CON DẤU MỚI: Đối với Tổ chức khác được thành lập, hoạt động theo quy định của pháp luật</field>
+        <field name="tmpl_category_id" ref="bms_cpdt.dtc2"/>
+        <field name="description">Quyết định thành lập hoặc giấy phép hoạt động của cơ quan có thẩm quyền.</field>
+        <field name="active" eval="True"/>
+        <field name="note">Không có</field>
+    </record>
+    <!-- [dtc3] HỒ SƠ ĐĂNG KÝ DẤU NỔI, DẤU THU NHỎ, DẤU XI -->
+    <record id="dt0201" model="bms.document.template">
+        <field name="name">Hồ sơ đăng ký dấu nổi, dấu thu nhỏ, dấu xi </field>
+        <field name="tmpl_category_id" ref="bms_cpdt.dtc3"/>
+        <field name="description">1. Giấy giới thiệu hoặc Giấy ủy quyền của người đến liên hệ (Bản chính)
+2. Xuất trình Chứng minh nhân dân hoặc hộ chiếu (để kiểm tra)
+3. Công văn đề nghị v/v có chức năng cấp văn bằng, chứng chỉ và giấy tờ có dán ảnh hoặc niêm phong tài liệu của cơ quan có thẩm quyền.
+4. Văn bản quy định cơ quan, tổ chức, chức danh nhà nước có chức năng cấp văn bằng, chứng chỉ và giấy tờ có dán ảnh hoặc niêm phong tài liệu của cơ quan có thẩm quyền.</field>
+        <field name="active" eval="True"/>
+        <field name="note">Không có</field>
+    </record>
+    <!-- [dtc4] HỒ SƠ ĐỀ NGHỊ ĐĂNG KÝ LẠI MẪU CON DẤU -->
+    <record id="dt0302" model="bms.document.template">
+        <field name="name">HỒ SƠ ĐỀ NGHỊ ĐĂNG KÝ LẠI MẪU CON DẤU: Đối với Cơ quan, tổ chức, chức danh nhà nước có sự thay đổi về tổ chức, đổi tên</field>
+        <field name="tmpl_category_id" ref="bms_cpdt.dtc4"/>
+        <field name="description">1. Giấy giới thiệu hoặc Giấy ủy quyền của người đến liên hệ (Bản chính)
+2. Xuất trình Chứng minh nhân dân hoặc hộ chiếu (để kiểm tra)
+3. Đối với cơ quan, tổ chức, chức danh nhà nước có con dấu bị biến dạng, mòn, hỏng hoặc thay đổi chất liệu: Văn bản đề nghị đăng ký lại mẫu con dấu của cơ quan, tổ chức, chức danh nhà nước sử dụng con dấu, trong đó nêu rõ lý do.
+4. Văn bản đề nghị đăng ký lại mẫu con dấu của cơ quan, tổ chức, chức danh nhà nước sử dụng con dấu, trong đó nêu rõ lý do;
+5. Quyết định thay đổi về tổ chức, đổi tên cơ quan, tổ chức, chức danh nhà nước của cơ quan có thẩm quyền. (Bản sao)
+        </field>
+        <field name="active" eval="True"/>
+        <field name="note">Không có</field>
+    </record>
+    <record id="dt0303" model="bms.document.template">
+        <field name="name">HỒ SƠ ĐỀ NGHỊ ĐĂNG KÝ LẠI MẪU CON DẤU: Đối với Cơ quan, tổ chức, chức danh nhà nước bị mất con dấu</field>
+        <field name="tmpl_category_id" ref="bms_cpdt.dtc4"/>
+        <field name="description">1. Giấy giới thiệu hoặc Giấy ủy quyền của người đến liên hệ (Bản chính)
+2. Xuất trình Chứng minh nhân dân hoặc hộ chiếu (để kiểm tra)
+3. Đối với cơ quan, tổ chức, chức danh nhà nước có con dấu bị biến dạng, mòn, hỏng hoặc thay đổi chất liệu: Văn bản đề nghị đăng ký lại mẫu con dấu của cơ quan, tổ chức, chức danh nhà nước sử dụng con dấu, trong đó nêu rõ lý do.
+4. Văn bản đề nghị đăng ký lại mẫu con dấu của cơ quan, tổ chức, chức danh nhà nước sử dụng con dấu, trong đó nêu rõ lý do và có xác nhận của cơ quan quản lý trực tiếp hoặc cơ quan có thẩm quyền;
+5. GCN đăng ký mẫu con dấu được cấp trước đó.</field>
+        <field name="active" eval="True"/>
+        <field name="note">Không có</field>
+    </record>
+    <!-- [dtc5] HỒ SƠ ĐỀ NGHỊ ĐĂNG KÝ THÊM CON DẤU -->
+    <record id="dt0402" model="bms.document.template">
+        <field name="name">HỒ SƠ ĐỀ NGHỊ ĐĂNG KÝ THÊM CON DẤU: Đối với cơ quan, tổ chức, chức danh nhà nước đăng ký thêm dấu ướt</field>
+        <field name="tmpl_category_id" ref="bms_cpdt.dtc5"/>
+        <field name="description">1. Giấy giới thiệu hoặc Giấy ủy quyền của người đến liên hệ ( Bản chính)
+2. Xuất trình Chứng minh nhân dân hoặc hộ chiếu (để kiểm tra)
+3. Văn bản cho phép được sử dụng thêm dấu ướt của cơ quan có thẩm quyền.</field>
+        <field name="active" eval="True"/>
+        <field name="note">Không có</field>
+    </record>
+    <record id="dt0403" model="bms.document.template">
+        <field name="name">HỒ SƠ ĐỀ NGHỊ ĐĂNG KÝ THÊM CON DẤU: Đối với cơ quan, tổ chức, chức danh nhà nước đăng ký thêm dấu nổi, dấu thu nhỏ, dấu xi</field>
+        <field name="tmpl_category_id" ref="bms_cpdt.dtc5"/>
+        <field name="description">1. Giấy giới thiệu hoặc Giấy ủy quyền của người đến liên hệ ( Bản chính)
+2. Xuất trình Chứng minh nhân dân hoặc hộ chiếu (để kiểm tra)
+3. Văn bản đề nghị đăng ký thêm con dấu của người đứng đầu cơ quan, tổ chức hoặc chức danh nhà nước.</field>
+        <field name="active" eval="True"/>
+        <field name="note">Không có</field>
+    </record>
+    <record id="dt0404" model="bms.document.template">
+        <field name="name">HỒ SƠ ĐỀ NGHỊ ĐĂNG KÝ THÊM CON DẤU: Đối với tổ chức kinh tế đăng ký thêm dấu ướt, dấu nổi, dấu thu nhỏ, dấu xi</field>
+        <field name="tmpl_category_id" ref="bms_cpdt.dtc5"/>
+        <field name="description">1. Giấy giới thiệu hoặc Giấy ủy quyền của người đến liên hệ ( Bản chính)
+2. Xuất trình Chứng minh nhân dân hoặc hộ chiếu (để kiểm tra)
+3. Văn bản đề nghị đăng ký thêm con dấu của người đứng đầu tổ chức kinh tế</field>
+        <field name="active" eval="True"/>
+        <field name="note">Không có</field>
+    </record>
+    <!-- [dtc6] HỒ SƠ ĐỀ NGHỊ ĐỔI, CẤP LẠI  GIẤY CHỨNG NHẬN ĐĂNG KÝ MẪU CON DẤU -->
+    <record id="dt0501" model="bms.document.template">
+        <field name="name">Hồ sơ đề nghị đổi, cấp lại  giấy chứng nhận đăng ký mẫu con dấu</field>
+        <field name="tmpl_category_id" ref="bms_cpdt.dtc6"/>
+        <field name="description">1. Giấy giới thiệu hoặc Giấy ủy quyền của người đến liên hệ (Bản chính)
+2. Xuất trình Chứng minh nhân dân hoặc hộ chiếu (để kiểm tra)
+3. Văn bản đề nghị đổi, cấp lại giấy chứng nhận đăng ký mẫu con dấu của cơ quan, tổ chức, chức danh nhà nước sử dụng con dấu, trong đó nêu rõ lý do. (Quá trình sử dụng bị hỏng, mất)
+4. Mang con dấu đến Phòng cảnh sát quản lý hành chính về trật tự xã hội để đăng ký lại.</field>
+        <field name="active" eval="True"/>
+        <field name="note">Không có</field>
+    </record>
+</odoo>

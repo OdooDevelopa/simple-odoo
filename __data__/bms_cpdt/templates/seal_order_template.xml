@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <template id="AdministrativeProceduresCateg"
+              name="Đăng ký quản lý con dấu">
+        <link rel="stylesheet" href="bms_cpdt/static/src/css/procedures_categ.css"/>
+        <t t-call="website.layout">
+            <title>Thủ tục hành chính</title>
+            <!--<div class="oe_structure">-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9" style="margin: 0; float: left;">
+                            <h1 style="padding-top: 5px;text-align: center; font-size: 32px;">
+                                <hr style="padding: 4 0 4 0px;
+                                margin: 0px 0 10px 0px; width: 100%;
+                                border-top: 1px solid #eeeeee;"/>
+
+                                <b class="o_editable" style="padding: 4 0 4 0px; margin: 10px 0 10px 50px;">
+                                    <!--Đăng ký, Quản lý Con dấu-->
+                                </b>
+
+                                <hr style="padding: 4 0 4 0px;
+                                margin: 10px 0 10px 0px; width: 100%;
+                                border-top: 1px solid #eeeeee;"/>
+                            </h1>
+                            <ul style="list-style-type: none; margin-top: 50px; padding: 0;">
+                                <li class="o_editable">
+                                    <a href="/AdministrativeProcedures/21/" style="border-left: 2px solid #eeeeee;
+                                    padding: 10px 0 0 10px; margin-top: 10px; display: block; text-decoration: none">
+                                        <p class="hover-tex">
+                                            <!--LÀM CON DẤU MỚI-->
+                                        </p>
+                                    </a><br/>
+                                    <span style="margin-left: 20px; padding: 10px 0 10px 0; line-height: 1.6em;">
+                                        <p style="display: block; padding-left: 20px;">
+                                            <!--<t t-esc="template.description"/>-->
+                                        </p> <br/>
+                                            <p  style="color: #000; padding-left: 20px;">
+                                                <!--Nhóm quyết định thành lập:-->
+                                                <!--1. Đối với cơ quan, tổ chức, chức danh nhà nước sử dụng con dấu có hình Quốc huy: Quyết định thành lập hoặc văn bản quy định về tổ chức, hoạt động của cơ quan có thẩm quyền.-->
+                                                <!--2. Đối với cơ quan có chức năng quản lý nhà nước, cơ quan chuyên môn: Quyết định thành lập hoặc văn bản quy định về tổ chức, hoạt động của cơ quan có thẩm quyền.-->
+                                                <!--3. Tổ chức sự nghiệp, hồ sơ gồm:-->
+                                                <!--a) Quyết định thành lập hoặc văn bản quy định về tổ chức, hoạt động của cơ quan có thẩm quyền;-->
+                                                <!--b) Giấy phép hoạt động do cơ quan có thẩm quyền cấp đối với tổ chức phải đăng ký về lĩnh vực hoạt động theo quy định của pháp luật.-->
+                                                <!--4. Mặt trận Tổ quốc Việt Nam, tổ chức chính trị - xã hội, tổ chức chính trị xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp, quỹ xã hội, quỹ từ thiện, tổ chức phi chính phủ,-->
+                                                <!--hồ sơ gồm: a) Quyết định thành lập hoặc giấy phép hoạt động của cơ quan có thẩm quyền;-->
+                                                <!--b) Điều lệ hoạt động của tổ chức đã được cơ quan có thẩm quyền phê duyệt.-->
+                                                <!--5. Tổ chức trực thuộc Mặt trận Tổ quốc Việt Nam, tổ chức chính trị - xã hội, tổ chức chính trị xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp, quỹ xã hội, quỹ từ thiện, tổ chức phi chính phủ,-->
+                                                <!--hồ sơ gồm: a) Quyết định thành lập hoặc giấy phép hoạt động của cơ quan có thẩm quyền;-->
+                                                <!--b) Văn bản quy định về tổ chức, hoạt động do cơ quan có thẩm quyền cấp cho tổ chức theo quy định của pháp luật;-->
+                                                <!--c) Giấy phép hoạt động do cơ quan có thẩm quyền cấp đối với tổ chức phải đăng ký về lĩnh vực hoạt động theo quy định của pháp luật.-->
+                                                <!--6. Đối với tổ chức tôn giáo: Quyết định công nhận tổ chức của cơ quan có thẩm quyền.-->
+                                                <!--7. Tổ chức trực thuộc tổ chức tôn giáo,-->
+                                                <!--hồ sơ gồm: a) Quyết định của tổ chức tôn giáo về việc thành lập tổ chức tôn giáo trực thuộc;-->
+                                                <!--b) Văn bản của cơ quan có thẩm quyền chấp thuận việc thành lập tổ chức tôn giáo trực thuộc;-->
+                                                <!--c) Giấy phép hoạt động do cơ quan có thẩm quyền cấp đối với tổ chức phải đăng ký về lĩnh vực hoạt động theo quy định của pháp luật.-->
+                                                <!--8. Đối với doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã; chi nhánh, văn phòng đại diện của doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã: Giấy phép thành lập và hoạt động hoặc giấy đăng ký hoạt động hoặc giấy phép hoạt động của cơ quan có thẩm quyền cấp cho tổ chức theo quy định của pháp luật.-->
+                                                <!--9. Tổ chức trực thuộc doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã được thành lập, hoạt động theo quy định của pháp luật,-->
+                                                <!--hồ sơ gồm: a) Quyết định thành lập của cơ quan có thẩm quyền;-->
+                                                <!--b) Giấy phép hoạt động do cơ quan có thẩm quyền cấp đối với tổ chức phải đăng ký về lĩnh vực hoạt động theo quy định của pháp luật.-->
+                                                <!--10. Đối với tổ chức nước ngoài không có chức năng ngoại giao hoạt động hợp pháp tại Việt Nam: Giấy phép hoạt động của cơ quan có thẩm quyền Việt Nam.-->
+                                                <!--11. Tổ chức khác được thành lập, hoạt động theo quy định của pháp luật: Quyết định thành lập hoặc giấy phép hoạt động của cơ quan có thẩm quyền.-->
+                                            </p>
+                                        <br/>
+                                    </span>
+                                </li>
+                            </ul>
+
+
+                            <ul style="list-style-type: none; margin-top: 50px; padding: 0;">
+                                <li class="o_editable">
+                                    <a href="/AdministrativeProcedures/30/" style="border-left: 2px solid #eeeeee;
+                                    padding: 10px 0 0 10px; margin-top: 10px; display: block; text-decoration: none">
+                                        <p class="hover-tex">
+                                            <!--LÀM CON DẤU NỔI, DẤU THU NHỎ, DẤU XI-->
+                                        </p>
+                                    </a><br/>
+                                    <span style="margin-left: 20px; padding: 10px 0 10px 0; line-height: 1.6em;">
+                                        <p style="display: block; padding-left: 20px;">
+                                            <!--<t t-esc="template.description"/>-->
+                                        </p> <br/>
+                                            <p  style="color: #000; padding-left: 20px;">
+                                                <!--1. Giấy giới thiệu hoặc Giấy ủy quyền của người đến liên hệ ( Bản chính)-->
+                                                <!--2. Xuất trình Chứng minh nhân dân hoặc hộ chiếu (để kiểm tra)-->
+                                                <!--3. Công văn đề nghị v/v có chức năng cấp văn bằng, chứng chỉ và giấy tờ có dán ảnh hoặc niêm phong tài liệu của cơ quan có thẩm quyền.-->
+                                                <!--4. Văn bản quy định cơ quan, tổ chức, chức danh nhà nước có chức năng cấp văn bằng, chứng chỉ và giấy tờ có dán ảnh hoặc niêm phong tài liệu của cơ quan có thẩm quyền.-->
+                                            </p>
+                                        <br/>
+                                    </span>
+                                </li>
+                            </ul>
+
+                            <ul style="list-style-type: none; margin-top: 50px; padding: 0;">
+                                <li class="o_editable">
+                                    <a href="/AdministrativeProcedures/31/" style="border-left: 2px solid #eeeeee;
+                                    padding: 10px 0 0 10px; margin-top: 10px; display: block; text-decoration: none">
+                                        <p class="hover-tex">
+                                            <!--ĐĂNG KÝ LẠI MẪU CON DẤU-->
+                                        </p>
+                                    </a><br/>
+                                    <span style="margin-left: 20px; padding: 10px 0 10px 0; line-height: 1.6em;">
+                                        <p style="display: block; padding-left: 20px;">
+                                            <!--<t t-esc="template.description"/>-->
+                                        </p> <br/>
+                                            <p  style="color: #000; padding-left: 20px;">
+                                                <!--1. Giấy giới thiệu hoặc Giấy ủy quyền của người đến liên hệ ( Bản chính)-->
+                                                <!--2. Xuất trình Chứng minh nhân dân hoặc hộ chiếu (để kiểm tra)-->
+                                                <!--3. Đối với cơ quan, tổ chức, chức danh nhà nước có con dấu bị biến dạng, mòn, hỏng hoặc thay đổi chất liệu: Văn bản đề nghị đăng ký lại mẫu con dấu của cơ quan, tổ chức, chức danh nhà nước sử dụng con dấu, trong đó nêu rõ lý do.-->
+                                                <!--4. Cơ quan, tổ chức, chức danh nhà nước có sự thay đổi về tổ chức, đổi tên,-->
+                                                <!--hồ sơ gồm: a) Văn bản đề nghị đăng ký lại mẫu con dấu của cơ quan, tổ chức, chức danh nhà nước sử dụng con dấu, trong đó nêu rõ lý do;-->
+                                                <!--b) Quyết định thay đổi về tổ chức, đổi tên cơ quan, tổ chức, chức danh nhà nước của cơ quan có thẩm quyền. (Bản sao)-->
+                                                <!--5. Cơ quan, tổ chức, chức danh nhà nước bị mất con dấu,-->
+                                                <!--hồ sơ gồm: a) Văn bản đề nghị đăng ký lại mẫu con dấu của cơ quan, tổ chức, chức danh nhà nước sử dụng con dấu, trong đó nêu rõ lý do và có xác nhận của cơ quan quản lý trực tiếp hoặc cơ quan có thẩm quyền;-->
+                                                <!--b) GCN đăng ký mẫu con dấu được cấp trước đó.-->
+                                            </p>
+                                        <br/>
+                                    </span>
+                                </li>
+                            </ul>
+
+                             <ul style="list-style-type: none; margin-top: 50px; padding: 0;">
+                                <li class="o_editable">
+                                    <a href="/AdministrativeProcedures/32/" style="border-left: 2px solid #eeeeee;
+                                    padding: 10px 0 0 10px; margin-top: 10px; display: block; text-decoration: none">
+                                        <p class="hover-tex">
+                                            <!--LÀM THÊM CON DẤU-->
+                                        </p>
+                                    </a><br/>
+                                    <span style="margin-left: 20px; padding: 10px 0 10px 0; line-height: 1.6em;">
+                                        <p style="display: block; padding-left: 20px;">
+                                            <!--<t t-esc="template.description"/>-->
+                                        </p> <br/>
+                                            <p  style="color: #000; padding-left: 20px;">
+                                                <!--1. Giấy giới thiệu hoặc Giấy ủy quyền của người đến liên hệ ( Bản chính)-->
+                                                <!--2. Xuất trình Chứng minh nhân dân hoặc hộ chiếu (để kiểm tra)-->
+                                                <!--3. Đối với cơ quan, tổ chức, chức danh nhà nước đăng ký thêm dấu ướt: Văn bản cho phép được sử dụng thêm dấu ướt của cơ quan có thẩm quyền.-->
+                                                <!--4. Đối với cơ quan, tổ chức, chức danh nhà nước đăng ký thêm dấu nổi, dấu thu nhỏ, dấu xi: Văn bản đề nghị đăng ký thêm con dấu của người đứng đầu cơ quan, tổ chức hoặc chức danh nhà nước. 5. Đối với tổ chức kinh tế đăng ký thêm dấu ướt, dấu nổi, dấu thu nhỏ, dấu xi: Văn bản đề nghị đăng ký thêm con dấu của người đứng đầu tổ chức kinh tế-->
+                                            </p>
+                                        <br/>
+                                    </span>
+                                </li>
+                            </ul>
+
+                            <ul style="list-style-type: none; margin-top: 50px; padding: 0;">
+                                <li class="o_editable">
+                                    <a href="/AdministrativeProcedures/36/" style="border-left: 2px solid #eeeeee;
+                                    padding: 10px 0 0 10px; margin-top: 10px; display: block; text-decoration: none">
+                                        <p class="hover-tex">
+                                            <!--ĐỔI CẤP LẠI GIẤY CHỨNG NHẬN ĐÃ ĐĂNG KÝ MẪU CON DẤU-->
+                                        </p>
+                                    </a><br/>
+                                    <span style="margin-left: 20px; padding: 10px 0 10px 0; line-height: 1.6em;">
+                                        <p style="display: block; padding-left: 20px;">
+                                            <!--<t t-esc="template.description"/>-->
+                                        </p> <br/>
+                                            <p  style="color: #000; padding-left: 20px;">
+                                                <!--1. Giấy giới thiệu hoặc Giấy ủy quyền của người đến liên hệ ( Bản chính)-->
+                                                <!--2. Xuất trình Chứng minh nhân dân hoặc hộ chiếu (để kiểm tra)-->
+                                                <!--3. Văn bản đề nghị đổi, cấp lại giấy chứng nhận đăng ký mẫu con dấu của cơ quan, tổ chức, chức danh nhà nước sử dụng con dấu, trong đó nêu rõ lý do. (Quá trình sử dụng bị hỏng, mất)-->
+                                                <!--4. Mang con dấu đến Phòng cảnh sát quản lý hành chính về trật tự xã hội để đăng ký lại.-->
+                                            </p>
+                                        <br/>
+                                    </span>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <div id="main-content"
+                             class="col-md-3 document-template-categ"
+                             style="margin-top: 0px; display: block; float: right;">
+
+
+                            <div class="col-md-12"  style="height: auto; padding: unset;
+                                margin: 15px 0 15px 0; float:right;">
+                                <t t-set="event_data" t-value="website.get_last_7day_calendar_event()"/>
+                                <div class="row" style="height: auto;
+                                border: solid 1px #587E43; padding: 0; margin:0;">
+                                    <h3 class="o_editable" style="text-align: center; font-family: inherit; color: #007dab;">
+                                        <t t-esc="event_data['title']"/>
+                                    </h3>
+                                </div>
+                            <t t-foreach="(1,2,3,4,5,6,7)" t-as="index">
+                                <!--<div class="col-md-12">-->
+                                <div class="row" style="height: auto; padding: 0; margin:0;">
+                                    <div class="col-md-6 o_editable" style="height: auto;
+                                    border: solid 1px #587E43; padding-left: -16px; padding-right: -16px;">
+                                        <p style="text-align: center; color: red; padding-top: 10px;">
+                                            <t t-if="event_data['week_day_dict'][index][1] != 8">
+                                                <b>Thứ <t t-esc="event_data['week_day_dict'][index][1]"/></b>
+                                            </t>
+                                            <t t-if="event_data['week_day_dict'][index][1] == 8">
+                                                <b>Chủ nhật</b>
+                                            </t>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6" style="height: auto;
+                                    border: solid 1px #587E43; padding-left: -16px; padding-right: -16px;">
+                                        <p style="text-align: center;  color: red;  padding-top: 10px;">
+                                            <b class="o_editable"><t t-esc="event_data['week_day_dict'][index][0]"/></b>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="row" style="height: auto;
+                                border: solid 1px #587E43; padding: 0; margin: 0;">
+                                    <t t-if="not event_data['event_dict'][event_data['week_day_dict'][index][0]]">
+                                        <p style="text-align: left; padding: 10px 0 0 10px">
+                                            Làm việc cả ngày
+                                        </p>
+                                    </t>
+                                    <t t-foreach="event_data['event_dict'][event_data['week_day_dict'][index][0]]"
+                                        t-as="event">
+                                        <p style="text-align: left; padding: 10px 0 0 10px">
+                                            <t t-esc="event.name"/>:
+                                            <t t-esc="website.convert_utcdatetime_userdatetime(event.start)"/> đến
+                                            <t t-esc="website.convert_utcdatetime_userdatetime(event.stop)"/>
+                                        </p>
+                                    </t>
+                                    </div>
+                                <!--</div>-->
+                            </t>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="thu_tuc_lam_con_dau_moi"
+              name="Thủ tục làm con dấu mới">
+        <link rel="stylesheet" href="bms_cpdt/static/src/css/procedures_categ.css"/>
+        <t t-call="website.layout">
+            <title>Thủ tục làm con dấu mới</title>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9"
+                             style="margin: 0; float: left;">
+                            <h1 style="padding-top: 5px;text-align: center; font-size: 32px;">
+                                <hr style="padding: 4 0 4 0px;
+                                margin: 0px 0 10px 0px; width: 100%;
+                                border-top: 1px solid #eeeeee;"/>
+
+                                <b class="o_editable" style="padding: 4 0 4 0px; margin: 10px 0 10px 50px;">
+                                </b>
+
+                                <hr style="padding: 4 0 4 0px;
+                                margin: 10px 0 10px 0px; width: 100%;
+                                border-top: 1px solid #eeeeee;"/>
+                            </h1>
+                        </div>
+
+                        <div id="main-content"
+                             class="col-md-3 document-template-categ"
+                             style="margin-top: 0px; display: block; float: right;">
+
+
+                            <div class="col-md-12"  style="height: auto; padding: unset;
+                                margin: 15px 0 15px 0; float:right;">
+                                <t t-set="event_data" t-value="website.get_last_7day_calendar_event()"/>
+                                <div class="row" style="height: auto;
+                                border: solid 1px #587E43; padding: 0; margin:0;">
+                                    <h3 class="o_editable" style="text-align: center; font-family: inherit; color: #007dab;">
+                                        <t t-esc="event_data['title']"/>
+                                    </h3>
+                                </div>
+                            <t t-foreach="(1,2,3,4,5,6,7)" t-as="index">
+                                <div class="row" style="height: auto; padding: 0; margin:0;">
+                                    <div class="col-md-6 o_editable" style="height: auto;
+                                    border: solid 1px #587E43; padding-left: -16px; padding-right: -16px;">
+                                        <p style="text-align: center; color: red; padding-top: 10px;">
+                                            <t t-if="event_data['week_day_dict'][index][1] != 8">
+                                                <b>Thứ <t t-esc="event_data['week_day_dict'][index][1]"/></b>
+                                            </t>
+                                            <t t-if="event_data['week_day_dict'][index][1] == 8">
+                                                <b>Chủ nhật</b>
+                                            </t>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6" style="height: auto;
+                                    border: solid 1px #587E43; padding-left: -16px; padding-right: -16px;">
+                                        <p style="text-align: center;  color: red;  padding-top: 10px;">
+                                            <b class="o_editable"><t t-esc="event_data['week_day_dict'][index][0]"/></b>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="row" style="height: auto;
+                                border: solid 1px #587E43; padding: 0; margin: 0;">
+                                    <t t-if="not event_data['event_dict'][event_data['week_day_dict'][index][0]]">
+                                        <p style="text-align: left; padding: 10px 0 0 10px">
+                                            Làm việc cả ngày
+                                        </p>
+                                    </t>
+                                    <t t-foreach="event_data['event_dict'][event_data['week_day_dict'][index][0]]"
+                                        t-as="event">
+                                        <p style="text-align: left; padding: 10px 0 0 10px">
+                                            <t t-esc="event.name"/>:
+                                            <t t-esc="website.convert_utcdatetime_userdatetime(event.start)"/> đến
+                                            <t t-esc="website.convert_utcdatetime_userdatetime(event.stop)"/>
+                                        </p>
+                                    </t>
+                                    </div>
+                            </t>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </t>
+        </template>
+
+    <template id="thu_tuc_lam_con_dau_noi_dau_thu_nho_dau_xi"
+              name="Thủ tục làm con dấu nổi, dấu thu nhỏ, dấu xi">
+        <link rel="stylesheet" href="bms_cpdt/static/src/css/procedures_categ.css"/>
+        <t t-call="website.layout">
+            <title>Thủ tục làm con dấu mới</title>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9" style="margin: 0; float: left;">
+                            <h1 style="padding-top: 5px;text-align: center; font-size: 32px;">
+                                <hr style="padding: 4 0 4 0px;
+                                margin: 0px 0 10px 0px; width: 100%;
+                                border-top: 1px solid #eeeeee;"/>
+
+                                <b class="o_editable" style="padding: 4 0 4 0px; margin: 10px 0 10px 50px;">
+                                </b>
+
+                                <hr style="padding: 4 0 4 0px;
+                                margin: 10px 0 10px 0px; width: 100%;
+                                border-top: 1px solid #eeeeee;"/>
+                            </h1>
+                        </div>
+
+                        <div id="main-content"
+                             class="col-md-3 document-template-categ"
+                             style="margin-top: 0px; display: block; float: right;">
+
+
+                            <div class="col-md-12"  style="height: auto; padding: unset;
+                                margin: 15px 0 15px 0; float:right;">
+                                <t t-set="event_data" t-value="website.get_last_7day_calendar_event()"/>
+                                <div class="row" style="height: auto;
+                                border: solid 1px #587E43; padding: 0; margin:0;">
+                                    <h3 class="o_editable" style="text-align: center; font-family: inherit; color: #007dab;">
+                                        <t t-esc="event_data['title']"/>
+                                    </h3>
+                                </div>
+                            <t t-foreach="(1,2,3,4,5,6,7)" t-as="index">
+                                <div class="row" style="height: auto; padding: 0; margin:0;">
+                                    <div class="col-md-6 o_editable" style="height: auto;
+                                    border: solid 1px #587E43; padding-left: -16px; padding-right: -16px;">
+                                        <p style="text-align: center; color: red; padding-top: 10px;">
+                                            <t t-if="event_data['week_day_dict'][index][1] != 8">
+                                                <b>Thứ <t t-esc="event_data['week_day_dict'][index][1]"/></b>
+                                            </t>
+                                            <t t-if="event_data['week_day_dict'][index][1] == 8">
+                                                <b>Chủ nhật</b>
+                                            </t>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6" style="height: auto;
+                                    border: solid 1px #587E43; padding-left: -16px; padding-right: -16px;">
+                                        <p style="text-align: center;  color: red;  padding-top: 10px;">
+                                            <b class="o_editable"><t t-esc="event_data['week_day_dict'][index][0]"/></b>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="row" style="height: auto;
+                                border: solid 1px #587E43; padding: 0; margin: 0;">
+                                    <t t-if="not event_data['event_dict'][event_data['week_day_dict'][index][0]]">
+                                        <p style="text-align: left; padding: 10px 0 0 10px">
+                                            Làm việc cả ngày
+                                        </p>
+                                    </t>
+                                    <t t-foreach="event_data['event_dict'][event_data['week_day_dict'][index][0]]"
+                                        t-as="event">
+                                        <p style="text-align: left; padding: 10px 0 0 10px">
+                                            <t t-esc="event.name"/>:
+                                            <t t-esc="website.convert_utcdatetime_userdatetime(event.start)"/> đến
+                                            <t t-esc="website.convert_utcdatetime_userdatetime(event.stop)"/>
+                                        </p>
+                                    </t>
+                                    </div>
+                            </t>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </t>
+        </template>
+
+    <template id="thu_tuc_dang_ky_lai_mau_con_dau"
+              name="Thủ tục đăng ký lại mẫu con dấu">
+        <link rel="stylesheet" href="bms_cpdt/static/src/css/procedures_categ.css"/>
+        <t t-call="website.layout">
+            <title>Thủ tục làm con dấu mới</title>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9" style="margin: 0; float: left;">
+                            <h1 style="padding-top: 5px;text-align: center; font-size: 32px;">
+                                <hr style="padding: 4 0 4 0px;
+                                margin: 0px 0 10px 0px; width: 100%;
+                                border-top: 1px solid #eeeeee;"/>
+
+                                <b class="o_editable" style="padding: 4 0 4 0px; margin: 10px 0 10px 50px;">
+                                </b>
+
+                                <hr style="padding: 4 0 4 0px;
+                                margin: 10px 0 10px 0px; width: 100%;
+                                border-top: 1px solid #eeeeee;"/>
+                            </h1>
+                        </div>
+
+                        <div id="main-content"
+                             class="col-md-3 document-template-categ"
+                             style="margin-top: 0px; display: block; float: right;">
+
+
+                            <div class="col-md-12"  style="height: auto; padding: unset;
+                                margin: 15px 0 15px 0; float:right;">
+                                <t t-set="event_data" t-value="website.get_last_7day_calendar_event()"/>
+                                <div class="row" style="height: auto;
+                                border: solid 1px #587E43; padding: 0; margin:0;">
+                                    <h3 class="o_editable" style="text-align: center; font-family: inherit; color: #007dab;">
+                                        <t t-esc="event_data['title']"/>
+                                    </h3>
+                                </div>
+                            <t t-foreach="(1,2,3,4,5,6,7)" t-as="index">
+                                <div class="row" style="height: auto; padding: 0; margin:0;">
+                                    <div class="col-md-6 o_editable" style="height: auto;
+                                    border: solid 1px #587E43; padding-left: -16px; padding-right: -16px;">
+                                        <p style="text-align: center; color: red; padding-top: 10px;">
+                                            <t t-if="event_data['week_day_dict'][index][1] != 8">
+                                                <b>Thứ <t t-esc="event_data['week_day_dict'][index][1]"/></b>
+                                            </t>
+                                            <t t-if="event_data['week_day_dict'][index][1] == 8">
+                                                <b>Chủ nhật</b>
+                                            </t>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6" style="height: auto;
+                                    border: solid 1px #587E43; padding-left: -16px; padding-right: -16px;">
+                                        <p style="text-align: center;  color: red;  padding-top: 10px;">
+                                            <b class="o_editable"><t t-esc="event_data['week_day_dict'][index][0]"/></b>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="row" style="height: auto;
+                                border: solid 1px #587E43; padding: 0; margin: 0;">
+                                    <t t-if="not event_data['event_dict'][event_data['week_day_dict'][index][0]]">
+                                        <p style="text-align: left; padding: 10px 0 0 10px">
+                                            Làm việc cả ngày
+                                        </p>
+                                    </t>
+                                    <t t-foreach="event_data['event_dict'][event_data['week_day_dict'][index][0]]"
+                                        t-as="event">
+                                        <p style="text-align: left; padding: 10px 0 0 10px">
+                                            <t t-esc="event.name"/>:
+                                            <t t-esc="website.convert_utcdatetime_userdatetime(event.start)"/> đến
+                                            <t t-esc="website.convert_utcdatetime_userdatetime(event.stop)"/>
+                                        </p>
+                                    </t>
+                                    </div>
+                            </t>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </t>
+        </template>
+
+    <template id="thu_tuc_lam_them_con_dau"
+              name="Thủ tục làm thêm con dấu">
+        <link rel="stylesheet" href="bms_cpdt/static/src/css/procedures_categ.css"/>
+        <t t-call="website.layout">
+            <title>Thủ tục làm con dấu mới</title>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9" style="margin: 0; float: left;">
+                            <h1 style="padding-top: 5px;text-align: center; font-size: 32px;">
+                                <hr style="padding: 4 0 4 0px;
+                                margin: 0px 0 10px 0px; width: 100%;
+                                border-top: 1px solid #eeeeee;"/>
+
+                                <b class="o_editable" style="padding: 4 0 4 0px; margin: 10px 0 10px 50px;">
+                                </b>
+
+                                <hr style="padding: 4 0 4 0px;
+                                margin: 10px 0 10px 0px; width: 100%;
+                                border-top: 1px solid #eeeeee;"/>
+                            </h1>
+                        </div>
+
+                        <div id="main-content"
+                             class="col-md-3 document-template-categ"
+                             style="margin-top: 0px; display: block; float: right;">
+
+
+                            <div class="col-md-12"  style="height: auto; padding: unset;
+                                margin: 15px 0 15px 0; float:right;">
+                                <t t-set="event_data" t-value="website.get_last_7day_calendar_event()"/>
+                                <div class="row" style="height: auto;
+                                border: solid 1px #587E43; padding: 0; margin:0;">
+                                    <h3 class="o_editable" style="text-align: center; font-family: inherit; color: #007dab;">
+                                        <t t-esc="event_data['title']"/>
+                                    </h3>
+                                </div>
+                            <t t-foreach="(1,2,3,4,5,6,7)" t-as="index">
+                                <div class="row" style="height: auto; padding: 0; margin:0;">
+                                    <div class="col-md-6 o_editable" style="height: auto;
+                                    border: solid 1px #587E43; padding-left: -16px; padding-right: -16px;">
+                                        <p style="text-align: center; color: red; padding-top: 10px;">
+                                            <t t-if="event_data['week_day_dict'][index][1] != 8">
+                                                <b>Thứ <t t-esc="event_data['week_day_dict'][index][1]"/></b>
+                                            </t>
+                                            <t t-if="event_data['week_day_dict'][index][1] == 8">
+                                                <b>Chủ nhật</b>
+                                            </t>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6" style="height: auto;
+                                    border: solid 1px #587E43; padding-left: -16px; padding-right: -16px;">
+                                        <p style="text-align: center;  color: red;  padding-top: 10px;">
+                                            <b class="o_editable"><t t-esc="event_data['week_day_dict'][index][0]"/></b>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="row" style="height: auto;
+                                border: solid 1px #587E43; padding: 0; margin: 0;">
+                                    <t t-if="not event_data['event_dict'][event_data['week_day_dict'][index][0]]">
+                                        <p style="text-align: left; padding: 10px 0 0 10px">
+                                            Làm việc cả ngày
+                                        </p>
+                                    </t>
+                                    <t t-foreach="event_data['event_dict'][event_data['week_day_dict'][index][0]]"
+                                        t-as="event">
+                                        <p style="text-align: left; padding: 10px 0 0 10px">
+                                            <t t-esc="event.name"/>:
+                                            <t t-esc="website.convert_utcdatetime_userdatetime(event.start)"/> đến
+                                            <t t-esc="website.convert_utcdatetime_userdatetime(event.stop)"/>
+                                        </p>
+                                    </t>
+                                    </div>
+                            </t>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </t>
+        </template>
+
+    <template id="thu_tuc_cap_doi_cap_lai_giay_chung_nhan_da_dang_ky_mau_con_dau"
+              name="Thủ tục Cấp đổi, cấp lại Giấy chứng nhận đã đăng ký mẫu con dấu">
+        <link rel="stylesheet" href="bms_cpdt/static/src/css/procedures_categ.css"/>
+        <t t-call="website.layout">
+            <title>Thủ tục làm con dấu mới</title>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9" style="margin: 0; float: left;">
+                            <h1 style="padding-top: 5px;text-align: center; font-size: 32px;">
+                                <hr style="padding: 4 0 4 0px;
+                                margin: 0px 0 10px 0px; width: 100%;
+                                border-top: 1px solid #eeeeee;"/>
+
+                                <b class="o_editable" style="padding: 4 0 4 0px; margin: 10px 0 10px 50px;">
+                                </b>
+
+                                <hr style="padding: 4 0 4 0px;
+                                margin: 10px 0 10px 0px; width: 100%;
+                                border-top: 1px solid #eeeeee;"/>
+                            </h1>
+                        </div>
+
+                        <div id="main-content"
+                             class="col-md-3 document-template-categ"
+                             style="margin-top: 0px; display: block; float: right;">
+
+
+                            <div class="col-md-12"  style="height: auto; padding: unset;
+                                margin: 15px 0 15px 0; float:right;">
+                                <t t-set="event_data" t-value="website.get_last_7day_calendar_event()"/>
+                                <div class="row" style="height: auto;
+                                border: solid 1px #587E43; padding: 0; margin:0;">
+                                    <h3 class="o_editable" style="text-align: center; font-family: inherit; color: #007dab;">
+                                        <t t-esc="event_data['title']"/>
+                                    </h3>
+                                </div>
+                            <t t-foreach="(1,2,3,4,5,6,7)" t-as="index">
+                                <div class="row" style="height: auto; padding: 0; margin:0;">
+                                    <div class="col-md-6 o_editable" style="height: auto;
+                                    border: solid 1px #587E43; padding-left: -16px; padding-right: -16px;">
+                                        <p style="text-align: center; color: red; padding-top: 10px;">
+                                            <t t-if="event_data['week_day_dict'][index][1] != 8">
+                                                <b>Thứ <t t-esc="event_data['week_day_dict'][index][1]"/></b>
+                                            </t>
+                                            <t t-if="event_data['week_day_dict'][index][1] == 8">
+                                                <b>Chủ nhật</b>
+                                            </t>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6" style="height: auto;
+                                    border: solid 1px #587E43; padding-left: -16px; padding-right: -16px;">
+                                        <p style="text-align: center;  color: red;  padding-top: 10px;">
+                                            <b class="o_editable"><t t-esc="event_data['week_day_dict'][index][0]"/></b>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="row" style="height: auto;
+                                border: solid 1px #587E43; padding: 0; margin: 0;">
+                                    <t t-if="not event_data['event_dict'][event_data['week_day_dict'][index][0]]">
+                                        <p style="text-align: left; padding: 10px 0 0 10px">
+                                            Làm việc cả ngày
+                                        </p>
+                                    </t>
+                                    <t t-foreach="event_data['event_dict'][event_data['week_day_dict'][index][0]]"
+                                        t-as="event">
+                                        <p style="text-align: left; padding: 10px 0 0 10px">
+                                            <t t-esc="event.name"/>:
+                                            <t t-esc="website.convert_utcdatetime_userdatetime(event.start)"/> đến
+                                            <t t-esc="website.convert_utcdatetime_userdatetime(event.stop)"/>
+                                        </p>
+                                    </t>
+                                </div>
+                            </t>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+</odoo>

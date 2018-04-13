@@ -1,0 +1,3400 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bms_cpdt
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0-20171015\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-11 10:25+0000\n"
+"PO-Revision-Date: 2017-12-11 17:27+0700\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: vi_VN\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.missing_profile_email_templates
+msgid ""
+"\n"
+"            \n"
+"        <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"        <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do <span style=\"color:#ff0000;\"><u>hồ sơ của bạn thiếu, cần bổ xung</u>.</span></em></span></p>\n"
+"        <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin phiên làm việc:</strong></u></span></p>\n"
+"        <ol>\n"
+"        <li><span style=\"font-size:18px;\">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>\n"
+"        <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"        <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"        <li><em><strong><span style=\"color:#008000;\"><span style=\"font-size: 18px;\"><u>Hồ sơ chuẩn cần có xin vui lòng tham khảo lại trên trang chủ</u></span></span></strong></em></li>\n"
+"        </ol>\n"
+"\n"
+"        <p><span style=\"font-size:18px;\"><em>Xin vui l&ograve;ng kiểm tra và li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm để sớm ho&agrave;n tất thủ tục.</em><br />\n"
+"        <em>Xin cảm ơn.</em></span></p>\n"
+"        <h3 style=\"color:red;\">\n"
+"        <span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>\n"
+"\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"        <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"        <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do <span style=\"color:#ff0000;\"><u>hồ sơ của bạn thiếu, cần bổ xung</u>.</span></em></span></p>\n"
+"        <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin phiên làm việc:</strong></u></span></p>\n"
+"        <ol>\n"
+"        <li><span style=\"font-size:18px;\">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>\n"
+"        <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"        <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"        <li><em><strong><span style=\"color:#008000;\"><span style=\"font-size: 18px;\"><u>Hồ sơ chuẩn cần có xin vui lòng tham khảo lại trên trang chủ</u></span></span></strong></em></li>\n"
+"        </ol>\n"
+"\n"
+"        <p><span style=\"font-size:18px;\"><em>Xin vui l&ograve;ng kiểm tra và li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm để sớm ho&agrave;n tất thủ tục.</em><br />\n"
+"        <em>Xin cảm ơn.</em></span></p>\n"
+"        <h3 style=\"color:red;\">\n"
+"        <span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>\n"
+"\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.payment_email_templates
+msgid ""
+"\n"
+"            \n"
+"        <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"        <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do <u><span style=\"color:#008000;\">ch&uacute;ng t&ocirc;i đ&atilde; nhận được tiền thanh to&aacute;n</span></u> từ bạn.</em></span></p>\n"
+"        <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin phiên làm việc:</strong></u></span></p>\n"
+"        <ol>\n"
+"        <li><span style=\"font-size:18px;\">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>\n"
+"        <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"        <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"        <li><em><strong><span style=\"color:#008000;\"><span style=\"font-size: 18px;\"><u>Số tiền thanh to&aacute;n:</u> ${object.amount_total} vnđ</span></span></strong></em></li>\n"
+"        </ol>\n"
+"        <p><span style=\"font-size:18px;\"><em>Xin vui l&ograve;ng li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm để sớm ho&agrave;n tất thủ tục.</em><br />\n"
+"        <em>Xin cảm ơn.</em></span></p>\n"
+"        <h3 style=\"color:red;\">\n"
+"        <span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"        <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"        <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do <u><span style=\"color:#008000;\">ch&uacute;ng t&ocirc;i đ&atilde; nhận được tiền thanh to&aacute;n</span></u> từ bạn.</em></span></p>\n"
+"        <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin phiên làm việc:</strong></u></span></p>\n"
+"        <ol>\n"
+"        <li><span style=\"font-size:18px;\">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>\n"
+"        <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"        <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"        <li><em><strong><span style=\"color:#008000;\"><span style=\"font-size: 18px;\"><u>Số tiền thanh to&aacute;n:</u> ${object.amount_total} vnđ</span></span></strong></em></li>\n"
+"        </ol>\n"
+"        <p><span style=\"font-size:18px;\"><em>Xin vui l&ograve;ng li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm để sớm ho&agrave;n tất thủ tục.</em><br />\n"
+"        <em>Xin cảm ơn.</em></span></p>\n"
+"        <h3 style=\"color:red;\">\n"
+"        <span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.lost_document_email_templates
+msgid ""
+"\n"
+"            \n"
+"        <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"        <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do ch&uacute;ng t&ocirc;i chưa nhận được hồ sơ bạn gửi qua bưu điện.</em></span></p>\n"
+"        <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin hồ sơ thất lạc:</strong></u></span></p>\n"
+"        <ol>\n"
+"          <li><span style=\"font-size:18px;\">M&atilde; phiên làm việc: ${object.code}</span></li>\n"
+"          <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"          <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"          <li><span style=\"font-size:18px;\">Ng&agrave;y gửi bưu điện: ${object.date_vn_post_send}</span></li>\n"
+"        </ol>\n"
+"        <p><span style=\"font-size:18px;\"><em>Xin vui l&ograve;ng li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm để sớm ho&agrave;n tất thủ tục.</em><br />\n"
+"        <em>Xin cảm ơn.</em></span></p>\n"
+"        <h3 style=\"color:red;\">\n"
+"        \t<span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span>\n"
+"        </h3>\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"        <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"        <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do ch&uacute;ng t&ocirc;i chưa nhận được hồ sơ bạn gửi qua bưu điện.</em></span></p>\n"
+"        <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin hồ sơ thất lạc:</strong></u></span></p>\n"
+"        <ol>\n"
+"          <li><span style=\"font-size:18px;\">M&atilde; phiên làm việc: ${object.code}</span></li>\n"
+"          <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"          <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"          <li><span style=\"font-size:18px;\">Ng&agrave;y gửi bưu điện: ${object.date_vn_post_send}</span></li>\n"
+"        </ol>\n"
+"        <p><span style=\"font-size:18px;\"><em>Xin vui l&ograve;ng li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm để sớm ho&agrave;n tất thủ tục.</em><br />\n"
+"        <em>Xin cảm ơn.</em></span></p>\n"
+"        <h3 style=\"color:red;\">\n"
+"        \t<span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span>\n"
+"        </h3>\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.rework_sms_templates
+msgid ""
+"\n"
+"            \n"
+"        Cong an Son La thong bao!\n"
+"        Xin chao ${object.partner_id.name},\n"
+"        Thong tin phien lam viec: ${object.code},\n"
+"        Ngay lam ho so: ${object.date},\n"
+"        Trang thai ho so: Chua dung yeu cau, xin lam lai.\n"
+"        Xin cam on.\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"        Cong an Son La thong bao!\n"
+"        Xin chao ${object.partner_id.name},\n"
+"        Thong tin phien lam viec: ${object.code},\n"
+"        Ngay lam ho so: ${object.date},\n"
+"        Trang thai ho so: Chua dung yeu cau, xin lam lai.\n"
+"        Xin cam on.\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.awaiting_approval_sms_templates
+msgid ""
+"\n"
+"            \n"
+"        Cong an Son La thong bao!\n"
+"        Xin chao ${object.partner_id.name},\n"
+"        Thong tin phien lam viec: ${object.code},\n"
+"        Ngay lam ho so: ${object.date},\n"
+"        Trang thai ho so: Dang cho duoc chap thuan.\n"
+"        Xin cam on.\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"        Cong an Son La thong bao!\n"
+"        Xin chao ${object.partner_id.name},\n"
+"        Thong tin phien lam viec: ${object.code},\n"
+"        Ngay lam ho so: ${object.date},\n"
+"        Trang thai ho so: Dang cho duoc chap thuan.\n"
+"        Xin cam on.\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.approved_sms_templates
+msgid ""
+"\n"
+"            \n"
+"        Cong an Son La thong bao!\n"
+"        Xin chao ${object.partner_id.name},\n"
+"        Thong tin phien lam viec: ${object.code},\n"
+"        Ngay lam ho so: ${object.date},\n"
+"        Trang thai ho so: Ho so da duoc chap nhan.\n"
+"        Xin vui long gui ho so truc tiep hoac qua buu dien de hoan tat thu tuc.\n"
+"        Xin cam on.\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"        Cong an Son La thong bao!\n"
+"        Xin chao ${object.partner_id.name},\n"
+"        Thong tin phien lam viec: ${object.code},\n"
+"        Ngay lam ho so: ${object.date},\n"
+"        Trang thai ho so: Ho so da duoc chap nhan.\n"
+"        Xin vui long gui ho so truc tiep hoac qua buu dien de hoan tat thu tuc.\n"
+"        Xin cam on.\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.approved_email_templates
+msgid ""
+"\n"
+"            \n"
+"      <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do <span style=\"color:#ff0000;\">C&aacute;n bộ đ&atilde; chấp nhận hồ sơ duyệt online<span style=\"font-size:18px;\"><em><span style=\"color:#ff0000;\">&nbsp; </span></em></span></span></em></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin phiên làm việc:</strong></u></span></p>\n"
+"      <ol>\n"
+"      <li><span style=\"font-size:18px;\">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"      </ol>\n"
+"      <p><span style=\"font-size:18px;\"><em>Xin vui l&ograve;ng nộp hồ sơ trong thời gian sớm nhất để tiếp tục,<br />\n"
+"      h&atilde;y kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />\n"
+"      <em>Xin cảm ơn.</em></span></p>\n"
+"      <h3 style=\"color:red;\">\n"
+"      <span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"      <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do <span style=\"color:#ff0000;\">C&aacute;n bộ đ&atilde; chấp nhận hồ sơ duyệt online<span style=\"font-size:18px;\"><em><span style=\"color:#ff0000;\">&nbsp; </span></em></span></span></em></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin phiên làm việc:</strong></u></span></p>\n"
+"      <ol>\n"
+"      <li><span style=\"font-size:18px;\">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"      </ol>\n"
+"      <p><span style=\"font-size:18px;\"><em>Xin vui l&ograve;ng nộp hồ sơ trong thời gian sớm nhất để tiếp tục,<br />\n"
+"      h&atilde;y kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />\n"
+"      <em>Xin cảm ơn.</em></span></p>\n"
+"      <h3 style=\"color:red;\">\n"
+"      <span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.vn_post_done_email_templates
+msgid ""
+"\n"
+"            \n"
+"      <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do <span style=\"color:#ff0000;\">Hồ sơ vừa được gửi qua bưu điện </span></em></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin chi tiết phi&ecirc;n l&agrave;m việc:</strong></u></span></p>\n"
+"      <ol>\n"
+"      <li><span style=\"font-size:18px;\">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"      </ol>\n"
+"      <p><span style=\"font-size:18px;\"><em>Xin vui l&ograve;ng chờ v&agrave; h&atilde;y kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />\n"
+"      <em>Xin cảm ơn.</em></span></p>\n"
+"      <h3 style=\"color:red;\">\n"
+"      <span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"      <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do <span style=\"color:#ff0000;\">Hồ sơ vừa được gửi qua bưu điện </span></em></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin chi tiết phi&ecirc;n l&agrave;m việc:</strong></u></span></p>\n"
+"      <ol>\n"
+"      <li><span style=\"font-size:18px;\">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"      </ol>\n"
+"      <p><span style=\"font-size:18px;\"><em>Xin vui l&ograve;ng chờ v&agrave; h&atilde;y kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />\n"
+"      <em>Xin cảm ơn.</em></span></p>\n"
+"      <h3 style=\"color:red;\">\n"
+"      <span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.awaiting_approval_email_templates
+msgid ""
+"\n"
+"            \n"
+"      <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do <span style=\"color:#ff0000;\">Hồ sơ đang chờ c&aacute;n bộ duyệt.</span></em></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin phiên làm việc:</strong></u></span></p>\n"
+"      <ol>\n"
+"      <li><span style=\"font-size:18px;\">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"      </ol>\n"
+"      <p><span style=\"font-size:18px;\"><em>Xin vui l&ograve;ng kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />\n"
+"      <em>Xin cảm ơn.</em></span></p>\n"
+"      <h3 style=\"color:red;\">\n"
+"      <span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"      <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do <span style=\"color:#ff0000;\">Hồ sơ đang chờ c&aacute;n bộ duyệt.</span></em></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin phiên làm việc:</strong></u></span></p>\n"
+"      <ol>\n"
+"      <li><span style=\"font-size:18px;\">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"      </ol>\n"
+"      <p><span style=\"font-size:18px;\"><em>Xin vui l&ograve;ng kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />\n"
+"      <em>Xin cảm ơn.</em></span></p>\n"
+"      <h3 style=\"color:red;\">\n"
+"      <span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.result_profile_sent_email_templates
+msgid ""
+"\n"
+"            \n"
+"      <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do <span style=\"color:#ff0000;\">Kết quả hồ sơ đ&atilde; được gửi qua bưu điện</span></em></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin chi tiết phi&ecirc;n l&agrave;m việc:</strong></u></span></p>\n"
+"      <ol>\n"
+"      <li><span style=\"font-size:18px;\">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"      </ol>\n"
+"      <p><span style=\"font-size:18px;\"><em>Xin vui l&ograve;ng chờ v&agrave; h&atilde;y kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />\n"
+"      <em>Xin cảm ơn.</em></span></p>\n"
+"      <h3 style=\"color:red;\">\n"
+"      <span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>\n"
+"\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"      <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do <span style=\"color:#ff0000;\">Kết quả hồ sơ đ&atilde; được gửi qua bưu điện</span></em></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin chi tiết phi&ecirc;n l&agrave;m việc:</strong></u></span></p>\n"
+"      <ol>\n"
+"      <li><span style=\"font-size:18px;\">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"      </ol>\n"
+"      <p><span style=\"font-size:18px;\"><em>Xin vui l&ograve;ng chờ v&agrave; h&atilde;y kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />\n"
+"      <em>Xin cảm ơn.</em></span></p>\n"
+"      <h3 style=\"color:red;\">\n"
+"      <span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>\n"
+"\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.result_profile_returned_email_templates
+msgid ""
+"\n"
+"            \n"
+"      <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do <span style=\"color:#ff0000;\">Người d&acirc;n đ&atilde; nhận kết quả hồ sơ gửi trả<span style=\"font-size:18px;\"><em><span style=\"color:#ff0000;\">&nbsp; </span></em></span></span></em></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin chi tiết phi&ecirc;n l&agrave;m việc:</strong></u></span></p>\n"
+"      <ol>\n"
+"      <li><span style=\"font-size:18px;\">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"      </ol>\n"
+"      <p><span style=\"font-size:18px;\"><em>Xin vui l&ograve;ng chờ v&agrave; h&atilde;y kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />\n"
+"      <em>Xin cảm ơn.</em></span></p>\n"
+"      <h3 style=\"color:red;\">\n"
+"      <span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"      <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do <span style=\"color:#ff0000;\">Người d&acirc;n đ&atilde; nhận kết quả hồ sơ gửi trả<span style=\"font-size:18px;\"><em><span style=\"color:#ff0000;\">&nbsp; </span></em></span></span></em></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin chi tiết phi&ecirc;n l&agrave;m việc:</strong></u></span></p>\n"
+"      <ol>\n"
+"      <li><span style=\"font-size:18px;\">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"      </ol>\n"
+"      <p><span style=\"font-size:18px;\"><em>Xin vui l&ograve;ng chờ v&agrave; h&atilde;y kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />\n"
+"      <em>Xin cảm ơn.</em></span></p>\n"
+"      <h3 style=\"color:red;\">\n"
+"      <span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.rework_email_templates
+msgid ""
+"\n"
+"            \n"
+"      <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do <span style=\"color:#ff0000;\">hồ sơ sai. <span style=\"font-size:18px;\"><em><span style=\"color:#ff0000;\">L&agrave;m lại&nbsp; </span></em></span></span></em></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin phiên làm việc:</strong></u></span></p>\n"
+"      <ol>\n"
+"      <li><span style=\"font-size:18px;\">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"      </ol>\n"
+"      <p><span style=\"font-size:18px;\"><em>Xin vui l&ograve;ng kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />\n"
+"      <em>Xin cảm ơn.</em></span></p>\n"
+"      <h3 style=\"color:red;\">\n"
+"      <span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"      <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do <span style=\"color:#ff0000;\">hồ sơ sai. <span style=\"font-size:18px;\"><em><span style=\"color:#ff0000;\">L&agrave;m lại&nbsp; </span></em></span></span></em></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin phiên làm việc:</strong></u></span></p>\n"
+"      <ol>\n"
+"      <li><span style=\"font-size:18px;\">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"      </ol>\n"
+"      <p><span style=\"font-size:18px;\"><em>Xin vui l&ograve;ng kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />\n"
+"      <em>Xin cảm ơn.</em></span></p>\n"
+"      <h3 style=\"color:red;\">\n"
+"      <span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.vn_post_check_email_templates
+msgid ""
+"\n"
+"            \n"
+"      <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do <span style=\"color:#ff0000;\">hồ sơ đang được c&aacute;n bộ kiểm tra trực tiếp<span style=\"font-size:18px;\"><em><span style=\"color:#ff0000;\">&nbsp; </span></em></span></span></em></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin chi tiết phi&ecirc;n l&agrave;m việc:</strong></u></span></p>\n"
+"      <ol>\n"
+"      <li><span style=\"font-size:18px;\">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"      </ol>\n"
+"      <p><span style=\"font-size:18px;\"><em>Xin vui l&ograve;ng chờ v&agrave; h&atilde;y kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />\n"
+"      <em>Xin cảm ơn.</em></span></p>\n"
+"      <h3 style=\"color:red;\">\n"
+"      <span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"      <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do <span style=\"color:#ff0000;\">hồ sơ đang được c&aacute;n bộ kiểm tra trực tiếp<span style=\"font-size:18px;\"><em><span style=\"color:#ff0000;\">&nbsp; </span></em></span></span></em></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin chi tiết phi&ecirc;n l&agrave;m việc:</strong></u></span></p>\n"
+"      <ol>\n"
+"      <li><span style=\"font-size:18px;\">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"      </ol>\n"
+"      <p><span style=\"font-size:18px;\"><em>Xin vui l&ograve;ng chờ v&agrave; h&atilde;y kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />\n"
+"      <em>Xin cảm ơn.</em></span></p>\n"
+"      <h3 style=\"color:red;\">\n"
+"      <span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.done_email_templates
+msgid ""
+"\n"
+"            \n"
+"      <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do <span style=\"color:#ff0000;\">phi&ecirc;n l&agrave;m việc đ&atilde; ho&agrave;n tất </span></em></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin chi tiết phi&ecirc;n l&agrave;m việc:</strong></u></span></p>\n"
+"      <ol>\n"
+"      <li><span style=\"font-size:18px;\">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"      </ol>\n"
+"      <p><span style=\"font-size:18px;\"><em>Xin vui l&ograve;ng chờ v&agrave; h&atilde;y kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />\n"
+"      <em>Xin cảm ơn.</em></span></p>\n"
+"      <h3 style=\"color:red;\">\n"
+"      <span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>\n"
+"\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"      <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do <span style=\"color:#ff0000;\">phi&ecirc;n l&agrave;m việc đ&atilde; ho&agrave;n tất </span></em></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin chi tiết phi&ecirc;n l&agrave;m việc:</strong></u></span></p>\n"
+"      <ol>\n"
+"      <li><span style=\"font-size:18px;\">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"      </ol>\n"
+"      <p><span style=\"font-size:18px;\"><em>Xin vui l&ograve;ng chờ v&agrave; h&atilde;y kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />\n"
+"      <em>Xin cảm ơn.</em></span></p>\n"
+"      <h3 style=\"color:red;\">\n"
+"      <span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>\n"
+"\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.close_email_templates
+msgid ""
+"\n"
+"            \n"
+"      <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do <u><span style=\"color:#ff0000;\">Phi&ecirc;n l&agrave;m việc đ&atilde; đ&oacute;ng </span></u></em></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin chi tiết phi&ecirc;n l&agrave;m việc:</strong></u></span></p>\n"
+"      <ol>\n"
+"      <li><span style=\"font-size:18px;\">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"      </ol>\n"
+"      <p><span style=\"font-size:18px;\"><em>Xin vui l&ograve;ng chờ v&agrave; h&atilde;y kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />\n"
+"      <em>Xin cảm ơn.</em></span></p>\n"
+"      <h3 style=\"color:red;\">\n"
+"      <span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"      <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do <u><span style=\"color:#ff0000;\">Phi&ecirc;n l&agrave;m việc đ&atilde; đ&oacute;ng </span></u></em></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin chi tiết phi&ecirc;n l&agrave;m việc:</strong></u></span></p>\n"
+"      <ol>\n"
+"      <li><span style=\"font-size:18px;\">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"      </ol>\n"
+"      <p><span style=\"font-size:18px;\"><em>Xin vui l&ograve;ng chờ v&agrave; h&atilde;y kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />\n"
+"      <em>Xin cảm ơn.</em></span></p>\n"
+"      <h3 style=\"color:red;\">\n"
+"      <span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.profile_received_email_templates
+msgid ""
+"\n"
+"            \n"
+"      <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do ch&uacute;ng t&ocirc;i đã nhận đ&atilde; hồ sơ bạn gửi qua bưu điện.</em></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin hồ sơ:</strong></u></span></p>\n"
+"      <ol>\n"
+"      <li><span style=\"font-size:18px;\">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">Ng&agrave;y gửi bưu điện: ${object.date_vn_post_send}</span></li>\n"
+"      </ol>\n"
+"      <p><span style=\"font-size:18px;\"><em>Nếu chưa thanh to&aacute;n lệ ph&iacute; thủ tục, xin vui l&ograve;ng thanh to&aacute;n để sớm ho&agrave;n tất. Nếu đ&atilde; thanh to&aacute;n, xin bỏ qua tin nhắn n&agrave;y.</em><br />\n"
+"      <em>Xin cảm ơn.</em></span></p>\n"
+"      <h3 style=\"color:red;\">\n"
+"      <span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"      <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do ch&uacute;ng t&ocirc;i đã nhận đ&atilde; hồ sơ bạn gửi qua bưu điện.</em></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin hồ sơ:</strong></u></span></p>\n"
+"      <ol>\n"
+"      <li><span style=\"font-size:18px;\">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">Ng&agrave;y gửi bưu điện: ${object.date_vn_post_send}</span></li>\n"
+"      </ol>\n"
+"      <p><span style=\"font-size:18px;\"><em>Nếu chưa thanh to&aacute;n lệ ph&iacute; thủ tục, xin vui l&ograve;ng thanh to&aacute;n để sớm ho&agrave;n tất. Nếu đ&atilde; thanh to&aacute;n, xin bỏ qua tin nhắn n&agrave;y.</em><br />\n"
+"      <em>Xin cảm ơn.</em></span></p>\n"
+"      <h3 style=\"color:red;\">\n"
+"      <span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.cancel_email_templates
+msgid ""
+"\n"
+"            \n"
+"      <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do&nbsp;<u><span style=\"color:#ff0000;\"> Phi&ecirc;n l&agrave;m việc bị hủy </span></u></em></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin chi tiết phi&ecirc;n l&agrave;m việc:</strong></u></span></p>\n"
+"      <ol>\n"
+"      <li><span style=\"font-size:18px;\">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"      </ol>\n"
+"      <p><span style=\"font-size:18px;\"><em>Xin vui l&ograve;ng chờ v&agrave; h&atilde;y kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />\n"
+"      <em>Xin cảm ơn.</em></span></p>\n"
+"      <h3 style=\"color:red;\">\n"
+"      <span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>\n"
+"\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"      <p><span style=\"font-size:18px;\"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><em>Bạn nhận được email n&agrave;y l&agrave; do&nbsp;<u><span style=\"color:#ff0000;\"> Phi&ecirc;n l&agrave;m việc bị hủy </span></u></em></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><u><strong>Th&ocirc;ng tin chi tiết phi&ecirc;n l&agrave;m việc:</strong></u></span></p>\n"
+"      <ol>\n"
+"      <li><span style=\"font-size:18px;\">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">T&ecirc;n hồ sơ: ${object.name}</span></li>\n"
+"      <li><span style=\"font-size:18px;\">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>\n"
+"      </ol>\n"
+"      <p><span style=\"font-size:18px;\"><em>Xin vui l&ograve;ng chờ v&agrave; h&atilde;y kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />\n"
+"      <em>Xin cảm ơn.</em></span></p>\n"
+"      <h3 style=\"color:red;\">\n"
+"      <span style=\"font-size:18px;\"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>\n"
+"\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.set_calendar_change_date_email_templates
+msgid ""
+"\n"
+"            \n"
+"      <p><span style=\"font-size:18px;\"><strong>Xin chào, ${object.create_uid.name}!</strong></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><em>Bạn nhận được email này là do đặt lịch làm việc của bạn Công an Sơn La không thể đáp ứng được thời gian do bạn đặt vì bận công tác khác nên Công an Sơn La đề xuất chuyển sang ngày ${object.date_format}, bạn vui lòng đăng nhập hệ thống và theo dõi đặt lịch để biết thêm chi tiết.</em></span><br></p>\n"
+"      <p><span style=\"font-size:18px;\"><u><strong><br></strong></u></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><em>Xin vui lòng chờ và hãy kiểm tra và liên hệ lại với những bên có trách nhiệm nếu có sai sót.</em><br>\n"
+"      <em>Xin cảm ơn.</em></span></p>\n"
+"      <h3 style=\"color:red;\">\n"
+"      <span style=\"font-size:18px;\"><em>CÔNG AN SƠN LA</em></span></h3>\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"      <p><span style=\"font-size:18px;\"><strong>Xin chào, ${object.create_uid.name}!</strong></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><em>Bạn nhận được email này là do đặt lịch làm việc của bạn Công an Sơn La không thể đáp ứng được thời gian do bạn đặt vì bận công tác khác nên Công an Sơn La đề xuất chuyển sang ngày ${object.date_format}, bạn vui lòng đăng nhập hệ thống và theo dõi đặt lịch để biết thêm chi tiết.</em></span><br></p>\n"
+"      <p><span style=\"font-size:18px;\"><u><strong><br></strong></u></span></p>\n"
+"      <p><span style=\"font-size:18px;\"><em>Xin vui lòng chờ và hãy kiểm tra và liên hệ lại với những bên có trách nhiệm nếu có sai sót.</em><br>\n"
+"      <em>Xin cảm ơn.</em></span></p>\n"
+"      <h3 style=\"color:red;\">\n"
+"      <span style=\"font-size:18px;\"><em>CÔNG AN SƠN LA</em></span></h3>\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.money_received_sms_templates
+msgid ""
+"\n"
+"            \n"
+"      Cong an Son La thong bao!\n"
+"      Xin chao ${object.partner_id.name},\n"
+"      Thong tin phien lam viec: ${object.code},\n"
+"      Ngay lam ho so: ${object.date},\n"
+"      Trang thai ho so: Chung toi da nhan duoc day du le phi ho so.\n"
+"      Xin cam on.\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"      Cong an Son La thong bao!\n"
+"      Xin chao ${object.partner_id.name},\n"
+"      Thong tin phien lam viec: ${object.code},\n"
+"      Ngay lam ho so: ${object.date},\n"
+"      Trang thai ho so: Chung toi da nhan duoc day du le phi ho so.\n"
+"      Xin cam on.\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.profile_received_sms_templates
+msgid ""
+"\n"
+"            \n"
+"      Cong an Son La thong bao!\n"
+"      Xin chao ${object.partner_id.name},\n"
+"      Thong tin phien lam viec: ${object.code},\n"
+"      Ngay lam ho so: ${object.date},\n"
+"      Trang thai ho so: Chung toi da nhan duoc ho so cua ban qua buu dien.\n"
+"      Xin cam on.\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"      Cong an Son La thong bao!\n"
+"      Xin chao ${object.partner_id.name},\n"
+"      Thong tin phien lam viec: ${object.code},\n"
+"      Ngay lam ho so: ${object.date},\n"
+"      Trang thai ho so: Chung toi da nhan duoc ho so cua ban qua buu dien.\n"
+"      Xin cam on.\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.result_profile_returned_sms_templates
+msgid ""
+"\n"
+"            \n"
+"      Cong an Son La thong bao!\n"
+"      Xin chao ${object.partner_id.name},\n"
+"      Thong tin phien lam viec: ${object.code},\n"
+"      Ngay lam ho so: ${object.date},\n"
+"      Trang thai ho so: Da nhan duoc tai lieu ket qua phien lam viec.\n"
+"      Chi tiet xin dang nhap vao website de biet them.\n"
+"      Xin cam on.\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"      Cong an Son La thong bao!\n"
+"      Xin chao ${object.partner_id.name},\n"
+"      Thong tin phien lam viec: ${object.code},\n"
+"      Ngay lam ho so: ${object.date},\n"
+"      Trang thai ho so: Da nhan duoc tai lieu ket qua phien lam viec.\n"
+"      Chi tiet xin dang nhap vao website de biet them.\n"
+"      Xin cam on.\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.vn_post_check_sms_templates
+msgid ""
+"\n"
+"            \n"
+"      Cong an Son La thong bao!\n"
+"      Xin chao ${object.partner_id.name},\n"
+"      Thong tin phien lam viec: ${object.code},\n"
+"      Ngay lam ho so: ${object.date},\n"
+"      Trang thai ho so: Dang cho de kiem tra.\n"
+"      Xin cam on.\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"      Cong an Son La thong bao!\n"
+"      Xin chao ${object.partner_id.name},\n"
+"      Thong tin phien lam viec: ${object.code},\n"
+"      Ngay lam ho so: ${object.date},\n"
+"      Trang thai ho so: Dang cho de kiem tra.\n"
+"      Xin cam on.\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.vn_post_lost_sms_templates
+msgid ""
+"\n"
+"            \n"
+"      Cong an Son La thong bao!\n"
+"      Xin chao ${object.partner_id.name},\n"
+"      Thong tin phien lam viec: ${object.code},\n"
+"      Ngay lam ho so: ${object.date},\n"
+"      Trang thai ho so: Ho so cua ban da bi that lac.\n"
+"      Vui long lien he cac ben lien quan hoac gui lai ho so.\n"
+"      Chi tiet xin dang nhap vao website de biet them.\n"
+"      Xin cam on.\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"      Cong an Son La thong bao!\n"
+"      Xin chao ${object.partner_id.name},\n"
+"      Thong tin phien lam viec: ${object.code},\n"
+"      Ngay lam ho so: ${object.date},\n"
+"      Trang thai ho so: Ho so cua ban da bi that lac.\n"
+"      Vui long lien he cac ben lien quan hoac gui lai ho so.\n"
+"      Chi tiet xin dang nhap vao website de biet them.\n"
+"      Xin cam on.\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.vn_post_done_sms_templates
+msgid ""
+"\n"
+"            \n"
+"      Cong an Son La thong bao!\n"
+"      Xin chao ${object.partner_id.name},\n"
+"      Thong tin phien lam viec: ${object.code},\n"
+"      Ngay lam ho so: ${object.date},\n"
+"      Trang thai ho so: Ho so cua da duoc gui qua buu dien.\n"
+"      Chi tiet xin dang nhap vao website de biet them.\n"
+"      Xin cam on.\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"      Cong an Son La thong bao!\n"
+"      Xin chao ${object.partner_id.name},\n"
+"      Thong tin phien lam viec: ${object.code},\n"
+"      Ngay lam ho so: ${object.date},\n"
+"      Trang thai ho so: Ho so cua da duoc gui qua buu dien.\n"
+"      Chi tiet xin dang nhap vao website de biet them.\n"
+"      Xin cam on.\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.result_profile_sent_sms_templates
+msgid ""
+"\n"
+"            \n"
+"      Cong an Son La thong bao!\n"
+"      Xin chao ${object.partner_id.name},\n"
+"      Thong tin phien lam viec: ${object.code},\n"
+"      Ngay lam ho so: ${object.date},\n"
+"      Trang thai ho so: Ket qua ho so da duoc gui.\n"
+"      Chi tiet xin dang nhap vao website de biet them.\n"
+"      Xin cam on.\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"      Cong an Son La thong bao!\n"
+"      Xin chao ${object.partner_id.name},\n"
+"      Thong tin phien lam viec: ${object.code},\n"
+"      Ngay lam ho so: ${object.date},\n"
+"      Trang thai ho so: Ket qua ho so da duoc gui.\n"
+"      Chi tiet xin dang nhap vao website de biet them.\n"
+"      Xin cam on.\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.cancel_sms_templates
+msgid ""
+"\n"
+"            \n"
+"      Cong an Son La thong bao!\n"
+"      Xin chao ${object.partner_id.name},\n"
+"      Thong tin phien lam viec: ${object.code},\n"
+"      Ngay lam ho so: ${object.date},\n"
+"      Trang thai ho so: Phien lam viec da bi huy.\n"
+"      Chi tiet xin dang nhap vao website de biet them.\n"
+"      Xin cam on.\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"      Cong an Son La thong bao!\n"
+"      Xin chao ${object.partner_id.name},\n"
+"      Thong tin phien lam viec: ${object.code},\n"
+"      Ngay lam ho so: ${object.date},\n"
+"      Trang thai ho so: Phien lam viec da bi huy.\n"
+"      Chi tiet xin dang nhap vao website de biet them.\n"
+"      Xin cam on.\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.done_sms_templates
+msgid ""
+"\n"
+"            \n"
+"      Cong an Son La thong bao!\n"
+"      Xin chao ${object.partner_id.name},\n"
+"      Thong tin phien lam viec: ${object.code},\n"
+"      Ngay lam ho so: ${object.date},\n"
+"      Trang thai ho so: Phien lam viec da hoan tat.\n"
+"      Chi tiet xin dang nhap vao website de biet them.\n"
+"      Xin cam on.\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"      Cong an Son La thong bao!\n"
+"      Xin chao ${object.partner_id.name},\n"
+"      Thong tin phien lam viec: ${object.code},\n"
+"      Ngay lam ho so: ${object.date},\n"
+"      Trang thai ho so: Phien lam viec da hoan tat.\n"
+"      Chi tiet xin dang nhap vao website de biet them.\n"
+"      Xin cam on.\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.close_sms_templates
+msgid ""
+"\n"
+"            \n"
+"      Cong an Son La thong bao!\n"
+"      Xin chao ${object.partner_id.name},\n"
+"      Thong tin phien lam viec: ${object.code},\n"
+"      Ngay lam ho so: ${object.date},\n"
+"      Trang thai ho so: Phien lam viec da ket thuc.\n"
+"      Chi tiet xin dang nhap vao website de biet them.\n"
+"      Xin cam on.\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"      Cong an Son La thong bao!\n"
+"      Xin chao ${object.partner_id.name},\n"
+"      Thong tin phien lam viec: ${object.code},\n"
+"      Ngay lam ho so: ${object.date},\n"
+"      Trang thai ho so: Phien lam viec da ket thuc.\n"
+"      Chi tiet xin dang nhap vao website de biet them.\n"
+"      Xin cam on.\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,body_html:bms_cpdt.missing_profile_sms_templates
+msgid ""
+"\n"
+"            \n"
+"      Cong an Son La thong bao!\n"
+"      Xin chao ${object.partner_id.name},\n"
+"      Thong tin phien lam viec: ${object.code},\n"
+"      Ngay lam ho so: ${object.date},\n"
+"      Trang thai ho so: Thieu ho so lien quan.\n"
+"      Chi tiet xin dang nhap vao website de biet them.\n"
+"      Xin cam on.\n"
+"      \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"      Cong an Son La thong bao!\n"
+"      Xin chao ${object.partner_id.name},\n"
+"      Thong tin phien lam viec: ${object.code},\n"
+"      Ngay lam ho so: ${object.date},\n"
+"      Trang thai ho so: Thieu ho so lien quan.\n"
+"      Chi tiet xin dang nhap vao website de biet them.\n"
+"      Xin cam on.\n"
+"      \n"
+"        "
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_report_session_nbr_sessions
+msgid "# of Sessions"
+msgstr "Số phiên"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_report_register_nbr_users
+msgid "# of Users"
+msgstr "# Số người dùng"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_partner_view_form
+msgid "(edit)"
+msgstr "(chỉnh sửa)"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.AdministrativeProceduresCateg
+msgid "<b>Chủ nhật</b>"
+msgstr "<b>Chủ nhật</b>"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.show_sign_up
+msgid "<b>Sign up</b>"
+msgstr "<b>Đăng ký</b>"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.footer_default_cpdt_casl
+msgid "<b>Đăng ký ngay</b>"
+msgstr "<b>Đăng ký ngay</b>"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.footer_default_cpdt_casl
+msgid "<b>Đăng nhập</b>"
+msgstr "<b>Đăng nhập</b>"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.footer_default_cpdt_casl
+msgid ""
+"<span>\n"
+"                                <strong>Giấy phép số:</strong>\n"
+"                                02/GP-TTĐT, ngày 12/8/2015 của\n"
+"                                Sở Thông tin và Truyền thông tỉnh Sơn La.\n"
+"                                <br/>\n"
+"                                <strong>Trụ sở:</strong>\n"
+"                                Số 53, Đường Tô Hiệu, TP Sơn La\n"
+"                                <br/>\n"
+"                                <strong>Ghi rõ nguồn \"Trang thông tin điện thử Công an tỉnh Sơn La\"\n"
+"                                    khi sử dụng lại thông tin trên website này.\n"
+"                                </strong>\n"
+"                            </span>"
+msgstr ""
+"<span>\n"
+"                                <strong>Giấy phép số:</strong>\n"
+"                                02/GP-TTĐT, ngày 12/8/2015 của\n"
+"                                Sở Thông tin và Truyền thông tỉnh Sơn La.\n"
+"                                <br/>\n"
+"                                <strong>Trụ sở:</strong>\n"
+"                                Số 53, Đường Tô Hiệu, TP Sơn La\n"
+"                                <br/>\n"
+"                                <strong>Ghi rõ nguồn \"Trang thông tin điện thử Công an tỉnh Sơn La\"\n"
+"                                    khi sử dụng lại thông tin trên website này.\n"
+"                                </strong>\n"
+"                            </span>"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.AdministrativeProceduresId
+msgid "<u style=\"font-size: 24px;                                                 color: #488D4E;\">Mục đích / phạm vi / nội dung quy trình</u>"
+msgstr "<u style=\"font-size: 24px;                                                 color: #488D4E;\">Mục đích / phạm vi / nội dung quy trình</u>"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.AdministrativeProceduresId
+msgid "<u style=\"font-size: 24px; color: #488D4E;\">Câu hỏi thường gặp</u>"
+msgstr "<u style=\"font-size: 24px; color: #488D4E;\">Câu hỏi thường gặp</u>"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.AdministrativeProceduresId
+msgid "<u style=\"font-size: 24px; color: #488D4E;\">Cơ sở pháp lý liên quan</u>"
+msgstr "<u style=\"font-size: 24px; color: #488D4E;\">Cơ sở pháp lý liên quan</u>"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.AdministrativeProceduresId
+msgid "<u style=\"font-size: 24px; color: #488D4E;\">Ghi chú</u>"
+msgstr "<u style=\"font-size: 24px; color: #488D4E;\">Ghi chú</u>"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.AdministrativeProceduresId
+msgid "<u style=\"font-size: 24px; color: #488D4E;\">Mô tả</u>"
+msgstr "<u style=\"font-size: 24px; color: #488D4E;\">Mô tả</u>"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.AdministrativeProceduresId
+msgid "<u style=\"font-size: 24px; color: #488D4E;\">Đính kèm</u>"
+msgstr "<u style=\"font-size: 24px; color: #488D4E;\">Đính kèm</u>"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.footer_default_cpdt_casl
+msgid "About us"
+msgstr "Về chúng tôi"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_active
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_actived
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_actived
+msgid "Active"
+msgstr "Có hiệu lực"
+
+#. module: bms_cpdt
+#: model:ir.ui.menu,name:bms_cpdt.ir_session_active_menu
+msgid "Actives Analysis"
+msgstr "Phân tích hoạt động"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_partner_view_form
+msgid "Address"
+msgstr "Địa chỉ"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.payment_info
+msgid "Amount Tax"
+msgstr "Tiền thuế"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.payment_info
+msgid "Amount Total"
+msgstr "Tổng tiền"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.payment_info
+msgid "Amount Untaxed"
+msgstr "Tiền chưa thuế"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_amount_tax
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_amount_tax
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_amount_tax
+msgid "Amount tax"
+msgstr "Tiền thuế"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_amount_total
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_amount_total
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_amount_total
+msgid "Amount total"
+msgstr "Amount total"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_amount_untaxed
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_amount_untaxed
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_amount_untaxed
+msgid "Amount untaxed"
+msgstr "Amount untaxed"
+
+#. module: bms_cpdt
+#: selection:bms.mail.template.config,manager_confirm:0
+#: selection:bms.mail.template.config,user_confirm:0
+#: selection:bms.session,manager_confirm:0 selection:bms.session,user_confirm:0
+#: selection:bms.sms.template.config,manager_confirm:0
+#: selection:bms.sms.template.config,user_confirm:0
+msgid "Apply"
+msgstr "Áp dụng"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "Approval"
+msgstr "Chấp thuận"
+
+#. module: bms_cpdt
+#: selection:bms.mail.template.config,state:0
+#: selection:bms.report.session,state:0 selection:bms.session,state:0
+#: selection:bms.sms.template.config,state:0
+msgid "Approved"
+msgstr "Hồ sơ đã được đã duyệt"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template_attachment_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_attachment_papers_id
+msgid "Attachment"
+msgstr "Attachment"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template_name
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_name
+msgid "Attachment Name"
+msgstr "Tên đính kèm"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_attachment_papers_ids
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_papers_ids
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_attachment_papers_ids
+msgid "Attachment Paper Line"
+msgstr "Các loại giấy tờ"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template_local_url
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template_website_url
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_local_url
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_website_url
+msgid "Attachment URL"
+msgstr "Attachment URL"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "Attachment of User"
+msgstr "File đính kèm của công dân"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_attachment_ids
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_attachment_papers
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_legal_basic_attachment_ids
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_attachment_ids
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_attachment_ids_2
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_ids
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_ids_2
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_attachment_ids
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_attachment_ids_2
+msgid "Attachments"
+msgstr "Đính kèm"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,help:bms_cpdt.field_bms_document_template_attachment_ids
+#: model:ir.model.fields,help:bms_cpdt.field_bms_document_template_attachment_papers
+#: model:ir.model.fields,help:bms_cpdt.field_bms_legal_basic_attachment_ids
+#: model:ir.model.fields,help:bms_cpdt.field_bms_mail_template_config_attachment_ids
+#: model:ir.model.fields,help:bms_cpdt.field_bms_mail_template_config_attachment_ids_2
+#: model:ir.model.fields,help:bms_cpdt.field_bms_session_attachment_ids
+#: model:ir.model.fields,help:bms_cpdt.field_bms_session_attachment_ids_2
+#: model:ir.model.fields,help:bms_cpdt.field_bms_sms_template_config_attachment_ids
+#: model:ir.model.fields,help:bms_cpdt.field_bms_sms_template_config_attachment_ids_2
+msgid "Attachments are linked to a document through model / res_id and to the message through this field."
+msgstr "Attachments are linked to a document through model / res_id and to the message through this field."
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_attachment_id
+msgid "Automatically created field to link to parent ir.attachment"
+msgstr "Automatically created field to link to parent ir.attachment"
+
+#. module: bms_cpdt
+#: selection:bms.mail.template.config,state:0
+#: selection:bms.report.session,state:0 selection:bms.session,state:0
+#: selection:bms.sms.template.config,state:0
+msgid "Awaiting Approval"
+msgstr "Chờ duyệt online"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.wizard_bms_wellcome_form
+msgid "Back"
+msgstr "Quay lại"
+
+#. module: bms_cpdt
+#: selection:bms.idea.box,ranking:0
+msgid "Bad"
+msgstr "Tệ"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_idea_box_search
+msgid "Bad ranking"
+msgstr "Đánh giá tệ"
+
+#. module: bms_cpdt
+#: model:ir.actions.act_window,name:bms_cpdt.action_bank_transfer_config_form
+#: model:ir.model,name:bms_cpdt.model_bank_transfer_config
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_bank_transfer_config
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_bank_transfer_config
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_bank_transfer_config
+#: model:ir.ui.menu,name:bms_cpdt.menu_action_bank_transfer_config_form
+msgid "Bank transfer config"
+msgstr "Cấu hình gửi tiền"
+
+#. module: bms_cpdt
+#: model:ir.model,name:bms_cpdt.model_bms_session_attachment
+msgid "Bms Session Attachment"
+msgstr "Bms Session Attachment"
+
+#. module: bms_cpdt
+#: model:ir.model,name:bms_cpdt.model_bms_idea_box
+msgid "Bms idea box"
+msgstr "Ý kiến đóng góp"
+
+#. module: bms_cpdt
+#: model:ir.model,name:bms_cpdt.model_bms_wellcome
+msgid "Bms wellcome"
+msgstr "Bms wellcome"
+
+#. module: bms_cpdt
+#: selection:bms.set.calendar,state:0
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_set_calendar_form
+msgid "Both agreed"
+msgstr "Cả 2 đồng ý"
+
+#. module: bms_cpdt
+#: selection:bms.idea.box,state:0
+#: selection:bms.mail.template.config,manager_confirm:0
+#: selection:bms.mail.template.config,state:0
+#: selection:bms.mail.template.config,user_confirm:0
+#: selection:bms.report.session,state:0 selection:bms.session,manager_confirm:0
+#: selection:bms.session,state:0 selection:bms.session,user_confirm:0
+#: selection:bms.set.calendar,state:0
+#: selection:bms.sms.template.config,manager_confirm:0
+#: selection:bms.sms.template.config,state:0
+#: selection:bms.sms.template.config,user_confirm:0
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_idea_box_form
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_set_calendar_form
+#: model:ir.ui.view,arch_db:bms_cpdt.wizard_bms_idea_box_form
+msgid "Cancel"
+msgstr "Huỷ"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.search_document_template_filter
+msgid "Category"
+msgstr "Chuyên mục"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.search_document_template_category_filter
+msgid "Category Name"
+msgstr "Tên danh mục"
+
+#. module: bms_cpdt
+#: selection:bms.mail.template.config,state:0 selection:bms.session,state:0
+#: selection:bms.sms.template.config,state:0
+msgid "Check profile"
+msgstr "Chờ cán bộ kiểm tra hồ sơ"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template_checksum
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_checksum
+msgid "Checksum/SHA1"
+msgstr "Checksum/SHA1"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.aboutus_cpdt_casl
+msgid ""
+"Chủ động tham mưu với cấp ủy, chính quyền các cấp triển\n"
+"                    khai\n"
+"                    kịp thời,\n"
+"                    đồng bộ các văn bản lãnh đạo của Đảng, Nhà nước về đảm bảo\n"
+"                    an ninh quốc gia,\n"
+"                    chiến lược bảo vệ Tổ quốc trong tình hình mới."
+msgstr ""
+"Chủ động tham mưu với cấp ủy, chính quyền các cấp triển\n"
+"                    khai\n"
+"                    kịp thời,\n"
+"                    đồng bộ các văn bản lãnh đạo của Đảng, Nhà nước về đảm bảo\n"
+"                    an ninh quốc gia,\n"
+"                    chiến lược bảo vệ Tổ quốc trong tình hình mới."
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_partner_view_form
+msgid "City"
+msgstr "Thành phố"
+
+#. module: bms_cpdt
+#: model:ir.actions.act_window,help:bms_cpdt.bms_idea_box_action_form
+msgid "Click here to add new tài liệu"
+msgstr "Click here to add new tài liệu"
+
+#. module: bms_cpdt
+#: model:ir.actions.act_window,help:bms_cpdt.action_document_template_category_form
+msgid "Click to add a Document Template Category."
+msgstr "Nhấn vào để thêm 1 danh mục thủ tục mẫu."
+
+#. module: bms_cpdt
+#: model:ir.actions.act_window,help:bms_cpdt.action_document_template_form
+msgid "Click to add a Document Template."
+msgstr "Nhấn vào để thêm 1 thủ tục mẫu."
+
+#. module: bms_cpdt
+#: model:ir.actions.act_window,help:bms_cpdt.action_session_form
+#: model:ir.actions.act_window,help:bms_cpdt.action_session_send_a_copy_form
+msgid "Click to add a Session."
+msgstr "Nhấn vào để thêm 1 phiên làm việc."
+
+#. module: bms_cpdt
+#: selection:bms.mail.template.config,state:0
+#: selection:bms.report.session,state:0 selection:bms.session,state:0
+#: selection:bms.sms.template.config,state:0
+#: model:ir.ui.view,arch_db:bms_cpdt.wizard_bms_wellcome_form
+msgid "Close"
+msgstr "Kết thúc"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_code
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_code
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_product_code
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_log_code
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_code
+msgid "Code"
+msgstr "Mã"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_company_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template_company_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_report_session_company_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_company_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_company_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_company_id
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_partner_view_form
+#: model:ir.ui.view,arch_db:bms_cpdt.search_session_filter
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_search
+msgid "Company"
+msgstr "Công ty"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "Confirm"
+msgstr "Xác nhận"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_signup_fields
+msgid "Confirm Password"
+msgstr "Xác nhận mật khẩu"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.footer_default_cpdt_casl
+msgid "Connect with us"
+msgstr "Kết nối với chúng tôi"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_partner_view_form
+msgid "Contact / Address"
+msgstr "Địa chỉ thường chú"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_partner_view_form
+msgid "Contact Name"
+msgstr "Tên liên hệ"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.footer_default_cpdt_casl
+msgid "Contact us"
+msgstr "Liên hệ với chúng tôi"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_partner_view_form
+msgid "Contacts & Addresses"
+msgstr "Địa chỉ thường trú"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bank_transfer_config_name
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_legal_basic_content
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_legal_basic_view_form
+msgid "Content"
+msgstr "Nội dung"
+
+#. module: bms_cpdt
+#: model:ir.ui.menu,name:bms_cpdt.menu_wizard_bms_wellcome_action_form
+msgid "Control panel"
+msgstr "Bảng điều khiển"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_partner_view_form
+msgid "Country"
+msgstr "Quốc gia"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_set_calendar_create_uid
+msgid "Create by"
+msgstr "Tạo bởi"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_partner_view_form
+msgid "Create company"
+msgstr "Tạo công ty"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "Create idea box"
+msgstr "Tạo ý kiến đóng góp"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bank_transfer_config_create_uid
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_category_create_uid
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_create_uid
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_idea_box_create_uid
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_legal_basic_create_uid
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_create_uid
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template_create_uid
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_create_uid
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_create_uid
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_product_create_uid
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_compose_create_uid
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_log_create_uid
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_create_uid
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_wellcome_create_uid
+msgid "Created by"
+msgstr "Được tạo bởi"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bank_transfer_config_create_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_category_create_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_create_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_idea_box_create_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_legal_basic_create_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_create_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template_create_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_create_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_create_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_product_create_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_set_calendar_create_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_compose_create_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_log_create_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_create_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_wellcome_create_date
+msgid "Created on"
+msgstr "Thời điểm tạo"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_partner_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_partner_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_partner_id
+msgid "Customer"
+msgstr "Khách hàng"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.payment_info
+msgid "Customer:"
+msgstr "Khách hàng"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.footer_default_cpdt_casl
+msgid "Các câu hỏi thường gặp"
+msgstr "Các câu hỏi thường gặp"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.AdministrativeProceduresId
+msgid "Câu hỏi thường gặp"
+msgstr "Câu hỏi thường gặp"
+
+#. module: bms_cpdt
+#: model:product.product,name:bms_cpdt.sp08
+#: model:product.template,name:bms_cpdt.sp08_product_template
+msgid "Công văn đến"
+msgstr "Công văn đến"
+
+#. module: bms_cpdt
+#: model:product.product,name:bms_cpdt.sp07
+#: model:product.template,name:bms_cpdt.sp07_product_template
+msgid "Công văn đến (2 dòng)"
+msgstr "Công văn đến (2 dòng)"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.LegalBasic
+msgid ""
+"Cơ sở pháp\n"
+"                        lý"
+msgstr ""
+"Cơ sở pháp\n"
+"                        lý"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.AdministrativeProceduresId
+msgid "Cơ sở pháp lý liên quan"
+msgstr "Cơ sở pháp lý liên quan"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.aboutus_cpdt_casl
+msgid ""
+"Cổng thông tin điện tử Công an\n"
+"                tỉnh Sơn La"
+msgstr ""
+"Cổng thông tin điện tử Công an\n"
+"                tỉnh Sơn La"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template_db_datas
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_db_datas
+msgid "Database Data"
+msgstr "Database Data"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_report_session_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_log_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_date
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_set_calendar_search
+msgid "Date"
+msgstr "Ngày tháng"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_date_vn_post_send
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_report_session_date_vn_post_send
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_date_vn_post_send
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_date_vn_post_send
+msgid "Date VN Post Send"
+msgstr "Ngày gửi bưu điện"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_set_calendar_date_editable
+msgid "Date editable"
+msgstr "Date editable"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_set_calendar_date_format
+msgid "Date format"
+msgstr "Date format"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_res_partner_provide_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_res_users_provide_date
+msgid "Date provide"
+msgstr "Date provide"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "Date submission"
+msgstr "Ngày gửi"
+
+#. module: bms_cpdt
+#: model:ir.actions.act_window,name:bms_cpdt.hr_department_action_form
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_department_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_department_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_department_id
+#: model:ir.ui.menu,name:bms_cpdt.menu_e_gov_department
+msgid "Department"
+msgstr "Phòng ban"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_description
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_description
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template_description
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_description
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_description
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_description
+msgid "Description"
+msgstr "Miêu tả"
+
+#. module: bms_cpdt
+#: selection:bms.mail.template.config,document_receive_type:0
+#: selection:bms.mail.template.config,document_send_type:0
+#: selection:bms.report.session,document_send_type:0
+#: selection:bms.session,document_receive_type:0
+#: selection:bms.session,document_send_type:0
+#: selection:bms.sms.template.config,document_receive_type:0
+#: selection:bms.sms.template.config,document_send_type:0
+msgid "Direct"
+msgstr "Trực tiếp"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bank_transfer_config_display_name
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_category_display_name
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_display_name
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_idea_box_display_name
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_legal_basic_display_name
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_display_name
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template_display_name
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_report_register_display_name
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_report_session_display_name
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_display_name
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_display_name
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_product_display_name
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_set_calendar_display_name
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_compose_display_name
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_log_display_name
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_display_name
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_wellcome_display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.search_document_template_filter
+msgid "Document Name"
+msgstr "Tên thủ tục mẫu"
+
+#. module: bms_cpdt
+#: model:ir.actions.act_window,name:bms_cpdt.action_document_template_form
+#: model:ir.model,name:bms_cpdt.model_bms_document_template
+#: model:ir.model.fields,field_description:bms_cpdt.field_hr_department_bms_document_tmpl_ids
+#: model:ir.ui.menu,name:bms_cpdt.menu_e_gov_doc_template
+#: model:ir.ui.menu,name:bms_cpdt.menu_e_gov_doc_template_parent
+#: model:ir.ui.view,arch_db:bms_cpdt.view_document_template_form
+msgid "Document Template"
+msgstr "Thủ tục mẫu"
+
+#. module: bms_cpdt
+#: model:ir.actions.act_window,name:bms_cpdt.action_document_template_category_form
+#: model:ir.model,name:bms_cpdt.model_bms_document_template_category
+#: model:ir.ui.menu,name:bms_cpdt.menu_e_gov_doc_template_category
+#: model:ir.ui.view,arch_db:bms_cpdt.view_document_template_category_form
+msgid "Document Template Category"
+msgstr "Danh mục mẫu thủ tục"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.search_document_template_category_filter
+msgid "Document Template Category Filter"
+msgstr "Bộ lọc tìm kiếm danh mục thủ tục mẫu"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.search_document_template_filter
+msgid "Document Template Filter"
+msgstr "Bộ lọc tìm kiếm thủ tục mẫu"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_document_receive_type
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_document_receive_type
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_document_receive_type
+msgid "Document receive type"
+msgstr "Hình thức nhận kết quả"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_document_send_type
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_report_session_document_send_type
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_document_send_type
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_document_send_type
+msgid "Document send type"
+msgstr "Hình thức gửi hồ sơ gốc"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_document_template_ids
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_document_template_ids
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_document_template_ids
+msgid "Document template"
+msgstr "Document template"
+
+#. module: bms_cpdt
+#: selection:bms.idea.box,state:0 selection:bms.mail.template.config,state:0
+#: selection:bms.report.session,state:0 selection:bms.session,state:0
+#: selection:bms.sms.template.config,state:0
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_idea_box_form
+msgid "Done"
+msgstr "Hoàn thành"
+
+#. module: bms_cpdt
+#: selection:bms.idea.box,state:0
+#: selection:bms.mail.template.config,manager_confirm:0
+#: selection:bms.mail.template.config,state:0
+#: selection:bms.mail.template.config,user_confirm:0
+#: selection:bms.report.session,state:0 selection:bms.session,manager_confirm:0
+#: selection:bms.session,state:0 selection:bms.session,user_confirm:0
+#: selection:bms.sms.template.config,manager_confirm:0
+#: selection:bms.sms.template.config,state:0
+#: selection:bms.sms.template.config,user_confirm:0
+msgid "Draft"
+msgstr "Dự thảo"
+
+#. module: bms_cpdt
+#: model:product.product,name:bms_cpdt.sp06
+#: model:product.template,name:bms_cpdt.sp06_product_template
+msgid "Dấu MST"
+msgstr "Dấu MST"
+
+#. module: bms_cpdt
+#: model:product.product,name:bms_cpdt.sp02
+#: model:product.template,name:bms_cpdt.sp02_product_template
+msgid "Dấu chức danh"
+msgstr "Dấu chức danh"
+
+#. module: bms_cpdt
+#: model:product.product,name:bms_cpdt.sp01
+#: model:product.template,name:bms_cpdt.sp01_product_template
+msgid "Dấu tròn mặt cao su"
+msgstr "Dấu tròn mặt cao su"
+
+#. module: bms_cpdt
+#: model:product.product,name:bms_cpdt.sp03
+#: model:product.template,name:bms_cpdt.sp03_product_template
+msgid "Dấu tên"
+msgstr "Dấu tên"
+
+#. module: bms_cpdt
+#: model:product.product,name:bms_cpdt.sp05
+#: model:product.template,name:bms_cpdt.sp05_product_template
+msgid "Dấu tên + Chức danh (1 dòng)"
+msgstr "Dấu tên + Chức danh (1 dòng)"
+
+#. module: bms_cpdt
+#: model:product.product,name:bms_cpdt.sp04
+#: model:product.template,name:bms_cpdt.sp04_product_template
+msgid "Dấu tên + Chức danh (2 dòng)"
+msgstr "Dấu tên + Chức danh (2 dòng)"
+
+#. module: bms_cpdt
+#: model:ir.module.category,name:bms_cpdt.module_bms_e_gov_management
+msgid "E-Gov"
+msgstr "Chính phủ điện tử"
+
+#. module: bms_cpdt
+#: model:ir.ui.menu,name:bms_cpdt.menu_e_gov_root
+msgid "E-Government"
+msgstr "Chính phủ điện tử"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_email
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_email
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_email
+msgid "Email"
+msgstr "Tên đăng nhập / Email"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.payment_info
+msgid "Email :"
+msgstr "Email :"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.footer_default_cpdt_casl
+msgid ""
+"Email :\n"
+"                                    <i class=\"fa fa-envelope\"/>"
+msgstr ""
+"Email :\n"
+"                                    <i class=\"fa fa-envelope\"/>"
+
+#. module: bms_cpdt
+#: model:ir.model,name:bms_cpdt.model_mail_template
+msgid "Email Templates"
+msgstr "Mẫu thư điện tử"
+
+#. module: bms_cpdt
+#: code:addons/bms_cpdt/models/set_calendar.py:65
+#, python-format
+msgid "Error: You cannot set appointment time less than now!"
+msgstr "Lỗi: bạn không thể đặt thời gian lịch hẹn trước thời điểm hiện tại!"
+
+#. module: bms_cpdt
+#: code:addons/bms_cpdt/models/bms_idea_box.py:62
+#, python-format
+msgid "Error: You only can delete cancel idea!"
+msgstr "Lỗi: bạn chỉ có thể xóa các ý kiến đã hủy!"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_search
+msgid "Extended Filters"
+msgstr "Bộ lọc mở rộng..."
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_faq
+msgid "Faq"
+msgstr "Câu hỏi thường gặp"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_partner_view_form
+msgid "Fax:"
+msgstr "Fax:"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template_datas
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_datas
+msgid "File Content"
+msgstr "Nội dung tập tin"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template_datas_fname
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_datas_fname
+msgid "File Name"
+msgstr "Tên tập tin"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template_file_size
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_file_size
+msgid "File Size"
+msgstr "Dung lượng file"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_papers_template_form_tree
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_papers_template_form_view
+msgid "File attachment"
+msgstr "Tập tin đính kèm"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "File được đính kèm phải dưới 25Mb"
+msgstr "File được đính kèm phải dưới 25Mb"
+
+#. module: bms_cpdt
+#: selection:bms.wellcome,state:0
+msgid "Follow"
+msgstr "Follow"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.wizard_bms_wellcome_form
+msgid "Follow procedure"
+msgstr "Theo dõi tiến độ giải quyết thủ tục"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.wizard_bms_wellcome_form
+msgid "Follow send a copy"
+msgstr "Theo dõi gửi  hồ sơ bản sao trực tuyến"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.wizard_bms_wellcome_form
+msgid "Follow set calendar"
+msgstr "Theo dõi đặt lịch"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.payment_info
+msgid "GO TO PAYMENT"
+msgstr "TIẾN HÀNH THANH TOÁN"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.AdministrativeProceduresId
+#: model:ir.ui.view,arch_db:bms_cpdt.LegalBasicId
+msgid "Ghi chú"
+msgstr "Ghi chú"
+
+#. module: bms_cpdt
+#: selection:bms.idea.box,ranking:0
+msgid "Good"
+msgstr "Tốt"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_idea_box_search
+msgid "Good ranking"
+msgstr "Đánh giá tốt"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_idea_box_search
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_set_calendar_search
+#: model:ir.ui.view,arch_db:bms_cpdt.search_document_template_category_filter
+#: model:ir.ui.view,arch_db:bms_cpdt.search_document_template_filter
+#: model:ir.ui.view,arch_db:bms_cpdt.search_session_filter
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_search
+msgid "Group By"
+msgstr "Nhóm theo"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_handler
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_handler
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_handler
+msgid "Handler manager"
+msgstr "Cán bộ xử lý"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.payment_info
+msgid "Handler manager:"
+msgstr "Cán bộ xử lý"
+
+#. module: bms_cpdt
+#: model:ir.module.category,description:bms_cpdt.module_bms_e_gov_management
+msgid ""
+"Helps you manage progress of e-Gov, etc.\n"
+"        "
+msgstr ""
+"Giúp bạn quản lý sự tiến bộ của Chính phủ điện tử, v.v.\n"
+"        "
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.footer_default_cpdt_casl
+msgid "Home"
+msgstr "Trang chủ"
+
+#. module: bms_cpdt
+#: model:ir.model,name:bms_cpdt.model_hr_department
+msgid "Hr Department"
+msgstr "Bộ phận nhân sự"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.footer_default_cpdt_casl
+msgid "Hướng dẫn sử dụng"
+msgstr "Hướng dẫn sử dụng"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bank_transfer_config_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_category_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_idea_box_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_legal_basic_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_report_register_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_report_session_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_product_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_set_calendar_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_compose_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_log_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_wellcome_id
+msgid "ID"
+msgstr "ID"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_signup_fields
+msgid "ID Number"
+msgstr "Số CMND/CCCD"
+
+#. module: bms_cpdt
+#: model:ir.actions.act_window,name:bms_cpdt.bms_idea_box_action_form
+#: model:ir.actions.act_window,name:bms_cpdt.bms_idea_box_action_form_open_from_session
+#: model:ir.actions.act_window,name:bms_cpdt.wizard_bms_idea_box_action_form
+#: model:ir.ui.menu,name:bms_cpdt.menu_bms_idea_box_action_form
+msgid "Idea box"
+msgstr "Ý kiến đóng góp"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_idea_box_content
+msgid "Idea content"
+msgstr "Nội dung ý kiến đóng góp"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template_index_content
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_index_content
+msgid "Indexed Content"
+msgstr "Indexed Content"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "Information"
+msgstr "Thông tin"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_partner_view_form
+msgid "Internal Notes"
+msgstr "Ghi chú nội bộ"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_partner_view_form
+msgid "Internal note..."
+msgstr "Ghi chú nội bộ..."
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_lostdoc_email_sent
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_lostdoc_email_sent
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_lostdoc_email_sent
+msgid "Is lostdoc email sent"
+msgstr "Is lostdoc email sent"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template_public
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_public
+msgid "Is public document"
+msgstr "Is public document"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bank_transfer_config___last_update
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template___last_update
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_category___last_update
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_idea_box___last_update
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_legal_basic___last_update
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config___last_update
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template___last_update
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_report_register___last_update
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_report_session___last_update
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session___last_update
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment___last_update
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_product___last_update
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_set_calendar___last_update
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_compose___last_update
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_log___last_update
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config___last_update
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_wellcome___last_update
+msgid "Last Modified on"
+msgstr "Sửa lần cuối vào"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bank_transfer_config_write_uid
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_category_write_uid
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_write_uid
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_idea_box_write_uid
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_legal_basic_write_uid
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_write_uid
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template_write_uid
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_write_uid
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_product_write_uid
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_write_uid
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_set_calendar_write_uid
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_compose_write_uid
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_log_write_uid
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_write_uid
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_wellcome_write_uid
+msgid "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bank_transfer_config_write_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_category_write_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_write_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_idea_box_write_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_legal_basic_write_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_write_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template_write_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_write_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_product_write_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_write_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_set_calendar_write_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_compose_write_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_log_write_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_write_date
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_wellcome_write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối vào"
+
+#. module: bms_cpdt
+#: model:ir.actions.act_window,name:bms_cpdt.bms_legal_basic_action_form
+#: model:ir.model,name:bms_cpdt.model_bms_legal_basic
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_legal_basic_ids
+#: model:ir.ui.menu,name:bms_cpdt.menu_e_gov_legal_basic
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_legal_basic_view_form
+msgid "Legal basic"
+msgstr "Cơ sở pháp lý"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.AdministrativeProceduresCateg
+msgid "Làm việc cả ngày"
+msgstr "Làm việc cả ngày"
+
+#. module: bms_cpdt
+#: model:ir.actions.act_window,name:bms_cpdt.mail_template_config_action_form
+#: model:ir.model,name:bms_cpdt.model_bms_mail_template_config
+#: model:ir.ui.menu,name:bms_cpdt.menu_e_gov_mail_template_config
+#: model:ir.ui.view,arch_db:bms_cpdt.mail_template_config_view_form
+msgid "Mail Template Config"
+msgstr "Cấu hình gửi Email"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_mail_template
+msgid "Mail template"
+msgstr "Mẫu email"
+
+#. module: bms_cpdt
+#: model:ir.actions.act_window,help:bms_cpdt.action_view_my_session
+msgid "Manage session of you."
+msgstr "Quản lý phiên làm việc của bạn."
+
+#. module: bms_cpdt
+#: model:res.groups,name:bms_cpdt.group_e_gov_manager
+msgid "Manager"
+msgstr "Cán bộ"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_manager_confirm
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_manager_confirm
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_manager_confirm
+msgid "Manager confirm"
+msgstr "Cán bộ xác nhận"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "Mark Cancel"
+msgstr "Hủy"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "Mark Close"
+msgstr "Kết thúc phiên"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "Mark Done"
+msgstr "Hoàn thành phiên"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "Mark Lost"
+msgstr "Đánh dấu thất bại"
+
+#. module: bms_cpdt
+#: selection:bms.idea.box,ranking:0
+msgid "Mendium"
+msgstr "Trung bình"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_idea_box_search
+msgid "Mendium ranking"
+msgstr "Đánh giá trung bình"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_compose_message
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_log_name
+msgid "Message"
+msgstr "Thông điệp"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template_mimetype
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_mimetype
+msgid "Mime Type"
+msgstr "Mime Type"
+
+#. module: bms_cpdt
+#: selection:bms.mail.template.config,state:0 selection:bms.session,state:0
+#: selection:bms.sms.template.config,state:0
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "Missing profile"
+msgstr "Hồ sơ thiếu cần bổ sung"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_mobile
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_mobile
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_mobile
+msgid "Mobile"
+msgstr "Số di động"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_signup_fields
+msgid "Mobile Number"
+msgstr "Số điện thoại"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.footer_default_cpdt_casl
+msgid ""
+"Mobile Phone :\n"
+"                                    <i class=\"fa fa-phone\"/>"
+msgstr ""
+"Mobile Phone :\n"
+"                                    <i class=\"fa fa-phone\"/>"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_partner_view_form
+#: model:ir.ui.view,arch_db:bms_cpdt.payment_info
+msgid "Mobile:"
+msgstr "Di động:"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_payment
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_payment
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_payment
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "Money Received"
+msgstr "Đã nhận lệ phí"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_mtc_name
+msgid "Mtc name"
+msgstr "Mtc name"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.search_session_filter
+msgid "My Sessions"
+msgstr "Phiên làm việc của tôi"
+
+#. module: bms_cpdt
+#: sql_constraint:bms.mail.template.config:0 sql_constraint:bms.session:0
+#: sql_constraint:bms.sms.template.config:0
+msgid "Mã phải là duy nhất!"
+msgstr "Mã phải là duy nhất!"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.AdministrativeProceduresId
+msgid "Mô tả"
+msgstr "Mô tả"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.AdministrativeProceduresId
+msgid "Mục đích / phạm vi / nội dung quy trình"
+msgstr "Mục đích / phạm vi / nội dung quy trình"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_category_name
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_name
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_legal_basic_name
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_name
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_name
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_name
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_stc_name
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_legal_basic_view_form
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_papers_template_form_tree
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_papers_template_form_view
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_partner_view_form
+#: model:ir.ui.view,arch_db:bms_cpdt.payment_info
+msgid "Name"
+msgstr "Tên"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_search
+msgid "New"
+msgstr "Mới"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.wizard_bms_wellcome_form
+msgid "New registration procedure"
+msgstr "Đăng ký thủ tục mới"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_next_sequence
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_next_sequence
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_next_sequence
+msgid "Next sequence"
+msgstr "STT tiếp theo"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.payment_info
+msgid "No."
+msgstr "No."
+
+#. module: bms_cpdt
+#: selection:bms.idea.box,ranking:0
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_idea_box_search
+msgid "None ranking"
+msgstr "Chưa đánh giá"
+
+#. module: bms_cpdt
+#: selection:bms.mail.template.config,type:0 selection:bms.session,type:0
+#: selection:bms.sms.template.config,type:0
+msgid "Normal"
+msgstr "Normal"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_note
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_legal_basic_note
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_note
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_note_2
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_note
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_note_2
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_note
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_note_2
+msgid "Note"
+msgstr "Ghi chú"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.LegalBasicId
+msgid "Nội dung"
+msgstr "Nội dung"
+
+#. module: bms_cpdt
+#: selection:bms.set.calendar,state:0
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_set_calendar_form
+msgid "Officials change date"
+msgstr "Cán bộ chuyển ngày"
+
+#. module: bms_cpdt
+#: selection:bms.set.calendar,state:0
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_set_calendar_form
+msgid "Officials confirm"
+msgstr "Cán bộ xác nhận"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_signup_fields
+msgid "Organization name"
+msgstr "Tên tổ chức"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_res_partner_organization_address
+#: model:ir.model.fields,field_description:bms_cpdt.field_res_users_organization_address
+msgid "Organization's address"
+msgstr "Organization's address"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_res_partner_organization_name
+#: model:ir.model.fields,field_description:bms_cpdt.field_res_users_organization_name
+msgid "Organization's name"
+msgstr "Organization's name"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.footer_default_cpdt_casl
+msgid "Our Products &amp; Services"
+msgstr "Sản phẩm & dịch vụ của chúng tôi"
+
+#. module: bms_cpdt
+#: selection:bms.mail.template.config,payment_status:0
+#: selection:bms.session,payment_status:0
+#: selection:bms.sms.template.config,payment_status:0
+msgid "Paid"
+msgstr "Đã thanh toán"
+
+#. module: bms_cpdt
+#: model:ir.model,name:bms_cpdt.model_bms_papers_template
+#: model:ir.ui.menu,name:bms_cpdt.menu_e_gov_par_template_parent
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_papers_template_form_view
+#: model:ir.ui.view,arch_db:bms_cpdt.view_document_template_form
+msgid "Papers Template"
+msgstr "Các giấy tờ mẫu"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "Papers name"
+msgstr "Tên giấy tờ"
+
+#. module: bms_cpdt
+#: model:ir.actions.act_window,name:bms_cpdt.action_bms_papers_template_form
+msgid "Papers template"
+msgstr "Các giấy tờ mẫu"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_category_parent_id
+#: model:ir.ui.view,arch_db:bms_cpdt.search_document_template_category_filter
+msgid "Parent"
+msgstr "Dự án cha"
+
+#. module: bms_cpdt
+#: model:ir.model,name:bms_cpdt.model_res_partner
+msgid "Partner"
+msgstr "Đối tác"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_signup_fields
+msgid "Password"
+msgstr "Mật khẩu"
+
+#. module: bms_cpdt
+#: code:addons/bms_cpdt/controllers/main.py:96
+#, python-format
+msgid "Passwords do not match; please retype them."
+msgstr "Passwords do not match; please retype them."
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.payment_error
+msgid "Payment Error"
+msgstr "Thanh toán thất bại"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.payment_info
+msgid "Payment Information"
+msgstr "Thông tin thanh toán"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "Payment Online"
+msgstr "Thanh toán trực tuyến"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.payment_success
+msgid "Payment Success"
+msgstr "Thanh toán thành công"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_payment_checked
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_payment_checked
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_payment_checked
+msgid "Payment checked"
+msgstr "Payment checked"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_payment_status
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_payment_status
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_payment_status
+msgid "Payment status"
+msgstr "Tình trạng thanh toán"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_partner_view_form
+msgid "Phone:"
+msgstr "Điện thoại"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.payment_success
+msgid "Please check the notifying message!"
+msgstr "Vui lòng kiểm tra tin nhắn xác nhận!"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.payment_error
+msgid "Please contact"
+msgstr "Hoặc liên hệ"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_department_id
+msgid "Police department"
+msgstr "Phòng CA"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.payment_info
+msgid "Price"
+msgstr "Giá"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.payment_info
+msgid "Price Subtotal"
+msgstr "Thành tiền"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_product_price_subtotal
+msgid "Price subtotal"
+msgstr "Thành tiền"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_product_price_subtotal_tax
+msgid "Price subtotal tax"
+msgstr "Price subtotal tax"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_product_price_unit
+msgid "Price unit"
+msgstr "Price unit"
+
+#. module: bms_cpdt
+#: selection:bms.idea.box,state:0
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_idea_box_form
+msgid "Processing"
+msgstr "Đang xử lý"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_product_line_ids
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_product_line_ids
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_product_line_ids
+msgid "Product Line"
+msgstr "Product Line"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "Profile Received"
+msgstr "Đã nhận được hồ sơ"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_profile_received
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_profile_received
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_profile_received
+msgid "Profile received"
+msgstr "Đã nhận đc hồ sơ"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_res_partner_provide_by
+#: model:ir.model.fields,field_description:bms_cpdt.field_res_users_provide_by
+msgid "Provided by"
+msgstr "Provided by"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_purpose_scope_content
+msgid "Purpose / scope / content of the process"
+msgstr "Mục đích / phạm vi / nội dung quy trình"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_product_quantity
+#: model:ir.ui.view,arch_db:bms_cpdt.payment_info
+msgid "Quantity"
+msgstr "Số lượng"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_idea_box_ranking
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_idea_box_search
+msgid "Ranking"
+msgstr "Đánh giá"
+
+#. module: bms_cpdt
+#: selection:bms.mail.template.config,state:0
+#: selection:bms.report.session,state:0 selection:bms.session,state:0
+#: selection:bms.sms.template.config,state:0
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "Re-Work"
+msgstr "Làm lại"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_receive_doc_via_sms
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_receive_doc_via_sms
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_receive_doc_via_sms
+msgid "Receive via SMS"
+msgstr "Đăng ký nhận thông báo về trạng thái hồ sơ thông qua tin nhắn SMS"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_set_calendar_date
+msgid "Reception date time"
+msgstr "Ngày giờ tiếp công dân"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.view_register_graph
+#: model:ir.ui.view,arch_db:bms_cpdt.view_register_pivot
+#: model:ir.ui.view,arch_db:bms_cpdt.view_register_search
+msgid "Register Analysis"
+msgstr "Phân tích số lượt đăng ký"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_report_register_register_date
+msgid "Register date"
+msgstr "Ngày đăng ký"
+
+#. module: bms_cpdt
+#: model:ir.ui.menu,name:bms_cpdt.menu_e_gov_session
+msgid "Register resolve online administrative procedures"
+msgstr "Đăng ký giải quyết TCHC online"
+
+#. module: bms_cpdt
+#: model:ir.actions.act_window,name:bms_cpdt.action_view_my_session
+#: model:ir.ui.menu,name:bms_cpdt.menu_e_gov_my_session
+msgid "Register resolve procedures"
+msgstr "Đăng ký giải quyết TCHC"
+
+#. module: bms_cpdt
+#: model:ir.actions.act_window,name:bms_cpdt.action_register_tree
+#: model:ir.ui.menu,name:bms_cpdt.menu_register_analysis
+msgid "Registers Analysis"
+msgstr "Phân tích số lượt đăng ký"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,help:bms_cpdt.field_bms_document_template_legal_basic_ids
+msgid "Relevant legal basis"
+msgstr "Relevant legal basis"
+
+#. module: bms_cpdt
+#: model:ir.ui.menu,name:bms_cpdt.menu_session_report
+msgid "Reports"
+msgstr "Báo cáo"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "Request settlement"
+msgstr "Yêu cầu cần giải quyết"
+
+#. module: bms_cpdt
+#: model:ir.ui.menu,name:bms_cpdt.menu_e_gov_all_session
+msgid "Resolve procedures history"
+msgstr "Lịch sử giải quyết TCHC"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template_res_field
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_res_field
+msgid "Resource Field"
+msgstr "Resource Field"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template_res_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_res_id
+msgid "Resource ID"
+msgstr "ID Tài nguyên"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template_res_model
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_res_model
+msgid "Resource Model"
+msgstr "Resource Model"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template_res_name
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_res_name
+msgid "Resource Name"
+msgstr "Tên Tài nguyên"
+
+#. module: bms_cpdt
+#: selection:bms.mail.template.config,state:0 selection:bms.session,state:0
+#: selection:bms.sms.template.config,state:0
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "Result profile returned"
+msgstr "Xác nhận đã nhận kết quả qua bưu điện"
+
+#. module: bms_cpdt
+#: selection:bms.mail.template.config,state:0 selection:bms.session,state:0
+#: selection:bms.sms.template.config,state:0
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "Result profile sent"
+msgstr "Đã gửi trả kết quả qua bưu điện"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.payment_error
+#: model:ir.ui.view,arch_db:bms_cpdt.payment_info
+#: model:ir.ui.view,arch_db:bms_cpdt.payment_success
+msgid "Return Your Session"
+msgstr "Trở về phiên làm việc"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_sms_log_ids
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_sms_log_ids
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_sms_log_ids
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "SMS Log"
+msgstr "Nhật ký tin nhắn"
+
+#. module: bms_cpdt
+#: model:ir.actions.server,name:bms_cpdt.bms_session_more_menu_server_action
+msgid "SMS Session"
+msgstr "Phiên SMS"
+
+#. module: bms_cpdt
+#: model:ir.actions.act_window,name:bms_cpdt.bms_sms_template_config_action_form
+#: model:ir.ui.menu,name:bms_cpdt.menu_e_gov_sms_template_config
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_sms_template_config_view_form
+msgid "SMS Template Config"
+msgstr "Cấu hình gửi tin nhắn"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.aboutus_cpdt_casl
+msgid ""
+"Sau đại thắng mùa xuân năm 1975 và bước vào thời kỳ đổi\n"
+"                    mới,\n"
+"                    lực lượng Công an nhân dân Sơn La đã tiếp tục phát huy vai\n"
+"                    trò là lực lượng chủ công,\n"
+"                    nòng cốt trong đảm bảo an ninh chính trị, giữ gìn trật tự\n"
+"                    an\n"
+"                    toàn xã hội trên địa bàn."
+msgstr ""
+"Sau đại thắng mùa xuân năm 1975 và bước vào thời kỳ đổi\n"
+"                    mới,\n"
+"                    lực lượng Công an nhân dân Sơn La đã tiếp tục phát huy vai\n"
+"                    trò là lực lượng chủ công,\n"
+"                    nòng cốt trong đảm bảo an ninh chính trị, giữ gìn trật tự\n"
+"                    an\n"
+"                    toàn xã hội trên địa bàn."
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.wizard_bms_idea_box_form
+msgid "Save"
+msgstr "Lưu"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "Schedule meeting"
+msgstr "Hẹn lịch gặp"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_product_name
+msgid "Seal content"
+msgstr "Nội dung con dấu"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "Seal order"
+msgstr "Đặt làm con dấu"
+
+#. module: bms_cpdt
+#: model:ir.actions.act_window,name:bms_cpdt.bms_session_product_action_form
+#: model:ir.ui.menu,name:bms_cpdt.menu_e_gov_product
+msgid "Seal price"
+msgstr "Giá của con dấu"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_product_product_id
+msgid "Seal type"
+msgstr "Loại con dấu"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_sms_compose_view_form
+msgid "Send SMS"
+msgstr "Gửi tin nhắn SMS"
+
+#. module: bms_cpdt
+#: selection:bms.mail.template.config,type:0 selection:bms.session,type:0
+#: selection:bms.sms.template.config,type:0
+#: model:ir.actions.act_window,name:bms_cpdt.action_session_send_a_copy_form
+#: model:ir.ui.menu,name:bms_cpdt.menu_action_session_send_a_copy_form
+msgid "Send a copy"
+msgstr "Gửi hồ sơ bản sao trực tuyến"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.wizard_bms_wellcome_form
+msgid "Send online profile"
+msgstr "Gửi hồ sơ trực tuyến"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.wizard_bms_wellcome_form
+msgid "Send profile and pay online"
+msgstr "Gửi hồ sơ và thanh toán trực tuyến"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_product_sequence
+msgid "Sequence"
+msgstr "Trình tự"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_idea_box_search
+msgid "Sesion"
+msgstr "Sesion"
+
+#. module: bms_cpdt
+#: model:ir.actions.act_window,name:bms_cpdt.action_session_form
+#: model:ir.model,name:bms_cpdt.model_bms_session
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_idea_box_session_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_product_session_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_compose_session_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_log_session_id
+#: model:ir.ui.view,arch_db:bms_cpdt.payment_success
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_search
+msgid "Session"
+msgstr "Phiên làm việc"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_graph
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_pivot
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_search
+msgid "Session Analysis"
+msgstr "Session Analysis"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.search_session_filter
+msgid "Session Filter"
+msgstr "Bộ lọc tìm kiếm phiên làm việc"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.search_session_filter
+msgid "Session Name"
+msgstr "Tên phiên làm việc"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "Session Online Number"
+msgstr "Phiên làm việc công dân online số"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_report_session_name
+msgid "Session Title"
+msgstr "Tên phiên làm việc"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_session_id
+msgid "Session id"
+msgstr "Session id"
+
+#. module: bms_cpdt
+#: model:ir.actions.act_window,name:bms_cpdt.action_session_tree
+#: model:ir.ui.menu,name:bms_cpdt.menu_session_analysis
+msgid "Sessions Analysis"
+msgstr "Phân tích phiên làm việc"
+
+#. module: bms_cpdt
+#: model:ir.actions.act_window,name:bms_cpdt.bms_set_calendar_action_form
+#: model:ir.model,name:bms_cpdt.model_bms_set_calendar
+#: model:ir.ui.menu,name:bms_cpdt.menu_bms_set_calendar_action_form
+msgid "Set calendar"
+msgstr "Đặt lịch"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.wizard_bms_wellcome_form
+msgid "Set calendar procedure resolve"
+msgstr "Đặt lịch giải quyết thủ tục hành chính"
+
+#. module: bms_cpdt
+#: model:ir.ui.menu,name:bms_cpdt.menu_e_gov_config
+msgid "Settings"
+msgstr "Thiết lập"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_show_note_on_website
+msgid "Show note on website"
+msgstr "Show note on website"
+
+#. module: bms_cpdt
+#: model:ir.model,name:bms_cpdt.model_bms_sms_template_config
+msgid "Sms Template Config"
+msgstr "Cấu hình tin nhắn SMS mẫu"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_sms_template
+msgid "Sms template"
+msgstr "Tin nhắn mẫu"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_idea_box_state
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_state
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_report_session_state
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_state
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_set_calendar_state
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_state
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_wellcome_state
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_idea_box_search
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_partner_view_form
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_set_calendar_search
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_search
+msgid "State"
+msgstr "Giai đoạn"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_set_calendar_search
+msgid "State cancel"
+msgstr "Trạng thái hủy"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_set_calendar_search
+msgid "State change"
+msgstr "Trạng thái cán bộ chuyển ngày"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_set_calendar_search
+msgid "State confirm"
+msgstr "Trạng thái cán bộ xác nhận"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_set_calendar_search
+msgid "State done"
+msgstr "Trạng thái cả 2 đồng ý"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_set_calendar_search
+msgid "State draft"
+msgstr "Trạng thái người dân đề xuất"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template_store_fname
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_store_fname
+msgid "Stored Filename"
+msgstr "Tên tệp tin được lưu trữ"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_partner_view_form
+msgid "Street 2..."
+msgstr "đường Hoàng Diệu"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_partner_view_form
+msgid "Street..."
+msgstr "Địa chỉ..."
+
+#. module: bms_cpdt
+#: model:res.groups,name:bms_cpdt.group_e_gov_super_manager
+msgid "Super Manager"
+msgstr "Quản lý"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_partner_view_form
+msgid "Tags..."
+msgstr "Từ khóa..."
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_product_tax
+msgid "Tax"
+msgstr "Tax"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_hr_department_tel_number
+msgid "Telephone number"
+msgstr "Số điện thoại"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_tmpl_category_id
+msgid "Template Category"
+msgstr "Danh mục"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_paper_datas
+msgid "Template File"
+msgstr "Tập tin mẫu"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_paper_datas_fname
+msgid "Template File name"
+msgstr "Tên tập tin mẫu"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_category_template_ids
+msgid "Templates"
+msgstr "Templates"
+
+#. module: bms_cpdt
+#: code:addons/bms_cpdt/models/bms_session.py:192
+#, python-format
+msgid "The code must be unique!"
+msgstr "Mã phải là duy nhất!"
+
+#. module: bms_cpdt
+#: code:addons/bms_cpdt/models/bms_sms_compose.py:47
+#, python-format
+msgid "The content of message is invalid"
+msgstr "Nội dung tin nhắn không hợp lệ (hãy sử dụng Tiếng Việt không dấu)"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,help:bms_cpdt.field_bms_papers_template_res_model
+#: model:ir.model.fields,help:bms_cpdt.field_bms_session_attachment_res_model
+msgid "The database object this attachment will be attached to."
+msgstr "The database object this attachment will be attached to."
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_set_calendar_document_template_ids
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_set_calendar_form
+msgid "The document template I want to do"
+msgstr "Các thủ tục tôi muốn làm"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_res_partner_identification_number
+#: model:ir.model.fields,field_description:bms_cpdt.field_res_users_identification_number
+msgid "The identification number"
+msgstr "The identification number"
+
+#. module: bms_cpdt
+#: code:addons/bms_cpdt/models/bms_sms_compose.py:37
+#: code:addons/bms_cpdt/models/res_partner.py:45
+#: code:addons/bms_cpdt/models/res_users.py:21
+#, python-format
+msgid "The mobile number is not available"
+msgstr "Số điện thoại không hợp lệ"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,help:bms_cpdt.field_bms_papers_template_res_id
+#: model:ir.model.fields,help:bms_cpdt.field_bms_session_attachment_res_id
+msgid "The record id this is attached to."
+msgstr "The record id this is attached to."
+
+#. module: bms_cpdt
+#: code:addons/bms_cpdt/models/bms_mail_template_config.py:19
+#: code:addons/bms_cpdt/models/bms_sms_template_config.py:22
+#: sql_constraint:bms.mail.template.config:0
+#: sql_constraint:bms.sms.template.config:0
+#, python-format
+msgid "The state must be unique!"
+msgstr "The state must be unique!"
+
+#. module: bms_cpdt
+#: model:ir.actions.act_window,help:bms_cpdt.action_document_template_category_form
+#: model:ir.actions.act_window,help:bms_cpdt.action_document_template_form
+#: model:ir.actions.act_window,help:bms_cpdt.action_session_form
+#: model:ir.actions.act_window,help:bms_cpdt.action_session_send_a_copy_form
+msgid "This is the list of all the file you recorded."
+msgstr "Liệt kê tất cả bản ghi được tạo."
+
+#. module: bms_cpdt
+#: model:ir.actions.act_window,help:bms_cpdt.action_register_tree
+#: model:ir.actions.act_window,help:bms_cpdt.action_session_tree
+msgid ""
+"This report allows you to analyse the performance of\n"
+"            your projects and users. You can analyse the quantities of tasks,\n"
+"            the hours spent compared to the planned hours, the average number of\n"
+"            days to open or close a task, etc."
+msgstr ""
+"This report allows you to analyse the performance of\n"
+"            your projects and users. You can analyse the quantities of tasks,\n"
+"            the hours spent compared to the planned hours, the average number of\n"
+"            days to open or close a task, etc."
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.footer_default_cpdt_casl
+msgid "Thông Tin Trợ Giúp"
+msgstr "Thông Tin Trợ Giúp"
+
+#. module: bms_cpdt
+#: model:mail.template,subject:bms_cpdt.approved_email_templates
+msgid ""
+"Thông báo về việc Cán bộ đã chấp nhận hồ sơ duyệt\n"
+"            online, hồ sơ phiên: ${object.name}\n"
+"        "
+msgstr ""
+"Thông báo về việc Cán bộ đã chấp nhận hồ sơ duyệt\n"
+"            online, hồ sơ phiên: ${object.name}\n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,subject:bms_cpdt.done_email_templates
+msgid ""
+"Thông báo về việc Hoàn tất phiên làm việc:\n"
+"            ${object.name}\n"
+"        "
+msgstr ""
+"Thông báo về việc Hoàn tất phiên làm việc:\n"
+"            ${object.name}\n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,subject:bms_cpdt.vn_post_done_email_templates
+msgid ""
+"Thông báo về việc Hồ sơ vừa được gửi qua bưu điện,\n"
+"            hồ sơ phiên: ${object.name}\n"
+"        "
+msgstr ""
+"Thông báo về việc Hồ sơ vừa được gửi qua bưu điện,\n"
+"            hồ sơ phiên: ${object.name}\n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,subject:bms_cpdt.awaiting_approval_email_templates
+msgid ""
+"Thông báo về việc Hồ sơ đang chờ cán bộ duyệt,\n"
+"            phiên: ${object.name}\n"
+"        "
+msgstr ""
+"Thông báo về việc Hồ sơ đang chờ cán bộ duyệt,\n"
+"            phiên: ${object.name}\n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,subject:bms_cpdt.result_profile_sent_email_templates
+msgid ""
+"Thông báo về việc Kết quả hồ sơ đã được gửi qua\n"
+"            bưu điện, hồ sơ phiên: ${object.name}\n"
+"        "
+msgstr ""
+"Thông báo về việc Kết quả hồ sơ đã được gửi qua\n"
+"            bưu điện, hồ sơ phiên: ${object.name}\n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,subject:bms_cpdt.rework_email_templates
+msgid ""
+"Thông báo về việc Làm lại, hồ sơ sai, hồ sơ phiên:\n"
+"            ${object.name}\n"
+"        "
+msgstr ""
+"Thông báo về việc Làm lại, hồ sơ sai, hồ sơ phiên:\n"
+"            ${object.name}\n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,subject:bms_cpdt.cancel_email_templates
+msgid ""
+"Thông báo về việc Phiên làm việc bị hủy:\n"
+"            ${object.name}\n"
+"        "
+msgstr ""
+"Thông báo về việc Phiên làm việc bị hủy:\n"
+"            ${object.name}\n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,subject:bms_cpdt.close_email_templates
+msgid ""
+"Thông báo về việc Phiên làm việc đã đóng:\n"
+"            ${object.name}\n"
+"        "
+msgstr ""
+"Thông báo về việc Phiên làm việc đã đóng:\n"
+"            ${object.name}\n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,subject:bms_cpdt.payment_email_templates
+msgid ""
+"Thông báo về việc thanh toán phiên làm việc:\n"
+"            ${object.name}\n"
+"        "
+msgstr ""
+"Thông báo về việc thanh toán phiên làm việc:\n"
+"            ${object.name}\n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,subject:bms_cpdt.set_calendar_change_date_email_templates
+msgid ""
+"Thông báo về việc thay đổi ngày đặt lịch\n"
+"        "
+msgstr ""
+"Thông báo về việc thay đổi ngày đặt lịch\n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,subject:bms_cpdt.missing_profile_email_templates
+msgid ""
+"Thông báo về việc thiếu hồ sơ phiên:\n"
+"            ${object.name}\n"
+"        "
+msgstr ""
+"Thông báo về việc thiếu hồ sơ phiên:\n"
+"            ${object.name}\n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,subject:bms_cpdt.vn_post_check_email_templates
+msgid ""
+"Thông báo về việc thiếu hồ sơ phiên:\n"
+"            ${object.name} đang chờ cán bộ kiểm tra hồ sơ trực tiếp\n"
+"        "
+msgstr ""
+"Thông báo về việc thiếu hồ sơ phiên:\n"
+"            ${object.name} đang chờ cán bộ kiểm tra hồ sơ trực tiếp\n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,subject:bms_cpdt.lost_document_email_templates
+msgid ""
+"Thông báo về việc thất lạc hồ sơ: ${object.name}\n"
+"        "
+msgstr ""
+"Thông báo về việc thất lạc hồ sơ: ${object.name}\n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,subject:bms_cpdt.result_profile_returned_email_templates
+msgid ""
+"Thông báo về việc đã nhận kết quả hồ sơ gửi trả,\n"
+"            hồ sơ phiên: ${object.name}\n"
+"        "
+msgstr ""
+"Thông báo về việc đã nhận kết quả hồ sơ gửi trả,\n"
+"            hồ sơ phiên: ${object.name}\n"
+"        "
+
+#. module: bms_cpdt
+#: model:mail.template,subject:bms_cpdt.profile_received_email_templates
+msgid ""
+"Thông báo về việc đã nhận được hồ sơ:\n"
+"            ${object.name}\n"
+"        "
+msgstr ""
+"Thông báo về việc đã nhận được hồ sơ:\n"
+"            ${object.name}\n"
+"        "
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.AdministrativeProcedures
+msgid ""
+"Thủ tục\n"
+"                        hành chính"
+msgstr ""
+"Thủ tục\n"
+"                        hành chính"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.AdministrativeProceduresCateg
+msgid "Thứ"
+msgstr "Thứ"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_compose_to_number
+msgid "To number"
+msgstr "To number"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.search_session_filter
+msgid "Today"
+msgstr "Hôm nay"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.footer_default_cpdt_casl
+msgid "Trợ giúp"
+msgstr "Trợ giúp"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_type
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template_type
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_type
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_type
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_type
+msgid "Type"
+msgstr "Loại"
+
+#. module: bms_cpdt
+#: code:addons/bms_cpdt/models/bms_sms_compose.py:84
+#, python-format
+msgid "Unknown Error"
+msgstr "Unknown Error"
+
+#. module: bms_cpdt
+#: selection:bms.mail.template.config,payment_status:0
+#: selection:bms.session,payment_status:0
+#: selection:bms.sms.template.config,payment_status:0
+msgid "Unpaid"
+msgstr "Chưa thanh toán"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_papers_template_url
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_url
+msgid "Url"
+msgstr "Url"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_document_template_user_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_report_register_name
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_report_session_user_id
+#: model:ir.ui.view,arch_db:bms_cpdt.search_session_filter
+#: model:res.groups,name:bms_cpdt.group_e_gov_user
+msgid "User"
+msgstr "Người dân"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_attachment_user_attachment_ids
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "User attachments"
+msgstr "Các đính kèm của công dân"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_user_confirm
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_user_confirm
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_user_confirm
+msgid "User confirm"
+msgstr "Người dân xác nhận"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_user_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_user_id
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_user_id
+msgid "User id"
+msgstr "User id"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_search
+msgid "User to"
+msgstr "Người dùng"
+
+#. module: bms_cpdt
+#: model:ir.model,name:bms_cpdt.model_res_users
+msgid "Users"
+msgstr "Người dùng"
+
+#. module: bms_cpdt
+#: selection:bms.mail.template.config,document_receive_type:0
+#: selection:bms.mail.template.config,document_send_type:0
+#: selection:bms.report.session,document_send_type:0
+#: selection:bms.report.session,state:0
+#: selection:bms.session,document_receive_type:0
+#: selection:bms.session,document_send_type:0
+#: selection:bms.sms.template.config,document_receive_type:0
+#: selection:bms.sms.template.config,document_send_type:0
+msgid "VN Post"
+msgstr "Bưu điện"
+
+#. module: bms_cpdt
+#: selection:bms.mail.template.config,state:0
+#: selection:bms.report.session,state:0 selection:bms.session,state:0
+#: selection:bms.sms.template.config,state:0
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "VN Post Done"
+msgstr "Xác nhận đã gửi hồ sơ qua bưu điện"
+
+#. module: bms_cpdt
+#: selection:bms.mail.template.config,state:0
+#: selection:bms.report.session,state:0 selection:bms.session,state:0
+#: selection:bms.sms.template.config,state:0
+msgid "VN Post Lost"
+msgstr "Thất lạc bưu điện"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "View idea"
+msgstr "Xem các ý kiến đóng góp"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_mail_template_config_warning_miss_document
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_session_warning_miss_document
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_sms_template_config_warning_miss_document
+msgid "Warning miss document"
+msgstr "Warning miss document"
+
+#. module: bms_cpdt
+#: model:ir.model,name:bms_cpdt.model_website
+msgid "Website"
+msgstr "Trang web"
+
+#. module: bms_cpdt
+#: model:ir.actions.act_window,name:bms_cpdt.wizard_bms_wellcome_action_form
+msgid "Wellcome"
+msgstr "Chào mừng!"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,field_description:bms_cpdt.field_bms_set_calendar_content
+msgid "Work content"
+msgstr "Nội dung làm việc"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_set_calendar_form
+msgid "Work content(Eg: I want to report                                the loss of the round seal and make 2 name seals)"
+msgstr "Nội dung làm việc(Ví dụ: Tôi  muốn báo cáo                                mất con dấu tròn và làm 2 dấu tên)"
+
+#. module: bms_cpdt
+#: model:ir.model.fields,help:bms_cpdt.field_bms_papers_template_type
+#: model:ir.model.fields,help:bms_cpdt.field_bms_session_attachment_type
+msgid "You can either upload a file from your computer or copy/paste an internet link to your file."
+msgstr "You can either upload a file from your computer or copy/paste an internet link to your file."
+
+#. module: bms_cpdt
+#: code:addons/bms_cpdt/models/bms_session.py:223
+#, python-format
+msgid "You cannot delete a session which is not draft, close or cancelled!"
+msgstr "Không thể xóa phiên này nếu không ở trạng thái dự thảo, đóng hoặc hủy!"
+
+#. module: bms_cpdt
+#: code:addons/bms_cpdt/models/bms_session.py:200
+#, python-format
+msgid "You must enterd request settlement!"
+msgstr "You must enterd request settlement!"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_signup_fields
+msgid "Your Email"
+msgstr "Email của bạn"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_signup_fields
+msgid "Your Name"
+msgstr "Họ và Tên"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.payment_info
+msgid "Your session"
+msgstr "Phiên làm việc"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.payment_error
+msgid "Your session has not been paid yet! Please try again!"
+msgstr "Đã có lỗi xảy ra trong quá trình thanh toán! Vui lòng thử lại!"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_partner_view_form
+msgid "ZIP"
+msgstr "ZIP"
+
+#. module: bms_cpdt
+#: code:addons/bms_cpdt/controllers/pivot.py:16
+#, python-format
+msgid "attachment; filename=table.xls;"
+msgstr "attachment; filename=bảng.xls;"
+
+#. module: bms_cpdt
+#: model:ir.model,name:bms_cpdt.model_bms_report_register
+msgid "bms.report.register"
+msgstr "bms.report.register"
+
+#. module: bms_cpdt
+#: model:ir.model,name:bms_cpdt.model_bms_report_session
+msgid "bms.report.session"
+msgstr "bms.report.session"
+
+#. module: bms_cpdt
+#: model:ir.model,name:bms_cpdt.model_bms_session_product
+msgid "bms.session.product"
+msgstr "bms.session.product"
+
+#. module: bms_cpdt
+#: model:ir.model,name:bms_cpdt.model_bms_sms_compose
+msgid "bms.sms.compose"
+msgstr "bms.sms.compose"
+
+#. module: bms_cpdt
+#: model:ir.model,name:bms_cpdt.model_bms_sms_log
+msgid "bms.sms.log"
+msgstr "bms.sms.log"
+
+#. module: bms_cpdt
+#: selection:bms.wellcome,state:0
+msgid "choose"
+msgstr "choose"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_signup_fields
+msgid "e.g. Le Hoang Thanh"
+msgstr "e.g. Le Hoang Thanh"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_partner_view_form
+msgid "e.g. Mr."
+msgstr "e.g. Mr."
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_partner_view_form
+msgid "e.g. Sales Director"
+msgstr "e.g. Sales Director"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_partner_view_form
+msgid "e.g. www.odoo.com"
+msgstr "e.g. www.odoo.com"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.payment_success
+msgid "has been successfully paid!"
+msgstr "đã được thanh toán thành công!"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.payment_error
+msgid "if you need help."
+msgstr "để được hỗ trợ nhanh nhất."
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.bms_partner_view_form
+msgid "internal note..."
+msgstr "ghi chú nội bộ..."
+
+#. module: bms_cpdt
+#: selection:bms.wellcome,state:0
+msgid "new"
+msgstr "new"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.view_session_form
+msgid "note"
+msgstr "Ghi chú"
+
+#. module: bms_cpdt
+#: selection:bms.set.calendar,state:0
+msgid "propose"
+msgstr "Người dân đề xuất"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.LegalBasicId
+msgid "Đính kèm"
+msgstr "Đính kèm"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.AdministrativeProceduresId
+msgid "Đăng ký"
+msgstr "Đăng ký"
+
+#. module: bms_cpdt
+#: model:ir.ui.view,arch_db:bms_cpdt.AdministrativeProceduresId
+msgid "Đăng nhập"
+msgstr "Đăng nhập"

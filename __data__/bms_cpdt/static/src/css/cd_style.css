@@ -1,0 +1,25 @@
+.fix-font-cd {
+    line-height: 1.6em;
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: #488D4E;
+    padding-bottom: 5px ;
+}
+
+.fix-font-cd2 {
+    color: #333;
+    line-height: 1.6em;
+    font-size: 16px;
+    font-family: "Open Sans";
+    margin-left: 20px;
+    /*padding: 10px 0 10px 0;*/
+}
+
+.hove-item {
+    background-color: #ffffff;
+	transition: 200ms all;
+	-webkit-transition: 200ms all;
+}
+.hover-item:hover {
+    background-color: inherit;
+}

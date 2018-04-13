@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <record id="config_parameter_day_warning_miss_document"
+            model="ir.config_parameter">
+        <field name="key">day.warning.miss.document</field>
+        <field name="value">3</field>
+    </record>
+
+    <!-- Check missing document automatically -->
+    <record id="ir_cron_check_missing_document_automatically_action"
+            model="ir.cron">
+    <field name="name">Check missing document automatically</field>
+    <field name="user_id" ref="base.user_root"/>
+    <field name="interval_number">1</field>
+    <field name="interval_type">days</field>
+    <field name="numbercall">-1</field>
+    <field eval="True" name="active"/>
+    <field eval="False" name="doall"/>
+    <field eval="'bms.session'" name="model"/>
+    <field eval="'check_document_automatically'" name="function"/>
+  </record>
+</odoo>

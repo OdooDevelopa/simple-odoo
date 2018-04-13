@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate='1'>
+    <record id="lost_document_email_templates" model="mail.template">
+        <field name="name">Mẫu email: Thông báo về thất lạc hồ sơ</field>
+        <field name="email_from">
+            ${object.partner_id.company_id and object.partner_id.company_id.email or ''}
+        </field>
+        <field name="subject">Thông báo về việc thất lạc hồ sơ: ${object.name}
+        </field>
+        <field name="email_to">${object.partner_id.email|safe}</field>
+        <field name="lang">${object.partner_id.lang}</field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="auto_delete" eval="True"/>
+        <field name="body_html">
+            <![CDATA[
+        <p><span style="font-size:18px;"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>
+        <p><span style="font-size:18px;"><em>Bạn nhận được email n&agrave;y l&agrave; do ch&uacute;ng t&ocirc;i chưa nhận được hồ sơ bạn gửi qua bưu điện.</em></span></p>
+        <p><span style="font-size:18px;"><u><strong>Th&ocirc;ng tin hồ sơ thất lạc:</strong></u></span></p>
+        <ol>
+          <li><span style="font-size:18px;">M&atilde; phiên làm việc: ${object.code}</span></li>
+          <li><span style="font-size:18px;">T&ecirc;n hồ sơ: ${object.name}</span></li>
+          <li><span style="font-size:18px;">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>
+          <li><span style="font-size:18px;">Ng&agrave;y gửi bưu điện: ${object.date_vn_post_send}</span></li>
+        </ol>
+        <p><span style="font-size:18px;"><em>Xin vui l&ograve;ng li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm để sớm ho&agrave;n tất thủ tục.</em><br />
+        <em>Xin cảm ơn.</em></span></p>
+        <h3 style="color:red;">
+        	<span style="font-size:18px;"><em>C&Ocirc;NG AN SƠN LA</em></span>
+        </h3>
+      ]]>
+        </field>
+    </record>
+
+    <record id="profile_received_email_templates" model="mail.template">
+        <field name="name">Mẫu email: Đã nhận được hồ sơ</field>
+        <field name="email_from">
+            ${object.partner_id.company_id and object.partner_id.company_id.email or ''}
+        </field>
+        <field name="subject">Thông báo về việc đã nhận được hồ sơ:
+            ${object.name}
+        </field>
+        <field name="email_to">${object.partner_id.email|safe}</field>
+        <field name="lang">${object.partner_id.lang}</field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="auto_delete" eval="True"/>
+        <field name="body_html">
+            <![CDATA[
+      <p><span style="font-size:18px;"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>
+      <p><span style="font-size:18px;"><em>Bạn nhận được email n&agrave;y l&agrave; do ch&uacute;ng t&ocirc;i đã nhận đ&atilde; hồ sơ bạn gửi qua bưu điện.</em></span></p>
+      <p><span style="font-size:18px;"><u><strong>Th&ocirc;ng tin hồ sơ:</strong></u></span></p>
+      <ol>
+      <li><span style="font-size:18px;">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>
+      <li><span style="font-size:18px;">T&ecirc;n hồ sơ: ${object.name}</span></li>
+      <li><span style="font-size:18px;">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>
+      <li><span style="font-size:18px;">Ng&agrave;y gửi bưu điện: ${object.date_vn_post_send}</span></li>
+      </ol>
+      <p><span style="font-size:18px;"><em>Nếu chưa thanh to&aacute;n lệ ph&iacute; thủ tục, xin vui l&ograve;ng thanh to&aacute;n để sớm ho&agrave;n tất. Nếu đ&atilde; thanh to&aacute;n, xin bỏ qua tin nhắn n&agrave;y.</em><br />
+      <em>Xin cảm ơn.</em></span></p>
+      <h3 style="color:red;">
+      <span style="font-size:18px;"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>
+      ]]>
+        </field>
+    </record>
+
+    <record id="payment_email_templates" model="mail.template">
+        <field name="name">Mẫu email: Đã thanh toán thành công</field>
+        <field name="email_from">
+            ${object.partner_id.company_id and object.partner_id.company_id.email or ''}
+        </field>
+        <field name="subject">Thông báo về việc thanh toán phiên làm việc:
+            ${object.name}
+        </field>
+        <field name="email_to">${object.partner_id.email|safe}</field>
+        <field name="lang">${object.partner_id.lang}</field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="auto_delete" eval="True"/>
+        <field name="body_html">
+            <![CDATA[
+        <p><span style="font-size:18px;"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>
+        <p><span style="font-size:18px;"><em>Bạn nhận được email n&agrave;y l&agrave; do <u><span style="color:#008000;">ch&uacute;ng t&ocirc;i đ&atilde; nhận được tiền thanh to&aacute;n</span></u> từ bạn.</em></span></p>
+        <p><span style="font-size:18px;"><u><strong>Th&ocirc;ng tin phiên làm việc:</strong></u></span></p>
+        <ol>
+        <li><span style="font-size:18px;">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>
+        <li><span style="font-size:18px;">T&ecirc;n hồ sơ: ${object.name}</span></li>
+        <li><span style="font-size:18px;">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>
+        <li><em><strong><span style="color:#008000;"><span style="font-size: 18px;"><u>Số tiền thanh to&aacute;n:</u> ${object.amount_total} vnđ</span></span></strong></em></li>
+        </ol>
+        <p><span style="font-size:18px;"><em>Xin vui l&ograve;ng li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm để sớm ho&agrave;n tất thủ tục.</em><br />
+        <em>Xin cảm ơn.</em></span></p>
+        <h3 style="color:red;">
+        <span style="font-size:18px;"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>
+      ]]>
+        </field>
+    </record>
+
+    <record id="missing_profile_email_templates" model="mail.template">
+        <field name="name">Mẫu email: Thiếu hồ sơ liên quan</field>
+        <field name="email_from">
+            ${object.partner_id.company_id and object.partner_id.company_id.email or ''}
+        </field>
+        <field name="subject">Thông báo về việc thiếu hồ sơ phiên:
+            ${object.name}
+        </field>
+        <field name="email_to">${object.partner_id.email|safe}</field>
+        <field name="lang">${object.partner_id.lang}</field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="auto_delete" eval="True"/>
+        <field name="body_html">
+            <![CDATA[
+        <p><span style="font-size:18px;"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>
+        <p><span style="font-size:18px;"><em>Bạn nhận được email n&agrave;y l&agrave; do <span style="color:#ff0000;"><u>hồ sơ của bạn thiếu, cần bổ xung</u>.</span></em></span></p>
+        <p><span style="font-size:18px;"><u><strong>Th&ocirc;ng tin phiên làm việc:</strong></u></span></p>
+        <ol>
+        <li><span style="font-size:18px;">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>
+        <li><span style="font-size:18px;">T&ecirc;n hồ sơ: ${object.name}</span></li>
+        <li><span style="font-size:18px;">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>
+        <li><em><strong><span style="color:#008000;"><span style="font-size: 18px;"><u>Hồ sơ chuẩn cần có xin vui lòng tham khảo lại trên trang chủ</u></span></span></strong></em></li>
+        </ol>
+
+        <p><span style="font-size:18px;"><em>Xin vui l&ograve;ng kiểm tra và li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm để sớm ho&agrave;n tất thủ tục.</em><br />
+        <em>Xin cảm ơn.</em></span></p>
+        <h3 style="color:red;">
+        <span style="font-size:18px;"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>
+
+      ]]>
+        </field>
+    </record>
+
+    <record id="awaiting_approval_email_templates" model="mail.template">
+        <field name="name">Mẫu email: Hồ sơ đang chờ cán bộ duyệt</field>
+        <field name="email_from">
+            ${object.partner_id.company_id and object.partner_id.company_id.email or ''}
+        </field>
+        <field name="subject">Thông báo về việc Hồ sơ đang chờ cán bộ duyệt,
+            phiên: ${object.name}
+        </field>
+        <field name="email_to">${object.partner_id.email|safe}</field>
+        <field name="lang">${object.partner_id.lang}</field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="auto_delete" eval="True"/>
+        <field name="body_html">
+            <![CDATA[
+      <p><span style="font-size:18px;"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>
+      <p><span style="font-size:18px;"><em>Bạn nhận được email n&agrave;y l&agrave; do <span style="color:#ff0000;">Hồ sơ đang chờ c&aacute;n bộ duyệt.</span></em></span></p>
+      <p><span style="font-size:18px;"><u><strong>Th&ocirc;ng tin phiên làm việc:</strong></u></span></p>
+      <ol>
+      <li><span style="font-size:18px;">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>
+      <li><span style="font-size:18px;">T&ecirc;n hồ sơ: ${object.name}</span></li>
+      <li><span style="font-size:18px;">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>
+      </ol>
+      <p><span style="font-size:18px;"><em>Xin vui l&ograve;ng kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />
+      <em>Xin cảm ơn.</em></span></p>
+      <h3 style="color:red;">
+      <span style="font-size:18px;"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>
+      ]]>
+        </field>
+    </record>
+
+    <record id="rework_email_templates" model="mail.template">
+        <field name="name">Mẫu email: Làm lại, hồ sơ sai</field>
+        <field name="email_from">
+            ${object.partner_id.company_id and object.partner_id.company_id.email or ''}
+        </field>
+        <field name="subject">Thông báo về việc Làm lại, hồ sơ sai, hồ sơ phiên:
+            ${object.name}
+        </field>
+        <field name="email_to">${object.partner_id.email|safe}</field>
+        <field name="lang">${object.partner_id.lang}</field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="auto_delete" eval="True"/>
+        <field name="body_html">
+            <![CDATA[
+      <p><span style="font-size:18px;"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>
+      <p><span style="font-size:18px;"><em>Bạn nhận được email n&agrave;y l&agrave; do <span style="color:#ff0000;">hồ sơ sai. <span style="font-size:18px;"><em><span style="color:#ff0000;">L&agrave;m lại&nbsp; </span></em></span></span></em></span></p>
+      <p><span style="font-size:18px;"><u><strong>Th&ocirc;ng tin phiên làm việc:</strong></u></span></p>
+      <ol>
+      <li><span style="font-size:18px;">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>
+      <li><span style="font-size:18px;">T&ecirc;n hồ sơ: ${object.name}</span></li>
+      <li><span style="font-size:18px;">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>
+      </ol>
+      <p><span style="font-size:18px;"><em>Xin vui l&ograve;ng kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />
+      <em>Xin cảm ơn.</em></span></p>
+      <h3 style="color:red;">
+      <span style="font-size:18px;"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>
+      ]]>
+        </field>
+    </record>
+
+    <record id="approved_email_templates" model="mail.template">
+        <field name="name">Mẫu email: Cán bộ đã chấp nhận hồ sơ duyệt online
+        </field>
+        <field name="email_from">
+            ${object.partner_id.company_id and object.partner_id.company_id.email or ''}
+        </field>
+        <field name="subject">Thông báo về việc Cán bộ đã chấp nhận hồ sơ duyệt
+            online, hồ sơ phiên: ${object.name}
+        </field>
+        <field name="email_to">${object.partner_id.email|safe}</field>
+        <field name="lang">${object.partner_id.lang}</field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="auto_delete" eval="True"/>
+        <field name="body_html">
+            <![CDATA[
+      <p><span style="font-size:18px;"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>
+      <p><span style="font-size:18px;"><em>Bạn nhận được email n&agrave;y l&agrave; do <span style="color:#ff0000;">C&aacute;n bộ đ&atilde; chấp nhận hồ sơ duyệt online<span style="font-size:18px;"><em><span style="color:#ff0000;">&nbsp; </span></em></span></span></em></span></p>
+      <p><span style="font-size:18px;"><u><strong>Th&ocirc;ng tin phiên làm việc:</strong></u></span></p>
+      <ol>
+      <li><span style="font-size:18px;">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>
+      <li><span style="font-size:18px;">T&ecirc;n hồ sơ: ${object.name}</span></li>
+      <li><span style="font-size:18px;">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>
+      </ol>
+      <p><span style="font-size:18px;"><em>Xin vui l&ograve;ng nộp hồ sơ trong thời gian sớm nhất để tiếp tục,<br />
+      h&atilde;y kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />
+      <em>Xin cảm ơn.</em></span></p>
+      <h3 style="color:red;">
+      <span style="font-size:18px;"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>
+      ]]>
+        </field>
+    </record>
+
+    <record id="vn_post_check_email_templates" model="mail.template">
+        <field name="name">Mẫu email: Chờ cán bộ kiểm tra hồ sơ trực tiếp
+        </field>
+        <field name="email_from">
+            ${object.partner_id.company_id and object.partner_id.company_id.email or ''}
+        </field>
+        <field name="subject">Thông báo về việc thiếu hồ sơ phiên:
+            ${object.name} đang chờ cán bộ kiểm tra hồ sơ trực tiếp
+        </field>
+        <field name="email_to">${object.partner_id.email|safe}</field>
+        <field name="lang">${object.partner_id.lang}</field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="auto_delete" eval="True"/>
+        <field name="body_html">
+            <![CDATA[
+      <p><span style="font-size:18px;"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>
+      <p><span style="font-size:18px;"><em>Bạn nhận được email n&agrave;y l&agrave; do <span style="color:#ff0000;">hồ sơ đang được c&aacute;n bộ kiểm tra trực tiếp<span style="font-size:18px;"><em><span style="color:#ff0000;">&nbsp; </span></em></span></span></em></span></p>
+      <p><span style="font-size:18px;"><u><strong>Th&ocirc;ng tin chi tiết phi&ecirc;n l&agrave;m việc:</strong></u></span></p>
+      <ol>
+      <li><span style="font-size:18px;">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>
+      <li><span style="font-size:18px;">T&ecirc;n hồ sơ: ${object.name}</span></li>
+      <li><span style="font-size:18px;">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>
+      </ol>
+      <p><span style="font-size:18px;"><em>Xin vui l&ograve;ng chờ v&agrave; h&atilde;y kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />
+      <em>Xin cảm ơn.</em></span></p>
+      <h3 style="color:red;">
+      <span style="font-size:18px;"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>
+      ]]>
+        </field>
+    </record>
+
+    <record id="result_profile_returned_email_templates" model="mail.template">
+        <field name="name">Mẫu email: Người dân đã nhận kết quả hồ sơ gửi trả
+        </field>
+        <field name="email_from">
+            ${object.partner_id.company_id and object.partner_id.company_id.email or ''}
+        </field>
+        <field name="subject">Thông báo về việc đã nhận kết quả hồ sơ gửi trả,
+            hồ sơ phiên: ${object.name}
+        </field>
+        <field name="email_to">${object.partner_id.email|safe}</field>
+        <field name="lang">${object.partner_id.lang}</field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="auto_delete" eval="True"/>
+        <field name="body_html">
+            <![CDATA[
+      <p><span style="font-size:18px;"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>
+      <p><span style="font-size:18px;"><em>Bạn nhận được email n&agrave;y l&agrave; do <span style="color:#ff0000;">Người d&acirc;n đ&atilde; nhận kết quả hồ sơ gửi trả<span style="font-size:18px;"><em><span style="color:#ff0000;">&nbsp; </span></em></span></span></em></span></p>
+      <p><span style="font-size:18px;"><u><strong>Th&ocirc;ng tin chi tiết phi&ecirc;n l&agrave;m việc:</strong></u></span></p>
+      <ol>
+      <li><span style="font-size:18px;">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>
+      <li><span style="font-size:18px;">T&ecirc;n hồ sơ: ${object.name}</span></li>
+      <li><span style="font-size:18px;">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>
+      </ol>
+      <p><span style="font-size:18px;"><em>Xin vui l&ograve;ng chờ v&agrave; h&atilde;y kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />
+      <em>Xin cảm ơn.</em></span></p>
+      <h3 style="color:red;">
+      <span style="font-size:18px;"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>
+      ]]>
+        </field>
+    </record>
+
+    <record id="result_profile_sent_email_templates" model="mail.template">
+        <field name="name">Mẫu email: Kết quả hồ sơ đã được gửi qua bưu điện
+        </field>
+        <field name="email_from">
+            ${object.partner_id.company_id and object.partner_id.company_id.email or ''}
+        </field>
+        <field name="subject">Thông báo về việc Kết quả hồ sơ đã được gửi qua
+            bưu điện, hồ sơ phiên: ${object.name}
+        </field>
+        <field name="email_to">${object.partner_id.email|safe}</field>
+        <field name="lang">${object.partner_id.lang}</field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="auto_delete" eval="True"/>
+        <field name="body_html">
+            <![CDATA[
+      <p><span style="font-size:18px;"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>
+      <p><span style="font-size:18px;"><em>Bạn nhận được email n&agrave;y l&agrave; do <span style="color:#ff0000;">Kết quả hồ sơ đ&atilde; được gửi qua bưu điện</span></em></span></p>
+      <p><span style="font-size:18px;"><u><strong>Th&ocirc;ng tin chi tiết phi&ecirc;n l&agrave;m việc:</strong></u></span></p>
+      <ol>
+      <li><span style="font-size:18px;">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>
+      <li><span style="font-size:18px;">T&ecirc;n hồ sơ: ${object.name}</span></li>
+      <li><span style="font-size:18px;">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>
+      </ol>
+      <p><span style="font-size:18px;"><em>Xin vui l&ograve;ng chờ v&agrave; h&atilde;y kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />
+      <em>Xin cảm ơn.</em></span></p>
+      <h3 style="color:red;">
+      <span style="font-size:18px;"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>
+
+      ]]>
+        </field>
+    </record>
+
+    <record id="done_email_templates" model="mail.template">
+        <field name="name">Mẫu email: Hoàn tất phiên làm việc</field>
+        <field name="email_from">
+            ${object.partner_id.company_id and object.partner_id.company_id.email or ''}
+        </field>
+        <field name="subject">Thông báo về việc Hoàn tất phiên làm việc:
+            ${object.name}
+        </field>
+        <field name="email_to">${object.partner_id.email|safe}</field>
+        <field name="lang">${object.partner_id.lang}</field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="auto_delete" eval="True"/>
+        <field name="body_html">
+            <![CDATA[
+      <p><span style="font-size:18px;"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>
+      <p><span style="font-size:18px;"><em>Bạn nhận được email n&agrave;y l&agrave; do <span style="color:#ff0000;">phi&ecirc;n l&agrave;m việc đ&atilde; ho&agrave;n tất </span></em></span></p>
+      <p><span style="font-size:18px;"><u><strong>Th&ocirc;ng tin chi tiết phi&ecirc;n l&agrave;m việc:</strong></u></span></p>
+      <ol>
+      <li><span style="font-size:18px;">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>
+      <li><span style="font-size:18px;">T&ecirc;n hồ sơ: ${object.name}</span></li>
+      <li><span style="font-size:18px;">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>
+      </ol>
+      <p><span style="font-size:18px;"><em>Xin vui l&ograve;ng chờ v&agrave; h&atilde;y kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />
+      <em>Xin cảm ơn.</em></span></p>
+      <h3 style="color:red;">
+      <span style="font-size:18px;"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>
+
+      ]]>
+        </field>
+    </record>
+
+    <record id="vn_post_done_email_templates" model="mail.template">
+        <field name="name">Mẫu email: Hồ sơ vừa được gửi qua bưu điện</field>
+        <field name="email_from">
+            ${object.partner_id.company_id and object.partner_id.company_id.email or ''}
+        </field>
+        <field name="subject">Thông báo về việc Hồ sơ vừa được gửi qua bưu điện,
+            hồ sơ phiên: ${object.name}
+        </field>
+        <field name="email_to">${object.partner_id.email|safe}</field>
+        <field name="lang">${object.partner_id.lang}</field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="auto_delete" eval="True"/>
+        <field name="body_html">
+            <![CDATA[
+      <p><span style="font-size:18px;"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>
+      <p><span style="font-size:18px;"><em>Bạn nhận được email n&agrave;y l&agrave; do <span style="color:#ff0000;">Hồ sơ vừa được gửi qua bưu điện </span></em></span></p>
+      <p><span style="font-size:18px;"><u><strong>Th&ocirc;ng tin chi tiết phi&ecirc;n l&agrave;m việc:</strong></u></span></p>
+      <ol>
+      <li><span style="font-size:18px;">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>
+      <li><span style="font-size:18px;">T&ecirc;n hồ sơ: ${object.name}</span></li>
+      <li><span style="font-size:18px;">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>
+      </ol>
+      <p><span style="font-size:18px;"><em>Xin vui l&ograve;ng chờ v&agrave; h&atilde;y kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />
+      <em>Xin cảm ơn.</em></span></p>
+      <h3 style="color:red;">
+      <span style="font-size:18px;"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>
+      ]]>
+        </field>
+    </record>
+
+    <record id="close_email_templates" model="mail.template">
+        <field name="name">Mẫu email: Phiên làm việc đã đóng</field>
+        <field name="email_from">
+            ${object.partner_id.company_id and object.partner_id.company_id.email or ''}
+        </field>
+        <field name="subject">Thông báo về việc Phiên làm việc đã đóng:
+            ${object.name}
+        </field>
+        <field name="email_to">${object.partner_id.email|safe}</field>
+        <field name="lang">${object.partner_id.lang}</field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="auto_delete" eval="True"/>
+        <field name="body_html">
+            <![CDATA[
+      <p><span style="font-size:18px;"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>
+      <p><span style="font-size:18px;"><em>Bạn nhận được email n&agrave;y l&agrave; do <u><span style="color:#ff0000;">Phi&ecirc;n l&agrave;m việc đ&atilde; đ&oacute;ng </span></u></em></span></p>
+      <p><span style="font-size:18px;"><u><strong>Th&ocirc;ng tin chi tiết phi&ecirc;n l&agrave;m việc:</strong></u></span></p>
+      <ol>
+      <li><span style="font-size:18px;">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>
+      <li><span style="font-size:18px;">T&ecirc;n hồ sơ: ${object.name}</span></li>
+      <li><span style="font-size:18px;">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>
+      </ol>
+      <p><span style="font-size:18px;"><em>Xin vui l&ograve;ng chờ v&agrave; h&atilde;y kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />
+      <em>Xin cảm ơn.</em></span></p>
+      <h3 style="color:red;">
+      <span style="font-size:18px;"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>
+      ]]>
+        </field>
+    </record>
+
+    <record id="cancel_email_templates" model="mail.template">
+        <field name="name">Mẫu email: Phiên làm việc bị hủy</field>
+        <field name="email_from">
+            ${object.partner_id.company_id and object.partner_id.company_id.email or ''}
+        </field>
+        <field name="subject">Thông báo về việc Phiên làm việc bị hủy:
+            ${object.name}
+        </field>
+        <field name="email_to">${object.partner_id.email|safe}</field>
+        <field name="lang">${object.partner_id.lang}</field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="auto_delete" eval="True"/>
+        <field name="body_html">
+            <![CDATA[
+      <p><span style="font-size:18px;"><strong>Xin ch&agrave;o, ${object.partner_id.name}!</strong></span></p>
+      <p><span style="font-size:18px;"><em>Bạn nhận được email n&agrave;y l&agrave; do&nbsp;<u><span style="color:#ff0000;"> Phi&ecirc;n l&agrave;m việc bị hủy </span></u></em></span></p>
+      <p><span style="font-size:18px;"><u><strong>Th&ocirc;ng tin chi tiết phi&ecirc;n l&agrave;m việc:</strong></u></span></p>
+      <ol>
+      <li><span style="font-size:18px;">M&atilde; phi&ecirc;n l&agrave;m việc: ${object.code}</span></li>
+      <li><span style="font-size:18px;">T&ecirc;n hồ sơ: ${object.name}</span></li>
+      <li><span style="font-size:18px;">Ng&agrave;y l&agrave;m hồ sơ: ${object.date}</span></li>
+      </ol>
+      <p><span style="font-size:18px;"><em>Xin vui l&ograve;ng chờ v&agrave; h&atilde;y kiểm tra v&agrave; li&ecirc;n hệ lại với những b&ecirc;n c&oacute; tr&aacute;ch nhiệm nếu c&oacute; sai s&oacute;t.</em><br />
+      <em>Xin cảm ơn.</em></span></p>
+      <h3 style="color:red;">
+      <span style="font-size:18px;"><em>C&Ocirc;NG AN SƠN LA</em></span></h3>
+
+      ]]>
+        </field>
+    </record>
+
+    <record id="set_calendar_change_date_email_templates" model="mail.template">
+        <field name="name">Mẫu email: thay đổi ngày đặt lịch</field>
+        <field name="email_from">
+            ${object.create_uid.partner_id.company_id and object.create_uid.partner_id.company_id.email or ''}
+        </field>
+        <field name="subject">Thông báo về việc thay đổi ngày đặt lịch
+        </field>
+        <field name="email_to">${object.create_uid.partner_id.email|safe}</field>
+        <field name="lang">${object.create_uid.partner_id.lang}</field>
+        <field name="model_id" ref="bms_cpdt.model_bms_set_calendar"/>
+        <field name="auto_delete" eval="True"/>
+        <field name="body_html">
+            <![CDATA[
+      <p><span style="font-size:18px;"><strong>Xin chào, ${object.create_uid.name}!</strong></span></p>
+      <p><span style="font-size:18px;"><em>Bạn nhận được email này là do đặt lịch làm việc của bạn Công an Sơn La không thể đáp ứng được thời gian do bạn đặt vì bận công tác khác nên Công an Sơn La đề xuất chuyển sang ngày ${object.date_format}, bạn vui lòng đăng nhập hệ thống và theo dõi đặt lịch để biết thêm chi tiết.</em></span><br></p>
+      <p><span style="font-size:18px;"><u><strong><br></strong></u></span></p>
+      <p><span style="font-size:18px;"><em>Xin vui lòng chờ và hãy kiểm tra và liên hệ lại với những bên có trách nhiệm nếu có sai sót.</em><br>
+      <em>Xin cảm ơn.</em></span></p>
+      <h3 style="color:red;">
+      <span style="font-size:18px;"><em>CÔNG AN SƠN LA</em></span></h3>
+      ]]>
+        </field>
+    </record>
+
+</odoo>

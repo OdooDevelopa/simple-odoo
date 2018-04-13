@@ -1,0 +1,138 @@
+<odoo>
+    <template id="payment_info" name="Payment Info Page" page="True">
+        <t t-call="website.layout">
+            <div class="oe_structure">
+                <div class="container">
+                    <center>
+                        <h3>Payment Information</h3>
+                    </center>
+                    <t t-foreach="sessions" t-as="session">
+                        <p>
+                            <p align='center'>
+                                <h4 align='center'>
+                                    <p style="display: inline;">Your session</p>
+                                    <span t-esc="session.name"/>
+                                </h4>
+                                <table style="margin: 36px auto;">
+                                    <td>
+                                        <p>
+                                            <b>
+                                                <p style="display: inline;">Customer: </p>
+                                            </b>
+                                            <span t-esc="session.partner_id.name"/>
+                                        </p>
+                                        <p>
+                                            <b>
+                                                <p style="display: inline;">Mobile: </p>
+                                            </b>
+                                            <span t-esc="session.mobile"/>
+                                        </p>
+                                        <p>
+                                            <b>
+                                                <p style="display: inline;">Email :</p>
+                                            </b>
+                                            <span t-esc="session.email"/>
+                                        </p>
+                                        <p>
+                                            <b>
+                                                <p style="display: inline;">Handler manager: </p>
+                                            </b>
+                                            <span t-if="session.handler" t-esc="session.handler.name"/>
+                                        </p>
+                                    </td>
+                                </table>
+                            </p>
+                            <table class="table-striped table">
+                                <t t-set="stt" t-value="0"/>
+                                <tr>
+                                    <th>No.</th>
+                                    <th>Name</th>
+                                    <th align='right'>Quantity</th>
+                                    <th align='right'>Price</th>
+                                    <th align='right'>Price Subtotal</th>
+                                </tr>
+                                <t t-foreach="session.product_line_ids" t-as="i">
+                                    <t t-set="stt" t-value="stt + 1"/>
+                                    <tr>
+                                        <td>
+                                            <t t-esc="stt"/>
+                                        </td>
+                                        <td>
+                                            <t t-esc="i.name"/>
+                                        </td>
+                                        <td align='right'>
+                                            <t t-esc="i.quantity"/>
+                                        </td>
+                                        <td align='right'>
+                                            <t t-esc="i.price_unit"/>
+                                        </td>
+                                        <td align='right'>
+                                            <t t-esc="i.price_subtotal"/>
+                                        </td>
+                                    </tr>
+                                </t>
+                                <tr>
+                                    <td colspan='3'></td>
+                                    <td align='right' style="padding-right: 0;">
+                                        <p>Amount Untaxed</p>
+                                        <p>Amount Tax</p>
+                                        <p style="border-top: 1px solid;font-size: 125%;font-weight: bold;">Amount Total</p>
+                                    </td>
+                                    <td align='right' style="padding-left: 0;">
+                                        <p t-esc="session.amount_untaxed"/>
+                                        <p t-esc="session.amount_tax"/>
+                                        <p t-esc="session.amount_total" style="border-top: 1px solid;font-size: 125%;font-weight: bold;"/>
+                                    </td>
+                                </tr>
+                            </table>
+                            <p align='right'>
+                                <a t-attf-href="/payment/vnpay/pay/#{session.id}" class="btn btn-info">GO TO PAYMENT</a>
+                                <a t-attf-href="/web#id=#{session.id}&amp;view_type=form&amp;model=bms.session" class="btn btn-default">Return Your Session</a>
+                            </p>
+                        </p>
+                    </t>
+                </div>
+            </div>
+        </t>
+    </template>
+    <template id="payment_success" name="Payment Success" page="True">
+        <t t-call="website.layout">
+            <div class="oe_structure">
+                <div class="container" align='center'>
+                    <t t-foreach="sessions" t-as="session">
+                        <div class="alert alert-success" role="alert" style="margin-top: 48px;">
+                            <h3>Payment Success</h3>
+                            <p>
+                                <p style="display: inline;">Session</p>
+                                <b t-esc='sessions.code'/>
+                                <p style="display: inline;">has been successfully paid!</p>
+                                <p>Please check the notifying message!</p>
+                            </p>
+                        </div>
+                        <a t-attf-href="/web#id=#{session.id}&amp;view_type=form&amp;model=bms.session" class="btn btn-default" style="margin-bottom: 48px;">Return Your Session</a>
+                    </t>
+                </div>
+            </div>
+        </t>
+    </template>
+    <template id="payment_error" name="Payment Error" page="True">
+        <t t-call="website.layout">
+            <div class="oe_structure">
+                <div class="container" align='center'>
+                    <t t-foreach="sessions" t-as="session">
+                        <div class="alert alert-danger" role="alert" style="margin-top: 48px;">
+                            <h3>Payment Error</h3>
+                            <p>
+                                <p>Your session has not been paid yet! Please try again!</p>
+                                <p style="display: inline;">Please contact</p>
+                                <b t-field="res_company.phone"></b>
+                                <p style="display: inline;">if you need help.</p>
+                            </p>
+                        </div>
+                        <a t-attf-href="/web#id=#{session.id}&amp;view_type=form&amp;model=bms.session" class="btn btn-default" style="margin-bottom: 48px;">Return Your Session</a>
+                    </t>
+                </div>
+            </div>
+        </t>
+    </template>
+</odoo>

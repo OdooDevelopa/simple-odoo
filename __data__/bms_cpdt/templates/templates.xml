@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- main -->
+    <template id="LegalBasic">
+        <link rel="stylesheet" href="bms_cpdt/static/src/css/cd_style.css"/>
+        <t t-call="website.layout">
+            <title>Cơ sở pháp lý</title>
+            <div class="oe_structure">
+                <div class="container">
+                    <h1 style="padding-top: 40px;text-align: center;">Cơ sở pháp
+                        lý
+                    </h1>
+                    <ul style="margin: 50px 0;">
+                        <t t-foreach="LegalBasic" t-as="lb">
+                            <li class="o_editable">
+                                <a t-attf-href='/LegalBasic/{{lb.id}}'>
+                                    <t t-esc="lb.name"/>
+                                </a>
+                            </li>
+                        </t>
+                    </ul>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="LegalBasicId">
+        <t t-call="website.layout">
+            <title>Cơ sở pháp lý</title>
+            <div class="oe_structure">
+                <div class="container">
+                    <div style="margin: 50px 0;">
+                        <t t-foreach="legal_basics" t-as="lb">
+                            <h2 style="padding-top: 40px;text-align: center;">
+                                <t t-esc="lb.name"/>
+                            </h2>
+                            <h3>Nội dung</h3>
+                            <div style="border: 1px solid #f0f0f0;
+                            max-width: 800px;margin: auto;
+                            padding: 0.5in 1in;
+                            background-color: #f9f9f9;
+                            border-radius: 6px;
+                            font-family: initial;">
+                                <t t-raw="lb.content"/>
+                            </div>
+                            <h3>Đính kèm</h3>
+                            <p>
+                                <t t-foreach="lb.attachment_ids" t-as="at">
+                                    <a t-attf-href="/web/content/{{at.id}}?download=true">
+                                        <t t-esc="at.name"/>
+                                    </a>
+                                    <br/>
+                                </t>
+                            </p>
+                            <h3>Ghi chú</h3>
+                            <p>
+                                <t t-esc="lb.note"/>
+                            </p>
+                        </t>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+
+
+    <template id="AdministrativeProcedures">
+        <t t-call="website.layout">
+            <title>Thủ tục hành chính</title>
+            <div class="oe_structure">
+                <div class="container">
+                    <h1 class="o_editable" style="padding-top: 40px;text-align: center;">Thủ tục
+                        hành chính
+                    </h1>
+                    <ul style="margin: 50px 0;">
+                        <t t-foreach="document_templates" t-as="doctem">
+                            <li class="o_editable">
+                                <a t-attf-href="/AdministrativeProcedures/{{doctem.id}}">
+                                    <t t-esc="doctem.name"/>
+                                </a>
+                            </li>
+                        </t>
+                    </ul>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="AdministrativeProceduresId">
+        <t t-call="website.layout">
+            <title>Thủ tục hành chính</title>
+            <div class="oe_structure">
+                <div class="container">
+                    <table>
+                        <tr>
+                            <td id="main-content" style="width: 25%; width: 25%; margin-top: 80px; display: inherit;">
+                                <ul style="margin: 100px 0 5px 0; list-style-type: none;
+                                     border-left: 2px solid #488D4E; padding-left: 0px;">
+                                    <li class="o_editable" style="border-bottom: solid 1px #eeeeee; padding: 10px 0 10px 10px;">
+                                        <a style="color: #488D4E;text-decoration: none;
+                                         font-size: 16px;" href="#des">Mô tả</a>
+                                    </li>
+                                    <li class="o_editable" style="border-bottom: solid 1px #eeeeee; padding: 10px 0 10px 10px;">
+                                        <a style="color: #488D4E;text-decoration: none;
+                                         font-size: 16px;" href="#pur">Mục đích / phạm vi / nội dung quy trình</a>
+                                    </li>
+                                    <li class="o_editable" style="border-bottom: solid 1px #eeeeee; padding: 10px 0 10px 10px;">
+                                        <a style="color: #488D4E;text-decoration: none;
+                                         font-size: 16px;" href="#leg">Cơ sở pháp lý liên quan</a>
+                                    </li>
+                                    <li class="o_editable" style="border-bottom: solid 1px #eeeeee; padding: 10px 0 10px 10px;">
+                                        <a style="color: #488D4E;text-decoration: none;
+                                         font-size: 16px;" href="#faq">Câu hỏi thường gặp</a>
+                                    </li>
+                                    <li class="o_editable" style="border-bottom: solid 1px #eeeeee; padding: 10px 0 10px 10px;">
+                                        <a style="color: #488D4E;text-decoration: none;
+                                         font-size: 16px;" href="#com">Ghi chú</a>
+                                    </li>
+                                    <li class="o_editable" style="border-bottom: solid 1px #eeeeee; padding: 10px 0 10px 10px;">
+                                        <a style="color: #488D4E;text-decoration: none;
+                                         font-size: 16px;" href="/web/login">Đăng nhập</a>
+                                    </li>
+                                    <li class="o_editable" style="border-bottom: solid 1px #eeeeee; padding: 10px 0 10px 10px;">
+                                        <a style="color: #488D4E;text-decoration: none;
+                                         font-size: 16px;" href="/web/signup">Đăng ký</a>
+                                    </li>
+                                </ul>
+                            </td>
+                            <td style="width: 75%;">
+                                <div style="margin: 100px 0 0 50px;">
+                                    <t t-foreach="document_templates" t-as="doctem">
+                                        <hr style="padding: 4 0 4 0px; margin: 10px 0 10px 0;
+                                        border-top: 1px solid #eeeeee;"/>
+                                        <h3 class="o_editable" style="padding-top: 0px;text-align: center; font-size: 32px;"
+                                            name="description">
+                                            <t t-esc="doctem.name"/>
+                                        </h3>
+                                        <hr style="padding: 4 0 4 0px; margin: 10px 0 10px 0;
+                                         border-top: 1px solid #eeeeee;"/>
+                                        <h2 class="o_editable" style="border-left: solid 2px #eeeeee; padding: 10px 0 0 10px;">
+                                            <a id="#des">
+                                                <u style="font-size: 24px; color: #488D4E;">Mô tả</u>
+                                            </a>
+                                        </h2>
+                                        <p class="o_editable" style="white-space: pre-line; padding-left: 15px; line-height: 1.2em;">
+                                            <p t-raw="doctem.description"/>
+                                        </p>
+                                        <h2 class="o_editable" style="border-left: solid 2px #eeeeee; padding: 10px 0 0 10px;">
+                                            <u style="font-size: 24px; color: #488D4E;">Đính kèm</u>
+                                        </h2>
+                                        <p style="padding-left: 15px; line-height: 1.2em;">
+                                            <t t-foreach="doctem.attachment_ids" t-as="at">
+                                                <a class="o_editable" t-attf-href="/web/content/{{at.id}}?download=true">
+                                                    <t t-esc="at.name"/>
+                                                </a>
+                                                <br/>
+                                            </t>
+                                        </p>
+                                        <h2 style="border-left: solid 2px #eeeeee; padding: 10px 0 0 10px;"
+                                            name="purpose_scope_content">
+                                            <a class="o_editable" id="pur">
+                                                <u style="font-size: 24px;
+                                                color: #488D4E;">Mục đích / phạm vi / nội dung quy trình</u>
+                                            </a>
+                                        </h2>
+                                        <p class="o_editable" style="padding-left: 15px; line-height: 1.2em;">
+                                            <p t-raw="doctem.purpose_scope_content"/>
+                                        </p>
+                                        <h2 style="border-left: solid 2px #eeeeee; padding: 10px 0 0 10px;"
+                                            name="legal_basic">
+                                            <a class="o_editable" id="leg">
+                                                <u style="font-size: 24px; color: #488D4E;">Cơ sở pháp lý liên quan</u>
+                                            </a>
+                                        </h2>
+                                        <p  style="padding-left: 15px; line-height: 1.2em;">
+                                          <t t-foreach="doctem.legal_basic_ids" t-as="lb">
+                                              <a class="o_editable" t-attf-href="/LegalBasic/{{lb.id}}">
+                                                  <t t-esc="lb.name"/>
+                                              </a>
+                                              <br/>
+                                          </t>
+                                        </p>
+                                        <h2 style="border-left: solid 2px #eeeeee; padding: 10px 0 0 10px;">
+                                            <a class="o_editable" id="faq"><u style="font-size: 24px; color: #488D4E;">Câu hỏi thường gặp</u></a>
+                                        </h2>
+                                        <p class="o_editable" style="padding-left: 15px; line-height: 1.2em;">
+                                            <p t-raw="doctem.faq"/>
+                                        </p>
+                                        <h2 class="o_editable" style="border-left: solid 2px #eeeeee; padding: 10px 0 0 10px;">
+                                            <a id="com"><u  style="font-size: 24px; color: #488D4E;">Ghi chú</u></a>
+                                        </h2>
+                                        <p class="o_editable" style="white-space: pre-line; color: #eeeeee">
+                                            <t t-esc="doctem.note"/>
+                                        </p>
+                                    </t>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="contactus_form_inherit"
+              inherit_id="website_crm.contactus_form" name="Contactus form">
+        <xpath expr="//input[@name='contact_name']" position="attributes">
+            <attribute name="pattern">[a-zA-Z0-9_\.]{1, 30}</attribute>
+        </xpath>
+        <xpath expr="//input[@name='phone']" position="attributes">
+            <attribute name="pattern">^\+?\d{1,3}?[- .]?\(?(?:\d{2,3})\)?[-
+                .]?\d\d\d[- .]?\d\d\d\d$
+            </attribute>
+        </xpath>
+        <xpath expr="//input[@name='email_from']" position="attributes">
+            <attribute name="pattern">
+                ^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$
+            </attribute>
+        </xpath>
+    </template>
+
+    <!-- Banner -->
+    <!-- <template inherit_id="website.homepage" id="homepage_inherit">
+      <xpath expr="//div[@id='wrap']" position="replace">
+        <div class="oe_structure">
+          <section class="s_text_block_image_fw mb0 oe_img_bg oe_custom_bg" style="background-position: 50% 100%; background-image: url('http://imageshack.com/a/img922/8788/zLThmI.jpg');">
+            <div class="container">
+              <div id="wrap" class="oe_structure oe_empty" data-oe-id="445" data-oe-model="ir.ui.view" data-oe-field="arch" data-oe-xpath="/t[1]/t[1]/div[1]">
+                  <div class="row">
+                    <div class="col-md-6 mt64 mb64 bg-black-50">
+                      <h2 style="font-size:62px;">
+                        Công an Sơn La</h2>
+                      <h4>Công an nhân dân Sơn La</h4>
+                      <p>Đảm bảo giữ vững ANCT, TTATXH trên địa bàn toàn tỉnh, phục vụ đắc lực cho công cuộc xây dựng, phát triển kinh tế – xã hội của tỉnh.
+                      </p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </xpath>
+    </template> -->
+
+
+    <!-- <template id="index">
+      <t t-call="website.layout">
+        <title>Trang chủ</title>
+
+      </t>
+    </template> -->
+
+    <!-- <template id="header_views" inherit_id="website.layout" name="Header">
+
+         <xpath expr="//header//ul[@id='top_menu']" position="replace">
+          <link rel="stylesheet" href="http://odooglobal.net/im_livechat/external_lib.css"/>
+          <script type="text/javascript" src="http://odooglobal.net/im_livechat/external_lib.js"></script>
+          <script type="text/javascript" src="http://odooglobal.net/im_livechat/loader/1"></script>
+          <div class="collapse navbar-collapse navbar-top-collapse">
+            <ul class="nav navbar-nav navbar-right" id="top_menu">
+              <li><a href="/">
+                  <span data-oe-model="website.menu" data-oe-id="4"
+                        data-oe-field="name" data-oe-type="char"
+                        data-oe-expression="submenu.name">Home</span></a></li>
+
+              <li><a href="/AdministrativeProcedures/">
+                  <span data-oe-model="website.menu" data-oe-id="4"
+                        data-oe-field="name" data-oe-type="char"
+                        data-oe-expression="submenu.name">Administrative Procedures</span></a></li>
+
+              <li><a href="/LegalBasic/">
+                  <span data-oe-model="website.menu" data-oe-id="4"
+                        data-oe-field="name" data-oe-type="char"
+                        data-oe-expression="submenu.name">Legal Basic</span></a></li>
+
+              <li><a href="/page/contactus">
+                  <span data-oe-model="website.menu" data-oe-id="4"
+                        data-oe-field="name" data-oe-type="char"
+                        data-oe-expression="submenu.name">Contact US</span></a></li>
+
+              <li t-if="request.env.user.active"><a href="/web/session/logout?redirect=/">
+                  <span data-oe-model="website.menu" data-oe-id="4"
+                        data-oe-field="name" data-oe-type="char"
+                        data-oe-expression="submenu.name">Logout</span></a></li>
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="display:none">
+                    <b>
+                        <span>Setting</span>
+                        <span class="caret"></span>
+                    </b>
+                </a>
+                  <ul class="dropdown-menu js_usermenu" role="menu">
+                        <li id="o_logout"><a role="menuitem" href="/web/session/logout?redirect=/">Logout</a></li>
+                  </ul>
+              </li>
+            </ul>
+          </div>
+        </xpath>
+
+        <xpath expr="//div[@id='footer']" position="replace">
+            <div class="oe_structure" id="footer">
+                <section>
+                  <div class="row">
+                    <div class="col-md-4 col-lg-3">
+                      <h4 style="text-align:center;">TRANG THÔNG TIN ĐIỆN TỬ <br/>
+                          CÔNG AN TỈNH SƠN LA
+                      </h4>
+                      <ul class="list-unstyled" id="products">
+                        <li>
+                          <a href="/" data-original-title="" title=""></a>
+                            <div id="site-info" class="container">
+                                <p>
+                                    <a href="/" data-original-title="" title=""></a>
+                                    <a title="" href="http://designwall.com/"
+                                      data-original-title="Responsive WordPress Themes for Free and Premium">
+                                      Giấy phép số: 02/GP-TTĐT, ngày 12/8/2015 của Sở Thông tin &amp;
+                                      Truyền thông tỉnh Sơn La</a>
+                                </p>
+                            </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-md-4  col-lg-3" id="info">
+                      <h4>Liên hệ</h4>
+                      <ul class="list-unstyled">
+                        <li>
+                          <i class="fa fa-phone"></i>
+                          <span data-oe-model="res.company" data-oe-id="1" data-oe-field="phone" data-oe-type="char" data-oe-expression="res_company.phone">01234567890</span>
+                        </li>
+                        <li>
+                          <i class="fa fa-envelope"></i>
+                          <span data-oe-model="res.company" data-oe-id="1" data-oe-field="email" data-oe-type="char" data-oe-expression="res_company.email">
+                            <a href="mailto:banbientap@congansonla.gov.vn" target="_top">banbientap@congansonla.gov.vn</a>
+                          </span>
+                        </li>
+                      </ul>
+
+                    </div>
+                    <div class="col-md-4 col-lg-5 col-lg-offset-1">
+                        <h4>
+                          <span data-oe-model="res.company" data-oe-id="1" data-oe-field="name" data-oe-type="char" data-oe-expression="res_company.name">Công an Sơn La</span>
+                          <small> - <a href="/page/website.aboutus" data-original-title="" title="">Giới thiệu</a></small>
+                        </h4>
+                        <div>
+                                    Sau đại thắng mùa xuân năm 1975 và bước vào thời kỳ đổi mới,
+                                    lực lượng Công an nhân dân Sơn La đã tiếp tục phát huy vai trò là lực lượng chủ công,
+                                    nòng cốt trong đảm bảo an ninh chính trị, giữ gìn trật tự an toàn xã hội trên địa bàn.
+                                    Chủ động tham mưu với cấp ủy, chính quyền các cấp triển khai kịp thời,
+                                    đồng bộ các văn bản lãnh đạo của Đảng, Nhà nước về đảm bảo an ninh quốc gia,
+                                    chiến lược bảo vệ Tổ quốc trong tình hình mới
+                        </div>
+                        <t t-call="website.language_selector"/>
+                    </div>
+                  </div>
+                </section>
+            </div>
+        </xpath>
+    </template> -->
+
+    <!-- <template id="company_description_inherit" inherit_id="website.contactus" name="company_description">
+      <xpath expr="//div[@class='col-md-4 mb32']" position="replace">
+        <t t-call="website.company_description"/>
+        <a style='float: right;position: absolute;max-width: 300px;' href="https://www.google.com/maps/dir/''/cong+an+son+la/@21.3348441,103.9071032,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x31328b31ec90d3f7:0x37dfe3c7e5c18a94!2m2!1d103.9078353!2d21.3331797">
+          <img src='http://i.imgur.com/93mt6z4.png' width='100%'/>
+        </a>
+      </xpath>
+    </template> -->
+
+    <!-- <template id="custom_title" name="change title" inherit_id="web.layout">
+      <xpath expr="//title" position="replace">
+        <title t-esc="'Công an Sơn La'"/>
+      </xpath>
+    </template> -->
+
+</odoo>

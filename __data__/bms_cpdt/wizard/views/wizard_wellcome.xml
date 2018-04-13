@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="wizard_bms_wellcome_form" model="ir.ui.view">
+        <field name="name">bms.wellcome.form</field>
+        <field name="model">bms.wellcome</field>
+        <field name="arch" type="xml">
+            <form create="false" edit="false">
+                <header>
+                    <field name="state"
+                        widget="statusbar" invisible="1"/>
+                </header>
+                <group>
+                    <button name="new_registration_procedure" class="oe_highlight"
+                            type="object" string="New registration procedure"
+                            states="choose" style="width:80%%;height:80%%;"/>
+                    <button name="follow" class="oe_highlight"
+                            type="object" string="Follow procedure"
+                            states="choose" style="width:80%%;height:80%%;"/>
+                </group>
+                <group col="12" colspan="12">
+                    <group col="12" colspan="12">
+                        <button name="new_set_calendar" class="oe_highlight"
+                                type="object" string="Set calendar procedure resolve"
+                                states="new" col="3" colspan="3"
+                                style="width:95%%;height:80%%;"/>
+                        <button name="new_send_a_copy" class="oe_highlight"
+                                type="object" string="Send online profile"
+                                style="width:95%%;height:80%%;"
+                                states="new" col="3" colspan="3"/>
+                        <button name="new_session" class="oe_highlight"
+                                type="object" string="Send profile and pay online"
+                                style="width:95%%;height:80%%;"
+                                states="new" col="3" colspan="3"/>
+                        <button name="back" class="oe_link"
+                                type="object" string="Back"
+                                style="width:80%%;height:80%%;"
+                                states="new" col="3" colspan="3"/>
+                    </group>
+
+                    <group col="12" colspan="12">
+                        <button name="follow_set_calendar" class="oe_highlight"
+                                type="object" string="Follow set calendar"
+                                style="width:95%%;height:80%%;"
+                                states="follow" col="3" colspan="3"/>
+                        <button name="follow_send_a_copy" class="oe_highlight"
+                                type="object" string="Follow send a copy"
+                                style="width:95%%;height:80%%;"
+                                states="follow" col="3" colspan="3"/>
+                        <button name="follow_session" class="oe_highlight"
+                                type="object" string="Follow procedure"
+                                style="width:95%%;height:80%%;"
+                                states="follow" col="3" colspan="3"/>
+
+                        <button name="back" class="oe_link"
+                                type="object" string="Back"
+                                style="width:80%%;height:80%%;"
+                                states="follow" col="3" colspan="3"/>
+                        </group>
+                </group>
+                <footer>
+                    <button special="cancel" string="Close" class="oe_link"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="wellcome_record" model="bms.wellcome">
+        <field name="state">choose</field>
+    </record>
+
+    <record id="wizard_bms_wellcome_action_form" model="ir.actions.act_window">
+        <field name="name">Wellcome</field>
+        <field name="res_model">bms.wellcome</field>
+        <field name="view_mode">form</field>
+        <field name="res_id" ref="bms_cpdt.wellcome_record"/>
+        <field name="target">new</field>
+        <field name="flags">{'form': {'action_buttons': False}}</field>
+    </record>
+
+    <menuitem id="menu_wizard_bms_wellcome_action_form"
+              name="Control panel"
+              parent="menu_e_gov_root"
+              action="wizard_bms_wellcome_action_form"
+              sequence="1"/>
+</odoo>

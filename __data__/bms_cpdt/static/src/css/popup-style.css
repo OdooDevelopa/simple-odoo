@@ -1,0 +1,346 @@
+
+.clickToViewDetail {
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 0;
+    background: #587e43;
+}
+
+    .clickToViewDetail a {
+        font: 25px "Myriad Pro Bold Condensed", Tahoma, Arial, Verdana, sans-serif;
+        color: #ffffff;
+    }
+
+        .clickToViewDetail a:hover {
+            text-decoration: none;
+            color: #fff;
+        }
+.pp {
+	z-index: 10;
+	font: 13px Arial, Verdana, sans-serif;
+	display:none;
+}
+.pp, .pp .bg, .pp .box {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.pp .bg {
+	background-color: #000;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+.pp .box {
+	overflow: hidden;
+	display: -webkit-box;
+	display: -moz-box;
+	display: box;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	flex-align: center;
+}
+.pp .box .pp-ctx {
+	width: 560px;
+	margin: auto;
+	background-color: #efefef;
+	border: 1px solid #787878;
+}
+.pp .box .pp-ctx h2 {
+	font:bold 14px Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	height:44px;
+	line-height:44px;
+	background:#FFF;
+	padding:0 15px;
+}
+.pp .cont {
+	margin: 20px 28px 18px;
+}
+
+.pp .cont p {
+	margin-bottom:30px;
+	font:14px Arial, Helvetica, sans-serif;
+	line-height:22px;
+}
+.pp .cont span {
+	text-align:right;
+	display:block;
+}
+.pp a {
+	display:inline-block;
+	height:25px;
+	font:bold 13px Arial, Helvetica, sans-serif;
+	line-height:25px;
+	color:#FFF;
+	background:#0d7d49;
+	width:auto;
+	padding:0 20px;
+	margin-left:15px;
+}
+.pp a:hover {
+	background:#444;
+}
+
+.regInfo .detail {
+	color:#129e5d;
+}
+.pp .box .stepsPopup {
+	width: 850px;
+	max-height: 100%;
+	overflow-y: auto;
+	background-color: #fff
+}
+.stepsPopup .cont {
+	margin:15px 10px 45px;
+}
+.boxDetail {
+	display:block;
+	position:relative;
+	overflow:hidden;
+	min-height:100px;
+	border:1px dashed #ddd;
+	border-bottom:5px solid #bbb;
+	background-color:#fff;
+	margin-bottom:20px;
+}
+.stepsPopup h3 {
+	font: 22px "Myriad Pro Condensed", Tahoma, Arial, Verdana, sans-serif;
+	text-transform:uppercase;
+	color:#666;
+	text-align:center;
+	padding:10px 20px 0;
+}
+.boxDetail .num {
+	display:block;
+	position:absolute;
+	top:50%;
+	margin-top:-45px;
+	left:5px;
+	font: 85px "Myriad Pro Bold Condensed", Tahoma, Arial, Verdana, sans-serif;
+	line-height:90px;
+	color:#dfdfdf;
+}
+.boxDetail .text {
+	padding:18px 15px 18px 125px;
+}
+.boxDetail .text li {
+	margin:8px 0;
+	position:relative;
+	font-size:14px;
+	line-height:20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.boxDetail .text li:before {
+	content:"";
+	position:absolute;
+	display:block;
+	height:4px;
+	width:6px;
+	background-color:#129e5d;
+	top:8px;
+	left:-22px;
+}
+.boxDetail:hover {
+	border-bottom:5px solid #587E43;
+}
+.boxDetail:hover .num {
+	color: #587E43;
+}
+.text-center { text-align:center; }
+/** popup css */
+#toPopup {
+    z-index: 10;
+    font: 13px Arial, Verdana, sans-serif;
+    display: none;
+}
+
+    #toPopup, #toPopup .bg, #toPopup .box {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+        #toPopup .bg {
+            position: fixed;
+            background-color: #000;
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+        }
+
+        #toPopup .box {
+            overflow: auto;
+            display: -webkit-box;
+            display: -moz-box;
+            display: box;
+            -webkit-box-align: center;
+            -moz-box-align: center;
+            flex-align: center;
+        }
+
+            #toPopup .box .pp-ctx {
+                width: 560px;
+                margin: auto;
+                background-color: #efefef;
+                border: 1px solid #787878;
+            }
+
+                #toPopup .box .pp-ctx h2 {
+                    font: bold 14px Arial, Helvetica, sans-serif;
+                    text-transform: uppercase;
+                    height: 44px;
+                    line-height: 44px;
+                    background: #FFF;
+                    padding: 0 15px;
+                }
+
+        #toPopup .cont {
+            margin: 10px 10px 20px;
+        }
+
+            #toPopup .cont p {
+                /*margin-bottom: 30px;*/
+                font: 14px Arial, Helvetica, sans-serif;
+                line-height: 22px;
+                /*color: red;*/
+            }
+
+            #toPopup .cont span {
+                text-align: right;
+                display: block;
+            }
+
+        #toPopup a {
+            display: inline-block;
+            height: 25px;
+            font: bold 13px Arial, Helvetica, sans-serif;
+            line-height: 25px;
+            color: #FFF;
+            background: #0d7d49;
+            width: auto;
+            padding: 0 20px;
+            margin-left: 15px;
+        }
+
+            #toPopup a:hover {
+                background: #444;
+            }
+
+        #toPopup .box .pp-ctx .cont .checkStar {
+            width: 3px;
+            float: right;
+            margin: 8px 10px 0px 0px;
+            color: red;
+        }
+/* popup messager*/
+#showMessager {
+    z-index: 10;
+    font: 13px Arial, Verdana, sans-serif;
+    display: none;
+}
+
+    #showMessager, #showMessager .bg, #showMessager .box {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+        #showMessager .bg {
+            position: fixed;
+            background-color: #000;
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+        }
+
+        #toPopup .box {
+            overflow: auto;
+            display: -webkit-box;
+            display: -moz-box;
+            display: box;
+            -webkit-box-align: center;
+            -moz-box-align: center;
+            flex-align: center;
+        }
+
+            #showMessager .box .pp-ctx {
+                width: 560px;
+                margin: auto;
+                background-color: #efefef;
+                border: 1px solid #787878;
+                margin-top: 200px;
+            }
+
+                #showMessager .box .pp-ctx h2 {
+                    font: bold 14px Arial, Helvetica, sans-serif;
+                    text-transform: uppercase;
+                    height: 44px;
+                    line-height: 44px;
+                    background: #FFF;
+                    padding: 0 15px;
+                }
+
+        #showMessager .cont {
+            margin: 10px 10px 20px;
+        }
+
+            #showMessager .cont p {
+                /*margin-bottom: 30px;*/
+                font: 14px Arial, Helvetica, sans-serif;
+                line-height: 22px;
+                /*color: red;*/
+            }
+
+            #showMessager .cont span {
+                text-align: right;
+                display: block;
+            }
+
+        #showMessager a {
+            display: inline-block;
+            height: 25px;
+            font: bold 13px Arial, Helvetica, sans-serif;
+            line-height: 25px;
+            color: #FFF;
+            background: #0d7d49;
+            width: auto;
+            padding: 0 20px;
+            margin-left: 15px;
+        }
+
+            #showMessager a:hover {
+                background: #444;
+            }
+
+        #showMessager .box .pp-ctx .cont .checkStar {
+            width: 3px;
+            float: right;
+            margin: 8px 10px 0px 0px;
+            color: red;
+        }
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .formApp .formEnding span p.textEnterCode {
+        margin-top: -50px;
+    }
+}
+
+@-moz-document url-prefix() {
+    .formApp .formEnding span p.textEnterCode {
+        font: 15px "Myriad Pro Bold", Tahoma, Arial, Verdana, sans-serif;
+        color: red;
+        margin-top: -80px;
+        margin-left: 5px;
+    }
+
+    #toPopup .box .pp-ctx {
+        margin-top: 215px;
+    }
+}
+

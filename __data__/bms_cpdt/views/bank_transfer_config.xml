@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_bank_transfer_config_form" model="ir.ui.view">
+        <field name="name">bank.transfer.config.form</field>
+        <field name="model">bank.transfer.config</field>
+        <field name="arch" type="xml">
+            <form create="false" delete="false">
+                <group col="8" colspan="8">
+                    <field name="name"
+                           col="8" colspan="8"/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_bank_transfer_config_form" model="ir.actions.act_window">
+        <field name="name">Bank transfer config</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">bank.transfer.config</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">form</field>
+        <field name="res_id" ref="bms_cpdt.bank_transfer_config_record"/>
+    </record>
+
+    <menuitem id="menu_action_bank_transfer_config_form"
+              parent="menu_e_gov_config"
+              action="action_bank_transfer_config_form"
+              groups="base.group_system"
+              sequence="10"/>
+
+</odoo>

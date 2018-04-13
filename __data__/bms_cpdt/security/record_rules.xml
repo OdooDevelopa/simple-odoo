@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo noupdate="1">
+    <record id="editable_seal_price" model="ir.rule">
+        <field name="name">editable_seal_price</field>
+        <field name="model_id" ref="product.model_product_product"/>
+        <field name="perm_write" eval="0"/>
+        <field name="perm_create" eval="0"/>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_unlink" eval="0"/>
+        <field name="groups" eval="[(4, ref('bms_cpdt.group_e_gov_user')), (4, ref('bms_cpdt.group_e_gov_manager')), ]"/>
+    </record>
+
+    <record id="set_calendar_user_rule" model="ir.rule">
+        <field name="name">set_calendar_user_rule</field>
+        <field name="model_id" ref="model_bms_set_calendar"/>
+        <field name="domain_force">[('create_uid', '=', user.id)]</field>
+        <field name="groups" eval="[(4, ref('bms_cpdt.group_e_gov_user'))]"/>
+    </record>
+
+    <record id="set_calendar_manager_rule" model="ir.rule">
+        <field name="name">set_calendar_manager_rule</field>
+        <field name="model_id" ref="model_bms_set_calendar"/>
+        <field name="domain_force">[(1, '=', 1)]</field>
+        <field name="groups"
+               eval="[(4, ref('bms_cpdt.group_e_gov_manager')),
+               (4, ref('bms_cpdt.group_e_gov_super_manager'))]"/>
+    </record>
+
+    <record id="set_bms_sesaion_user_rule" model="ir.rule">
+        <field name="name">bms_seasion_user_rule</field>
+        <field name="model_id" ref="model_bms_session"/>
+        <field name="domain_force">[('create_uid', '=', user.id)]</field>
+        <field name="groups" eval="[(4, ref('bms_cpdt.group_e_gov_user'))]"/>
+    </record>
+
+    <record id="bms_session_manager_rule" model="ir.rule">
+        <field name="name">bms_session_manager_rule</field>
+        <field name="model_id" ref="model_bms_session"/>
+        <field name="domain_force">[(1, '=', 1)]</field>
+        <field name="groups"
+               eval="[(4, ref('bms_cpdt.group_e_gov_manager')),
+               (4, ref('bms_cpdt.group_e_gov_super_manager'))]"/>
+    </record>
+</odoo>

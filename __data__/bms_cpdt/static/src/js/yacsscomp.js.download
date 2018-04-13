@@ -1,0 +1,60 @@
+(function ($) {
+    "use strict";
+
+    $.fn.stylableRadio = function (arg) {
+        var select = function (r) {
+            var id = r.attr("id"), name = r.attr("name"),
+            form = r.prop("form");
+
+            $("input[name='" + name + "'] + .radio-checked", form).
+                removeClass("radio-checked");
+
+            $("label[for=" + id + "]", form).addClass("radio-checked");
+
+            return r;
+        };
+
+        if (arg == "select") {
+            var e = $(this).first();
+            e.trigger("click");
+            return e
+        }
+
+        // ---
+
+        $(this).each(function () {
+            var e = $(this); var i = e.attr("for"); var r = $("#" + i);
+            e.html("<span class=\"radio-label\"></span><span class=\"wrapper\">" + e.html() + "</span><span class=\"radio-after-label\"></span>");
+            r.css({
+                visibility: "visible", height: "1px", width: "1px",
+                margin: "-1px", position: "absolute", border: "0",
+                padding: "0", clip: "rect(0 0 0 0)", overflow: "hidden"
+            });
+            if (r.is(":checked")) { e.addClass("radio-checked"); $(r).prev().attr('checked', 'checked'); }
+            e.click(function () { select(r); $(".radio-label").addClass("radio-before-label"); });
+            r.click(function () { select(r); $(".radio-label").addClass("radio-before-label"); })
+        })
+    };
+
+    $.fn.stylableCheckbox = function () {
+        $(this).each(function () {
+            var e = $(this); var c = $("#" + e.attr("for"));
+            e.html("<span class=\"checkbox-before-label\"></span><span class=\"wrapper\">" + e.html() + "</span><span class=\"checkbox-after-label\"></span>");
+            c.css({
+                visibility: "visible", height: "1px", width: "1px", margin: "-1px",
+                position: "absolute", border: "0", padding: "0", clip: "rect(0 0 0 0)",
+                overflow: "hidden"
+            });
+            if (c.is(":checked")) { e.addClass("checkbox-checked") }
+            e.click(function () {
+                if (e.hasClass("checkbox-checked")) {
+                    e.removeClass("checkbox-checked");
+                    $(e).prev().attr('checked', false);
+                } else {
+                    e.addClass("checkbox-checked");
+                    $(e).prev().attr('checked', 'checked');
+                }
+            })
+        })
+    };
+})(jQuery);

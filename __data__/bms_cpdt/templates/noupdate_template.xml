@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo noupdate="1">
+    <template name="cpdt_la_gi_1" priority="30" t-name="website.cpdt_la_gi_1">
+        <t t-call="website.layout">
+        </t>
+    </template>
+
+    <template name="cpdt_la_gi_2" priority="30" t-name="website.cpdt_la_gi_2">
+        <t t-call="website.layout">
+        </t>
+    </template>
+
+    <template name="cpdt_la_gi_3" priority="30" t-name="website.cpdt_la_gi_3">
+        <t t-call="website.layout">
+        </t>
+    </template>
+
+    <template name="cpdt_la_gi_4" priority="30" t-name="website.cpdt_la_gi_4">
+        <t t-call="website.layout">
+        </t>
+    </template>
+
+    <template name="cpdt_la_gi_5" priority="30" t-name="website.cpdt_la_gi_5">
+        <t t-call="website.layout">
+        </t>
+    </template>
+
+    <template name="cpdt_la_gi_6" priority="30" t-name="website.cpdt_la_gi_6">
+        <t t-call="website.layout">
+        </t>
+    </template>
+
+    <template name="Help" priority="30" t-name="website.help">
+        <t t-call="website.layout">
+        </t>
+    </template>
+
+    <template name="Help" priority="31" t-name="website.user_guide">
+        <t t-call="website.layout">
+        </t>
+    </template>
+
+    <template name="Help" priority="32" t-name="website.faq">
+        <t t-call="website.layout">
+        </t>
+    </template>
+</odoo>

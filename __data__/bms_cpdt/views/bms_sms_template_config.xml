@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="bms_sms_template_config_action_form" model="ir.actions.act_window">
+        <field name="name">SMS Template Config</field>
+        <field name="res_model">bms.sms.template.config</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <record id="bms_sms_template_config_view_tree" model="ir.ui.view">
+        <field name="name">bms.sms.template.config.tree</field>
+        <field name="model">bms.sms.template.config</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="stc_name"/>
+                <field name="state"/>
+                <field name="actived"/>
+                <field name="sms_template"/>
+            </tree>
+        </field>
+    </record>
+    <record id="bms_sms_template_config_view_form" model="ir.ui.view">
+        <field name="name">bms.sms.template.config.form</field>
+        <field name="model">bms.sms.template.config</field>
+        <field name="arch" type="xml">
+            <form string="SMS Template Config">
+                <sheet>
+                    <group>
+                        <field name="stc_name" required='1'/>
+                        <field name="state" readonly="0" required='1'/>
+                        <field name="actived"/>
+                        <field name="sms_template" required='1' domain="[('name','ilike','Mẫu tin nhắn:')]"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

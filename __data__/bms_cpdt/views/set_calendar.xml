@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="bms_set_calendar_form" model="ir.ui.view">
+        <field name="name">bms.set.calendar.form</field>
+        <field name="model">bms.set.calendar</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button name="cancel" string="Cancel"
+                            states="draft,confirm,change" type="object"
+                            groups="bms_cpdt.group_e_gov_manager,
+                            bms_cpdt.group_e_gov_super_manager,bms_cpdt.group_e_gov_user"/>
+                    <button name="confirm" string="Officials confirm"
+                            class="oe_highlight"
+                            states="draft" type="object"
+                            groups="bms_cpdt.group_e_gov_manager,
+                            bms_cpdt.group_e_gov_super_manager"/>
+                    <button name="change" string="Officials change date"
+                            class="oe_highlight"
+                            states="draft" type="object"
+                            groups="bms_cpdt.group_e_gov_manager,
+                            bms_cpdt.group_e_gov_super_manager"/>
+                    <button name="done" string="Both agreed"
+                            class="oe_highlight"
+                            states="confirm,change" type="object"
+                            groups="bms_cpdt.group_e_gov_manager,
+                            bms_cpdt.group_e_gov_super_manager"/>
+
+                    <field name="state"
+                        widget="statusbar"/>
+                </header>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="date"
+                                   attrs="{'readonly':[('date_editable', '=', False)]}"/>
+                            <field name="date_editable" invisible="1"/>
+                            <field name="create_uid" readonly="1"
+                                   groups="bms_cpdt.group_e_gov_manager,
+                                   bms_cpdt.group_e_gov_super_manager"/>
+                        </group>
+                    </group>
+                    <group>
+                        <!--<separator string="Work content" colspan="4" col="4"/>-->
+                        <field name="content"
+                               string="Work content(Eg: I want to report
+                               the loss of the round seal and make 2 name seals)"
+                               colspan="4" col="4"/>
+                    </group>
+                    <group>
+                        <separator string="The document template I want to do" colspan="4" col="4"/>
+                        <field name="document_template_ids"
+                            colspan="4" col="4"
+                            nolabel="1" widget="many2many_checkboxes"/>
+                    </group>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" widget="mail_followers"/>
+                    <field name="message_ids" widget="mail_thread"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <record id="bms_set_calendar_tree" model="ir.ui.view">
+        <field name="name">bms.set.calendar.tree</field>
+        <field name="model">bms.set.calendar</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="date"/>
+                <field name="create_uid"
+                    groups="bms_cpdt.group_e_gov_manager,
+                    bms_cpdt.group_e_gov_super_manager"/>
+                <field name="state"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="bms_set_calendar_search" model="ir.ui.view">
+        <field name="name">bms.set.calendar.search</field>
+        <field name="model">bms.set.calendar</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="date"/>
+                <field name="content"/>
+                <field name="create_uid"/>
+                <group>
+                    <filter name="state_draft" string="State draft"
+                            domain="[('state','=','draft')]"/>
+                    <filter name="state_confirm" string="State confirm"
+                            domain="[('state','=','confirm')]"/>
+                    <filter name="state_change" string="State change"
+                            domain="[('state','=','change')]"/>
+                    <filter name="state_done" string="State done"
+                            domain="[('state','=','done')]"/>
+                    <filter name="state_cancel" string="State cancel"
+                            domain="[('state','=','cancel')]"/>
+                </group>
+                <group expand="0" string="Group By">
+                    <filter name="date_group"
+                            string="Date" context="{'group_by':'date'}"/>
+                    <filter name="state_group"
+                            string="State" context="{'group_by':'state'}"/>
+                </group>
+
+            </search>
+        </field>
+    </record>
+
+    <record id="bms_set_calendar_action_form" model="ir.actions.act_window">
+        <field name="name">Set calendar</field>
+        <field name="res_model">bms.set.calendar</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+</odoo>

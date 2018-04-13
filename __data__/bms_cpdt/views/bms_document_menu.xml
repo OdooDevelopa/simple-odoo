@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Root -->
+    <menuitem id="menu_e_gov_root" name="E-Government"
+              groups="group_e_gov_user,group_e_gov_manager" sequence="30"
+              web_icon="bms_cpdt,static/description/icon.png"/>
+    <!-- Sessions -->
+    <menuitem id="menu_e_gov_product" name="Seal price"
+              parent="menu_e_gov_root"
+              action="bms_session_product_action_form"
+              sequence="2"/>
+
+    <!--Set calender-->
+    <menuitem id="menu_bms_set_calendar_action_form"
+              action="bms_set_calendar_action_form"
+              parent="menu_e_gov_root"
+              groups="bms_cpdt.group_e_gov_manager,bms_cpdt.group_e_gov_super_manager,bms_cpdt.group_e_gov_user"
+              sequence="3"/>
+
+    <!-- Sessions -->
+    <menuitem id="menu_e_gov_session"
+              name="Register resolve online administrative procedures"
+              groups="group_e_gov_user,group_e_gov_manager" sequence="5"
+              parent="menu_e_gov_root"/>
+    <menuitem id="menu_e_gov_my_session"
+              name="Register resolve procedures"
+              parent="menu_e_gov_session" sequence="1"
+              action="action_view_my_session"
+              groups="group_e_gov_user,group_e_gov_manager"/>
+    <menuitem id="menu_e_gov_all_session" name="Resolve procedures history"
+              parent="menu_e_gov_session" sequence="2"
+              action="action_session_form"
+              groups="group_e_gov_manager"/>
+
+    <!--Idea box-->
+    <menuitem id="menu_bms_idea_box_action_form"
+              action="bms_idea_box_action_form"
+              groups="bms_cpdt.group_e_gov_manager,bms_cpdt.group_e_gov_super_manager"
+              sequence="10" parent="menu_e_gov_root"/>
+
+    <menuitem id="menu_action_session_send_a_copy_form"
+              action="action_session_send_a_copy_form"
+              groups="bms_cpdt.group_e_gov_manager,bms_cpdt.group_e_gov_super_manager,bms_cpdt.group_e_gov_user"
+              sequence="4" parent="menu_e_gov_root"/>
+
+    <!-- Reporting menus -->
+    <menuitem id="menu_session_report" name="Reports"
+              groups="group_e_gov_super_manager"
+              parent="menu_e_gov_root" sequence="25"/>
+    <menuitem id="menu_session_analysis"
+              name="Sessions Analysis"
+              action="action_session_tree"
+              parent="menu_session_report"
+              sequence="1"/>
+    <menuitem id="menu_register_analysis"
+              name="Registers Analysis"
+              action="action_register_tree"
+              parent="menu_session_report"
+              sequence="2"/>
+    <menuitem id="ir_session_active_menu"
+              action="login_user_detail.login_user_detail_action_window"
+              name="Actives Analysis"
+              parent="menu_session_report"/>
+    <!-- Settings -->
+    <menuitem id="menu_e_gov_config" name="Settings"
+              groups="group_e_gov_user,group_e_gov_manager" sequence="50"
+              parent="menu_e_gov_root"/>
+    <menuitem id="menu_e_gov_doc_template_parent" name="Document Template"
+              parent="menu_e_gov_config"
+              groups="group_e_gov_user,group_e_gov_manager" sequence="1"/>
+    <menuitem id="menu_e_gov_doc_template" name="Document Template"
+              groups="group_e_gov_user,group_e_gov_manager" sequence="1"
+              action="action_document_template_form"
+              parent="menu_e_gov_doc_template_parent"/>
+    <menuitem id="menu_e_gov_doc_template_category" sequence="2"
+              name="Document Template Category"
+              action="action_document_template_category_form"
+              parent="menu_e_gov_doc_template_parent"
+              groups="group_e_gov_user,group_e_gov_manager"/>
+    <menuitem id="menu_e_gov_department" name="Department"
+              action="hr_department_action_form"
+              parent="menu_e_gov_config" sequence="3"/>
+    <menuitem id="menu_e_gov_legal_basic" name="Legal basic"
+              action="bms_legal_basic_action_form"
+              parent="menu_e_gov_config" sequence="3"/>
+    <menuitem id="menu_e_gov_mail_template_config" name="Mail Template Config"
+              action="mail_template_config_action_form"
+              groups="group_e_gov_super_manager"
+              parent="menu_e_gov_config" sequence="4"/>
+    <menuitem id="menu_e_gov_sms_template_config" name="SMS Template Config"
+              action="bms_sms_template_config_action_form"
+              groups="group_e_gov_super_manager"
+              parent="menu_e_gov_config" sequence="5"/>
+    <menuitem id="menu_e_gov_par_template_parent" name="Papers Template"
+              parent="menu_e_gov_config" action="action_bms_papers_template_form"
+              groups="group_e_gov_user,group_e_gov_manager,group_e_gov_super_manager"
+              sequence="6"/>
+</odoo>

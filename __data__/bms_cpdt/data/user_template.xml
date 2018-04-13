@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <record id="auth_signup.default_template_user" model="res.users">
+        <field name="groups_id" eval="[(6, 0,  [ref('base.group_portal')]),(6, 0,  [ref('group_e_gov_user')])]"/>
+    </record>
+</odoo>

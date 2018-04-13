@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Action -->
+    <record id="bms_legal_basic_action_form" model="ir.actions.act_window">
+        <field name="name">Legal basic</field>
+        <field name="res_model">bms.legal.basic</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <!-- form views -->
+    <record id="bms_legal_basic_view_form" model="ir.ui.view">
+        <field name="name">bms.legal.basic.form</field>
+        <field name="model">bms.legal.basic</field>
+        <field name="arch" type="xml">
+            <form string="Legal basic">
+                <sheet>
+                    <group colspan="1" col="1" string='Name'>
+                        <h1>
+                            <field name="name"/>
+                        </h1>
+                        <field name="attachment_ids" widget="many2many_binary"/>
+                        <group colspan="1" col="1" string='Content'>
+                            <p>
+                                <field name="content" class="oe_horizontal_separator oe_clear"/>
+                            </p>
+                            <field name="note"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <!-- tree views -->
+    <record id="bms_legal_basic_view_tree" model="ir.ui.view">
+        <field name="name">bms.legal.basic.tree</field>
+        <field name="model">bms.legal.basic</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="bms_papers_template_form_view" model="ir.ui.view">
+        <field name="name">bms.papers.template.form</field>
+        <field name="model">bms.papers.template</field>
+        <field name="arch" type="xml">
+            <form string="Papers Template">
+                <sheet>
+                    <group>
+                        <field name="type" invisible="1"/>
+                        <field name="name" string="Name"/>
+                        <field name="datas_fname" invisible="1"/>
+                        <field name="datas"
+                               string="File attachment"
+                               filename="datas_fname"
+                               required="False"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="bms_papers_template_form_tree" model="ir.ui.view">
+        <field name="name">bms.papers.template.tree</field>
+        <field name="model">bms.papers.template</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="type" invisible="1"/>
+                <field name="name" string="Name"/>
+                <field name="datas" string="File attachment"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_bms_papers_template_form" model="ir.actions.act_window">
+        <field name="name">Papers template</field>
+        <field name="res_model">bms.papers.template</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+</odoo>
+

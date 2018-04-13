@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<odoo noupdate="1">
+    <record id="sp01" model="product.product">
+        <field name="name">Dấu tròn mặt cao su</field>
+        <field name="categ_id" eval="1"/>
+        <field name="list_price">700000</field>
+        <field name="type">consu</field>
+        <field name="image" type="base64" file="bms_cpdt/static/src/img/dautronmatcaosu.jpg"/>
+        <field name="default_code">DTMCS</field>
+    </record>
+    <record id="sp02" model="product.product">
+        <field name="name">Dấu chức danh</field>
+        <field name="categ_id" eval="1"/>
+        <field name="list_price">120000</field>
+        <field name="type">consu</field>
+        <field name="image" type="base64" file="bms_cpdt/static/src/img/dauchucdanh.jpg"/>
+        <field name="default_code">DCD</field>
+    </record>
+    <record id="sp03" model="product.product">
+        <field name="name">Dấu tên</field>
+        <field name="categ_id" eval="1"/>
+        <field name="list_price">160000</field>
+        <field name="type">consu</field>
+        <field name="image" type="base64" file="bms_cpdt/static/src/img/dauten.jpg"/>
+        <field name="default_code">DT</field>
+    </record>
+    <record id="sp04" model="product.product">
+        <field name="name">Dấu tên + Chức danh (2 dòng)</field>
+        <field name="categ_id" eval="1"/>
+        <field name="list_price">200000</field>
+        <field name="type">consu</field>
+        <field name="image" type="base64" file="bms_cpdt/static/src/img/dautenchucdanh2dong.jpg"/>
+        <field name="default_code">DTCD2</field>
+    </record>
+    <record id="sp05" model="product.product">
+        <field name="name">Dấu tên + Chức danh (1 dòng)</field>
+        <field name="categ_id" eval="1"/>
+        <field name="list_price">180000</field>
+        <field name="type">consu</field>
+        <field name="image" type="base64" file="bms_cpdt/static/src/img/dautenchucdanh1dong.jpg"/>
+        <field name="default_code">DTCD1</field>
+    </record>
+    <record id="sp06" model="product.product">
+        <field name="name">Dấu MST</field>
+        <field name="categ_id" eval="1"/>
+        <field name="list_price">300000</field>
+        <field name="type">consu</field>
+        <field name="image" type="base64" file="bms_cpdt/static/src/img/daumst.jpg"/>
+        <field name="default_code">DMST</field>
+    </record>
+    <record id="sp07" model="product.product">
+        <field name="name">Công văn đến (2 dòng)</field>
+        <field name="categ_id" eval="1"/>
+        <field name="list_price">200000</field>
+        <field name="type">consu</field>
+        <field name="image" type="base64" file="bms_cpdt/static/src/img/congvanden2dong.jpg"/>
+        <field name="default_code">CVD2</field>
+    </record>
+    <record id="sp08" model="product.product">
+        <field name="name">Công văn đến</field>
+        <field name="categ_id" eval="1"/>
+        <field name="list_price">400000</field>
+        <field name="type">consu</field>
+        <field name="image" type="base64" file="bms_cpdt/static/src/img/congvanden.jpg"/>
+        <field name="default_code">CVD</field>
+    </record>
+</odoo>

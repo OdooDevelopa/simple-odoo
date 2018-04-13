@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <record model="bank.transfer.config" id="bank_transfer_config_record">
+        <field name="name">//</field>
+    </record>
+</odoo>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate='0'>
+    <record id="profile_received_sms_templates" model="mail.template">
+        <field name="name">Mẫu tin nhắn: Đã nhận được hồ sơ</field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="body_html">
+            <![CDATA[
+      Cong an Son La thong bao!
+      Xin chao ${object.partner_id.name},
+      Thong tin phien lam viec: ${object.code},
+      Ngay lam ho so: ${object.date},
+      Trang thai ho so: Chung toi da nhan duoc ho so cua ban qua buu dien.
+      Xin cam on.
+      ]]>
+        </field>
+    </record>
+
+    <record id="money_received_sms_templates" model="mail.template">
+        <field name="name">Mẫu tin nhắn: Đã thanh toán thành công</field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="body_html">
+            <![CDATA[
+      Cong an Son La thong bao!
+      Xin chao ${object.partner_id.name},
+      Thong tin phien lam viec: ${object.code},
+      Ngay lam ho so: ${object.date},
+      Trang thai ho so: Chung toi da nhan duoc day du le phi ho so.
+      Xin cam on.
+      ]]>
+        </field>
+    </record>
+
+    <record id="awaiting_approval_sms_templates" model="mail.template">
+        <field name="name">Mẫu tin nhắn: Hồ sơ đang chờ cán bộ duyệt</field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="body_html">
+            <![CDATA[
+        Cong an Son La thong bao!
+        Xin chao ${object.partner_id.name},
+        Thong tin phien lam viec: ${object.code},
+        Ngay lam ho so: ${object.date},
+        Trang thai ho so: Dang cho duoc chap thuan.
+        Xin cam on.
+      ]]>
+        </field>
+    </record>
+
+    <record id="rework_sms_templates" model="mail.template">
+        <field name="name">Mẫu tin nhắn: Làm lại, hồ sơ sai</field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="body_html">
+            <![CDATA[
+        Cong an Son La thong bao!
+        Xin chao ${object.partner_id.name},
+        Thong tin phien lam viec: ${object.code},
+        Ngay lam ho so: ${object.date},
+        Trang thai ho so: Chua dung yeu cau, xin lam lai.
+        Xin cam on.
+      ]]>
+        </field>
+    </record>
+
+    <record id="approved_sms_templates" model="mail.template">
+        <field name="name">Mẫu tin nhắn: Cán bộ đã chấp nhận hồ sơ duyệt
+            online
+        </field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="body_html">
+            <![CDATA[
+        Cong an Son La thong bao!
+        Xin chao ${object.partner_id.name},
+        Thong tin phien lam viec: ${object.code},
+        Ngay lam ho so: ${object.date},
+        Trang thai ho so: Ho so da duoc chap nhan.
+        Xin vui long gui ho so truc tiep hoac qua buu dien de hoan tat thu tuc.
+        Xin cam on.
+      ]]>
+        </field>
+    </record>
+
+    <record id="vn_post_check_sms_templates" model="mail.template">
+        <field name="name">Mẫu tin nhắn: Chờ cán bộ kiểm tra hồ sơ trực tiếp
+        </field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="body_html">
+            <![CDATA[
+      Cong an Son La thong bao!
+      Xin chao ${object.partner_id.name},
+      Thong tin phien lam viec: ${object.code},
+      Ngay lam ho so: ${object.date},
+      Trang thai ho so: Dang cho de kiem tra.
+      Xin cam on.
+      ]]>
+        </field>
+    </record>
+
+    <record id="missing_profile_sms_templates" model="mail.template">
+        <field name="name">Mẫu tin nhắn: Hồ sơ thiếu, cần bổ sung</field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="body_html">
+            <![CDATA[
+      Cong an Son La thong bao!
+      Xin chao ${object.partner_id.name},
+      Thong tin phien lam viec: ${object.code},
+      Ngay lam ho so: ${object.date},
+      Trang thai ho so: Thieu ho so lien quan.
+      Chi tiet xin dang nhap vao website de biet them.
+      Xin cam on.
+      ]]>
+        </field>
+    </record>
+
+    <record id="result_profile_returned_sms_templates" model="mail.template">
+        <field name="name">Mẫu tin nhắn: Người dân đã nhận kết quả hồ sơ gửi
+            trả
+        </field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="body_html">
+            <![CDATA[
+      Cong an Son La thong bao!
+      Xin chao ${object.partner_id.name},
+      Thong tin phien lam viec: ${object.code},
+      Ngay lam ho so: ${object.date},
+      Trang thai ho so: Da nhan duoc tai lieu ket qua phien lam viec.
+      Chi tiet xin dang nhap vao website de biet them.
+      Xin cam on.
+      ]]>
+        </field>
+    </record>
+
+    <record id="result_profile_sent_sms_templates" model="mail.template">
+        <field name="name">Mẫu tin nhắn: Kết quả hồ sơ đã được gửi qua bưu
+            điện
+        </field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="body_html">
+            <![CDATA[
+      Cong an Son La thong bao!
+      Xin chao ${object.partner_id.name},
+      Thong tin phien lam viec: ${object.code},
+      Ngay lam ho so: ${object.date},
+      Trang thai ho so: Ket qua ho so da duoc gui.
+      Chi tiet xin dang nhap vao website de biet them.
+      Xin cam on.
+      ]]>
+        </field>
+    </record>
+
+    <record id="done_sms_templates" model="mail.template">
+        <field name="name">Mẫu tin nhắn: Hoàn tất phiên làm việc</field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="body_html">
+            <![CDATA[
+      Cong an Son La thong bao!
+      Xin chao ${object.partner_id.name},
+      Thong tin phien lam viec: ${object.code},
+      Ngay lam ho so: ${object.date},
+      Trang thai ho so: Phien lam viec da hoan tat.
+      Chi tiet xin dang nhap vao website de biet them.
+      Xin cam on.
+      ]]>
+        </field>
+    </record>
+
+    <record id="vn_post_lost_sms_templates" model="mail.template">
+        <field name="name">Mẫu tin nhắn: Thông báo về thất lạc hồ sơ</field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="body_html">
+            <![CDATA[
+      Cong an Son La thong bao!
+      Xin chao ${object.partner_id.name},
+      Thong tin phien lam viec: ${object.code},
+      Ngay lam ho so: ${object.date},
+      Trang thai ho so: Ho so cua ban da bi that lac.
+      Vui long lien he cac ben lien quan hoac gui lai ho so.
+      Chi tiet xin dang nhap vao website de biet them.
+      Xin cam on.
+      ]]>
+        </field>
+    </record>
+
+    <record id="vn_post_done_sms_templates" model="mail.template">
+        <field name="name">Mẫu tin nhắn: Hồ sơ vừa được gửi qua bưu điện</field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="body_html">
+            <![CDATA[
+      Cong an Son La thong bao!
+      Xin chao ${object.partner_id.name},
+      Thong tin phien lam viec: ${object.code},
+      Ngay lam ho so: ${object.date},
+      Trang thai ho so: Ho so cua da duoc gui qua buu dien.
+      Chi tiet xin dang nhap vao website de biet them.
+      Xin cam on.
+      ]]>
+        </field>
+    </record>
+
+    <record id="close_sms_templates" model="mail.template">
+        <field name="name">Mẫu tin nhắn: Phiên làm việc đã đóng</field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="body_html">
+            <![CDATA[
+      Cong an Son La thong bao!
+      Xin chao ${object.partner_id.name},
+      Thong tin phien lam viec: ${object.code},
+      Ngay lam ho so: ${object.date},
+      Trang thai ho so: Phien lam viec da ket thuc.
+      Chi tiet xin dang nhap vao website de biet them.
+      Xin cam on.
+      ]]>
+        </field>
+    </record>
+
+    <record id="cancel_sms_templates" model="mail.template">
+        <field name="name">Mẫu tin nhắn: Phiên làm việc bị hủy</field>
+        <field name="model_id" ref="bms_cpdt.model_bms_session"/>
+        <field name="body_html">
+            <![CDATA[
+      Cong an Son La thong bao!
+      Xin chao ${object.partner_id.name},
+      Thong tin phien lam viec: ${object.code},
+      Ngay lam ho so: ${object.date},
+      Trang thai ho so: Phien lam viec da bi huy.
+      Chi tiet xin dang nhap vao website de biet them.
+      Xin cam on.
+      ]]>
+        </field>
+    </record>
+</odoo>
