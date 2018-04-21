@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<odoo noupdate="1">
-    <record id="config_parameter_day_warning_miss_document"
-            model="ir.config_parameter">
-        <field name="key">day.warning.miss.document</field>
-        <field name="value">3</field>
-    </record>
-</odoo>
