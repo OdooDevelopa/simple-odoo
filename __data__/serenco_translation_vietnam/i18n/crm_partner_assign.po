@@ -1,0 +1,919 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+# 	* crm_partner_assign
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0alpha\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-21 17:05+0000\n"
+"PO-Revision-Date: 2014-11-18 12:36+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: vi_VN\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#. module: crm_partner_assign
+#: field:crm.lead.report.assign,delay_close:0
+msgid "Delay to Close"
+msgstr "Độ trễ để đóng"
+
+#. module: crm_partner_assign
+#: field:crm.lead.forward.to.partner,author_id:0
+msgid "Author"
+msgstr "Tác giả"
+
+#. module: crm_partner_assign
+#: field:crm.lead.report.assign,planned_revenue:0
+msgid "Planned Revenue"
+msgstr "Doanh thu kế hoạch"
+
+#. module: crm_partner_assign
+#: help:crm.lead.forward.to.partner,type:0
+msgid ""
+"Message type: email for email message, notification for system message, "
+"comment for other messages such as user replies"
+msgstr ""
+"Loại tin nhắn: email cho tin nhắn bằng email, thông báo cho tin nhắn hệ "
+"thống, ghi chú cho tin nhắn khác như trả lời của người dùng"
+
+#. module: crm_partner_assign
+#: field:crm.lead.report.assign,nbr:0
+msgid "# of Cases"
+msgstr "# Thương vụ"
+
+#. module: crm_partner_assign
+#: view:crm.lead.report.assign:0 view:crm.partner.report.assign:0
+msgid "Group By..."
+msgstr "Nhóm theo"
+
+#. module: crm_partner_assign
+#: help:crm.lead.forward.to.partner,body:0
+msgid "Automatically sanitized HTML contents"
+msgstr "Tự động làm sạch nội dung HTML"
+
+#. module: crm_partner_assign
+#: view:crm.lead:0
+msgid "Forward"
+msgstr "Chuyển đến"
+
+#. module: crm_partner_assign
+#: view:res.partner:0
+msgid "Geo Localize"
+msgstr "Vị trí địa lý"
+
+#. module: crm_partner_assign
+#: field:crm.lead.forward.to.partner,starred:0
+msgid "Starred"
+msgstr "Đánh sao"
+
+#. module: crm_partner_assign
+#: view:crm.lead.forward.to.partner:0
+msgid "Body"
+msgstr "Nội dung"
+
+#. module: crm_partner_assign
+#: help:crm.lead.forward.to.partner,email_from:0
+msgid ""
+"Email address of the sender. This field is set when no matching partner is "
+"found for incoming emails."
+msgstr ""
+"Địa chỉ email người gửi. Trường này được thiết lập khi không tìm thấy đối "
+"tác phù hợp cho email đến"
+
+#. module: crm_partner_assign
+#: view:crm.partner.report.assign:0
+msgid "Date Partnership"
+msgstr "Ngày lập quan hệ đối tác"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.report.assign,type:0
+msgid "Lead"
+msgstr "Đầu mối"
+
+#. module: crm_partner_assign
+#: view:crm.lead.report.assign:0
+msgid "Delay to close"
+msgstr "Độ trễ để đóng"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.forward.to.partner,history_mode:0
+msgid "Whole Story"
+msgstr "Toàn bộ câu chuyện"
+
+#. module: crm_partner_assign
+#: view:crm.lead.report.assign:0 field:crm.lead.report.assign,company_id:0
+msgid "Company"
+msgstr "Công ty"
+
+#. module: crm_partner_assign
+#: field:crm.lead.forward.to.partner,notification_ids:0
+msgid "Notifications"
+msgstr "Thông báo"
+
+#. module: crm_partner_assign
+#: field:crm.lead.report.assign,date_assign:0
+msgid "Partner Date"
+msgstr "Ngày đối tác"
+
+#. module: crm_partner_assign
+#: view:crm.lead.report.assign:0 view:crm.partner.report.assign:0
+#: view:res.partner:0
+msgid "Salesperson"
+msgstr "Người bán"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.report.assign,priority:0
+msgid "Highest"
+msgstr "Cao nhất"
+
+#. module: crm_partner_assign
+#: view:crm.lead.report.assign:0 field:crm.lead.report.assign,day:0
+msgid "Day"
+msgstr "Ngày"
+
+#. module: crm_partner_assign
+#: help:crm.lead.forward.to.partner,message_id:0
+msgid "Message unique identifier"
+msgstr "Mã định danh tin nhắn duy nhất"
+
+#. module: crm_partner_assign
+#: field:res.partner,date_review_next:0
+msgid "Next Partner Review"
+msgstr "Xem xét đối tác kế"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.forward.to.partner,history_mode:0
+msgid "Latest email"
+msgstr "Email gần nhất"
+
+#. module: crm_partner_assign
+#: field:crm.lead,partner_latitude:0 field:res.partner,partner_latitude:0
+msgid "Geo Latitude"
+msgstr "Vĩ độ"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.report.assign,state:0
+msgid "Cancelled"
+msgstr "Đã hủy"
+
+#. module: crm_partner_assign
+#: view:crm.lead:0
+msgid "Geo Assignation"
+msgstr "Gán vị trí địa lý"
+
+#. module: crm_partner_assign
+#: model:ir.model,name:crm_partner_assign.model_crm_lead_forward_to_partner
+msgid "Email composition wizard"
+msgstr "Wizard soạn thảo email"
+
+#. module: crm_partner_assign
+#: field:crm.partner.report.assign,turnover:0
+msgid "Turnover"
+msgstr "Doanh số"
+
+#. module: crm_partner_assign
+#: field:crm.lead.report.assign,date_closed:0
+msgid "Close Date"
+msgstr "Ngày đóng"
+
+#. module: crm_partner_assign
+#: help:res.partner,partner_weight:0
+msgid ""
+"Gives the probability to assign a lead to this partner. (0 means no "
+"assignation.)"
+msgstr ""
+"Cho xác xuất để gán một đầu mối cho đối tác này. (0 nghĩa là không gán)"
+
+#. module: crm_partner_assign
+#: view:res.partner:0
+msgid "Partner Activation"
+msgstr "Kích hoạt đối tác"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.forward.to.partner,type:0
+msgid "System notification"
+msgstr "Thông báo hệ thống"
+
+#. module: crm_partner_assign
+#: code:addons/crm_partner_assign/wizard/crm_forward_to_partner.py:77
+#, python-format
+msgid "Lead forward"
+msgstr "Đầu mối chuyển đến"
+
+#. module: crm_partner_assign
+#: field:crm.lead.report.assign,probability:0
+msgid "Avg Probability"
+msgstr "Xác suất trung bình"
+
+#. module: crm_partner_assign
+#: view:res.partner:0
+msgid "Previous"
+msgstr "Về trước"
+
+#. module: crm_partner_assign
+#: code:addons/crm_partner_assign/partner_geo_assign.py:36
+#, python-format
+msgid "Network error"
+msgstr "Lỗi mạng"
+
+#. module: crm_partner_assign
+#: field:crm.lead.forward.to.partner,email_from:0
+msgid "From"
+msgstr "Từ"
+
+#. module: crm_partner_assign
+#: model:ir.actions.act_window,name:crm_partner_assign.res_partner_grade_action
+#: model:ir.ui.menu,name:crm_partner_assign.menu_res_partner_grade_action
+#: view:res.partner.grade:0
+msgid "Partner Grade"
+msgstr "Hạng đối tác"
+
+#. module: crm_partner_assign
+#: view:crm.lead.report.assign:0 view:crm.partner.report.assign:0
+msgid "Section"
+msgstr "Phân vùng"
+
+#. module: crm_partner_assign
+#: view:crm.lead.forward.to.partner:0
+msgid "Send"
+msgstr "Gửi"
+
+#. module: crm_partner_assign
+#: view:res.partner:0
+msgid "Next"
+msgstr "Kế tiếp"
+
+#. module: crm_partner_assign
+#: view:crm.lead.report.assign:0 field:crm.lead.report.assign,priority:0
+msgid "Priority"
+msgstr "Ưu tiên"
+
+#. module: crm_partner_assign
+#: field:crm.lead.report.assign,delay_expected:0
+msgid "Overpassed Deadline"
+msgstr "Hạn chót đã trễ"
+
+#. module: crm_partner_assign
+#: field:crm.lead.forward.to.partner,type:0
+#: field:crm.lead.report.assign,type:0
+msgid "Type"
+msgstr "Loại"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.forward.to.partner,type:0
+msgid "Email"
+msgstr "Email"
+
+#. module: crm_partner_assign
+#: help:crm.lead,partner_assigned_id:0
+msgid "Partner this case has been forwarded/assigned to."
+msgstr "Đối tác mà thương vụ này đã được chuyến đến/gán cho"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.report.assign,priority:0
+msgid "Lowest"
+msgstr "Thấp nhất"
+
+#. module: crm_partner_assign
+#: view:crm.partner.report.assign:0
+msgid "Date Invoice"
+msgstr "Ngày hóa đơn"
+
+#. module: crm_partner_assign
+#: field:crm.lead.forward.to.partner,template_id:0
+msgid "Template"
+msgstr "Mẫu"
+
+#. module: crm_partner_assign
+#: view:crm.lead.report.assign:0
+msgid "Assign Date"
+msgstr "Ngày giao"
+
+#. module: crm_partner_assign
+#: view:crm.lead.report.assign:0
+msgid "Leads Analysis"
+msgstr "Phân tích Đầu Mối"
+
+#. module: crm_partner_assign
+#: field:crm.lead.report.assign,creation_date:0
+msgid "Creation Date"
+msgstr "Ngày tạo"
+
+#. module: crm_partner_assign
+#: model:ir.model,name:crm_partner_assign.model_res_partner_activation
+msgid "res.partner.activation"
+msgstr "res.partner.activation"
+
+#. module: crm_partner_assign
+#: field:crm.lead.forward.to.partner,parent_id:0
+msgid "Parent Message"
+msgstr "Tin nhắn cấp cha"
+
+#. module: crm_partner_assign
+#: field:crm.lead.forward.to.partner,res_id:0
+msgid "Related Document ID"
+msgstr "ID tài liệu liên quan"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.report.assign,state:0
+msgid "Pending"
+msgstr "Đang chờ"
+
+#. module: crm_partner_assign
+#: view:crm.lead:0
+msgid "Partner Assignation"
+msgstr "Địa điểm khách hàng"
+
+#. module: crm_partner_assign
+#: help:crm.lead.report.assign,type:0
+msgid "Type is used to separate Leads and Opportunities"
+msgstr "Loại được dùng để phân biệt Đầu mối và cơ hội"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.report.assign,month:0
+msgid "July"
+msgstr "Tháng 7"
+
+#. module: crm_partner_assign
+#: view:crm.partner.report.assign:0
+msgid "Date Review"
+msgstr "Ngày xem xét"
+
+#. module: crm_partner_assign
+#: view:crm.lead.report.assign:0 field:crm.lead.report.assign,stage_id:0
+msgid "Stage"
+msgstr "Giai đoạn"
+
+#. module: crm_partner_assign
+#: view:crm.lead.report.assign:0 field:crm.lead.report.assign,state:0
+msgid "Status"
+msgstr "Trang thái"
+
+#. module: crm_partner_assign
+#: field:crm.lead.forward.to.partner,to_read:0
+msgid "To read"
+msgstr "Cần đọc"
+
+#. module: crm_partner_assign
+#: code:addons/crm_partner_assign/wizard/crm_forward_to_partner.py:77
+#, python-format
+msgid "Fwd"
+msgstr "Chuyển tiếp"
+
+#. module: crm_partner_assign
+#: view:res.partner:0
+msgid "Geo Localization"
+msgstr "Định vị trên bản đồ"
+
+#. module: crm_partner_assign
+#: view:crm.lead.report.assign:0 view:crm.partner.report.assign:0
+msgid "Opportunities Assignment Analysis"
+msgstr "Phân tích giao Cơ hội"
+
+#. module: crm_partner_assign
+#: view:crm.lead.forward.to.partner:0 view:res.partner:0
+msgid "Cancel"
+msgstr "Hủy"
+
+#. module: crm_partner_assign
+#: field:crm.lead.forward.to.partner,history_mode:0
+msgid "Send history"
+msgstr "Gửi lịch sử"
+
+#. module: crm_partner_assign
+#: view:res.partner:0
+msgid "Close"
+msgstr "Đóng"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.report.assign,month:0
+msgid "March"
+msgstr "Tháng 3"
+
+#. module: crm_partner_assign
+#: model:ir.actions.act_window,name:crm_partner_assign.action_report_crm_opportunity_assign
+#: model:ir.ui.menu,name:crm_partner_assign.menu_report_crm_opportunities_assign_tree
+msgid "Opp. Assignment Analysis"
+msgstr "Phân tích giao cơ hội"
+
+#. module: crm_partner_assign
+#: help:crm.lead.report.assign,delay_close:0
+msgid "Number of Days to close the case"
+msgstr "Số ngày để đóng thương vụ"
+
+#. module: crm_partner_assign
+#: help:crm.lead.forward.to.partner,notified_partner_ids:0
+msgid ""
+"Partners that have a notification pushing this message in their mailboxes"
+msgstr "Đối tác có một thông báo tin nhắn trong hộp mail của họ"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.forward.to.partner,type:0
+msgid "Comment"
+msgstr "Ghi chú"
+
+#. module: crm_partner_assign
+#: field:res.partner,partner_weight:0
+msgid "Weight"
+msgstr "Khối lượng"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.report.assign,month:0
+msgid "April"
+msgstr "Tháng 4"
+
+#. module: crm_partner_assign
+#: view:crm.lead.report.assign:0 field:crm.lead.report.assign,grade_id:0
+#: view:crm.partner.report.assign:0 field:crm.partner.report.assign,grade_id:0
+msgid "Grade"
+msgstr "Hạng"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.report.assign,month:0
+msgid "December"
+msgstr "Tháng 12"
+
+#. module: crm_partner_assign
+#: help:crm.lead.forward.to.partner,vote_user_ids:0
+msgid "Users that voted for this message"
+msgstr "Người dùng bình chọn cho tin nhắn này"
+
+#. module: crm_partner_assign
+#: view:crm.lead.report.assign:0 field:crm.lead.report.assign,month:0
+msgid "Month"
+msgstr "Tháng"
+
+#. module: crm_partner_assign
+#: field:crm.lead.report.assign,opening_date:0
+msgid "Opening Date"
+msgstr "Ngày đầu kỳ"
+
+#. module: crm_partner_assign
+#: field:crm.lead.forward.to.partner,child_ids:0
+msgid "Child Messages"
+msgstr "Tin nhắn cấp con"
+
+#. module: crm_partner_assign
+#: field:crm.partner.report.assign,date_review:0
+#: field:res.partner,date_review:0
+msgid "Latest Partner Review"
+msgstr "Xem xét đối tác gần nhất"
+
+#. module: crm_partner_assign
+#: field:crm.lead.forward.to.partner,subject:0
+msgid "Subject"
+msgstr "Chủ đề"
+
+#. module: crm_partner_assign
+#: view:crm.lead.forward.to.partner:0
+msgid "or"
+msgstr "hoặc"
+
+#. module: crm_partner_assign
+#: field:crm.lead.forward.to.partner,body:0
+msgid "Contents"
+msgstr "Nội dung"
+
+#. module: crm_partner_assign
+#: field:crm.lead.forward.to.partner,vote_user_ids:0
+msgid "Votes"
+msgstr "Bình chọn"
+
+#. module: crm_partner_assign
+#: view:crm.lead.report.assign:0
+msgid "#Opportunities"
+msgstr "Cơ hội"
+
+#. module: crm_partner_assign
+#: help:crm.lead.forward.to.partner,starred:0
+msgid "Current user has a starred notification linked to this message"
+msgstr ""
+"Người dùng hiện tại có các thông báo đã đánh sao liên kết đến tin nhắn này"
+
+#. module: crm_partner_assign
+#: field:crm.partner.report.assign,date_partnership:0
+#: field:res.partner,date_partnership:0
+msgid "Partnership Date"
+msgstr "Ngày lập quan hệ đối tác"
+
+#. module: crm_partner_assign
+#: view:crm.lead:0
+msgid "Team"
+msgstr "Nhóm"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.report.assign,state:0
+msgid "Draft"
+msgstr "Nháp"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.report.assign,priority:0
+msgid "Low"
+msgstr "Thấp"
+
+#. module: crm_partner_assign
+#: view:crm.lead.report.assign:0 selection:crm.lead.report.assign,state:0
+msgid "Closed"
+msgstr "Đã đóng"
+
+#. module: crm_partner_assign
+#: model:ir.actions.act_window,name:crm_partner_assign.action_crm_send_mass_forward
+msgid "Mass forward to partner"
+msgstr "Chuyển đến hàng loại cho đối tác"
+
+#. module: crm_partner_assign
+#: view:res.partner:0 field:res.partner,opportunity_assigned_ids:0
+msgid "Assigned Opportunities"
+msgstr "Cơ hội đã giao"
+
+#. module: crm_partner_assign
+#: field:crm.lead,date_assign:0
+msgid "Assignation Date"
+msgstr "Ngày giao"
+
+#. module: crm_partner_assign
+#: field:crm.lead.report.assign,probability_max:0
+msgid "Max Probability"
+msgstr "Xác xuất lớn nhất"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.report.assign,month:0
+msgid "August"
+msgstr "Tháng 8"
+
+#. module: crm_partner_assign
+#: help:crm.lead.forward.to.partner,record_name:0
+msgid "Name get of the related document."
+msgstr "Tên lấy từ tài liệu liên quan"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.report.assign,priority:0
+msgid "Normal"
+msgstr "Bình thường"
+
+#. module: crm_partner_assign
+#: view:res.partner:0
+msgid "Escalate"
+msgstr "Vượt cấp"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.report.assign,month:0
+msgid "June"
+msgstr "Tháng 6"
+
+#. module: crm_partner_assign
+#: help:crm.lead.report.assign,delay_open:0
+msgid "Number of Days to open the case"
+msgstr "Số ngày mở thương vụ"
+
+#. module: crm_partner_assign
+#: field:crm.lead.report.assign,delay_open:0
+msgid "Delay to Open"
+msgstr "Độ trễ để mở"
+
+#. module: crm_partner_assign
+#: field:crm.lead.report.assign,user_id:0
+#: field:crm.partner.report.assign,user_id:0
+msgid "User"
+msgstr "Người dùng"
+
+#. module: crm_partner_assign
+#: field:res.partner.grade,active:0
+msgid "Active"
+msgstr "Kích hoạt"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.report.assign,month:0
+msgid "November"
+msgstr "Tháng 11"
+
+#. module: crm_partner_assign
+#: view:crm.lead.report.assign:0
+msgid "Extended Filters..."
+msgstr "Bộ lọc mở rộng..."
+
+#. module: crm_partner_assign
+#: field:crm.lead,partner_longitude:0 field:res.partner,partner_longitude:0
+msgid "Geo Longitude"
+msgstr "Kinh độ"
+
+#. module: crm_partner_assign
+#: field:crm.partner.report.assign,opp:0
+msgid "# of Opportunity"
+msgstr "# Cơ hội"
+
+#. module: crm_partner_assign
+#: view:crm.lead.report.assign:0
+msgid "Lead Assign"
+msgstr "Giao đầu mối"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.report.assign,month:0
+msgid "October"
+msgstr "Tháng 10"
+
+#. module: crm_partner_assign
+#: view:crm.lead:0
+msgid "Assignation"
+msgstr "Giao việc"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.report.assign,month:0
+msgid "January"
+msgstr "Tháng 1"
+
+#. module: crm_partner_assign
+#: view:crm.lead.forward.to.partner:0
+msgid "Send Mail"
+msgstr "Gửi mail"
+
+#. module: crm_partner_assign
+#: field:crm.lead.forward.to.partner,date:0
+msgid "Date"
+msgstr "Ngày"
+
+#. module: crm_partner_assign
+#: view:crm.lead.report.assign:0
+msgid "Planned Revenues"
+msgstr "Doanh thu kế hoạch"
+
+#. module: crm_partner_assign
+#: view:res.partner:0
+msgid "Partner Review"
+msgstr "Xem xét đối tác"
+
+#. module: crm_partner_assign
+#: field:crm.partner.report.assign,period_id:0
+msgid "Invoice Period"
+msgstr "Kỳ hóa đơn"
+
+#. module: crm_partner_assign
+#: model:ir.model,name:crm_partner_assign.model_res_partner_grade
+msgid "res.partner.grade"
+msgstr "res.partner.grade"
+
+#. module: crm_partner_assign
+#: field:crm.lead.forward.to.partner,message_id:0
+msgid "Message-Id"
+msgstr "Id tin nhắn"
+
+#. module: crm_partner_assign
+#: view:crm.lead.forward.to.partner:0
+#: field:crm.lead.forward.to.partner,attachment_ids:0
+msgid "Attachments"
+msgstr "Đính kèm"
+
+#. module: crm_partner_assign
+#: field:crm.lead.forward.to.partner,record_name:0
+msgid "Message Record Name"
+msgstr "Tên dữ liệu tin nhắn"
+
+#. module: crm_partner_assign
+#: field:res.partner.activation,sequence:0 field:res.partner.grade,sequence:0
+msgid "Sequence"
+msgstr "Trình tự"
+
+#. module: crm_partner_assign
+#: code:addons/crm_partner_assign/partner_geo_assign.py:37
+#, python-format
+msgid ""
+"Cannot contact geolocation servers. Please make sure that your internet "
+"connection is up and running (%s)."
+msgstr ""
+"Không thể giao tiếp server định vị. Vui lòng kiểm tra kết nối internet (%s)."
+
+#. module: crm_partner_assign
+#: selection:crm.lead.report.assign,month:0
+msgid "September"
+msgstr "Tháng 9"
+
+#. module: crm_partner_assign
+#: field:res.partner.grade,name:0
+msgid "Grade Name"
+msgstr "Tên hạng"
+
+#. module: crm_partner_assign
+#: help:crm.lead,date_assign:0
+msgid "Last date this case was forwarded/assigned to a partner"
+msgstr "Ngày cuối cùng mà thương vụ này được chuyển tiếp/gán cho một đối tác"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.report.assign,state:0 view:res.partner:0
+msgid "Open"
+msgstr "Mở"
+
+#. module: crm_partner_assign
+#: field:crm.lead.forward.to.partner,subtype_id:0
+msgid "Subtype"
+msgstr "Phân nhóm"
+
+#. module: crm_partner_assign
+#: field:res.partner,date_localization:0
+msgid "Geo Localization Date"
+msgstr "Ngày định vị bản đồ"
+
+#. module: crm_partner_assign
+#: view:crm.lead.report.assign:0
+msgid "Current"
+msgstr "Hiện tại"
+
+#. module: crm_partner_assign
+#: model:ir.model,name:crm_partner_assign.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "Đầu mối/Cơ hội"
+
+#. module: crm_partner_assign
+#: field:crm.lead.forward.to.partner,notified_partner_ids:0
+msgid "Notified partners"
+msgstr "Đối tác được thông báo"
+
+#. module: crm_partner_assign
+#: view:crm.lead.forward.to.partner:0
+#: model:ir.actions.act_window,name:crm_partner_assign.crm_lead_forward_to_partner_act
+msgid "Forward to Partner"
+msgstr "Chuyển đến đối tác"
+
+#. module: crm_partner_assign
+#: field:crm.lead.report.assign,section_id:0
+#: field:crm.partner.report.assign,section_id:0
+msgid "Sales Team"
+msgstr "Nhóm bán hàng"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.report.assign,month:0
+msgid "May"
+msgstr "Tháng 5"
+
+#. module: crm_partner_assign
+#: field:crm.lead.report.assign,probable_revenue:0
+msgid "Probable Revenue"
+msgstr "Doanh thu chắc chắn"
+
+#. module: crm_partner_assign
+#: view:crm.partner.report.assign:0
+#: field:crm.partner.report.assign,activation:0 view:res.partner:0
+#: field:res.partner,activation:0 view:res.partner.activation:0
+msgid "Activation"
+msgstr "Kích hoạt"
+
+#. module: crm_partner_assign
+#: view:crm.lead:0 field:crm.lead,partner_assigned_id:0
+msgid "Assigned Partner"
+msgstr "Đã gán cho khách hàng"
+
+#. module: crm_partner_assign
+#: field:res.partner,grade_id:0
+msgid "Partner Level"
+msgstr "Mức độ đối tác"
+
+#. module: crm_partner_assign
+#: help:crm.lead.forward.to.partner,to_read:0
+msgid "Current user has an unread notification linked to this message"
+msgstr ""
+"Người dùng hiện tại có thông báo chưa đọc được liên kết với tin nhắn này"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.report.assign,type:0
+msgid "Opportunity"
+msgstr "Cơ hội"
+
+#. module: crm_partner_assign
+#: field:crm.lead.report.assign,partner_id:0
+msgid "Customer"
+msgstr "Khách hàng"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.report.assign,month:0
+msgid "February"
+msgstr "Tháng 2"
+
+#. module: crm_partner_assign
+#: field:res.partner.activation,name:0
+msgid "Name"
+msgstr "Tên"
+
+#. module: crm_partner_assign
+#: model:ir.actions.act_window,name:crm_partner_assign.res_partner_activation_act
+#: model:ir.ui.menu,name:crm_partner_assign.res_partner_activation_config_mi
+msgid "Partner Activations"
+msgstr "Kích hoạt đối tác"
+
+#. module: crm_partner_assign
+#: view:crm.lead.report.assign:0 field:crm.lead.report.assign,country_id:0
+#: view:crm.partner.report.assign:0
+#: field:crm.partner.report.assign,country_id:0
+msgid "Country"
+msgstr "Công ty"
+
+#. module: crm_partner_assign
+#: view:crm.lead.report.assign:0 field:crm.lead.report.assign,year:0
+msgid "Year"
+msgstr "Năm"
+
+#. module: crm_partner_assign
+#: view:res.partner:0
+msgid "Convert to Opportunity"
+msgstr "Chuyển thành Cơ hội"
+
+#. module: crm_partner_assign
+#: view:crm.lead:0
+msgid "Geo Assign"
+msgstr "Gán bản đồ"
+
+#. module: crm_partner_assign
+#: view:crm.lead.report.assign:0
+msgid "Delay to open"
+msgstr "Độ trể để mở"
+
+#. module: crm_partner_assign
+#: model:ir.actions.act_window,name:crm_partner_assign.action_report_crm_partner_assign
+#: model:ir.ui.menu,name:crm_partner_assign.menu_report_crm_partner_assign_tree
+msgid "Partnership Analysis"
+msgstr "Phân tích quan hệ đối tác"
+
+#. module: crm_partner_assign
+#: help:crm.lead.forward.to.partner,notification_ids:0
+msgid ""
+"Technical field holding the message notifications. Use notified_partner_ids "
+"to access notified partners."
+msgstr ""
+"Trường kỹ thuật chứa thông báo tin nhắn. Dùng notified_partner_ids để truy "
+"cập vào đối tác được thông báo"
+
+#. module: crm_partner_assign
+#: view:crm.partner.report.assign:0
+msgid "Partner assigned Analysis"
+msgstr "Phân tích đối tác đã gán"
+
+#. module: crm_partner_assign
+#: model:ir.model,name:crm_partner_assign.model_crm_lead_report_assign
+msgid "CRM Lead Report"
+msgstr "Báo cáo đầu mối CRM"
+
+#. module: crm_partner_assign
+#: field:crm.lead.forward.to.partner,composition_mode:0
+msgid "Composition mode"
+msgstr "Kiểu soạn thảo"
+
+#. module: crm_partner_assign
+#: field:crm.lead.forward.to.partner,model:0
+msgid "Related Document Model"
+msgstr "Model tài liệu liên quan"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.forward.to.partner,history_mode:0
+msgid "Case Information"
+msgstr "Thông tin thương vụ"
+
+#. module: crm_partner_assign
+#: help:crm.lead.forward.to.partner,author_id:0
+msgid ""
+"Author of the message. If not set, email_from may hold an email address that "
+"did not match any partner."
+msgstr ""
+"Tác giả tin nhắn. Nếu không thiết lập, email_từ có thể chứa địa chỉ email "
+"không khớp với bất kỳ đối tác nào"
+
+#. module: crm_partner_assign
+#: model:ir.model,name:crm_partner_assign.model_crm_partner_report_assign
+msgid "CRM Partner Report"
+msgstr "Báo cáo đối tác CRM"
+
+#. module: crm_partner_assign
+#: selection:crm.lead.report.assign,priority:0
+msgid "High"
+msgstr "Cao"
+
+#. module: crm_partner_assign
+#: field:crm.lead.forward.to.partner,partner_ids:0
+msgid "Additional contacts"
+msgstr "Liên hệ bổ sung"
+
+#. module: crm_partner_assign
+#: help:crm.lead.forward.to.partner,parent_id:0
+msgid "Initial thread message."
+msgstr "Dòng tin nhắn ban đầu"
+
+#. module: crm_partner_assign
+#: field:crm.lead.report.assign,create_date:0
+msgid "Create Date"
+msgstr "Ngày tạo"
+
+#. module: crm_partner_assign
+#: field:crm.lead.forward.to.partner,filter_id:0
+msgid "Filters"
+msgstr "Bộ lọc"
+
+#. module: crm_partner_assign
+#: view:crm.lead.report.assign:0
+#: field:crm.lead.report.assign,partner_assigned_id:0
+#: view:crm.partner.report.assign:0
+#: field:crm.partner.report.assign,partner_id:0
+#: model:ir.model,name:crm_partner_assign.model_res_partner
+msgid "Partner"
+msgstr "Đối tác"

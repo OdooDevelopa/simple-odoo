@@ -1,0 +1,71 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_customer
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0rc1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-14 13:09+0000\n"
+"PO-Revision-Date: 2014-12-03 13:28+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: vi_VN\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#. module: website_customer
+#: code:addons/website_customer/controllers/main.py:55
+#, python-format
+msgid "All Countries"
+msgstr "Tất cả quốc gia"
+
+#. module: website_customer
+#: view:website:website_customer.implemented_by_block
+msgid "Implemented By"
+msgstr "Thực hiện bởi"
+
+#. module: website_customer
+#: view:website:website_customer.index
+msgid "No result found"
+msgstr "Không tìm thấy kết quả"
+
+#. module: website_customer
+#: view:website:website.layout view:website:website_customer.details
+#: view:website:website_customer.index
+msgid "Our References"
+msgstr "Tham chiếu của chúng tôi"
+
+#. module: website_customer
+#: view:website:website_customer.references_block
+msgid "References"
+msgstr "Tham chiếu"
+
+#. module: website_customer
+#: view:website:website_customer.index
+msgid "References by Country"
+msgstr "Tham chiếu theo quốc gia"
+
+#. module: website_customer
+#: view:website:website_customer.index
+msgid "Search"
+msgstr "Tìm"
+
+#. module: website_customer
+#: view:website:website_customer.index
+msgid "Trusted by millions worldwide"
+msgstr "Được tin dùng bởi hàng triệu khách hàng khắp thế giới"
+
+#. module: website_customer
+#: view:website:website_customer.index
+msgid "World Map"
+msgstr "Bản đồ thế giới"
+
+#. module: website_customer
+#: view:website:website_customer.implemented_by_block
+#, fuzzy
+msgid "reference(s))"
+msgstr "tham chiếu"

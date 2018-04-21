@@ -1,0 +1,544 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* note
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-15 08:21+0000\n"
+"PO-Revision-Date: 2016-11-15 08:21+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_res_users_claim_count
+msgid "# Claims"
+msgstr "SL Khiếu nại"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_res_users_sale_order_count
+msgid "# of Sales Order"
+msgstr "# Đơn hàng"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_res_users_property_account_payable_id
+msgid "Account Payable"
+msgstr "Khoản phải trả"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_res_users_property_account_receivable_id
+msgid "Account Receivable"
+msgstr "Khoản phải thu"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note_message_needaction
+msgid "Action Needed"
+msgstr "Cần có Hành động"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note_open
+#: model:ir.ui.view,arch_db:note.view_note_note_filter
+msgid "Active"
+msgstr "Hiệu lực"
+
+#. module: note
+#: model:ir.ui.view,arch_db:note.view_note_note_filter
+msgid "Archive"
+msgstr "Lưu trữ"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_res_users_bank_account_count
+msgid "Bank"
+msgstr "Ngân hàng"
+
+#. module: note
+#: model:ir.ui.view,arch_db:note.view_note_note_filter
+msgid "By sticky note Category"
+msgstr "By sticky note Category"
+
+#. module: note
+#: model:ir.actions.act_window,help:note.action_note_note
+msgid "Click to add a personal note."
+msgstr "Bấm để tạo một ghi chú cá nhân."
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note_color
+#: model:ir.model.fields,field_description:note.field_note_tag_color
+msgid "Color Index"
+msgstr "Color Index"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_res_users_ref_company_ids
+msgid "Companies that refers to partner"
+msgstr "Companies that refers to partner"
+
+#. module: note
+#: model:ir.ui.menu,name:note.menu_note_configuration
+msgid "Configuration"
+msgstr "Cấu hình"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_res_users_contract_ids
+#: model:ir.model.fields,field_description:note.field_res_users_contracts_count
+msgid "Contracts"
+msgstr "Hợp đồng"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_res_users_payment_method_count
+msgid "Count Payment Method"
+msgstr "Đếm Phương thức thanh toán"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note_create_uid
+#: model:ir.model.fields,field_description:note.field_note_stage_create_uid
+#: model:ir.model.fields,field_description:note.field_note_tag_create_uid
+msgid "Created by"
+msgstr "Created by"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note_create_date
+#: model:ir.model.fields,field_description:note.field_note_stage_create_date
+#: model:ir.model.fields,field_description:note.field_note_tag_create_date
+msgid "Created on"
+msgstr "Created on"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_res_users_currency_id
+msgid "Currency"
+msgstr "Tiên tệ"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_res_users_property_stock_customer
+msgid "Customer Location"
+msgstr "Địa điểm Khách hàng"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_res_users_property_payment_term_id
+msgid "Customer Payment Term"
+msgstr "Điều khoản thanh toán của Khách hàng"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note_date_done
+msgid "Date done"
+msgstr "Ngày hoàn tất"
+
+#. module: note
+#: model:ir.model.fields,help:note.field_note_note_message_last_post
+msgid "Date of the last message posted on the record."
+msgstr "Ngày của thông điệp gần nhất được ghi nhận trên một bản ghi."
+
+#. module: note
+#: model:ir.ui.view,arch_db:note.view_note_note_kanban
+msgid "Delete"
+msgstr "Xóa"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note_display_name
+#: model:ir.model.fields,field_description:note.field_note_stage_display_name
+#: model:ir.model.fields,field_description:note.field_note_tag_display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_res_users_property_account_position_id
+msgid "Fiscal Position"
+msgstr "Vị thế tài chính"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_stage_fold
+msgid "Folded by Default"
+msgstr "Đóng theo mặc định"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note_message_follower_ids
+msgid "Followers"
+msgstr "Người dõi theo"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note_message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Kênh dõi theo"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note_message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Người dõi theo"
+
+#. module: note
+#: model:ir.ui.view,arch_db:note.view_note_note_filter
+msgid "Group By"
+msgstr "Group By"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_res_users_has_unreconciled_entries
+msgid "Has unreconciled entries"
+msgstr "Has unreconciled entries"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note_id
+#: model:ir.model.fields,field_description:note.field_note_stage_id
+#: model:ir.model.fields,field_description:note.field_note_tag_id
+msgid "ID"
+msgstr "ID"
+
+#. module: note
+#: model:ir.model.fields,help:note.field_note_note_message_unread
+msgid "If checked new messages require your attention."
+msgstr "If checked new messages require your attention."
+
+#. module: note
+#: model:ir.model.fields,help:note.field_note_note_message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Nếu được đánh dấu, thông điệp mới sẽ yêu cầu sự có mặt của bạn."
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_res_users_invoice_ids
+msgid "Invoices"
+msgstr "Hóa đơn"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note_message_is_follower
+msgid "Is Follower"
+msgstr "Là một người dõi theo"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_res_users_issued_total
+#: model:ir.model.fields,field_description:note.field_res_users_journal_item_count
+msgid "Journal Items"
+msgstr "Phát sinh"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note_message_last_post
+msgid "Last Message Date"
+msgstr "Ngày thông điệp gần nhất"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note___last_update
+#: model:ir.model.fields,field_description:note.field_note_stage___last_update
+#: model:ir.model.fields,field_description:note.field_note_tag___last_update
+msgid "Last Modified on"
+msgstr "Sửa lần cuối"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note_write_uid
+#: model:ir.model.fields,field_description:note.field_note_stage_write_uid
+#: model:ir.model.fields,field_description:note.field_note_tag_write_uid
+msgid "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note_write_date
+#: model:ir.model.fields,field_description:note.field_note_stage_write_date
+#: model:ir.model.fields,field_description:note.field_note_tag_write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối vào"
+
+#. module: note
+#: model:ir.model.fields,help:note.field_res_users_last_time_entries_checked
+msgid "Last time the invoices & payments matching was performed for this partner. It is set either if there's not at least an unreconciled debit and an unreconciled credit or if you click the \"Done\" button."
+msgstr "Last time the invoices & payments matching was performed for this partner. It is set either if there's not at least an unreconciled debit and an unreconciled credit or if you click the \"Done\" button."
+
+#. module: note
+#: model:note.stage,name:note.note_stage_03
+msgid "Later"
+msgstr "Để sau"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_res_users_last_time_entries_checked
+msgid "Latest Invoices & Payments Matching Date"
+msgstr "Latest Invoices & Payments Matching Date"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note_message_ids
+msgid "Messages"
+msgstr "Thông điệp"
+
+#. module: note
+#: model:note.stage,name:note.note_stage_00
+msgid "New"
+msgstr "Mới"
+
+#. module: note
+#: code:addons/note/note.py:165
+#, python-format
+msgid "New Note"
+msgstr "Ghi chú Mới"
+
+#. module: note
+#: model:ir.model,name:note.model_note_note
+#: model:ir.ui.view,arch_db:note.view_note_note_filter
+#: model:ir.ui.view,arch_db:note.view_note_note_form
+msgid "Note"
+msgstr "Ghi chú"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note_memo
+msgid "Note Content"
+msgstr "Nội dung Ghi chú"
+
+#. module: note
+#: model:ir.model,name:note.model_note_stage
+msgid "Note Stage"
+msgstr "Giai đoạn Ghi chú"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note_name
+msgid "Note Summary"
+msgstr "Tóm tắt Ghi chú"
+
+#. module: note
+#: model:ir.model,name:note.model_note_tag
+msgid "Note Tag"
+msgstr "Thẻ Ghi chú"
+
+#. module: note
+#: model:ir.actions.act_window,name:note.action_note_note
+#: model:ir.ui.menu,name:note.menu_note_notes
+#: model:ir.ui.view,arch_db:note.view_note_note_filter
+#: model:note.stage,name:note.note_stage_04
+msgid "Notes"
+msgstr "Ghi chú"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note_message_needaction_counter
+msgid "Number of Actions"
+msgstr "Số lượng hành động"
+
+#. module: note
+#: model:ir.model.fields,help:note.field_note_note_message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Số thông điệp cần có hành động"
+
+#. module: note
+#: model:ir.model.fields,help:note.field_note_note_message_unread_counter
+msgid "Number of unread messages"
+msgstr "Số các thông điệp chưa đọc"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note_user_id
+#: model:ir.model.fields,field_description:note.field_note_stage_user_id
+msgid "Owner"
+msgstr "Chủ sở hữu"
+
+#. module: note
+#: model:ir.model.fields,help:note.field_note_stage_user_id
+msgid "Owner of the note stage."
+msgstr "Chủ sở hữu của giai đoạn ghi chú"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_res_users_debit_limit
+msgid "Payable Limit"
+msgstr "Hạn mức phải trả"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_res_users_payment_method_ids
+msgid "Payment Methods"
+msgstr "Phương thức Thanh toán"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_res_users_property_product_pricelist
+msgid "Sale Pricelist"
+msgstr "Bảng giá bán"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_res_users_sale_order_ids
+msgid "Sales Order"
+msgstr "Đơn hàng"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note_sequence
+#: model:ir.model.fields,field_description:note.field_note_stage_sequence
+msgid "Sequence"
+msgstr "Trình tự"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note_stage_id
+#: model:ir.ui.view,arch_db:note.view_note_note_filter
+msgid "Stage"
+msgstr "Giai đoạn"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_stage_name
+msgid "Stage Name"
+msgstr "Tên giai đoạn"
+
+#. module: note
+#: model:ir.ui.view,arch_db:note.view_note_stage_form
+msgid "Stage of Notes"
+msgstr "Giai đoạn của Ghi chú"
+
+#. module: note
+#: model:ir.actions.act_window,name:note.action_note_stage
+#: model:ir.ui.menu,name:note.menu_notes_stage
+#: model:ir.ui.view,arch_db:note.view_note_note_tree
+msgid "Stages"
+msgstr "Giai đoạn"
+
+#. module: note
+#: model:ir.ui.view,arch_db:note.view_note_stage_tree
+msgid "Stages of Notes"
+msgstr "Giai đoạn của Ghi chú"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note_stage_ids
+msgid "Stages of Users"
+msgstr "Giai đoạn của Người dùng"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_tag_name
+msgid "Tag Name"
+msgstr "Tên Thẻ"
+
+#. module: note
+#: sql_constraint:note.tag:0
+msgid "Tag name already exists !"
+msgstr "Tên thẻ đã tồn tại!"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note_tag_ids
+#: model:ir.ui.view,arch_db:note.view_note_note_form
+msgid "Tags"
+msgstr "Tags"
+
+#. module: note
+#: model:ir.model.fields,help:note.field_res_users_property_account_position_id
+msgid "The fiscal position will determine taxes and accounts used for the partner."
+msgstr "Vị thế tài chính sẽ xác nhận thuế và tài khoản được sử dụng cho đối tác này."
+
+#. module: note
+#: model:ir.model.fields,help:note.field_res_users_has_unreconciled_entries
+msgid "The partner has at least one unreconciled debit and credit since last time the invoices & payments matching was performed."
+msgstr "The partner has at least one unreconciled debit and credit since last time the invoices & payments matching was performed."
+
+#. module: note
+#: model:note.stage,name:note.note_stage_02
+msgid "This Week"
+msgstr "Tuần này"
+
+#. module: note
+#: model:ir.model.fields,help:note.field_res_users_property_account_payable_id
+msgid "This account will be used instead of the default one as the payable account for the current partner"
+msgstr "Tài khoản được sử dụng mặc định như là tài khoản phải trả của đối tác"
+
+#. module: note
+#: model:ir.model.fields,help:note.field_res_users_property_account_receivable_id
+msgid "This account will be used instead of the default one as the receivable account for the current partner"
+msgstr "Tài khoản được sử dụng mặc định như là tài khoản phải thu của đối tác"
+
+#. module: note
+#: model:ir.model.fields,help:note.field_res_users_property_supplier_payment_term_id
+msgid "This payment term will be used instead of the default one for purchase orders and vendor bills"
+msgstr "This payment term will be used instead of the default one for purchase orders and vendor bills"
+
+#. module: note
+#: model:ir.model.fields,help:note.field_res_users_property_payment_term_id
+msgid "This payment term will be used instead of the default one for sale orders and customer invoices"
+msgstr "Điều khoản thanh toán này sẽ được sử dụng thay cho điều khoản mặc định trên hợp đồng bán hàng và hóa đơn khách hàng"
+
+#. module: note
+#: model:ir.model.fields,help:note.field_res_users_property_product_pricelist
+msgid "This pricelist will be used, instead of the default one, for sales to the current partner"
+msgstr "Bảng giá này sẽ được sử dụng, thay vì mặc định, để bán cho đối tác hiện tại"
+
+#. module: note
+#: model:ir.model.fields,help:note.field_res_users_property_stock_customer
+msgid "This stock location will be used, instead of the default one, as the destination location for goods you send to this partner"
+msgstr "Địa điểm kho này sẽ được sử dụng thay cho địa điểm mặc định, như là địa điểm đích của hàng hóa mà bạn gửi cho đối tác này"
+
+#. module: note
+#: model:ir.model.fields,help:note.field_res_users_property_stock_supplier
+msgid "This stock location will be used, instead of the default one, as the source location for goods you receive from the current partner"
+msgstr "Địa điểm kho này sẽ được sử dụng, thay cho địa điểm kho mặc định, như là địa điểm nguồn của hàng hóa mà bạn nhận được từ đối tác hiện tại"
+
+#. module: note
+#: model:note.stage,name:note.note_stage_01
+msgid "Today"
+msgstr "Hôm nay"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_res_users_total_invoiced
+msgid "Total Invoiced"
+msgstr "Tổng tiền hóa đơn đã xuất"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_res_users_debit
+msgid "Total Payable"
+msgstr "Tổng phải trả"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_res_users_credit
+msgid "Total Receivable"
+msgstr "Tổng phải thu"
+
+#. module: note
+#: model:ir.model.fields,help:note.field_res_users_credit
+msgid "Total amount this customer owes you."
+msgstr "Tổng số tiền khách hàng này nợ bạn."
+
+#. module: note
+#: model:ir.model.fields,help:note.field_res_users_debit
+msgid "Total amount you have to pay to this vendor."
+msgstr "Total amount you have to pay to this vendor."
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note_message_unread
+msgid "Unread Messages"
+msgstr "Thông điệp chưa đọc"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note_message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Bộ đếm thông điệp chưa đọc"
+
+#. module: note
+#: model:ir.actions.act_window,help:note.action_note_note
+msgid "Use notes to organize personal tasks or notes. All\n"
+"            notes are private; no one else will be able to see them. However\n"
+"            you can share some notes with other people by inviting followers\n"
+"            on the note. (Useful for meeting minutes, especially if\n"
+"            you activate the pad feature for collaborative writings)."
+msgstr "Sử dụng các ghi chú để tổ chức các nhiệm vụ cá nhận hay đơn giản là để ghi chú.\n"
+"            Tât cả các ghi chú mà bạn tạo thì đều mang tính riêng tư; không ai\n"
+"            có thể nhìn thấy chúng. Tuy nhiên, bạn cũng có thể chia sẻ một số\n"
+"            ghi chú của bạn với những người khác bằng cách mời họ theo dõi ghi chú.\n"
+"            (Thường hữu ích cho việc ghi nhận biên bản/nội dung họp, đặc biệt hữu\n"
+"            ích nếu bạn kích hoạt tính năng pad để viết cộng tác (nhiều người cùng\n"
+"            đồng thời)"
+
+#. module: note
+#: model:ir.model.fields,help:note.field_note_stage_sequence
+msgid "Used to order the note stages"
+msgstr "Được sử dụng để lập thứ tự cho các giai đoạn ghi chú"
+
+#. module: note
+#: model:ir.model,name:note.model_res_users
+msgid "Users"
+msgstr "Người dùng"
+
+#. module: note
+#: model:ir.model.fields,help:note.field_res_users_currency_id
+msgid "Utility field to express amount currency"
+msgstr "Utility field to express amount currency"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_res_users_property_stock_supplier
+msgid "Vendor Location"
+msgstr "Vendor Location"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_res_users_property_supplier_payment_term_id
+msgid "Vendor Payment Term"
+msgstr "Điều khoản thanh toán Nhà cung cấp"
+
+#. module: note
+#: model:ir.actions.act_window,help:note.action_note_note
+msgid "You can customize how you process your notes/tasks by adding,\n"
+"            removing or modifying columns."
+msgstr "Bạn có thể tuỳ chỉnh cách mà bạn xử lý các ghi chú/nhiệm vụ của bạn\n"
+"            bằng cách tạo thêm hoặc sửa các cột."
+

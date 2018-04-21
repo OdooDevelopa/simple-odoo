@@ -1,0 +1,195 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* board
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-15 07:26+0000\n"
+"PO-Revision-Date: 2016-11-15 07:26+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: board
+#. openerp-web
+#: code:addons/board/static/src/xml/board.xml:24
+#, python-format
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#. module: board
+#. openerp-web
+#: code:addons/board/static/src/js/dashboard.js:415
+#, python-format
+msgid "'%s' added to dashboard"
+msgstr "'%s' đã được thêm vào bảng thông tin"
+
+#. module: board
+#: model:ir.actions.act_window,help:board.open_board_my_dash_action
+msgid "<b>Your personal dashboard is empty.</b>"
+msgstr "<b>Bảng thông tin cá nhân của bạn trống không.</b>"
+
+#. module: board
+#. openerp-web
+#: code:addons/board/static/src/xml/board.xml:70
+#, python-format
+msgid "Add"
+msgstr "Thêm"
+
+#. module: board
+#. openerp-web
+#: code:addons/board/static/src/xml/board.xml:64
+#, python-format
+msgid "Add to my Dashboard"
+msgstr "Thêm vào Bảng thông tin của tôi"
+
+#. module: board
+#. openerp-web
+#: code:addons/board/static/src/js/dashboard.js:139
+#, python-format
+msgid "Are you sure you want to remove this item ?"
+msgstr "Bạn có chắc muốn gỡ bỏ hạng mục này?"
+
+#. module: board
+#: model:ir.model,name:board.model_board_board
+msgid "Board"
+msgstr "Bảng"
+
+#. module: board
+#: model:ir.model,name:board.model_board_create
+msgid "Board Creation"
+msgstr "Sáng tạo bảng"
+
+#. module: board
+#: model:ir.model.fields,field_description:board.field_board_create_name
+msgid "Board Name"
+msgstr "Tên Bảng"
+
+#. module: board
+#: model:ir.ui.view,arch_db:board.view_board_create
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+#. module: board
+#. openerp-web
+#: code:addons/board/static/src/xml/board.xml:6
+#, python-format
+msgid "Change Layout"
+msgstr "Đổi Bố cục"
+
+#. module: board
+#. openerp-web
+#: code:addons/board/static/src/xml/board.xml:4
+#, python-format
+msgid "Change Layout.."
+msgstr "Đổi Bố cục..."
+
+#. module: board
+#. openerp-web
+#: code:addons/board/static/src/xml/board.xml:36
+#, python-format
+msgid "Choose dashboard layout"
+msgstr "Chọn bố cục bảng thông tin"
+
+#. module: board
+#. openerp-web
+#: code:addons/board/static/src/js/dashboard.js:417
+#, python-format
+msgid "Could not add filter to dashboard"
+msgstr "Không thể thêm bộ lọc vào bảng thông tin"
+
+#. module: board
+#: model:ir.ui.view,arch_db:board.view_board_create
+msgid "Create"
+msgstr "Tạo"
+
+#. module: board
+#: model:ir.actions.act_window,name:board.action_board_create
+#: model:ir.ui.menu,name:board.menu_board_create
+msgid "Create Board"
+msgstr "Tạo Bảng tin"
+
+#. module: board
+#: model:ir.ui.view,arch_db:board.view_board_create
+msgid "Create New Dashboard"
+msgstr "Tạo Bảng thông tin mới"
+
+#. module: board
+#: model:ir.model.fields,field_description:board.field_board_create_create_uid
+msgid "Created by"
+msgstr "Created by"
+
+#. module: board
+#: model:ir.model.fields,field_description:board.field_board_create_create_date
+msgid "Created on"
+msgstr "Created on"
+
+#. module: board
+#: model:ir.model.fields,field_description:board.field_board_board_display_name
+#: model:ir.model.fields,field_description:board.field_board_create_display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: board
+#. openerp-web
+#: code:addons/board/static/src/js/dashboard.js:94
+#, python-format
+msgid "Edit Layout"
+msgstr "Sửa Bố cục"
+
+#. module: board
+#: model:ir.model.fields,field_description:board.field_board_board_id
+#: model:ir.model.fields,field_description:board.field_board_create_id
+msgid "ID"
+msgstr "ID"
+
+#. module: board
+#: model:ir.model.fields,field_description:board.field_board_board___last_update
+#: model:ir.model.fields,field_description:board.field_board_create___last_update
+msgid "Last Modified on"
+msgstr "Sửa lần cuối"
+
+#. module: board
+#: model:ir.model.fields,field_description:board.field_board_create_write_uid
+msgid "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
+
+#. module: board
+#: model:ir.model.fields,field_description:board.field_board_create_write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối vào"
+
+#. module: board
+#: model:ir.actions.act_window,name:board.open_board_my_dash_action
+#: model:ir.ui.menu,name:board.menu_board_my_dash
+#: model:ir.ui.view,arch_db:board.board_my_dash_view
+msgid "My Dashboard"
+msgstr "Bảng thông tin của tôi"
+
+#. module: board
+#: model:ir.model.fields,field_description:board.field_board_create_menu_parent_id
+msgid "Parent Menu"
+msgstr "Trình đơn cha"
+
+#. module: board
+#: model:ir.actions.act_window,help:board.open_board_my_dash_action
+msgid "To add your first report into this dashboard, go to any\n"
+"                    menu, switch to list or graph view, and click <i>'Add to\n"
+"                    Dashboard'</i> in the extended search options."
+msgstr "Để thêm báo cáo đầu tiên và bảng thông tin này, di chuyển đến\n"
+"                    bất kỳ một trình đơn nào, chuyển giao diện\n"
+"                    sang dạng danh sách hoặc đồ thị, và bấm vào <i>'Thêm vào\n"
+"                    Bảng thông tin của tôi</i> trong tuỳ chọn tìm kiếm mở rộng."
+
+#. module: board
+#: model:ir.actions.act_window,help:board.open_board_my_dash_action
+msgid "You can filter and group data before inserting into the\n"
+"                    dashboard using the search options."
+msgstr "Bạn có thể lọc và nhóm dữ liệu trước khi chèn vào bảng\n"
+"                    thông tin sử dụng các tuỳ chọn tìm kiếm."
+

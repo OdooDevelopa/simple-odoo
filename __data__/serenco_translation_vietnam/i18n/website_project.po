@@ -1,0 +1,72 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_project
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0rc1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-14 13:09+0000\n"
+"PO-Revision-Date: 2014-12-04 12:15+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: vi_VN\n"
+"X-Generator: Poedit 1.7\n"
+
+#. module: website_project
+#: view:website:website_project.task_kanban_card
+msgid "Assigned to"
+msgstr "Đã giao cho"
+
+#. module: website_project
+#: view:website:website_project.task_kanban_card
+msgid "Ending Date:"
+msgstr "Ngày kết thúc:"
+
+#. module: website_project
+#: model:ir.model,name:website_project.model_project_project
+#: view:website:website_project.index
+msgid "Project"
+msgstr "Dự án"
+
+#. module: website_project
+#: model:ir.model,name:website_project.model_project_task
+msgid "Task"
+msgstr "Tác vụ"
+
+#. module: website_project
+#: field:project.project,website_meta_description:0
+#: field:project.task,website_meta_description:0
+msgid "Website meta description"
+msgstr "Thẻ meta mô tả web"
+
+#. module: website_project
+#: field:project.project,website_meta_keywords:0
+#: field:project.task,website_meta_keywords:0
+msgid "Website meta keywords"
+msgstr "Thẻ meta từ khóa web"
+
+#. module: website_project
+#: field:project.project,website_meta_title:0
+#: field:project.task,website_meta_title:0
+msgid "Website meta title"
+msgstr "Thẻ meta tiêu đề web"
+
+#. module: website_project
+#: view:website:website_project.index
+msgid "project.task"
+msgstr "project.task"
+
+#. module: website_project
+#: view:website:website_project.index
+msgid "stage_id"
+msgstr "stage_id"
+
+#. module: website_project
+#: view:website:website_project.index
+msgid "website_project.task_kanban_card"
+msgstr "website_project.task_kanban_card"

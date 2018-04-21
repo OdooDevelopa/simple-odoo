@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="view_share_profile_wizard" model="ir.ui.view">
+            <field name="name">view.share.profile.wizard</field>
+            <field name="model">share.profile</field>
+            <field name="arch" type="xml">
+                <form string="Share Profile">
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="email_from"/>
+                            <field name="email_to"/>
+                        </group>
+                        <group colspan="4" string="Attachment">
+                            <field name="datas" filename="datas_fname" readonly="1"/>
+                            <field name="datas_fname" invisible="1" class="oe_inline oe_right"/>
+                            <field name="attachment_id" invisible="1"/>
+                        </group>
+                    </group>
+                    <footer>
+                        <button class="btn-primary" colspan="1"
+                            name="send" string="Send" type="object"/>
+                        <button class="btn-default" special="cancel" string="Cancel"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+        <record id="action_share_profile" model="ir.actions.act_window">
+            <field name="name">Share Profile</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">share.profile</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+    </data>
+</odoo>

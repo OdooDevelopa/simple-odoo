@@ -1,0 +1,393 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* serenco_accounting_base
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-15 03:10+0000\n"
+"PO-Revision-Date: 2017-06-15 03:10+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: serenco_accounting_base
+#: model:ir.model,name:serenco_accounting_base.model_account_account
+msgid "Account"
+msgstr "Tài khoản"
+
+#. module: serenco_accounting_base
+#: model:ir.model,name:serenco_accounting_base.model_account_move
+msgid "Account Entry"
+msgstr "Bút toán kế toán"
+
+#. module: serenco_accounting_base
+#: model:ir.ui.view,arch_db:serenco_accounting_base.view_stock_move_form_inherit
+msgid "Account Moves With Reconcile"
+msgstr "Account Moves With Reconcile"
+
+#. module: serenco_accounting_base
+#: model:ir.model,name:serenco_accounting_base.model_account_voucher
+msgid "Accounting Voucher"
+msgstr "Biên lai kế toán"
+
+#. module: serenco_accounting_base
+#: model:ir.ui.view,arch_db:serenco_accounting_base.src_view_location_form_inherit
+msgid "Additional Accounting Information"
+msgstr "Additional Accounting Information"
+
+#. module: serenco_accounting_base
+#: model:ir.ui.view,arch_db:serenco_accounting_base.view_stock_move_form_inherit
+msgid "All Account Moves"
+msgstr "All Account Moves"
+
+#. module: serenco_accounting_base
+#: model:ir.model.fields,field_description:serenco_accounting_base.field_account_payment_amount_total_vn
+msgid "Amount Total VN"
+msgstr "Tổng tiền (VNĐ)"
+
+#. module: serenco_accounting_base
+#: model:ir.model.fields,field_description:serenco_accounting_base.field_account_payment_amount_nt
+msgid "Amount nt"
+msgstr "Amount nt"
+
+#. module: serenco_accounting_base
+#: model:ir.ui.menu,name:serenco_accounting_base.src_menu_account_asset
+msgid "Assets"
+msgstr "Tài sản"
+
+#. module: serenco_accounting_base
+#: model:ir.model.fields,field_description:serenco_accounting_base.field_stock_quant_category_id
+msgid "Category"
+msgstr "Loại"
+
+#. module: serenco_accounting_base
+#: model:ir.ui.view,arch_db:serenco_accounting_base.src_quant_search_view
+msgid "Company"
+msgstr "Công ty"
+
+#. module: serenco_accounting_base
+#: model:ir.ui.menu,name:serenco_accounting_base.menu_account_cost_config
+msgid "Configurations"
+msgstr "Cấu Hình"
+
+#. module: serenco_accounting_base
+#: model:ir.ui.menu,name:serenco_accounting_base.src_menu_account_cost
+msgid "Cost"
+msgstr "Giá Thành"
+
+#. module: serenco_accounting_base
+#: model:ir.model.fields,field_description:serenco_accounting_base.field_product_category_cost_price_method
+#: model:ir.ui.view,arch_db:serenco_accounting_base.src_product_category_form_view_inherit
+msgid "Cost Price Method"
+msgstr "Cost Price Method"
+
+#. module: serenco_accounting_base
+#: model:ir.model.fields,field_description:serenco_accounting_base.field_account_invoice_picking_id
+msgid "Create a Stock Credit"
+msgstr "Phiếu trả hàng"
+
+#. module: serenco_accounting_base
+#: selection:account.account,properties:0
+msgid "Credit"
+msgstr "Credit"
+
+#. module: serenco_accounting_base
+#: model:ir.model,name:serenco_accounting_base.model_res_currency
+msgid "Currency"
+msgstr "Tiền tệ"
+
+#. module: serenco_accounting_base
+#: model:ir.model,name:serenco_accounting_base.model_res_currency_rate
+msgid "Currency Rate"
+msgstr "Tỷ giá"
+
+#. module: serenco_accounting_base
+#: selection:account.account,properties:0
+msgid "Debit"
+msgstr "Debit"
+
+#. module: serenco_accounting_base
+#: model:ir.model.fields,field_description:serenco_accounting_base.field_base_config_settings_module_serenco_disable_validate_vat
+msgid "Disable Validate VAT"
+msgstr "Disable Validate VAT"
+
+#. module: serenco_accounting_base
+#: model:ir.ui.view,arch_db:serenco_accounting_base.src_quant_search_view
+msgid "Filters"
+msgstr "Bộ lọc"
+
+#. module: serenco_accounting_base
+#: selection:product.category,cost_price_method:0
+msgid "First in, first out"
+msgstr "Nhập trước, xuất trước"
+
+#. module: serenco_accounting_base
+#: model:ir.model.fields,field_description:serenco_accounting_base.field_account_payment_foreign_currency_id
+msgid "Foreign Cunrrency"
+msgstr "Foreign Cunrrency"
+
+#. module: serenco_accounting_base
+#: model:ir.model.fields,field_description:serenco_accounting_base.field_account_move_foreign_currency_id
+msgid "Foreign Currency"
+msgstr "Foreign Currency"
+
+#. module: serenco_accounting_base
+#: model:ir.model.fields,field_description:serenco_accounting_base.field_account_move_foreign_currency_rate
+msgid "Foreign Currency Rate"
+msgstr "Foreign Currency Rate"
+
+#. module: serenco_accounting_base
+#: model:ir.ui.view,arch_db:serenco_accounting_base.src_quant_search_view
+msgid "Group by..."
+msgstr "Nhóm theo..."
+
+#. module: serenco_accounting_base
+#: selection:account.account,properties:0
+msgid "Hermaphrodite"
+msgstr "Hermaphrodite"
+
+#. module: serenco_accounting_base
+#: model:ir.ui.view,arch_db:serenco_accounting_base.src_quant_search_view
+msgid "Internal Locations"
+msgstr "Địa điểm nội bộ"
+
+#. module: serenco_accounting_base
+#: model:ir.ui.menu,name:serenco_accounting_base.menu_finance_inventory
+msgid "Inventories"
+msgstr "Kho"
+
+#. module: serenco_accounting_base
+#: model:ir.model,name:serenco_accounting_base.model_stock_location
+msgid "Inventory Locations"
+msgstr "Địa điểm Tồn kho"
+
+#. module: serenco_accounting_base
+#: model:ir.ui.menu,name:serenco_accounting_base.src_menu_quants
+msgid "Inventory Valuation"
+msgstr "Định Giá Tồn Kho"
+
+#. module: serenco_accounting_base
+#: model:ir.model,name:serenco_accounting_base.model_account_invoice
+msgid "Invoice"
+msgstr "Hoá đơn"
+
+#. module: serenco_accounting_base
+#: code:addons/serenco_accounting_base/models/account_invoice.py:138
+#: code:addons/serenco_accounting_base/models/account_invoice.py:148
+#, python-format
+msgid "Invoice number must be number not string"
+msgstr "Số Hoá đơn Dự thảo bắt buộc phải nhập số"
+
+#. module: serenco_accounting_base
+#: code:addons/serenco_accounting_base/models/account_invoice.py:140
+#: code:addons/serenco_accounting_base/models/account_invoice.py:150
+#, python-format
+msgid "Invoice number must not be smaller than 7"
+msgstr "Số Hoá đơn Dự thảo không được nhỏ hơn 7"
+
+#. module: serenco_accounting_base
+#: model:ir.model,name:serenco_accounting_base.model_account_move_line
+msgid "Journal Item"
+msgstr "Phát sinh"
+
+#. module: serenco_accounting_base
+#: model:ir.ui.view,arch_db:serenco_accounting_base.view_stock_move_form_inherit
+msgid "Journal Items"
+msgstr "Phát sinh"
+
+#. module: serenco_accounting_base
+#: model:ir.ui.menu,name:serenco_accounting_base.menu_finance_liabilities
+msgid "Liabilities"
+msgstr "Công Nợ"
+
+#. module: serenco_accounting_base
+#: model:ir.model.fields,field_description:serenco_accounting_base.field_account_move_line_location_id
+#: model:ir.ui.view,arch_db:serenco_accounting_base.src_quant_search_view
+msgid "Location"
+msgstr "Địa điểm"
+
+#. module: serenco_accounting_base
+#: model:ir.ui.view,arch_db:serenco_accounting_base.src_quant_search_view
+msgid "Lot"
+msgstr "Lô"
+
+#. module: serenco_accounting_base
+#: model:ir.ui.view,arch_db:serenco_accounting_base.src_quant_search_view
+msgid "Negative"
+msgstr "Âm"
+
+#. module: serenco_accounting_base
+#: model:ir.ui.menu,name:serenco_accounting_base.sereco_menu_accounting_odoo_report
+msgid "Odoo Reports"
+msgstr "Báo Cáo Tham Khảo"
+
+#. module: serenco_accounting_base
+#: model:ir.model.fields,field_description:serenco_accounting_base.field_account_account_check_open_balance
+msgid "Opening Balance"
+msgstr "Opening Balance"
+
+#. module: serenco_accounting_base
+#: model:ir.ui.view,arch_db:serenco_accounting_base.src_quant_search_view
+msgid "Owner"
+msgstr "Chủ sở hữu"
+
+#. module: serenco_accounting_base
+#: model:ir.ui.view,arch_db:serenco_accounting_base.src_quant_search_view
+msgid "Package"
+msgstr "Gói"
+
+#. module: serenco_accounting_base
+#: model:ir.model,name:serenco_accounting_base.model_account_payment
+#: model:ir.ui.menu,name:serenco_accounting_base.src_menu_payment
+msgid "Payments"
+msgstr "Thanh toán"
+
+#. module: serenco_accounting_base
+#: code:addons/serenco_accounting_base/models/stock_return_picking.py:117
+#, python-format
+msgid "Please specify at least one non-zero quantity."
+msgstr "Please specify at least one non-zero quantity."
+
+#. module: serenco_accounting_base
+#: model:ir.ui.view,arch_db:serenco_accounting_base.src_quant_search_view
+msgid "Positive"
+msgstr "Dương"
+
+#. module: serenco_accounting_base
+#: model:ir.ui.view,arch_db:serenco_accounting_base.src_quant_search_view
+msgid "Product"
+msgstr "Sản phẩm"
+
+#. module: serenco_accounting_base
+#: model:ir.ui.view,arch_db:serenco_accounting_base.src_quant_search_view
+msgid "Product > Location"
+msgstr "Sản phẩm > Địa điểm"
+
+#. module: serenco_accounting_base
+#: model:ir.model,name:serenco_accounting_base.model_product_category
+msgid "Product Category"
+msgstr "Nhóm sản phẩm"
+
+#. module: serenco_accounting_base
+#: model:ir.model.fields,field_description:serenco_accounting_base.field_account_account_properties
+msgid "Properties"
+msgstr "Thuộc tính"
+
+#. module: serenco_accounting_base
+#: model:ir.actions.act_window,name:serenco_accounting_base.src_quantsact
+#: model:ir.model,name:serenco_accounting_base.model_stock_quant
+#: model:ir.ui.view,arch_db:serenco_accounting_base.src_quant_search_view
+msgid "Quants"
+msgstr "Tồn kho thực tế"
+
+#. module: serenco_accounting_base
+#: model:ir.model,name:serenco_accounting_base.model_stock_return_picking
+msgid "Return Picking"
+msgstr "Trả hàng"
+
+#. module: serenco_accounting_base
+#: model:ir.model.fields,field_description:serenco_accounting_base.field_stock_move_aml_ids
+msgid "S_Account move Lines"
+msgstr "S_Account move Lines"
+
+#. module: serenco_accounting_base
+#: model:ir.model.fields,field_description:serenco_accounting_base.field_stock_move_aml_all_ids
+msgid "S_All Account move Lines"
+msgstr "S_All Account move Lines"
+
+#. module: serenco_accounting_base
+#: model:ir.model.fields,help:serenco_accounting_base.field_stock_quant_category_id
+msgid "Select category for the current product"
+msgstr "Chọn nhóm cho sản phẩm hiện tại"
+
+#. module: serenco_accounting_base
+#: selection:product.category,cost_price_method:0
+msgid "Specific Cost Identification"
+msgstr "Thực tế đích danh"
+
+#. module: serenco_accounting_base
+#: selection:product.category,cost_price_method:0
+msgid "Standard"
+msgstr "Giá chuẩn"
+
+#. module: serenco_accounting_base
+#: model:ir.model,name:serenco_accounting_base.model_stock_move
+msgid "Stock Move"
+msgstr "Dịch chuyển kho"
+
+#. module: serenco_accounting_base
+#: model:ir.model.fields,field_description:serenco_accounting_base.field_account_move_line_sm_id
+msgid "Stock move"
+msgstr "Stock move"
+
+#. module: serenco_accounting_base
+#: model:ir.actions.act_window,help:serenco_accounting_base.src_quantsact
+msgid "This analysis gives you a fast overview on the current stock level of your products and their current inventory value."
+msgstr "Phân tích này cho bạn một cái nhìn nhanh trên mức tồn kho hiện tại của các sản phẩm và giá trị tồn kho của ngày hôm nay."
+
+#. module: serenco_accounting_base
+#: model:ir.ui.view,arch_db:serenco_accounting_base.src_quant_search_view
+msgid "Transit Locations"
+msgstr "Địa điểm chuyển tiếp"
+
+#. module: serenco_accounting_base
+#: model:ir.model.fields,field_description:serenco_accounting_base.field_stock_location_transit_receipt_account_id
+msgid "Transit Receipt Account"
+msgstr "Tài khoản nhập kho trung gian"
+
+#. module: serenco_accounting_base
+#: model:ir.model.fields,field_description:serenco_accounting_base.field_stock_location_transit_shipping_account_id
+msgid "Transit Shipping Account"
+msgstr "Tài khoản vận chuyển trung gian"
+
+#. module: serenco_accounting_base
+#: model:ir.model.fields,field_description:serenco_accounting_base.field_stock_warehouse_transporter_tracking
+msgid "Transporter Tracking?"
+msgstr "Theo dõi vận chuyển?"
+
+#. module: serenco_accounting_base
+#: model:ir.model.fields,field_description:serenco_accounting_base.field_stock_location_using_transporter
+msgid "Using Transporter"
+msgstr "Sử dụng vận chuyển"
+
+#. module: serenco_accounting_base
+#: model:ir.ui.menu,name:serenco_accounting_base.vas_configuration
+msgid "VAS Configuration"
+msgstr "Cấu Hình Báo Cáo VAS"
+
+#. module: serenco_accounting_base
+#: model:ir.model,name:serenco_accounting_base.model_stock_warehouse
+msgid "Warehouse"
+msgstr "Kho hàng"
+
+#. module: serenco_accounting_base
+#: selection:product.category,cost_price_method:0
+msgid "Weighted average"
+msgstr "Bình quân gia quyền"
+
+#. module: serenco_accounting_base
+#: code:addons/serenco_accounting_base/models/stock_return_picking.py:89
+#, python-format
+msgid "You have manually created product lines, please delete them to proceed"
+msgstr "You have manually created product lines, please delete them to proceed"
+
+#. module: serenco_accounting_base
+#: model:ir.model,name:serenco_accounting_base.model_account_active_type
+msgid "account.active.type"
+msgstr "account.active.type"
+
+#. module: serenco_accounting_base
+#: model:ir.model,name:serenco_accounting_base.model_base_config_settings
+msgid "base.config.settings"
+msgstr "base.config.settings"
+
+#. module: serenco_accounting_base
+#: model:ir.model,name:serenco_accounting_base.model_symbol_template_invoice
+msgid "symbol.template.invoice"
+msgstr "symbol.template.invoice"
+

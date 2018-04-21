@@ -1,0 +1,1176 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* serenco_accounting_cost_application
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-04 08:49+0000\n"
+"PO-Revision-Date: 2017-05-04 08:49+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/models/cost_application.py:187
+#, python-format
+msgid " (copy)"
+msgstr " (copy)"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/report/cost_tools_report.py:219
+#, python-format
+msgid " năm "
+msgstr " năm "
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/report/cost_tools_report.py:218
+#, python-format
+msgid " tháng "
+msgstr " tháng "
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_entry_count
+msgid "# Cost Application Entries"
+msgstr "# Cost Application Entries"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_expense_depreciation_confirmation_wizard_date
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_tool_depreciation_confirmation_wizard_date
+msgid "Account Date"
+msgstr "Ngày Kế toán"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model,name:serenco_accounting_cost_application.model_account_move
+msgid "Account Entry"
+msgstr "Bút toán kế toán"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model,name:serenco_accounting_cost_application.model_cost_application
+msgid "Accounting Cost Application"
+msgstr "Accounting Cost Application"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model,name:serenco_accounting_cost_application.model_cost_application_category
+msgid "Accounting Cost Application Category"
+msgstr "Danh Mục"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_line_accumulate
+msgid "Accumulate"
+msgstr "Khấ hao lũy kế"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_line_accumulated_depreciation
+msgid "Accumulated Depreciation"
+msgstr "Khấu hao cuối kỳ"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_line_account_actif_id
+msgid "Actif Account"
+msgstr "TK chi phí"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_message_needaction
+msgid "Action Needed"
+msgstr "Cần có hành động"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_active
+msgid "Active"
+msgstr "Hiệu lực"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/models/cost_application.py:573
+#, python-format
+msgid "Amount"
+msgstr "Amount"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/models/cost_application.py:400
+#, python-format
+msgid "Asset sold or disposed. Accounting entry awaiting for validation."
+msgstr "Asset sold or disposed. Accounting entry awaiting for validation."
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/report/cost_tools_report.py:138
+#, python-format
+msgid "BẢNG KÊ CÔNG CỤ DỤNG CỤ"
+msgstr "BẢNG KÊ CÔNG CỤ DỤNG CỤ"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/report/cost_tools_report.py:136
+#, python-format
+msgid "BẢNG KÊ TRÍCH CHI PHÍ CHỜ PHÂN BỔ"
+msgstr "BẢNG KÊ TRÍCH CHI PHÍ CHỜ PHÂN BỔ"
+
+#. module: serenco_accounting_cost_application
+#: selection:cost.tools.report,type_cost_tools:0
+msgid "CCDC"
+msgstr "CCDC"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.view_expense_depreciation_confirmation_wizard
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.view_tool_depreciation_confirmation_wizard
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_category_id_5507
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_category_parent_id
+msgid "Category"
+msgstr "Loại"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,help:serenco_accounting_cost_application.field_cost_application_category_open_asset
+msgid "Check this if you want to automatically confirm the assets of this category when created by invoices."
+msgstr "Đánh dấu nếu bạn muốn tự động xác nhận các Tài Sản của nhóm này khi được tạo bởi hoá đơn."
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,help:serenco_accounting_cost_application.field_expense_depreciation_confirmation_wizard_date
+msgid "Choose the period for which you want to automatically post the depreciation lines of running expense"
+msgstr "Choose the period for which you want to automatically post the depreciation lines of running expense"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,help:serenco_accounting_cost_application.field_tool_depreciation_confirmation_wizard_date
+msgid "Choose the period for which you want to automatically post the depreciation lines of running tools"
+msgstr "Choose the period for which you want to automatically post the depreciation lines of running tools"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.actions.act_window,help:serenco_accounting_cost_application.action_instruments_and_tools_category
+msgid "Click to create a Instruments and Tools Category"
+msgstr "Click to create a Instruments and Tools Category"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.actions.act_window,help:serenco_accounting_cost_application.action_instruments_and_tools
+msgid "Click to create a Instruments and Tools."
+msgstr "Click to create a Instruments and Tools."
+
+#. module: serenco_accounting_cost_application
+#: model:ir.actions.act_window,help:serenco_accounting_cost_application.action_prepaid_expenses_category
+msgid "Click to create a Prepaid Expenses Category"
+msgstr "Click to create a Prepaid Expenses Category"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.actions.act_window,help:serenco_accounting_cost_application.action_prepaid_expenses
+msgid "Click to create a Prepaid Expenses."
+msgstr "Click to create a Prepaid Expenses."
+
+#. module: serenco_accounting_cost_application
+#: selection:cost.application,state:0
+msgid "Close"
+msgstr "Đóng"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_filter
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expenses_filter
+msgid "Closed"
+msgstr "Đã đóng"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_asset_code
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_category_code
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_line_code
+msgid "Code"
+msgstr "Mã"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_company_id
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_company_id
+msgid "Company"
+msgstr "Công ty"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_method
+msgid "Computation Method"
+msgstr "Phương pháp tính toán"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_form
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expenses_form
+msgid "Compute Depreciation"
+msgstr "Tính Khấu hao"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.view_expense_depreciation_confirmation_wizard
+msgid "Compute Expense"
+msgstr "Compute Expense"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.view_tool_depreciation_confirmation_wizard
+msgid "Compute Tool"
+msgstr "Compute Tool"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_form
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expenses_form
+msgid "Confirm"
+msgstr "Xác nhận"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.actions.act_window,name:serenco_accounting_cost_application.action_cost_tools_report
+#: model:ir.ui.menu,name:serenco_accounting_cost_application.src_menu_cost_tools_report
+msgid "Cost / Tools"
+msgstr "Chi phí / CCDC"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_account_cost_application_depreciation_line_cost_app_id
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_account_move_cost_app_id
+msgid "Cost Application"
+msgstr "CCDC/CPTT"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/models/cost_application.py:359
+#, python-format
+msgid "Cost Application created"
+msgstr "Cost Application created"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model,name:serenco_accounting_cost_application.model_account_cost_application_depreciation_line
+msgid "Cost Application depreciation line"
+msgstr "Cost Application depreciation line"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_line_parent_depreciation_id
+msgid "Cost Tools Depreciation"
+msgstr "Khấu hao CCDC / Chi phí"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_general_ledger_line
+msgid "Cost Tools Depreciation Line"
+msgstr "Cost Tools Depreciation Line"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/report/cost_tools_report.py:36
+#: model:ir.actions.report.xml,name:serenco_accounting_cost_application.cost_application_category_report
+#, python-format
+msgid "Cost Tools Report"
+msgstr "Cost Tools Report"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_cost_tools_id
+msgid "Cost/Tools Name"
+msgstr "Tên"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/wizard/wizard_expense_compute.py:29
+#, python-format
+msgid "Created Expense Moves"
+msgstr "Created Expense Moves"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/wizard/wizard_expense_compute.py:31
+#: code:addons/serenco_accounting_cost_application/wizard/wizard_tool_compute.py:31
+#, python-format
+msgid "Created Revenue Moves"
+msgstr "Created Revenue Moves"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/wizard/wizard_tool_compute.py:29
+#, python-format
+msgid "Created Tool Moves"
+msgstr "Created Tool Moves"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_account_cost_application_depreciation_line_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_category_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_line_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_expense_depreciation_confirmation_wizard_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_tool_depreciation_confirmation_wizard_create_uid
+msgid "Created by"
+msgstr "Được tạo bởi"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_account_cost_application_depreciation_line_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_category_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_line_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_expense_depreciation_confirmation_wizard_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_tool_depreciation_confirmation_wizard_create_date
+msgid "Created on"
+msgstr "Được tạo vào"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_account_cost_application_depreciation_line_depreciated_value
+msgid "Cumulative Depreciation"
+msgstr "Khấu hao Luỹ kế"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/models/cost_application.py:572
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_currency_id
+#, python-format
+msgid "Currency"
+msgstr "Tiền tệ"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_filter
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expenses_filter
+msgid "Current"
+msgstr "Hiện tại"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_account_cost_application_depreciation_line_amount
+msgid "Current Depreciation"
+msgstr "Khấu hao hiện tại"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_date
+msgid "Date"
+msgstr "Ngày phân bổ"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,help:serenco_accounting_cost_application.field_cost_application_message_last_post
+msgid "Date of the last message posted on the record."
+msgstr "Ngày của thông điệp gần nhất được ghi nhận trên một bản ghi"
+
+#. module: serenco_accounting_cost_application
+#: selection:cost.application,method:0
+msgid "Degressive"
+msgstr "Giảm dần"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_method_progress_factor
+msgid "Degressive Factor"
+msgstr "Hệ số lũy thoái"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_department
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_department
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_line_department
+msgid "Department"
+msgstr "Phòng/Ban"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_line_depreciation
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_form
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expenses_form
+msgid "Depreciation"
+msgstr "Khấu hao"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_form
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expenses_form
+msgid "Depreciation Board"
+msgstr "Bảng khấu hao"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_account_cost_application_depreciation_line_depreciation_date
+msgid "Depreciation Date"
+msgstr "Ngày khấu hao"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_account_cost_application_depreciation_line_move_id
+msgid "Depreciation Entry"
+msgstr "Bút toán Khấu hao"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_form
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expenses_form
+msgid "Depreciation Information"
+msgstr "Thông tin khấu hao"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_depreciation_line_ids
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_form
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expenses_form
+msgid "Depreciation Lines"
+msgstr "Chi tiết khấu hao"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_account_cost_application_depreciation_line_name
+msgid "Depreciation Name"
+msgstr "Tên khấu hao"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_period
+msgid "Depreciation Period"
+msgstr "Kỳ"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/models/cost_application.py:577
+#, python-format
+msgid "Depreciation line posted."
+msgstr "Depreciation line posted."
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.view_cost_tools_form_view
+msgid "Details"
+msgstr "Các chi tiết"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_account_cost_application_depreciation_line_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_category_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_line_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_expense_depreciation_confirmation_wizard_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_tool_depreciation_confirmation_wizard_display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/models/cost_application.py:405
+#, python-format
+msgid "Disposal Move"
+msgstr "Disposal Move"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/models/cost_application.py:408
+#, python-format
+msgid "Disposal Moves"
+msgstr "Disposal Moves"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_category_account_actif_id
+msgid "Distributed Account"
+msgstr "Distributed Account"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/models/cost_application.py:554
+#, python-format
+msgid "Document closed."
+msgstr "Document closed."
+
+#. module: serenco_accounting_cost_application
+#: selection:cost.application,state:0
+msgid "Draft"
+msgstr "Nháp"
+
+#. module: serenco_accounting_cost_application
+#: selection:cost.application,method_time:0
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_method_end
+msgid "Ending Date"
+msgstr "Ngày kết thúc"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_account_move_ids
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_move_line_id
+msgid "Entries"
+msgstr "Bút toán"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model,name:serenco_accounting_cost_application.model_expense_depreciation_confirmation_wizard
+msgid "Expenses Depreciation Confirmation Wizard"
+msgstr "Expenses Depreciation Confirmation Wizard"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_message_follower_ids
+msgid "Followers"
+msgstr "Người dõi theo"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Kênh dõi theo"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Người dõi theo"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.view_cost_tools_form_view
+msgid "General"
+msgstr "Tổng quát"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.view_expense_depreciation_confirmation_wizard
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.view_tool_depreciation_confirmation_wizard
+msgid "Generate Entries"
+msgstr "Tạo bút toán"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.menu,name:serenco_accounting_cost_application.menu_expense_depreciation_confirmation_wizard
+msgid "Generate Expense Entries"
+msgstr "Tạo Bút Toán CPTT"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.menu,name:serenco_accounting_cost_application.menu_tool_depreciation_confirmation_wizard
+msgid "Generate Tools Entries"
+msgstr "Tạo bút toán CCDC"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/report/cost_tools_report.py:153
+#: code:addons/serenco_accounting_cost_application/report/cost_tools_report.py:156
+#, python-format
+msgid "Giá trị còn lại đến ngày …/…./…"
+msgstr "Giá trị còn lại đến ngày …/…./…"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/report/cost_tools_report.py:223
+#, python-format
+msgid "Giám đốc"
+msgstr "Giám đốc"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_value
+msgid "Gross Value"
+msgstr "Giá trị nguyên giá"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_form
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expenses_form
+msgid "Gross value of asset"
+msgstr "Giá trị nguyên giá của Tài Sản"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_category_filter
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_filter
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expense_category_filter
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expenses_filter
+msgid "Group By..."
+msgstr "Nhóm theo..."
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_account_cost_application_depreciation_line_id
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_category_id
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_id
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_id
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_line_id
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_expense_depreciation_confirmation_wizard_id
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_tool_depreciation_confirmation_wizard_id
+msgid "ID"
+msgstr "ID"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,help:serenco_accounting_cost_application.field_cost_application_message_unread
+msgid "If checked new messages require your attention."
+msgstr "Nếu đánh dấu kiểm, các thông điệp mới yêu cầu sự có mặt của bạn."
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,help:serenco_accounting_cost_application.field_cost_application_message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Nếu được đánh dấu, thông điệp mới sẽ yêu cầu sự có mặt của bạn."
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_filter
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expenses_filter
+msgid "In closed state"
+msgstr "In closed state"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_filter
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expenses_filter
+msgid "In draft and open states"
+msgstr "In draft and open states"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,help:serenco_accounting_cost_application.field_cost_application_prorata
+msgid "Indicates that the first depreciation entry for this asset have to be done from the purchase date instead of the first January / Start date of fiscal year"
+msgstr "Chỉ ra rằng bút toán khấu hao lần đầu cho Tài Sản này phải được thực hiện từ ngày mua thay vì ngày đầu tiên của tháng Một / Ngày đầu năm tài chính"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,help:serenco_accounting_cost_application.field_cost_application_category_prorata
+msgid "Indicates that the first depreciation entry for this asset have to be done from the purchase date instead of the first of January"
+msgstr "Chỉ ra rằng bút toán khấu hao lần đầu cho Tài Sản này phải được thực hiện từ ngày mua thay vì ngày đầu tiên của Tháng Một"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_filter
+msgid "Instrument and Tools"
+msgstr "Instrument and Tools"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_category_filter
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expense_category_filter
+msgid "Instrument and Tools Category"
+msgstr "Instrument and Tools Category"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_category_filter
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expense_category_filter
+msgid "Instrument and Tools Category Code"
+msgstr "Instrument and Tools Category Code"
+
+#. module: serenco_accounting_cost_application
+#: selection:cost.application.category,type:0
+msgid "Instruments Tools"
+msgstr "Instruments Tools"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.actions.act_window,name:serenco_accounting_cost_application.action_instruments_and_tools
+#: model:ir.ui.menu,name:serenco_accounting_cost_application.menu_instruments_and_tools
+#: model:ir.ui.menu,name:serenco_accounting_cost_application.parent_menu_instruments_and_tools
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_form
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_tree
+msgid "Instruments and Tools"
+msgstr "Công Cụ Dụng Cụ"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.actions.act_window,name:serenco_accounting_cost_application.action_instruments_and_tools_category
+#: model:ir.ui.menu,name:serenco_accounting_cost_application.menu_instruments_and_tools_category
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_category_form
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_category_tree
+msgid "Instruments and Tools Category"
+msgstr "Nhóm CCDC"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_invoice_id
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_form
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expenses_form
+msgid "Invoice"
+msgstr "Hoá đơn"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_line_invoice_date
+msgid "Invoice Date"
+msgstr "Ngày Hóa đơn"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_message_is_follower
+msgid "Is Follower"
+msgstr "Là một người dõi theo"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,help:serenco_accounting_cost_application.field_cost_application_salvage_value
+msgid "It is the amount you plan to have that you cannot depreciate."
+msgstr "Đây là giá trị mà bạn không muốn trích khấu hao."
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_form
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expenses_form
+msgid "Items"
+msgstr "Hạng mục"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_category_journal_id
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_journal_id
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_category_filter
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_filter
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expense_category_filter
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expenses_filter
+msgid "Journal"
+msgstr "Sổ nhật ký"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/models/cost_application.py:442
+#, python-format
+msgid "Journal Entries"
+msgstr "Journal Entries"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/report/cost_tools_report.py:155
+#, python-format
+msgid "Khấu hao lũy kế đến ngày …/…./…"
+msgstr "Khấu hao lũy kế đến ngày …/…./…"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/report/cost_tools_report.py:154
+#, python-format
+msgid "Khấu hao tháng …./..."
+msgstr "Khấu hao tháng …./..."
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/report/cost_tools_report.py:222
+#, python-format
+msgid "Kế toán trưởng"
+msgstr "Kế toán trưởng"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_message_last_post
+msgid "Last Message Date"
+msgstr "Ngày thông điệp cuối cùng"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_account_cost_application_depreciation_line___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_category___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_line___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_expense_depreciation_confirmation_wizard___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_tool_depreciation_confirmation_wizard___last_update
+msgid "Last Modified on"
+msgstr "Sửa lần cuối"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_account_cost_application_depreciation_line_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_category_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_line_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_expense_depreciation_confirmation_wizard_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_tool_depreciation_confirmation_wizard_write_uid
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_account_cost_application_depreciation_line_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_category_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_line_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_expense_depreciation_confirmation_wizard_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_tool_depreciation_confirmation_wizard_write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối"
+
+#. module: serenco_accounting_cost_application
+#: selection:cost.application,method:0
+msgid "Linear"
+msgstr "Linear"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_message_ids
+msgid "Messages"
+msgstr "Thông điệp"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_line_method_number
+msgid "Method Number"
+msgstr "Thời gian khấu hao"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_filter
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expenses_filter
+msgid "Month"
+msgstr "Tháng"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/report/cost_tools_report.py:142
+#, python-format
+msgid "Mã CPCPB"
+msgstr "Mã CPCPB"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/report/cost_tools_report.py:134
+#, python-format
+msgid "Mã số thuế : %s"
+msgstr "Mã số thuế : %s"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_category_name
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_name
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_line_name
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_name
+msgid "Name"
+msgstr "Tên"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.view_cost_tools_form_view
+msgid "Name:"
+msgstr "Tên:"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_account_cost_application_depreciation_line_remaining_value
+msgid "Next Period Depreciation"
+msgstr "Giá trị khấu hao còn lại"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/report/cost_tools_report.py:147
+#, python-format
+msgid "Nguyên giá"
+msgstr "Nguyên giá"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/report/cost_tools_report.py:218
+#, python-format
+msgid "Ngày "
+msgstr "Ngày "
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/report/cost_tools_report.py:148
+#, python-format
+msgid "Ngày mua"
+msgstr "Ngày mua"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/report/cost_tools_report.py:149
+#, python-format
+msgid "Ngày trích"
+msgstr "Ngày trích"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/report/cost_tools_report.py:221
+#, python-format
+msgid "Người lập"
+msgstr "Người lập"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_note
+msgid "Note"
+msgstr "Ghi chú"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_message_needaction_counter
+msgid "Number of Actions"
+msgstr "Số lượng hành động"
+
+#. module: serenco_accounting_cost_application
+#: selection:cost.application,method_time:0
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_category_method_number
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_method_number
+msgid "Number of Depreciations"
+msgstr "Số lần khấu hao"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_method_period
+msgid "Number of Months in a Period"
+msgstr "Số tháng trong kỳ kế toán"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,help:serenco_accounting_cost_application.field_cost_application_message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Number of messages which requires an action"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,help:serenco_accounting_cost_application.field_cost_application_message_unread_counter
+msgid "Number of unread messages"
+msgstr "Số các thông điệp chưa đọc"
+
+#. module: serenco_accounting_cost_application
+#: selection:cost.tools.report,type_cost_tools:0
+msgid "PBCP"
+msgstr "PBCP"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/models/cost_application.py:575
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_partner_id
+#, python-format
+msgid "Partner"
+msgstr "Đối tác"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_category_method_period
+msgid "Period Length"
+msgstr "Độ lớn chu kỳ"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.actions.act_window,name:serenco_accounting_cost_application.action_expense_depreciation_confirmation_wizard
+#: model:ir.actions.act_window,name:serenco_accounting_cost_application.action_tool_depreciation_confirmation_wizard
+msgid "Post Depreciation Lines"
+msgstr "Vào sổ các dòng phân bổ"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_category_open_asset
+msgid "Post Journal Entries"
+msgstr "Vào sổ bút toán"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_account_cost_application_depreciation_line_move_check
+msgid "Posted"
+msgstr "Đã vào sổ"
+
+#. module: serenco_accounting_cost_application
+#: selection:cost.application.category,type:0
+msgid "Prepaid Expense"
+msgstr "Prepaid Expense"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_category_account_prepaid_expenses_id
+msgid "Prepaid Expense Account"
+msgstr "Prepaid Expense Account"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.actions.act_window,name:serenco_accounting_cost_application.action_prepaid_expenses
+#: model:ir.ui.menu,name:serenco_accounting_cost_application.menu_prepaid_expenses
+#: model:ir.ui.menu,name:serenco_accounting_cost_application.parent_menu_prepaid_expenses
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expenses_filter
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expenses_form
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expenses_tree
+msgid "Prepaid Expenses"
+msgstr "Chi Phí Trả Trước"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_line_account_prepaid_expenses_id
+msgid "Prepaid Expenses Account"
+msgstr "Prepaid Expenses Account"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.actions.act_window,name:serenco_accounting_cost_application.action_prepaid_expenses_category
+#: model:ir.ui.menu,name:serenco_accounting_cost_application.menu_prepaid_expenses_category
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expense_category_form
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expense_category_tree
+msgid "Prepaid Expenses Category"
+msgstr "Nhóm CPTT"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.view_cost_tools_form_view
+msgid "Print"
+msgstr "In"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_category_prorata
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_prorata
+msgid "Prorata Temporis"
+msgstr "Prorata Temporis"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_date_purchase
+msgid "Purchase Date"
+msgstr "Ngày mua"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_code
+msgid "Reference"
+msgstr "Tham chiếu"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.view_cost_tools_form_view
+msgid "Report"
+msgstr "Báo cáo"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_form
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expenses_form
+msgid "Residual"
+msgstr "Còn lại"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_value_residual
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_line_residual_value
+msgid "Residual Value"
+msgstr "Giá trị còn lại"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_line_residual_value_end
+msgid "Residual Value End"
+msgstr "Giá trị còn lại cuối kỳ"
+
+#. module: serenco_accounting_cost_application
+#: selection:cost.application,state:0
+msgid "Running"
+msgstr "Running"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/report/cost_tools_report.py:141
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_line_stt
+#, python-format
+msgid "STT"
+msgstr "STT"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_salvage_value
+msgid "Salvage Value"
+msgstr "Giá trị Vãn hồi"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_filter
+msgid "Search Instruments and Tools"
+msgstr "Search Instruments and Tools"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_category_filter
+msgid "Search Instruments and Tools Category"
+msgstr "Search Instruments and Tools Category"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expenses_filter
+msgid "Search Prepaid Expenses"
+msgstr "Search Prepaid Expenses"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expense_category_filter
+msgid "Search Prepaid Expenses Category"
+msgstr "Search Prepaid Expenses Category"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_form
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expenses_form
+msgid "Sell or Dispose"
+msgstr "Bán hoặc Tiêu huỷ"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_account_cost_application_depreciation_line_sequence
+msgid "Sequence"
+msgstr "Trình tự"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_form
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expenses_form
+msgid "Set to Draft"
+msgstr "Thiết lập về dự thảo"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,help:serenco_accounting_cost_application.field_cost_application_category_method_period
+msgid "State here the time between 2 depreciations, in months"
+msgstr "State here the time between 2 depreciations, in months"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_account_cost_application_depreciation_line_parent_state
+msgid "State of Cost Application"
+msgstr "State of Cost Application"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_state
+msgid "Status"
+msgstr "Trạng thái"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,help:serenco_accounting_cost_application.field_cost_application_method_period
+msgid "The amount of time between two depreciations, in months"
+msgstr "Tổng giá trị của thời gian giữa hai lần khấu hao, tính theo tháng"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,help:serenco_accounting_cost_application.field_cost_application_category_method_number
+#: model:ir.model.fields,help:serenco_accounting_cost_application.field_cost_application_method_number
+msgid "The number of depreciations needed to depreciate your asset"
+msgstr "Số lần khấu hao cần thiết để khấu hao Tài Sản"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.view_expense_depreciation_confirmation_wizard
+msgid "This wizard will post installment/depreciation lines for the selected month.<br/>\n"
+"                        This will generate journal entries for all related installment lines on this period of expense/revenue recognition as well."
+msgstr "Đồ thuật này sẽ vào sổ tất cả các dòng phát sinh khấu hao CPTT cho tháng được chọn.<br/>\n"
+"                        Điều này tạo hàng loạt các bút toán sổ nhật ký tự cho toàn bộ các khấu hao trong kỳ này của tất cả các CPTT."
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.view_tool_depreciation_confirmation_wizard
+msgid "This wizard will post installment/depreciation lines for the selected month.<br/>\n"
+"                        This will generate journal entries for all related installment lines on this period of tool/revenue recognition as well."
+msgstr "Đồ thuật này sẽ vào sổ tất cả các dòng phát sinh khấu hao CCDC cho tháng được chọn.<br/>\n"
+"                        Điều này tạo hàng loạt các bút toán sổ nhật ký tự cho toàn bộ các khấu hao trong kỳ này của tất cả các CCDC."
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/report/cost_tools_report.py:150
+#, python-format
+msgid "Thời gian phân bổ (tháng)"
+msgstr "Thời gian phân bổ (tháng)"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_method_time
+msgid "Time Method"
+msgstr "Phương pháp thời gian"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model,name:serenco_accounting_cost_application.model_tool_depreciation_confirmation_wizard
+msgid "Tools Depreciation Confirmation Wizard"
+msgstr "Tools Depreciation Confirmation Wizard"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.menu,name:serenco_accounting_cost_application.menu_cost_tools_report
+msgid "Tools Reports"
+msgstr "Báo cáo CCDC / PBCP"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_line_tools_date
+msgid "Tools/Cost Date"
+msgstr "Ngày"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/report/cost_tools_report.py:152
+#, python-format
+msgid "Trích lũy kế đến ngày …/…./..."
+msgstr "Trích lũy kế đến ngày …/…./..."
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_category_type
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_type
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_type_cost_tools
+msgid "Type"
+msgstr "Kiểu"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/report/cost_tools_report.py:146
+#, python-format
+msgid "Tài khoản CPHM"
+msgstr "Tài khoản CPHM"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/report/cost_tools_report.py:145
+#, python-format
+msgid "Tài khoản chi phí"
+msgstr "Tài khoản chi phí"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/report/cost_tools_report.py:143
+#, python-format
+msgid "Tên Chi Phí"
+msgstr "Tên Chi Phí"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/report/cost_tools_report.py:188
+#, python-format
+msgid "Tổng cộng"
+msgstr "Tổng cộng"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_message_unread
+msgid "Unread Messages"
+msgstr "Thông điệp chưa đọc"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Bộ đếm thông điệp chưa đọc"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_date_up
+msgid "Up Date"
+msgstr "Ngày ghi tăng"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_application_date_use
+msgid "Use Date"
+msgstr "Ngày sử dụng"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model.fields,field_description:serenco_accounting_cost_application.field_cost_tools_report_line_value
+msgid "Value"
+msgstr "Giá trị"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_form
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_tree
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expenses_form
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expenses_tree
+msgid "Vendor"
+msgstr "Nhà cung cấp"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/models/cost_application.py:162
+#, python-format
+msgid "You cannot delete a document is in %s state."
+msgstr "You cannot delete a document is in %s state."
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/models/cost_application.py:165
+#, python-format
+msgid "You cannot delete a document that contains posted entries."
+msgstr "You cannot delete a document that contains posted entries."
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/models/cost_application.py:585
+#, python-format
+msgid "You cannot delete posted depreciation lines."
+msgstr "You cannot delete posted depreciation lines."
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/models/cost_application.py:587
+#, python-format
+msgid "You cannot delete posted installment lines."
+msgstr "You cannot delete posted installment lines."
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model,name:serenco_accounting_cost_application.model_cost_tools_report
+msgid "cost.tools.report"
+msgstr "cost.tools.report"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.model,name:serenco_accounting_cost_application.model_cost_tools_report_line
+msgid "cost.tools.report.line"
+msgstr "cost.tools.report.line"
+
+#. module: serenco_accounting_cost_application
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_instruments_tools_form
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_application.src_view_prepaid_expenses_form
+msgid "e.g. Laptop iBook"
+msgstr "vd. Laptop iBook"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/report/cost_tools_report.py:144
+#, python-format
+msgid "Đơn vị/phòng ban sử dụng"
+msgstr "Đơn vị/phòng ban sử dụng"
+
+#. module: serenco_accounting_cost_application
+#: code:addons/serenco_accounting_cost_application/report/cost_tools_report.py:133
+#, python-format
+msgid "Địa chỉ : %s"
+msgstr "Địa chỉ : %s"
+

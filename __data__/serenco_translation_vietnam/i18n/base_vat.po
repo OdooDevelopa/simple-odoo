@@ -1,0 +1,56 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* base_vat
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-15 07:26+0000\n"
+"PO-Revision-Date: 2016-11-15 07:26+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: base_vat
+#: model:ir.model,name:base_vat.model_res_company
+msgid "Companies"
+msgstr "Công ty"
+
+#. module: base_vat
+#: model:ir.model.fields,help:base_vat.field_res_company_vat_check_vies
+msgid "If checked, Partners VAT numbers will be fully validated against EU's VIES service rather than via a simple format validation (checksum)."
+msgstr "Nếu đánh dầu kiểm, mã số thuế GTGT của đối tác sẽ được kiểm tra với dịch vụ VIES của EU chứ không chỉ thẩm định định dạng đơn giản (checksum). Chú ý: Thứ này chỉ hoạt động với các DN đăng ký ở EU."
+
+#. module: base_vat
+#: model:ir.model,name:base_vat.model_res_partner
+msgid "Partner"
+msgstr "Đối tác"
+
+#. module: base_vat
+#: code:addons/base_vat/base_vat.py:128
+#, python-format
+msgid "The VAT number [%s] for partner [%s] does not seem to be valid. \n"
+"Note: the expected format is %s"
+msgstr "Mã số thuế GTGT [%s] của đối tác [%s] dường như không hợp lệ.\n"
+""
+
+#. module: base_vat
+#: code:addons/base_vat/base_vat.py:127
+#, python-format
+msgid "The VAT number [%s] for partner [%s] either failed the VIES VAT validation check or did not respect the expected format %s."
+msgstr "Mã số thuế GTGT [%s] của đối tác [%s] hoặc không thẩm định thành công được với VIES hoặc không thoả mãn định dạng mong đợi %s."
+
+#. module: base_vat
+#: model:ir.model.fields,field_description:base_vat.field_res_company_vat_check_vies
+msgid "VIES VAT Check"
+msgstr "Kiểm tra Mã số thuế với VIES"
+
+#. module: base_vat
+#: model:ir.ui.view,arch_db:base_vat.view_partner_form
+msgid "e.g. BE0477472701"
+msgstr "vd: BE0477472701"
+

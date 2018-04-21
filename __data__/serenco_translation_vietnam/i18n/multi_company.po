@@ -1,0 +1,70 @@
+# Vietnamese translation for openobject-addons
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2014-08-14 13:09+0000\n"
+"PO-Revision-Date: 2014-11-21 22:25+0700\n"
+"Last-Translator: Trong <nguyen.anhtrong@gmail.com>\n"
+"Language-Team: Vietnamese <vi@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-08-15 07:30+0000\n"
+"X-Generator: Poedit 1.6.10\n"
+"Language: vi_VN\n"
+
+#. module: multi_company
+#: model:ir.actions.act_window,name:multi_company.action_inventory_form
+msgid "Company Defaults"
+msgstr "Mặc định công ty"
+
+#. module: multi_company
+#: model:res.company,overdue_msg:multi_company.res_company_odoo
+#: model:res.company,overdue_msg:multi_company.res_company_oerp_be
+#: model:res.company,overdue_msg:multi_company.res_company_oerp_editor
+#: model:res.company,overdue_msg:multi_company.res_company_oerp_in
+#: model:res.company,overdue_msg:multi_company.res_company_oerp_us
+msgid ""
+"Dear Sir/Madam,\n"
+"\n"
+"Our records indicate that some payments on your account are still due. "
+"Please find details below.\n"
+"If the amount has already been paid, please disregard this notice. "
+"Otherwise, please forward us the total amount stated below.\n"
+"If you have any queries regarding your account, Please contact us.\n"
+"\n"
+"Thank you in advance for your cooperation.\n"
+"Best Regards,"
+msgstr ""
+"Chào Ông/Bà,\n"
+"\n"
+"Dữ liệu trên hệ thống của chúng tôi cho thấy các khoản thanh toán thuộc tài "
+"khoản của Ông/Bà vẫn đang quá hạn. Vui lòng xem chi tiết bên dưới đây\n"
+"Nếu số tiền này đã được thanh toán, vui lòng bỏ qua thông báo này. Nếu "
+"không, vui lòng chuyển cho chúng tôi tổng giá trị như bên dưới.\n"
+"Nếu Ông/Bà có bất kỳ chất vấn liên quan đến tài khoản của mình, vui lòng "
+"liên hệ với chúng tôi.\n"
+"\n"
+"Cám ơn sự hợp tác của Ông/Bà.Thân gửi,"
+
+#. module: multi_company
+#: view:multi_company.default:multi_company.view_inventory_form
+#: view:multi_company.default:multi_company.view_inventory_search
+#: view:multi_company.default:multi_company.view_inventory_tree
+msgid "Multi Company"
+msgstr "Đa công ty"
+
+#. module: multi_company
+#: model:product.template,name:multi_company.product_product_odoo1_product_template
+msgid "Odoo Offer"
+msgstr "Chào giá"
+
+#. module: multi_company
+#: model:product.category,name:multi_company.Odoo1
+msgid "Odoo Offers"
+msgstr "Chào giá"

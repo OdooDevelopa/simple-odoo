@@ -1,0 +1,276 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_twitter
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-23 16:28+0000\n"
+"PO-Revision-Date: 2014-11-13 22:47+0700\n"
+"Last-Translator: Trong <nguyen.anhtrong@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: vi_VN\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#. module: website_twitter
+#: view:website.config.settings:website_twitter.view_website_config_settings
+msgid "Accept terms of use and click on the Create button at the bottom"
+msgstr "Chấp nhận điều khoản sử dụng và nhấn vào nút Tạo ở bên dưới"
+
+#. module: website_twitter
+#: view:website.config.settings:website_twitter.view_website_config_settings
+msgid "Callback URL:"
+msgstr "URL gọi lại"
+
+#. module: website_twitter
+#: view:website.config.settings:website_twitter.view_website_config_settings
+msgid "Copy/Paste API Key and Secret below"
+msgstr "Sao chép/Dán khóa và mật mã API bên dưới"
+
+#. module: website_twitter
+#: view:website.config.settings:website_twitter.view_website_config_settings
+msgid "Create a new Twitter application on"
+msgstr "Tạo một ứng dụng Twitter mới ở"
+
+#. module: website_twitter
+#: field:website.twitter.tweet,create_uid:0
+msgid "Created by"
+msgstr "Người tạo"
+
+#. module: website_twitter
+#: field:website.twitter.tweet,create_date:0
+msgid "Created on"
+msgstr "Ngày tạo"
+
+#. module: website_twitter
+#: view:website.config.settings:website_twitter.view_website_config_settings
+msgid "Description:"
+msgstr "Mô tả:"
+
+#. module: website_twitter
+#: view:website.config.settings:website_twitter.view_website_config_settings
+msgid ""
+"Enter the screen name from which you want to load favorite Tweets (does not "
+"need to be the same as the API keys)"
+msgstr ""
+"Nhập tên màn hình mà bạn muốn tải các đoạn tweet yêu thích (không cần phải "
+"cùng khóa API)"
+
+#. module: website_twitter
+#: field:website,twitter_screen_name:0
+#: field:website.config.settings,twitter_screen_name:0
+msgid "Get favorites from this screen name"
+msgstr "Lấy các mục yêu thích từ tên màn hình"
+
+#. module: website_twitter
+#: view:website.config.settings:website_twitter.view_website_config_settings
+msgid "How to configure the Twitter API access"
+msgstr "Cách cấu hình quyền truy cập API Twitter"
+
+#. module: website_twitter
+#: field:website.twitter.tweet,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: website_twitter
+#: field:website.twitter.tweet,write_uid:0
+msgid "Last Updated by"
+msgstr "Cập nhật cuối bởi"
+
+#. module: website_twitter
+#: field:website.twitter.tweet,write_date:0
+msgid "Last Updated on"
+msgstr "Cập nhật cuối vào"
+
+#. module: website_twitter
+#: view:website.config.settings:website_twitter.view_website_config_settings
+msgid "Name:"
+msgstr "Tên:"
+
+#. module: website_twitter
+#: view:website.config.settings:website_twitter.view_website_config_settings
+msgid "Odoo Tweet Scroller"
+msgstr "Thanh cuộn Tweet"
+
+#. module: website_twitter
+#: code:addons/website_twitter/models/twitter_config.py:36
+#, python-format
+msgid "Please double-check your Twitter API Key and Secret"
+msgstr "Vui lòng kiểm tra kỹ khóa và mật mã API Twitter"
+
+#. module: website_twitter
+#: code:addons/website_twitter/controllers/main.py:25
+#, python-format
+msgid ""
+"Please set a Twitter screen name to load favorites from, in the Website "
+"Settings (it does not have to be yours)"
+msgstr ""
+"Vui lòng thiết lập tên màn hình Twitter để tải mục yêu thích, trong Thiết "
+"lập website (không cần phải là của bạn)"
+
+#. module: website_twitter
+#: code:addons/website_twitter/controllers/main.py:21
+#, python-format
+msgid "Please set the Twitter API Key and Secret in the Website Settings."
+msgstr "Vui lòng thiết lập mật mã và khóa API Twitter trong Thiết lập website"
+
+#. module: website_twitter
+#. openerp-web
+#: code:addons/website_twitter/static/src/xml/website.twitter.xml:35
+#, python-format
+msgid "Reload"
+msgstr "Tải lại"
+
+#. module: website_twitter
+#: field:website.twitter.tweet,screen_name:0
+msgid "Screen Name"
+msgstr "Tên màn hình"
+
+#. module: website_twitter
+#: help:website.config.settings,twitter_screen_name:0
+msgid ""
+"Screen Name of the Twitter Account from which you want to load favorites.It "
+"does not have to match the API Key/Secret."
+msgstr ""
+"Tên màn hình của Tài khoản Twitter mà bạn muốn tải các mục yêu thích. Không "
+"nhất thiết phải khớp với khóa/mật mã API"
+
+#. module: website_twitter
+#: view:website.config.settings:website_twitter.view_website_config_settings
+msgid ""
+"Set your Twitter API access below to be able to use the Twitter Scroller "
+"Website snippet."
+msgstr ""
+"Thiết lập quyền truy cập API Twitter của bạn để có thể dùng đoạn mã website "
+"thanh cuộn Twitter"
+
+#. module: website_twitter
+#: field:website.config.settings,twitter_tutorial:0
+msgid "Show me how to obtain the Twitter API Key and Secret"
+msgstr "Hiển thị cho tôi cách để đạt được mật mã và khóa API Twitter"
+
+#. module: website_twitter
+#: view:website.config.settings:website_twitter.view_website_config_settings
+msgid "Switch to the API Keys tab:"
+msgstr "Chuyển qua tab Khóa API:"
+
+#. module: website_twitter
+#: field:website.twitter.tweet,tweet_id:0
+msgid "Tweet ID"
+msgstr "ID Tweet"
+
+#. module: website_twitter
+#: field:website.twitter.tweet,tweet:0
+msgid "Tweets"
+msgstr "Tweets"
+
+#. module: website_twitter
+#: view:website.config.settings:website_twitter.view_website_config_settings
+msgid "Twitter API"
+msgstr "API Twitter"
+
+#. module: website_twitter
+#: help:website,twitter_api_key:0
+#: field:website.config.settings,twitter_api_key:0
+msgid "Twitter API Key"
+msgstr "Khóa API Twitter"
+
+#. module: website_twitter
+#: help:website,twitter_api_secret:0
+msgid "Twitter API Secret"
+msgstr "Mật mã API Twitter"
+
+#. module: website_twitter
+#: field:website,twitter_api_key:0
+msgid "Twitter API key"
+msgstr "Khóa API Twitter"
+
+#. module: website_twitter
+#: help:website.config.settings,twitter_api_key:0
+msgid "Twitter API key you can get it from https://apps.twitter.com/app/new"
+msgstr "Khóa API Twitter mà bạn có thể lấy từ https://apps.twitter.com/app/new"
+
+#. module: website_twitter
+#: field:website,twitter_api_secret:0
+#: field:website.config.settings,twitter_api_secret:0
+msgid "Twitter API secret"
+msgstr "Mật mã API Twitter"
+
+#. module: website_twitter
+#: help:website.config.settings,twitter_api_secret:0
+msgid "Twitter API secret you can get it from https://apps.twitter.com/app/new"
+msgstr ""
+"Mat65t mã API Twitter bạn có thể lấy từ https://apps.twitter.com/app/new"
+
+#. module: website_twitter
+#. openerp-web
+#: code:addons/website_twitter/static/src/xml/website.twitter.xml:41
+#, python-format
+msgid "Twitter Configuration"
+msgstr "Cấu hình Twitter"
+
+#. module: website_twitter
+#: view:website:website.snippets
+msgid "Twitter Scroller"
+msgstr "Thanh cuộn Twitter"
+
+#. module: website_twitter
+#: model:ir.model,name:website_twitter.model_website_twitter_tweet
+msgid "Twitter Tweets"
+msgstr "Tweets Twitter"
+
+#. module: website_twitter
+#: code:addons/website_twitter/models/twitter_config.py:36
+#, python-format
+msgid "Twitter authorization error!"
+msgstr "Lỗi cấp phép Twitter!"
+
+#. module: website_twitter
+#: code:addons/website_twitter/controllers/main.py:36
+#, python-format
+msgid ""
+"Twitter user @%(username)s has less than 12 favorite tweets. Please add more "
+"or choose a different screen name."
+msgstr ""
+"Người dùng Twitter @%(username)s có ít hơn 12 tweet yêu thích. Vui llo2ng "
+"thêm nhiều hơn hoặc chọn tên màn hình khác."
+
+#. module: website_twitter
+#: model:ir.model,name:website_twitter.model_website
+#: field:website.twitter.tweet,website_id:0
+msgid "Website"
+msgstr "Website"
+
+#. module: website_twitter
+#: view:website.config.settings:website_twitter.view_website_config_settings
+msgid "Website:"
+msgstr "Website: "
+
+#. module: website_twitter
+#: view:website.config.settings:website_twitter.view_website_config_settings
+msgid "You can get your API credentials from"
+msgstr "Bạn có thể lấy thông tin API từ"
+
+#. module: website_twitter
+#: view:website.config.settings:website_twitter.view_website_config_settings
+msgid "https://apps.twitter.com/app/new"
+msgstr "https://apps.twitter.com/app/new"
+
+#. module: website_twitter
+#: view:website.config.settings:website_twitter.view_website_config_settings
+msgid "https://www.odoo.com"
+msgstr "https://www.feosco.com"
+
+#. module: website_twitter
+#: view:website.config.settings:website_twitter.view_website_config_settings
+msgid "leave it blank"
+msgstr "để trống"
+
+#. module: website_twitter
+#: view:website.config.settings:website_twitter.view_website_config_settings
+msgid "with the following values:"
+msgstr "với các giá trị sau đây:"

@@ -1,0 +1,1351 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* crm_claim
+#	* digital_crm_claim
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 8.0dev-20140225-000101\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-18 07:41+0000\n"
+"PO-Revision-Date: 2014-04-18 07:41+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: digital_crm_claim
+#: field:crm.claim,feosco_customs_branch_id:0
+#: model:ir.actions.act_window,name:digital_crm_claim.action_feosco_custom_branch
+msgid "Customs Branch"
+msgstr "Chi cục HQ"
+
+#. module: digital_crm_claim
+#: view:feosco.claim.groups:0
+msgid "Rules"
+msgstr "Quy tắc"
+
+#. module: crm_claim
+#: help:crm.claim.stage,fold:0
+msgid "This stage is not visible, for example in status bar or kanban view, when there are no records in that stage to display."
+msgstr "This stage is not visible, for example in status bar or kanban view, when there are no records in that stage to display."
+
+#. modules: crm_claim, digital_crm_claim
+#: field:crm.claim.report,nbr:0
+#: field:feosco.crm.claim.report,nbr:0
+msgid "# of Cases"
+msgstr "# Trường hợp"
+
+#. modules: crm_claim, digital_crm_claim
+#: view:crm.claim:0
+#: view:crm.claim.report:0
+#: view:feosco.crm.claim.report:0
+msgid "Group By..."
+msgstr "Nhóm theo..."
+
+#. modules: crm_claim, digital_crm_claim
+#: view:crm.claim:0
+#: view:crm.claim:0
+msgid "Responsibilities"
+msgstr "Người giải quyết"
+
+#. module: digital_crm_claim
+#: model:mail.message.subtype,name:digital_crm_claim.mt_ticket_resolution
+msgid "Resolution Changed"
+msgstr "Resolution Changed"
+
+#. module: digital_crm_claim
+#: view:feosco.claim.groups:0
+msgid "Inherited"
+msgstr "Thừa kế"
+
+#. module: digital_crm_claim
+#: field:crm.claim,feosco_customs_id:0
+#: model:ir.actions.act_window,name:digital_crm_claim.action_feosco_custom
+#: model:ir.ui.menu,name:digital_crm_claim.menu_feosco_custom
+#: model:ir.ui.menu,name:digital_crm_claim.menu_feosco_custom_root
+msgid "Customs"
+msgstr "Cục HQ"
+
+#. module: crm_claim
+#: model:ir.model,name:crm_claim.model_crm_claim_stage
+msgid "Claim stages"
+msgstr "Giai đoạn khiếu nại"
+
+#. module: digital_crm_claim
+#: view:feosco.claim.groups:0
+msgid "Access Rules"
+msgstr "Quyền truy cập"
+
+#. modules: crm_claim, digital_crm_claim
+#: selection:crm.claim.report,month:0
+#: selection:feosco.crm.claim.report,month:0
+msgid "March"
+msgstr "Tháng Ba"
+
+#. modules: crm_claim, digital_crm_claim
+#: field:crm.claim.report,delay_close:0
+#: field:feosco.crm.claim.report,delay_close:0
+msgid "Delay to close"
+msgstr "Thời gian đóng"
+
+#. module: digital_crm_claim
+#: view:feosco.claim.groups:0
+msgid "Views"
+msgstr "Giao diện"
+
+#. module: crm_claim
+#: field:crm.claim,message_unread:0
+msgid "Unread Messages"
+msgstr "Tin nhắn chưa đọc"
+
+#. module: crm_claim
+#: field:crm.claim,resolution:0
+msgid "Resolution"
+msgstr "Quyết định"
+
+#. modules: crm_claim, digital_crm_claim
+#: field:crm.claim,company_id:0
+#: view:crm.claim.report:0
+#: field:crm.claim.report,company_id:0
+#: view:feosco.crm.claim.report:0
+#: field:feosco.crm.claim.report,company_id:0
+msgid "Company"
+msgstr "Cơ quan"
+
+#. module: digital_crm_claim
+#: selection:feosco.claim.groups,vendor:0
+msgid "No"
+msgstr "No"
+
+#. module: crm_claim
+#: model:ir.actions.act_window,help:crm_claim.crm_claim_categ_action
+msgid "<p class=\"oe_view_nocontent_create\">\n"
+"                Click to create a claim category.\n"
+"              </p><p>\n"
+"                Create claim categories to better manage and classify your\n"
+"                claims. Some example of claims can be: preventive action,\n"
+"                corrective action.\n"
+"              </p>\n"
+"            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
+"                Nhấn vào đây để tạo danh mục khiếu nại\n"
+"              </p><p>\n"
+"                Tại danh mục khiếu nại để quản lý và phân loại khiếu nại tốt hơn\n"
+"                Một số ví dụ: hành động khắc phục, hành động phòng ngừa,\n"
+"              </p>\n"
+"            "
+
+#. module: crm_claim
+#: field:crm.claim.stage,name:0
+msgid "Stage Name"
+msgstr "Tên giai đoạn"
+
+#. modules: crm_claim, digital_crm_claim
+#: view:crm.claim.report:0
+#: view:feosco.crm.claim.report:0
+msgid "Salesperson"
+msgstr "Người bán"
+
+#. module: digital_crm_claim
+#: model:ir.ui.menu,name:digital_crm_claim.menu_action_feosco_others
+msgid "Others"
+msgstr "Khác"
+
+#. module: digital_crm_claim
+#: model:mail.message.subtype,description:digital_crm_claim.mt_ticket_state
+msgid "Status changed"
+msgstr "Trạng thái thay đổi"
+
+#. modules: crm_claim, digital_crm_claim
+#: selection:crm.claim,priority:0
+#: selection:crm.claim.report,priority:0
+#: selection:feosco.crm.claim.report,priority:0
+msgid "Highest"
+msgstr "Cao nhất"
+
+#. modules: crm_claim, digital_crm_claim
+#: view:crm.claim.report:0
+#: field:crm.claim.report,day:0
+#: view:feosco.crm.claim.report:0
+#: field:feosco.crm.claim.report,day:0
+msgid "Day"
+msgstr "Ngày"
+
+#. module: digital_crm_claim
+#: model:ir.ui.menu,name:digital_crm_claim.menu_action_feosco_ticket
+msgid "Tickets"
+msgstr "Các câu hỏi"
+
+#. module: digital_crm_claim
+#: view:crm.claim:0
+msgid "Rejected Ticket"
+msgstr "Từ chối"
+
+#. module: digital_crm_claim
+#: view:feosco.claim.groups:0
+#: view:feosco.custom:0
+#: view:feosco.custom.branch:0
+msgid "Notes"
+msgstr "Ghi chú thêm"
+
+#. modules: crm_claim, digital_crm_claim
+#: view:crm.claim:0
+#: view:crm.claim:0
+msgid "Claim Description"
+msgstr "Ghi chú giải "
+
+#. module: crm_claim
+#: field:crm.claim,message_ids:0
+msgid "Messages"
+msgstr "Tin nhắn"
+
+#. module: crm_claim
+#: model:crm.case.categ,name:crm_claim.categ_claim1
+msgid "Factual Claims"
+msgstr "Khiếu nại có thật"
+
+#. module: digital_crm_claim
+#: field:crm.claim,state:0
+#: view:feosco.crm.claim.report:0
+#: field:feosco.crm.claim.report,state:0
+msgid "State"
+msgstr "Trạng thái"
+
+#. module: digital_crm_claim
+#: model:ir.ui.menu,name:digital_crm_claim.menu_action_digital_crm_claim_report
+msgid "Ticket Report"
+msgstr "Báo cáo"
+
+#. module: digital_crm_claim
+#: model:crm.claim.stage,name:digital_crm_claim.stage_claim7
+msgid "Cancelled"
+msgstr "Từ chối"
+
+#. module: crm_claim
+#: model:crm.case.resource.type,name:crm_claim.type_claim2
+msgid "Preventive"
+msgstr "Phòng ngừa"
+
+#. module: digital_crm_claim
+#: help:crm.claim,feosco_channel_id:0
+msgid "Communication channel."
+msgstr "Kênh liên lạc."
+
+#. module: crm_claim
+#: help:crm.claim,message_unread:0
+msgid "If checked new messages require your attention."
+msgstr "Nếu chọn, tin nhắn mới yêu cầu bạn chú ý"
+
+#. module: digital_crm_claim
+#: model:mail.message.subtype,name:digital_crm_claim.mt_ticket_cause
+msgid "Root Cause Changed"
+msgstr "Nguyên nhân chính đã thay đổi"
+
+#. module: digital_crm_claim
+#: field:feosco.custom,note:0
+#: field:feosco.custom.branch,note:0
+#: field:feosco.faq,comment:0
+msgid "Note"
+msgstr "Ghi chú"
+
+#. modules: crm_claim, digital_crm_claim
+#: field:crm.claim.report,date_closed:0
+#: field:feosco.crm.claim.report,date_closed:0
+msgid "Close Date"
+msgstr "Ngày đóng"
+
+#. module: crm_claim
+#: field:crm.claim,ref:0
+msgid "Reference"
+msgstr "Tham chiếu"
+
+#. module: digital_crm_claim
+#: model:mail.message.subtype,description:digital_crm_claim.mt_ticket_assigned
+#: model:mail.message.subtype,name:digital_crm_claim.mt_ticket_assigned
+msgid "Owner Assigned"
+msgstr "Người chịu trách nhiệm"
+
+#. modules: crm_claim, digital_crm_claim
+#: view:crm.claim.report:0
+#: view:feosco.crm.claim.report:0
+msgid "Date of claim"
+msgstr "Ngày hỏi"
+
+#. module: crm_claim
+#: field:crm.claim,action_next:0
+msgid "Next Action"
+msgstr "Hành động kế tiếp"
+
+#. module: crm_claim
+#: help:crm.claim,message_summary:0
+msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
+msgstr "Quản lý tóm tắt thông tin trao đổi (số tin nhắn,...). Tóm tắt này được chuyển trực tiếp thành định dạng html cho phép chèn vào màn hình Kanban"
+
+#. modules: crm_claim, digital_crm_claim
+#: view:crm.claim:0
+#: field:crm.claim,date_deadline:0
+#: field:crm.claim.report,date_deadline:0
+#: field:feosco.crm.claim.report,date_deadline:0
+msgid "Deadline"
+msgstr "Hạn chót"
+
+#. module: digital_crm_claim
+#: field:feosco.custom,name:0
+#: field:feosco.custom.branch,name:0
+msgid "Customs Name"
+msgstr "Cơ Quan / Chi Cục "
+
+#. modules: crm_claim, digital_crm_claim
+#: view:crm.claim:0
+#: field:crm.claim,partner_id:0
+#: view:crm.claim.report:0
+#: field:crm.claim.report,partner_id:0
+#: model:ir.model,name:crm_claim.model_res_partner
+#: view:crm.claim:0
+#: view:feosco.crm.claim.report:0
+#: field:feosco.crm.claim.report,partner_id:0
+msgid "Partner"
+msgstr "Đối tác"
+
+#. modules: crm_claim, digital_crm_claim
+#: view:crm.claim:0
+#: view:crm.claim:0
+msgid "Follow Up"
+msgstr "Theo dõi"
+
+#. module: digital_crm_claim
+#: view:crm.claim:0
+#: field:feosco.faq,name:0
+msgid "Subject"
+msgstr "Chủ Đề"
+
+#. module: digital_crm_claim
+#: model:ir.model,name:digital_crm_claim.model_claim_config_settings
+msgid "claim.config.settings"
+msgstr "claim.config.settings"
+
+#. modules: crm_claim, digital_crm_claim
+#: selection:crm.claim,type_action:0
+#: selection:crm.claim.report,type_action:0
+#: selection:feosco.crm.claim.report,type_action:0
+#: selection:feosco.faq,type_action:0
+msgid "Preventive Action"
+msgstr "Hành động phòng ngừa"
+
+#. module: digital_crm_claim
+#: view:crm.claim:0
+msgid "red:(priority in ('1','2'))"
+msgstr "red:(priority in ('1','2'))"
+
+#. modules: crm_claim, digital_crm_claim
+#: field:crm.claim.report,section_id:0
+#: field:feosco.crm.claim.report,section_id:0
+msgid "Section"
+msgstr "Phân vùng"
+
+#. modules: crm_claim, digital_crm_claim
+#: view:crm.claim:0
+#: view:crm.claim:0
+msgid "Root Causes"
+msgstr "Nguyên nhân chính"
+
+#. module: digital_crm_claim
+#: model:ir.model,name:digital_crm_claim.model_feosco_claim_groups
+msgid "feosco.claim.groups"
+msgstr "Đối tượng"
+
+#. module: crm_claim
+#: field:crm.claim,user_fault:0
+msgid "Trouble Responsible"
+msgstr "Người khiếu nại"
+
+#. modules: crm_claim, digital_crm_claim
+#: field:crm.claim,priority:0
+#: view:crm.claim.report:0
+#: field:crm.claim.report,priority:0
+#: view:feosco.crm.claim.report:0
+#: field:feosco.crm.claim.report,priority:0
+msgid "Priority"
+msgstr "Ưu tiên"
+
+#. module: crm_claim
+#: field:crm.claim.stage,fold:0
+msgid "Hide in Views when Empty"
+msgstr "Ẩn khi trống"
+
+#. module: crm_claim
+#: field:crm.claim,message_follower_ids:0
+msgid "Followers"
+msgstr "Người theo dõi"
+
+#. module: digital_crm_claim
+#: view:feosco.claim.groups:0
+msgid "Users added to this group are automatically added in the following groups."
+msgstr "Thêm người dùng vào nhóm này là tự động thêm vào nhóm theo dõi."
+
+#. modules: crm_claim, digital_crm_claim
+#: model:crm.claim.stage,name:crm_claim.stage_claim1
+#: selection:crm.claim,state:0
+#: selection:feosco.crm.claim.report,state:0
+#: model:ir.actions.act_window,name:digital_crm_claim.crm_case_categ_claim0_new
+#: model:ir.ui.menu,name:digital_crm_claim.menu_action_feosco_claim_0_new
+msgid "New"
+msgstr "Mới"
+
+#. module: crm_claim
+#: field:crm.claim.stage,section_ids:0
+msgid "Sections"
+msgstr "Phân vùng"
+
+#. modules: crm_claim, digital_crm_claim
+#: field:crm.claim,email_from:0
+#: field:feosco.claim.groups,email:0
+msgid "Email"
+msgstr "Thư điện tử"
+
+#. module: digital_crm_claim
+#: field:crm.claim,feosco_channel_id:0
+msgid "Channel"
+msgstr "Kênh"
+
+#. modules: crm_claim, digital_crm_claim
+#: selection:crm.claim,priority:0
+#: selection:crm.claim.report,priority:0
+#: selection:feosco.crm.claim.report,priority:0
+msgid "Lowest"
+msgstr "Thấp nhất"
+
+#. module: digital_crm_claim
+#: model:ir.ui.menu,name:digital_crm_claim.feosco_menu_crm_case_channel
+msgid "Channels"
+msgstr "Nguồn"
+
+#. modules: crm_claim, digital_crm_claim
+#: view:crm.claim.report:0
+#: view:feosco.crm.claim.report:0
+msgid "My Sales Team(s)"
+msgstr "Nhóm của tôi"
+
+#. module: digital_crm_claim
+#: model:ir.model,name:digital_crm_claim.model_crm_case_categ
+msgid "Category of Case"
+msgstr "Danh mục"
+
+#. module: digital_crm_claim
+#: model:ir.model,name:digital_crm_claim.model_feosco_custom
+msgid "feosco.custom"
+msgstr "feosco.custom"
+
+#. module: crm_claim
+#: field:crm.claim,create_date:0
+msgid "Creation Date"
+msgstr "Ngày tạo"
+
+#. module: crm_claim
+#: field:crm.claim,name:0
+msgid "Claim Subject"
+msgstr "Tiêu Đề"
+
+#. modules: crm_claim, digital_crm_claim
+#: model:crm.claim.stage,name:crm_claim.stage_claim3
+#: selection:feosco.crm.claim.report,state:0
+msgid "Rejected"
+msgstr "Đã từ chối"
+
+#. module: crm_claim
+#: field:crm.claim,date_action_next:0
+msgid "Next Action Date"
+msgstr "Ngày hành động kế tiếp"
+
+#. module: digital_crm_claim
+#: model:ir.actions.act_window,help:digital_crm_claim.action_feosco_claim_groups
+msgid "A group is a set of functional areas that will be assigned to the user in order to give\n"
+"                them access and rights to specific applications and tasks in the system. You can create custom groups or\n"
+"                edit the ones existing by default in order to customize the view of the menu that users will be able to\n"
+"                see. Whether they can have a read, write, create and delete access right can be managed from here.\n"
+"            "
+msgstr "A group is a set of functional areas that will be assigned to the user in order to give\n"
+"                them access and rights to specific applications and tasks in the system. You can create custom groups or\n"
+"                edit the ones existing by default in order to customize the view of the menu that users will be able to\n"
+"                see. Whether they can have a read, write, create and delete access right can be managed from here.\n"
+"            "
+
+#. module: digital_crm_claim
+#: model:mail.message.subtype,name:digital_crm_claim.mt_ticket_state
+msgid "State Changed"
+msgstr "Trạng thái thay đổi"
+
+#. modules: crm_claim, digital_crm_claim
+#: model:ir.actions.act_window,help:crm_claim.action_report_crm_claim
+#: model:ir.actions.act_window,help:digital_crm_claim.action_digital_crm_claim_report
+msgid "Have a general overview of all claims processed in the system by sorting them with specific criteria."
+msgstr "Xử lý tổng quan tất cả các khiếu nại bằng cách sắp xếp theo các tiêu chí cụ thể"
+
+#. module: digital_crm_claim
+#: view:crm.claim:0
+msgid "Settled Ticket"
+msgstr "Ticket Đóng"
+
+#. modules: crm_claim, digital_crm_claim
+#: selection:crm.claim.report,month:0
+#: selection:feosco.crm.claim.report,month:0
+msgid "July"
+msgstr "Tháng bảy"
+
+#. module: crm_claim
+#: view:crm.claim.stage:0
+#: model:ir.actions.act_window,name:crm_claim.crm_claim_stage_act
+msgid "Claim Stages"
+msgstr "Giai đoạn khiếu nại"
+
+#. module: crm_claim
+#: model:ir.ui.menu,name:crm_claim.menu_crm_case_claim-act
+msgid "Categories"
+msgstr "Danh mục"
+
+#. module: crm_claim
+#: view:crm.claim:0
+#: field:crm.claim,stage_id:0
+#: view:crm.claim.report:0
+#: field:crm.claim.report,stage_id:0
+msgid "Stage"
+msgstr "Giai đoạn"
+
+#. module: digital_crm_claim
+#: view:crm.claim:0
+msgid "New Ticket"
+msgstr "Câu hỏi mới"
+
+#. modules: crm_claim, digital_crm_claim
+#: view:crm.claim:0
+#: view:crm.claim:0
+msgid "Dates"
+msgstr "Ngày"
+
+#. module: crm_claim
+#: help:crm.claim,email_from:0
+msgid "Destination email for email gateway."
+msgstr "Thư điện tử đích cho cổng email"
+
+#. module: crm_claim
+#: code:addons/crm_claim/crm_claim.py:180
+#, python-format
+msgid "No Subject"
+msgstr "Không có tiêu đề"
+
+#. module: digital_crm_claim
+#: view:claim.config.settings:0
+msgid "Configure Tickets"
+msgstr "Cấu hình câu hỏi"
+
+#. module: digital_crm_claim
+#: model:mail.message.subtype,description:digital_crm_claim.mt_ticket_assigned_responsible
+#: model:mail.message.subtype,name:digital_crm_claim.mt_ticket_assigned_responsible
+msgid "Responsible Assigned"
+msgstr "Người Giải Quyết"
+
+#. module: digital_crm_claim
+#: field:crm.claim,feosco_discussion_ids:0
+msgid "Discussions"
+msgstr "Các thảo luận"
+
+#. module: digital_crm_claim
+#: view:ticket.assign:0
+msgid "Select user to assign ticket"
+msgstr "Chọn người giải quyết"
+
+#. module: digital_crm_claim
+#: model:ir.actions.act_window,name:digital_crm_claim.action_knowledge_configuration
+msgid "Configure Ticket"
+msgstr "Cài đặt câu hỏi"
+
+#. module: digital_crm_claim
+#: view:crm.claim:0
+msgid "Add ticket to FAQ"
+msgstr "Thêm vào FAQ"
+
+#. module: crm_claim
+#: model:ir.ui.menu,name:crm_claim.menu_claim_stage_view
+msgid "Stages"
+msgstr "Giai đoạn"
+
+#. module: crm_claim
+#: model:ir.actions.act_window,name:crm_claim.action_report_crm_claim
+#: model:ir.ui.menu,name:crm_claim.menu_report_crm_claim_tree
+msgid "Claims Analysis"
+msgstr "Phân tích câu hỏi"
+
+#. modules: crm_claim, digital_crm_claim
+#: help:crm.claim.report,delay_close:0
+#: help:feosco.crm.claim.report,delay_close:0
+msgid "Number of Days to close the case"
+msgstr "Số ngày để đóng trường hợp này"
+
+#. modules: crm_claim, digital_crm_claim
+#: model:ir.model,name:crm_claim.model_crm_claim_report
+#: model:ir.model,name:digital_crm_claim.model_digital_crm_claim_report
+msgid "CRM Claim Report"
+msgstr "Báo cáo tình hình hỗ trợ"
+
+#. module: digital_crm_claim
+#: view:feosco.faq:0
+msgid "Comment"
+msgstr "Chú Thích"
+
+#. module: digital_crm_claim
+#: selection:crm.claim,state:0
+#: selection:feosco.crm.claim.report,state:0
+msgid "In progress"
+msgstr "Đang Giải Quyết"
+
+#. module: digital_crm_claim
+#: field:crm.claim,feosco_method_connect:0
+msgid "Method Connect / Used Sofware"
+msgstr "Phương thức kết nối / Phần mềm sử dụng"
+
+#. module: crm_claim
+#: model:crm.case.resource.type,name:crm_claim.type_claim1
+msgid "Corrective"
+msgstr "Khắc phục"
+
+#. modules: crm_claim, digital_crm_claim
+#: selection:crm.claim.report,month:0
+#: selection:feosco.crm.claim.report,month:0
+msgid "September"
+msgstr "Tháng chín"
+
+#. modules: crm_claim, digital_crm_claim
+#: selection:crm.claim.report,month:0
+#: selection:feosco.crm.claim.report,month:0
+msgid "December"
+msgstr "Tháng mời hai"
+
+#. module: digital_crm_claim
+#: view:feosco.claim.groups:0
+msgid "Access Controls"
+msgstr "Truy cập điều khiển"
+
+#. module: digital_crm_claim
+#: model:ir.model,name:digital_crm_claim.model_ticket_assign
+msgid "Ticket Assign"
+msgstr "Giao câu hỏi"
+
+#. modules: crm_claim, digital_crm_claim
+#: view:crm.claim.report:0
+#: field:crm.claim.report,month:0
+#: view:feosco.crm.claim.report:0
+#: field:feosco.crm.claim.report,month:0
+msgid "Month"
+msgstr "Tháng"
+
+#. modules: crm_claim, digital_crm_claim
+#: field:crm.claim,type_action:0
+#: view:crm.claim.report:0
+#: field:crm.claim.report,type_action:0
+#: view:feosco.crm.claim.report:0
+#: field:feosco.crm.claim.report,type_action:0
+#: field:feosco.faq,type_action:0
+msgid "Action Type"
+msgstr "Loại hành động"
+
+#. module: digital_crm_claim
+#: model:mail.message.subtype,description:digital_crm_claim.mt_ticket_resolution
+msgid "Resolution changed"
+msgstr "Thay đổi giải pháp"
+
+#. module: crm_claim
+#: field:crm.claim,write_date:0
+msgid "Update Date"
+msgstr "Ngày cập nhật"
+
+#. module: digital_crm_claim
+#: field:crm.claim,feosco_owner_id:0
+#: field:feosco.crm.claim.report,feosco_owner_id:0
+msgid "Owner"
+msgstr "Người Quản Lý"
+
+#. module: digital_crm_claim
+#: selection:feosco.claim.groups,vendor:0
+msgid "Yes"
+msgstr "Có"
+
+#. module: digital_crm_claim
+#: view:claim.config.settings:0
+#: view:ticket.assign:0
+msgid "or"
+msgstr "hay"
+
+#. module: crm_claim
+#: help:crm.claim.stage,case_default:0
+msgid "If you check this field, this stage will be proposed by default on each sales team. It will not assign this stage to existing teams."
+msgstr "Nếu chọn trường này, giai đoạn này sẽ được đề xuất theo mặc định cho mỗi nhóm kinh doanh. Nó sẽ không phân giai đoạn này cho nhóm hiện hữu"
+
+#. modules: crm_claim, digital_crm_claim
+#: field:crm.claim,categ_id:0
+#: view:crm.claim.report:0
+#: field:crm.claim.report,categ_id:0
+#: view:feosco.crm.claim.report:0
+#: field:feosco.crm.claim.report,categ_id:0
+#: field:feosco.faq,categ_id:0
+#: model:ir.actions.act_window,name:digital_crm_claim.feosco_crm_lead_categ_action
+#: model:ir.ui.menu,name:digital_crm_claim.feosco_menu_crm_lead_categ
+msgid "Category"
+msgstr "Danh mục"
+
+#. module: crm_claim
+#: model:crm.case.categ,name:crm_claim.categ_claim2
+msgid "Value Claims"
+msgstr "Giá trị Khiếu nại"
+
+#. module: digital_crm_claim
+#: help:feosco.claim.groups,vendor:0
+msgid "This group is Vendor"
+msgstr "Đây là nhóm Vendor"
+
+#. module: digital_crm_claim
+#: view:feosco.claim.groups:0
+msgid "Group"
+msgstr "Nhóm"
+
+#. module: digital_crm_claim
+#: view:crm.claim:0
+msgid "context=\"{'default_groups_ref': ['base.group_user', 'base.group_partner_manager', 'base.group_sale_salesman_all_leads']}\"/>"
+msgstr "context=\"{'default_groups_ref': ['base.group_user', 'base.group_partner_manager', 'base.group_sale_salesman_all_leads']}\"/>"
+
+#. module: crm_claim
+#: view:crm.claim:0
+msgid "Responsible User"
+msgstr "Người chịu trách nhiệm"
+
+#. module: digital_crm_claim
+#: field:crm.claim,feosco_discussion:0
+msgid "Discussion"
+msgstr "Thảo luận"
+
+#. module: crm_claim
+#: field:crm.claim,email_cc:0
+msgid "Watchers Emails"
+msgstr "Email người theo dõi"
+
+#. module: crm_claim
+#: help:crm.claim,email_cc:0
+msgid "These email addresses will be added to the CC field of all inbound and outbound emails for this record before being sent. Separate multiple email addresses with a comma"
+msgstr "Email sẽ được them vào trường cc của tất cả các email vào & ra cho dữ liệu này trước khi được gửi. Tách các email với dấu phẩy"
+
+#. modules: crm_claim, digital_crm_claim
+#: selection:crm.claim,priority:0
+#: selection:crm.claim.report,priority:0
+#: selection:feosco.crm.claim.report,priority:0
+msgid "Low"
+msgstr "Thấp"
+
+#. module: crm_claim
+#: field:crm.claim,date_closed:0
+msgid "Closed"
+msgstr "Đã đóng"
+
+#. module: digital_crm_claim
+#: view:crm.claim:0
+msgid "Reject"
+msgstr "Từ chối"
+
+#. module: crm_claim
+#: view:crm.claim.stage:0
+msgid "Claim Stage"
+msgstr "Giai đoạn khiếu nại"
+
+#. module: digital_crm_claim
+#: model:ir.ui.menu,name:digital_crm_claim.menu_partner_form
+msgid "Customers"
+msgstr "Khách hàng"
+
+#. modules: crm_claim, digital_crm_claim
+#: selection:crm.claim.report,month:0
+#: selection:feosco.crm.claim.report,month:0
+msgid "August"
+msgstr "Tháng tám"
+
+#. modules: crm_claim, digital_crm_claim
+#: selection:crm.claim,priority:0
+#: selection:crm.claim.report,priority:0
+#: selection:feosco.crm.claim.report,priority:0
+msgid "Normal"
+msgstr "Bình thường"
+
+#. module: crm_claim
+#: help:crm.claim.stage,sequence:0
+msgid "Used to order stages. Lower is better."
+msgstr "Được dùng để sắp xếp thứ tự cho các giai đoạn, số càn thấp thì càng ưu tiên."
+
+#. modules: crm_claim, digital_crm_claim
+#: selection:crm.claim.report,month:0
+#: selection:feosco.crm.claim.report,month:0
+msgid "June"
+msgstr "Tháng sáu"
+
+#. module: digital_crm_claim
+#: view:crm.claim:0
+msgid "Question Description"
+msgstr "Câu hỏi khách hàng"
+
+#. module: crm_claim
+#: field:crm.claim,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: crm_claim
+#: field:crm.claim,partner_phone:0
+msgid "Phone"
+msgstr "Điện thoại"
+
+#. module: crm_claim
+#: field:crm.claim,message_is_follower:0
+msgid "Is a Follower"
+msgstr "Là người theo dõi"
+
+#. modules: crm_claim, digital_crm_claim
+#: field:crm.claim.report,user_id:0
+#: field:feosco.crm.claim.report,user_id:0
+msgid "User"
+msgstr "Người dùng"
+
+#. module: crm_claim
+#: model:ir.actions.act_window,help:crm_claim.crm_claim_stage_act
+msgid "<p class=\"oe_view_nocontent_create\">\n"
+"                Click to setup a new stage in the processing of the claims. \n"
+"              </p><p>\n"
+"                You can create claim stages to categorize the status of every\n"
+"                claim entered in the system. The stages define all the steps\n"
+"                required for the resolution of a claim.\n"
+"              </p>\n"
+"            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
+"                Nhấn vào đây để thiết lập giai đoạn mới trong quá trình xử lý khiếu nại.\n"
+"              </p><p>\n"
+"                Bạn có thể tạo các giai đoạn khiếu nại để danh mục hóa các giai đoạn\n"
+"                 của mỗi khiếu nại trên hệ thống. Các giai đoạn xác định tất cả các bước\n"
+"                bắt buộc cho việc giải quyết khiếu nại.\n"
+"              </p>\n"
+"            "
+
+#. module: crm_claim
+#: field:crm.claim,active:0
+msgid "Active"
+msgstr "Hiệu lực"
+
+#. modules: crm_claim, digital_crm_claim
+#: selection:crm.claim.report,month:0
+#: selection:feosco.crm.claim.report,month:0
+msgid "November"
+msgstr "Tháng mười một"
+
+#. modules: crm_claim, digital_crm_claim
+#: view:crm.claim.report:0
+#: view:feosco.crm.claim.report:0
+msgid "Extended Filters..."
+msgstr "Bộ lọc mở rộng"
+
+#. module: digital_crm_claim
+#: view:feosco.faq:0
+#: field:feosco.faq,symptom:0
+msgid "Symptom"
+msgstr "Dấu hiệu nhận biết"
+
+#. module: digital_crm_claim
+#: model:mail.message.subtype,description:digital_crm_claim.mt_ticket_cause
+msgid "Root Cause changed"
+msgstr "Nguyên nhân chính thay đổi"
+
+#. module: crm_claim
+#: view:crm.claim:0
+msgid "Closure"
+msgstr "Kết thúc"
+
+#. module: crm_claim
+#: view:crm.claim:0
+msgid "Claim Date by Month"
+msgstr "Ngày hỏi theo tháng"
+
+#. modules: crm_claim, digital_crm_claim
+#: selection:crm.claim.report,month:0
+#: selection:feosco.crm.claim.report,month:0
+msgid "October"
+msgstr "Tháng mười"
+
+#. module: digital_crm_claim
+#: field:crm.claim,feosco_group_id:0
+#: view:feosco.claim.groups:0
+#: field:feosco.claim.groups,group_id:0
+#: view:feosco.custom:0
+#: view:feosco.custom.branch:0
+#: model:ir.actions.act_window,name:digital_crm_claim.action_feosco_claim_groups
+#: model:ir.ui.menu,name:digital_crm_claim.menu_action_feosco_claim_groups
+msgid "Groups"
+msgstr "Nhóm"
+
+#. modules: crm_claim, digital_crm_claim
+#: selection:crm.claim.report,month:0
+#: selection:feosco.crm.claim.report,month:0
+msgid "January"
+msgstr "Tháng một"
+
+#. module: crm_claim
+#: field:crm.claim,date:0
+msgid "Claim Date"
+msgstr "Ngày Tạo"
+
+#. module: crm_claim
+#: field:crm.claim,message_summary:0
+msgid "Summary"
+msgstr "Tóm tắt"
+
+#. module: crm_claim
+#: model:ir.actions.act_window,name:crm_claim.crm_claim_categ_action
+msgid "Claim Categories"
+msgstr "Danh mục khiếu nại"
+
+#. module: crm_claim
+#: field:crm.claim.stage,case_default:0
+msgid "Common to All Teams"
+msgstr "Chung cho cả nhóm"
+
+#. module: digital_crm_claim
+#: model:ir.ui.menu,name:digital_crm_claim.menu_action_feosco_claim
+msgid "My Tickets"
+msgstr "Câu hỏi của tôi"
+
+#. mo: digital_crm_claim
+#: view:feosco.claim.groups:0
+msgid "Access Rights"
+msgstr "Quyền truy cập"
+
+#. modules: crm_claim, digital_crm_claim
+#: view:crm.claim:0
+#: view:crm.claim.report:0
+#: model:ir.actions.act_window,name:crm_claim.crm_case_categ_claim0
+#: model:ir.ui.menu,name:crm_claim.menu_crm_case_claims
+#: view:res.partner:0
+#: field:res.partner,claims_ids:0
+#: view:crm.claim:0
+#: view:feosco.crm.claim.report:0
+msgid "Claims"
+msgstr "Các khiếu nại"
+
+#. module: digital_crm_claim
+#: view:feosco.faq:0
+#: field:feosco.faq,problem:0
+msgid "Problem"
+msgstr "Vấn Đề"
+
+#. modules: crm_claim, digital_crm_claim
+#: selection:crm.claim,type_action:0
+#: selection:crm.claim.report,type_action:0
+#: selection:feosco.crm.claim.report,type_action:0
+#: selection:feosco.faq,type_action:0
+msgid "Corrective Action"
+msgstr "Hành động khắc phục"
+
+#. module: crm_claim
+#: model:crm.case.categ,name:crm_claim.categ_claim3
+msgid "Policy Claims"
+msgstr "Chính sách khiếu nại"
+
+#. module: digital_crm_claim
+#: view:crm.claim:0
+#: model:ir.actions.act_window,name:digital_crm_claim.action_ticket_assign
+#: model:ir.actions.act_window,name:digital_crm_claim.action_ticket_assign_all
+#: view:ticket.assign:0
+msgid "Assign"
+msgstr "Giao"
+
+#. module: crm_claim
+#: view:crm.claim:0
+msgid "Date Closed"
+msgstr "Ngày đóng"
+
+#. module: crm_claim
+#: model:ir.actions.act_window,help:crm_claim.crm_case_categ_claim0
+msgid "<p class=\"oe_view_nocontent_create\">\n"
+"                    Record and track your customers' claims. Claims may be linked to a sales order or a lot.You can send emails with attachments and keep the full history for a claim (emails sent, intervention type and so on).Claims may automatically be linked to an email address using the mail gateway module.\n"
+"                </p>\n"
+"            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
+"                    Record and track your customers' claims. Claims may be linked to a sales order or a lot.You can send emails with attachments and keep the full history for a claim (emails sent, intervention type and so on).Claims may automatically be linked to an email address using the mail gateway module.\n"
+"                </p>\n"
+"            "
+
+#. modules: crm_claim, digital_crm_claim
+#: view:crm.claim:0
+#: model:ir.model,name:crm_claim.model_crm_claim
+#: model:ir.ui.menu,name:crm_claim.menu_config_claim
+#: view:crm.claim:0
+#: model:ir.model,name:digital_crm_claim.model_crm_claim
+msgid "Claim"
+msgstr "Khiếu nại"
+
+#. module: digital_crm_claim
+#: field:crm.case.categ,feosco_code:0
+#: field:crm.claim,feosco_code:0
+#: help:crm.claim,feosco_code:0
+#: field:feosco.custom,code:0
+#: field:feosco.custom.branch,code:0
+#: field:feosco.faq,code:0
+#: help:feosco.faq,code:0
+msgid "Code"
+msgstr "Mã"
+
+#. module: digital_crm_claim
+#: view:feosco.claim.groups:0
+msgid "Menus"
+msgstr "Menus"
+
+#. module: digital_crm_claim
+#: model:ir.actions.act_window,name:digital_crm_claim.action_digital_crm_claim_report
+msgid "My own tickets"
+msgstr "Câu hỏi của tôi"
+
+#. modules: crm_claim, digital_crm_claim
+#: view:crm.claim.report:0
+#: view:feosco.crm.claim.report:0
+msgid "My Company"
+msgstr "Cơ quan của tôi"
+
+#. module: digital_crm_claim
+#: model:ir.ui.menu,name:digital_crm_claim.menu_action_feosco_claim_root
+#: model:res.groups,name:digital_crm_claim.help_desk_res_groups
+msgid "HelpDesk"
+msgstr "Trợ giúp hệ thống VNACCS/VCIS"
+
+#. module: digital_crm_claim
+#: model:crm.claim.stage,name:digital_crm_claim.stage_claim6
+msgid "Assigned"
+msgstr "Đã giao"
+
+#. modules: crm_claim, digital_crm_claim
+#: view:crm.claim:0
+#: view:crm.claim:0
+msgid "Claim Reporter"
+msgstr "Người hỏi"
+
+#. module: digital_crm_claim
+#: view:claim.config.settings:0
+#: view:ticket.assign:0
+msgid "Cancel"
+msgstr "Hủy"
+
+#. modules: crm_claim, digital_crm_claim
+#: view:crm.claim.report:0
+#: view:feosco.crm.claim.report:0
+msgid "Year of claim"
+msgstr "Năm hỏi"
+
+#. modules: crm_claim, digital_crm_claim
+#: model:crm.claim.stage,name:crm_claim.stage_claim5
+#: view:crm.claim:0
+#: model:ir.actions.act_window,name:digital_crm_claim.crm_case_categ_claim0_in_progress
+#: model:ir.ui.menu,name:digital_crm_claim.menu_action_feosco_claim_0_in_progress
+msgid "In Progress"
+msgstr "Đang xử lý"
+
+#. module: digital_crm_claim
+#: model:ir.actions.act_window,name:digital_crm_claim.feosco_faq_ac
+msgid "Frequently Asked Questions"
+msgstr "Câu hỏi thường gặp"
+
+#. module: crm_claim
+#: view:crm.claim:0
+#: field:crm.claim,user_id:0
+msgid "Responsible"
+msgstr "Chịu trách nhiệm"
+
+#. module: crm_claim
+#: help:crm.claim,section_id:0
+msgid "Responsible sales team. Define Responsible user and Email account for mail gateway."
+msgstr "Nhóm phụ trách. Xác định người chịu trách nhiệm & tài khoản email cho cổng email"
+
+#. module: digital_crm_claim
+#: view:crm.claim:0
+#: field:feosco.custom.branch,custom_id:0
+msgid "Custom"
+msgstr "Chi cục thuế"
+
+#. module: digital_crm_claim
+#: model:mail.message.subtype,description:digital_crm_claim.mt_ticket_description
+msgid "Content changed"
+msgstr "Nội dung đã thay đổi"
+
+#. modules: crm_claim, digital_crm_claim
+#: view:crm.claim:0
+#: view:crm.claim:0
+msgid "Unassigned Claims"
+msgstr "Câu hỏi chưa giao"
+
+#. module: digital_crm_claim
+#: model:ir.model,name:digital_crm_claim.model_feosco_faq
+msgid "feosco.faq"
+msgstr "feosco.faq"
+
+#. modules: crm_claim, digital_crm_claim
+#: field:crm.claim.report,delay_expected:0
+#: field:feosco.crm.claim.report,delay_expected:0
+msgid "Overpassed Deadline"
+msgstr "Trễ hạn"
+
+#. module: crm_claim
+#: field:crm.claim,cause:0
+msgid "Root Cause"
+msgstr "Nguyên nhân"
+
+#. module: crm_claim
+#: view:crm.claim:0
+msgid "Claim/Action Description"
+msgstr "Mô tả hành động/khiếu nại"
+
+#. module: digital_crm_claim
+#: model:res.groups,name:digital_crm_claim.vnaccs_res_groups
+msgid "VNACCS/VCIS"
+msgstr "VNACCS/VCIS"
+
+#. module: crm_claim
+#: field:crm.claim,description:0
+msgid "Description"
+msgstr "Mô tả"
+
+#. module: crm_claim
+#: view:crm.claim:0
+msgid "Search Claims"
+msgstr "Tìm câu hỏi"
+
+#. modules: crm_claim, digital_crm_claim
+#: selection:crm.claim.report,month:0
+#: selection:feosco.crm.claim.report,month:0
+msgid "May"
+msgstr "Tháng năm"
+
+#. modules: crm_claim, digital_crm_claim
+#: view:crm.claim:0
+#: view:crm.claim.report:0
+#: view:feosco.crm.claim.report:0
+msgid "Type"
+msgstr "Loại"
+
+#. module: digital_crm_claim
+#: view:feosco.faq:0
+#: model:ir.ui.menu,name:digital_crm_claim.menu_action_feosco_faq_root
+msgid "FAQ"
+msgstr "FAQ"
+
+#. modules: crm_claim, digital_crm_claim
+#: view:crm.claim:0
+#: view:crm.claim:0
+msgid "Resolution Actions"
+msgstr "Hành động giải quyết"
+
+#. module: digital_crm_claim
+#: model:mail.message.subtype,name:digital_crm_claim.mt_ticket_description
+msgid "Content Changed"
+msgstr "Nội dung đã thay đổi"
+
+#. modules: crm_claim, digital_crm_claim
+#: field:crm.claim.report,email:0
+#: field:feosco.crm.claim.report,email:0
+msgid "# Emails"
+msgstr "# Thư điện tử"
+
+#. module: digital_crm_claim
+#: model:ir.model,name:digital_crm_claim.model_feosco_custom_branch
+msgid "feosco.custom.branch"
+msgstr "feosco.custom.branch"
+
+#. module: digital_crm_claim
+#: view:crm.claim:0
+#: model:ir.actions.act_window,name:digital_crm_claim.crm_case_categ_claim0_null_owner
+#: model:ir.ui.menu,name:digital_crm_claim.menu_action_feosco_claim_config
+#: model:ir.ui.menu,name:digital_crm_claim.menu_knowledge_configuration
+msgid "Ticket"
+msgstr "Câu hỏi"
+
+#. module: digital_crm_claim
+#: model:ir.ui.menu,name:digital_crm_claim.menu_feosco_custom_branch
+msgid "Custom Branch"
+msgstr "Cục hải quan"
+
+#. modules: crm_claim, digital_crm_claim
+#: view:crm.claim.report:0
+#: view:feosco.crm.claim.report:0
+msgid "Month of claim"
+msgstr "Tháng hỏi"
+
+#. modules: crm_claim, digital_crm_claim
+#: selection:crm.claim.report,month:0
+#: selection:feosco.crm.claim.report,month:0
+msgid "February"
+msgstr "Tháng hai"
+
+#. modules: crm_claim, digital_crm_claim
+#: view:crm.claim.report:0
+#: view:feosco.crm.claim.report:0
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#. module: digital_crm_claim
+#: model:ir.actions.act_window,help:digital_crm_claim.crm_case_categ_claim0_in_progress
+#: model:ir.actions.act_window,help:digital_crm_claim.crm_case_categ_claim0_new
+#: model:ir.actions.act_window,help:digital_crm_claim.crm_case_categ_claim0_settled
+msgid "<p class=\"oe_view_nocontent_create\">\n"
+"                    Record and track your customers' claims. Claims may be linked to a sales order or a lot.You can send\n"
+"                    emails with attachments and keep the full history for a claim (emails sent, intervention type and so\n"
+"                    on).Claims may automatically be linked to an email address using the mail gateway module.\n"
+"                </p>\n"
+"            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
+"                    Record and track your customers' claims. Claims may be linked to a sales order or a lot.You can send\n"
+"                    emails with attachments and keep the full history for a claim (emails sent, intervention type and so\n"
+"                    on).Claims may automatically be linked to an email address using the mail gateway module.\n"
+"                </p>\n"
+"            "
+
+#. module: digital_crm_claim
+#: view:feosco.faq:0
+#: field:feosco.faq,solution:0
+msgid "Solution"
+msgstr "Giải pháp"
+
+#. modules: crm_claim, digital_crm_claim
+#: view:crm.claim.report:0
+#: view:feosco.crm.claim.report:0
+msgid "My company"
+msgstr "Cơ quan của tôi"
+
+#. modules: crm_claim, digital_crm_claim
+#: selection:crm.claim.report,month:0
+#: selection:feosco.crm.claim.report,month:0
+msgid "April"
+msgstr "Tháng tư"
+
+#. module: digital_crm_claim
+#: view:crm.claim:0
+#: model:crm.claim.stage,name:digital_crm_claim.stage_claim8
+msgid "Re-open"
+msgstr "Mở lại"
+
+#. modules: crm_claim, digital_crm_claim
+#: view:crm.claim.report:0
+#: view:feosco.crm.claim.report:0
+msgid "My Case(s)"
+msgstr "Các trường hợp của tôi"
+
+#. module: digital_crm_claim
+#: model:ir.ui.menu,name:digital_crm_claim.menu_action_feosco_claim0_null
+msgid "Public Tickets"
+msgstr "Câu hỏi chưa giao"
+
+#. module: digital_crm_claim
+#: field:feosco.claim.groups,vendor:0
+msgid "Vendor"
+msgstr "nhóm Vendor"
+
+#. module: digital_crm_claim
+#: model:mail.message.subtype,description:digital_crm_claim.mt_ticket_deadline
+#: model:mail.message.subtype,name:digital_crm_claim.mt_ticket_deadline
+msgid "Deadline Change"
+msgstr "Hạn chót thay đổi"
+
+#. modules: crm_claim, digital_crm_claim
+#: model:crm.claim.stage,name:crm_claim.stage_claim2
+#: view:crm.claim:0
+#: selection:crm.claim,state:0
+#: selection:feosco.crm.claim.report,state:0
+#: model:ir.actions.act_window,name:digital_crm_claim.crm_case_categ_claim0_settled
+#: model:ir.ui.menu,name:digital_crm_claim.menu_action_feosco_claim_0_settled
+msgid "Settled"
+msgstr "Đã giải quyết"
+
+#. module: crm_claim
+#: help:crm.claim,message_ids:0
+msgid "Messages and communication history"
+msgstr "Lịch sử tin nhắn và trao đổi"
+
+#. module: digital_crm_claim
+#: view:feosco.claim.groups:0
+#: field:ticket.assign,user_id:0
+msgid "Users"
+msgstr "Người dùng"
+
+#. module: crm_claim
+#: view:crm.claim:0
+msgid "Claim Month"
+msgstr "Tháng hỏi"
+
+#. modules: crm_claim, digital_crm_claim
+#: field:crm.claim.stage,sequence:0
+#: field:feosco.claim.groups,sequence:0
+msgid "Sequence"
+msgstr "Trình tự"
+
+#. module: digital_crm_claim
+#: view:claim.config.settings:0
+msgid "Ticket Management"
+msgstr "Quản lý câu hỏi"
+
+#. module: crm_claim
+#: view:crm.claim:0
+msgid "Actions"
+msgstr "Hành động"
+
+#. module: digital_crm_claim
+#: view:crm.claim:0
+#: field:feosco.faq,date:0
+msgid "Date"
+msgstr "Ngày"
+
+#. modules: crm_claim, digital_crm_claim
+#: selection:crm.claim,priority:0
+#: selection:crm.claim.report,priority:0
+#: selection:feosco.crm.claim.report,priority:0
+msgid "High"
+msgstr "Cao"
+
+#. modules: crm_claim, digital_crm_claim
+#: field:crm.claim,section_id:0
+#: view:crm.claim.report:0
+#: view:feosco.crm.claim.report:0
+msgid "Sales Team"
+msgstr "Nhóm kinh doanh"
+
+#. modules: crm_claim, digital_crm_claim
+#: field:crm.claim.report,create_date:0
+#: field:feosco.crm.claim.report,create_date:0
+msgid "Create Date"
+msgstr "Ngày tạo"
+
+#. modules: crm_claim, digital_crm_claim
+#: view:crm.claim.report:0
+#: field:crm.claim.report,name:0
+#: view:feosco.crm.claim.report:0
+#: field:feosco.crm.claim.report,name:0
+msgid "Year"
+msgstr "Năm"
+
+#. module: digital_crm_claim
+#: view:claim.config.settings:0
+msgid "Apply"
+msgstr "Áp dụng"
+
+#. module: crm_claim
+#: help:crm.claim.stage,section_ids:0
+msgid "Link between stages and sales teams. When set, this limitate the current stage to the selected sales teams."
+msgstr "Liên kết giữa trạng thái và nhóm phụ trách. Khi được thiết lập, nó sẽ ràng buộc giai đoạn hiện tại với các nhóm phụ trác được chọn"
+
+#. modules: crm_claim, digital_crm_claim
+#: model:ir.ui.menu,name:digital_crm_claim.menu_action_feosco_claim
+msgid "Assign Me"
+msgstr "Câu hỏi của tôi"
+
+#. modules: crm_claim, digital_crm_claim
+#: model:ir.ui.menu,name:digital_crm_claim.menu_action_feosco_claim0_null
+msgid "Public Tickets"
+msgstr "Câu hỏi chưa giao"

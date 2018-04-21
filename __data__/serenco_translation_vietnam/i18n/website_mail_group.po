@@ -1,0 +1,189 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_mail_group
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0rc1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-14 13:09+0000\n"
+"PO-Revision-Date: 2014-12-04 12:10+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: vi_VN\n"
+"X-Generator: Poedit 1.7\n"
+
+#. module: website_mail_group
+#. openerp-web
+#: code:addons/website_mail_group/static/src/js/website_mail_group.editor.js:12
+#, python-format
+msgid "Add a Subscribe Button"
+msgstr "Thêm nút đăng ký"
+
+#. module: website_mail_group
+#: view:website:website_mail_group.mail_groups
+msgid "Alone we can do so little, together we can do so much"
+msgstr "Nếu đơn độc, chúng ta sẽ làm rất ít; cùng nhau, chúng ta sẽ làm được rất nhiều"
+
+#. module: website_mail_group
+#: view:website:website_mail_group.group_messages
+msgid "Archives"
+msgstr "Lưu trữ"
+
+#. module: website_mail_group
+#: view:website:website_mail_group.group_message
+msgid "Browse archives"
+msgstr "Tìm lưu trữ"
+
+#. module: website_mail_group
+#: view:website:website_mail_group.group_message
+#: view:website:website_mail_group.group_messages
+msgid "By date"
+msgstr "Theo ngày"
+
+#. module: website_mail_group
+#: view:website:website_mail_group.group_message
+#: view:website:website_mail_group.group_messages
+msgid "By thread"
+msgstr "Theo chủ đề"
+
+#. module: website_mail_group
+#: view:website:website.snippets
+msgid "Change Discussion List"
+msgstr "Đổi danh sách thảo luận"
+
+#. module: website_mail_group
+#: view:website:website.snippets
+msgid "Discussion Group"
+msgstr "Nhóm thảo luận"
+
+#. module: website_mail_group
+#. openerp-web
+#: code:addons/website_mail_group/static/src/js/website_mail_group.editor.js:13
+#, python-format
+msgid "Discussion List"
+msgstr "Danh sách thảo luận"
+
+#. module: website_mail_group
+#: model:ir.model,name:website_mail_group.model_mail_group
+msgid "Discussion group"
+msgstr "Nhóm thảo luận"
+
+#. module: website_mail_group
+#: view:website:website_mail_group.group_message
+msgid "Follow-Ups"
+msgstr "Theo dõi"
+
+#. module: website_mail_group
+#: view:website:website.layout
+msgid "Mailing List"
+msgstr "Danh sách mail"
+
+#. module: website_mail_group
+#: view:website:website_mail_group.group_message
+#: view:website:website_mail_group.group_messages
+msgid "Mailing Lists"
+msgstr "Danh sách mail"
+
+#. module: website_mail_group
+#: code:addons/website_mail_group/models/mail_group.py:43
+#, python-format
+msgid "Mailing-List"
+msgstr "Danh sách mail"
+
+#. module: website_mail_group
+#: view:website:website_mail_group.mail_groups
+msgid "Need to unsubscribe? It's right here!"
+msgstr "Muốn bỏ đăng ký? Bỏ ngay ở đây!"
+
+#. module: website_mail_group
+#: model:ir.model,name:website_mail_group.model_mail_mail
+msgid "Outgoing Mails"
+msgstr "Mail đi"
+
+#. module: website_mail_group
+#: code:addons/website_mail_group/models/mail_group.py:44
+#, python-format
+msgid "Post to"
+msgstr "Đăng tin lên"
+
+#. module: website_mail_group
+#: view:website:website_mail_group.group_message
+msgid "Reference"
+msgstr "Tham chiếu"
+
+#. module: website_mail_group
+#: view:website:website_mail_group.mail_groups
+msgid "Stay in touch with our Community"
+msgstr "Giữ liên lạc với Cộng đồng của chúng tôi"
+
+#. module: website_mail_group
+#: view:website:website.snippets
+msgid "Subscribe"
+msgstr "Đăng ký"
+
+#. module: website_mail_group
+#: code:addons/website_mail_group/models/mail_group.py:45
+#, python-format
+msgid "Unsubscribe"
+msgstr "Bỏ đăng ký"
+
+#. module: website_mail_group
+#: view:website:website.snippets
+msgid "archives"
+msgstr "lưu trữ"
+
+#. module: website_mail_group
+#: view:website:website_mail_group.group_message
+msgid "attachments"
+msgstr "đính kèm"
+
+#. module: website_mail_group
+#: view:website:website_mail_group.group_message
+#: view:website:website_mail_group.group_messages
+msgid "mailing list archives"
+msgstr "lưu trữ danh sách mail"
+
+#. module: website_mail_group
+#: view:website:website_mail_group.mail_groups
+msgid "messages / month"
+msgstr "tin nhắn / tháng"
+
+#. module: website_mail_group
+#: view:website:website_mail_group.messages_short
+msgid "more replies"
+msgstr "thêm phản hồi"
+
+#. module: website_mail_group
+#: view:website:website_mail_group.mail_groups
+msgid "participants"
+msgstr "Người dự"
+
+#. module: website_mail_group
+#: view:website:website_mail_group.messages_short
+msgid "replies"
+msgstr "trả lời"
+
+#. module: website_mail_group
+#: view:website:website.snippets
+msgid "send mail"
+msgstr "gửi mail"
+
+#. module: website_mail_group
+#: view:website:website_mail_group.messages_short
+msgid "show"
+msgstr "hiển thị"
+
+#. module: website_mail_group
+#: view:website:website.snippets
+msgid "unsubscribe"
+msgstr "bỏ đăng ký"
+
+#. module: website_mail_group
+#: view:website:website.snippets
+msgid "your email..."
+msgstr "email của bạn..."

@@ -1,0 +1,338 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* sdeep_knowledge
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-12 13:44+0000\n"
+"PO-Revision-Date: 2016-12-12 13:44+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sdeep_knowledge
+#: model:ir.ui.view,arch_db:sdeep_knowledge.view_document_directory_kanban
+msgid "<span class=\"o_label\">Documents</span>"
+msgstr "<span class=\"o_label\">Tài liệu</span>"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_document_directory_action_name
+msgid "Action Name"
+msgstr "Tên hành động"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_ir_attachment_active_version_id
+msgid "Active Version"
+msgstr "Phiên bản hiện tại"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_document_directory_color
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_ir_attachment_color
+msgid "Color Index"
+msgstr "Mã màu"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_ir_attachment_file_type_src
+msgid "Content Type"
+msgstr "Dạng tập tin"
+
+#. module: sdeep_knowledge
+#: model:ir.ui.view,arch_db:sdeep_knowledge.view_document_directory_form
+#: model:ir.ui.view,arch_db:sdeep_knowledge.view_document_directory_tree_new
+msgid "Create Directory"
+msgstr "Tạo thư mục"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_sdeep_image_size_create_uid
+msgid "Created by"
+msgstr "Được tạo bởi"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_sdeep_image_size_create_date
+msgid "Created on"
+msgstr "Được tạo vào"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_ir_attachment_is_default
+msgid "Default Image"
+msgstr "Hình ảnh mặc định"
+
+#. module: sdeep_knowledge
+#: model:ir.ui.view,arch_db:sdeep_knowledge.view_document_directory_kanban
+msgid "Delete"
+msgstr "Xóa"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_ir_attachment_department_id
+msgid "Department"
+msgstr "Phòng ban"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_sdeep_image_size_name
+#: model:ir.ui.view,arch_db:sdeep_knowledge.view_attachment_form_new
+msgid "Description"
+msgstr "Mô tả"
+
+#. module: sdeep_knowledge
+#: model:ir.ui.view,arch_db:sdeep_knowledge.view_image_size_form_view
+msgid "Description..."
+msgstr "Mô tả..."
+
+#. module: sdeep_knowledge
+#: model:ir.ui.view,arch_db:sdeep_knowledge.product_normal_form_view
+#: model:ir.ui.view,arch_db:sdeep_knowledge.product_product_template_only_form_view
+msgid "Details"
+msgstr "Các chi tiết"
+
+#. module: sdeep_knowledge
+#: model:ir.ui.view,arch_db:sdeep_knowledge.view_document_directory_tree_new
+msgid "Directories"
+msgstr "Thư mục"
+
+#. module: sdeep_knowledge
+#: model:ir.model,name:sdeep_knowledge.model_document_directory
+msgid "Directory"
+msgstr "Thư mục"
+
+#. module: sdeep_knowledge
+#: model:ir.ui.view,arch_db:sdeep_knowledge.view_document_directory_kanban
+msgid "Directory:"
+msgstr "Thư mục:"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_sdeep_image_size_display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: sdeep_knowledge
+#: model:ir.ui.view,arch_db:sdeep_knowledge.view_attachment_form_new
+msgid "Document Management"
+msgstr "Quản lý tài liệu"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_sdeep_image_size_height
+msgid "Height"
+msgstr "Chiều Cao"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_sdeep_image_size_id
+msgid "ID"
+msgstr "ID"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_ir_attachment_file_type_icon
+msgid "Icon"
+msgstr "Biểu tượng"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_ir_attachment_image_size
+msgid "Image Resolution"
+msgstr "Độ phân giải hình ảnh"
+
+#. module: sdeep_knowledge
+#: model:ir.ui.view,arch_db:sdeep_knowledge.view_image_size_form_view
+msgid "Image Size"
+msgstr "Kích thước hình ảnh"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_product_product_images
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_product_template_images
+msgid "Images"
+msgstr "Hình ảnh"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_ir_attachment_is_active_version
+msgid "Is Active Version"
+msgstr "Là phiên bản mới nhất"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_ir_attachment_is_invisible
+msgid "Is Invisible"
+msgstr "Tài liệu ẩn"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_ir_attachment_is_private
+msgid "Is Private"
+msgstr "Tài liệu mật"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_ir_attachment_public
+msgid "Is public document"
+msgstr "Tài liệu chia sẻ"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_document_directory_is_invisible
+msgid "Is invisible"
+msgstr "Tài liệu ẩn"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:document.field_ir_attachment_user_id
+msgid "Owner"
+msgstr "Người tạo"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:document.field_ir_attachment_parent_id
+msgid "Directory"
+msgstr "Thư mục"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_sdeep_image_size___last_update
+msgid "Last Modified on"
+msgstr "Sửa lần cuối"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_sdeep_image_size_write_uid
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_sdeep_image_size_write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối"
+
+#. module: sdeep_knowledge
+#: model:ir.ui.view,arch_db:sdeep_knowledge.view_attachment_form_new
+msgid "Name of document..."
+msgstr "Tên tài liệu..."
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_document_directory_document_count
+msgid "Number of document"
+msgstr "Số tài liệu"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_ir_attachment_num_of_version
+msgid "Number of old version"
+msgstr "Số phiên bản cũ"
+
+#. module: sdeep_knowledge
+#: model:ir.ui.view,arch_db:sdeep_knowledge.view_attachment_form_new
+msgid "Other Information"
+msgstr "Thông tin khác"
+
+#. module: sdeep_knowledge
+#: model:ir.ui.view,arch_db:sdeep_knowledge.view_document_directory_kanban
+msgid "Owner:"
+msgstr "Người tạo:"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_ir_attachment_parent_img_id
+msgid "Parent"
+msgstr "Tài khoản cha"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_document_directory_menu_parent
+msgid "Parent Menu"
+msgstr "Trình đơn cha"
+
+#. module: sdeep_knowledge
+#: model:ir.model,name:sdeep_knowledge.model_product_product
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_ir_attachment_product_id
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_ir_attachment_product_tmpl_id
+msgid "Product"
+msgstr "Sản phẩm"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_ir_attachment_is_detail
+msgid "Product Image Detail"
+msgstr "Chi tiết hình sản phẩm"
+
+#. module: sdeep_knowledge
+#: model:ir.ui.view,arch_db:sdeep_knowledge.product_normal_form_view
+#: model:ir.ui.view,arch_db:sdeep_knowledge.product_product_template_only_form_view
+msgid "Product Images"
+msgstr "Hình ảnh sản phẩm"
+
+#. module: sdeep_knowledge
+#: model:ir.model,name:sdeep_knowledge.model_product_template
+msgid "Product Template"
+msgstr "Mẫu sản phẩm"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_ir_attachment_properties
+msgid "Properties"
+msgstr "Thuộc tính"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_document_directory_menu_id
+msgid "Related Menu"
+msgstr "Đường dẫn thư mục"
+
+#. module: sdeep_knowledge
+#: model:ir.ui.view,arch_db:sdeep_knowledge.view_document_directory_form
+#: model:ir.ui.view,arch_db:sdeep_knowledge.view_document_directory_tree_new
+msgid "Remove Directory"
+msgstr "Xóa thư mục"
+
+#. module: sdeep_knowledge
+#: model:ir.ui.view,arch_db:sdeep_knowledge.view_document_directory_form
+msgid "Security"
+msgstr "Bảo mật"
+
+#. module: sdeep_knowledge
+#: model:ir.ui.view,arch_db:sdeep_knowledge.view_document_directory_kanban
+msgid "Settings"
+msgstr "Thiết lập"
+
+#. module: sdeep_knowledge
+#: code:addons/sdeep_knowledge/models/knowledge.py:336
+#, python-format
+msgid "Sorry, you are not allowed to access this document."
+msgstr "Xin lỗi bạn không đủ quyền truy cập tài liệu này."
+
+#. module: sdeep_knowledge
+#: code:addons/sdeep_knowledge/models/knowledge.py:55
+#: sql_constraint:sdeep.image.size:0
+#, python-format
+msgid "This (Width x Height) has been existed!"
+msgstr "Kích thước (Width x Height) này đã tồn tạis!"
+
+#. module: sdeep_knowledge
+#: model:ir.model.fields,field_description:sdeep_knowledge.field_sdeep_image_size_width
+msgid "Width"
+msgstr "Chiều rộng"
+
+#. module: sdeep_knowledge
+#: model:ir.model,name:sdeep_knowledge.model_ir_attachment
+msgid "ir.attachment"
+msgstr "ir.attachment"
+
+#. module: sdeep_knowledge
+#: model:ir.model,name:sdeep_knowledge.model_sdeep_image_size
+msgid "sdeep.image.size"
+msgstr "sdeep.image.size"
+
+#. module: sdeep_knowledge
+#: model:ir.ui.view,arch_db:mail.view_document_file_kanban
+msgid "Owner:"
+msgstr "Người tạo:"
+
+#. module: sdeep_knowledge
+#: model:ir.ui.view,arch_db:mail.view_document_file_kanban
+msgid "Parent Directory:"
+msgstr "Thư mục:"
+
+#. module: sdeep_knowledge
+#: model:ir.ui.view,arch_db:mail.view_document_file_kanban
+msgid "Settings"
+msgstr "Thiết lập"
+
+#. module: sdeep_knowledge
+#: model:ir.ui.view,arch_db:mail.view_document_file_kanban
+msgid "Delete"
+msgstr "Xóa"
+
+#. module: sdeep_knowledge
+#: model:ir.ui.view,arch_db:mail.view_document_file_kanban
+msgid '<a class="o_kanban_manage_toggle_button" href="#">More <i class="fa fa-caret-down"/></a>'
+msgstr '<a class="o_kanban_manage_toggle_button" href="#">Thêm <i class="fa fa-caret-down"/></a>'
+
+#. module: sdeep_knowledge
+#: model:ir.ui.view,arch_db:mail.view_document_file_kanban
+msgid '<span class="o_label">Old Versions</span>'
+msgstr '<span class="o_label">Phiên bản cũ</span>'

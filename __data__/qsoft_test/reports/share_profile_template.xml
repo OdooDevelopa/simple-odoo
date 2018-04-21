@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_shareprofile">
+        <t t-call="report.html_container">
+            <t t-foreach="docs" t-as="o">
+                <div class="page">
+                    <h1>QSoft Test</h1>
+
+                    <p><b>Họ và Tên: </b> <span t-field="o.name"/></p>
+                    <p><b>Email: </b><span t-field="o.email"/></p>
+                    <p><b>Năm sinh: </b><span t-esc="o.date_birth and datetime.datetime.strptime(o.date_birth, '%Y-%m-%d').strftime('%d/%m/%Y')"/></p>
+                    <p><b>Mobile: </b><span t-field="o.mobile"/></p>
+                </div>
+            </t>
+        </t>
+    </template>
+    <record id="paperformat_small" model="report.paperformat">
+        <field name="name">Small Page</field>
+        <field name="default" eval="True"/>
+        <field name="format">custom</field>
+        <field name="page_height">40</field>
+        <field name="page_width">40</field>
+        <field name="orientation">Portrait</field>
+        <field name="margin_top">3</field>
+        <field name="margin_bottom">3</field>
+        <field name="margin_left">3</field>
+        <field name="margin_right">3</field>
+        <field name="header_line" eval="False"/>
+        <field name="header_spacing">3</field>
+        <field name="dpi">80</field>
+    </record>
+</odoo>

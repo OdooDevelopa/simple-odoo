@@ -1,0 +1,86 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* serenco_base
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-17 07:28+0000\n"
+"PO-Revision-Date: 2016-11-17 07:28+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: serenco_base
+#: model:ir.ui.view,arch_db:serenco_base.view_general_configuration_serenco
+msgid "<?xml version=\"1.0\"?>\n"
+"<group name=\"google_analytics\" position=\"after\">\n"
+"                    <group name=\"serenco_base_setting\" string=\"SERENCO BASE SETTING\">\n"
+"                        <label for=\"id\" string=\"BASE SETTING\"/>\n"
+"                        <div name=\"serenco_base_setting_container\">\n"
+"                            <field name=\"module_serenco_translation_vietnam\" class=\"oe_inline\"/>\n"
+"                            <label for=\"module_serenco_translation_vietnam\"/>\n"
+"                            <div>\n"
+"                                <field name=\"module_web_one2many_ng\" class=\"oe_inline\"/>\n"
+"                                <label for=\"module_web_one2many_ng\"/>\n"
+"                            </div>\n"
+"                            <div>\n"
+"                                <field name=\"module_web_widget_many2many_tags_multi_selection\" class=\"oe_inline\"/>\n"
+"                                <label for=\"module_web_widget_many2many_tags_multi_selection\"/>\n"
+"                            </div>\n"
+"                        </div>\n"
+"                    </group>\n"
+"                </group>\n"
+"            "
+msgstr "<?xml version=\"1.0\"?>\n"
+"<group name=\"google_analytics\" position=\"after\">\n"
+"                    <group name=\"serenco_base_setting\" string=\"SERENCO BASE SETTING\">\n"
+"                        <label for=\"id\" string=\"BASE SETTING\"/>\n"
+"                        <div name=\"serenco_base_setting_container\">\n"
+"                            <field name=\"module_serenco_translation_vietnam\" class=\"oe_inline\"/>\n"
+"                            <label for=\"module_serenco_translation_vietnam\"/>\n"
+"                            <div>\n"
+"                                <field name=\"module_web_one2many_ng\" class=\"oe_inline\"/>\n"
+"                                <label for=\"module_web_one2many_ng\"/>\n"
+"                            </div>\n"
+"                            <div>\n"
+"                                <field name=\"module_web_widget_many2many_tags_multi_selection\" class=\"oe_inline\"/>\n"
+"                                <label for=\"module_web_widget_many2many_tags_multi_selection\"/>\n"
+"                            </div>\n"
+"                        </div>\n"
+"                    </group>\n"
+"                </group>\n"
+"            "
+
+#. module: serenco_base
+#: view:base.config.settings:serenco_base.view_general_configuration_serenco
+msgid "BASE SETTING"
+msgstr "Các thiết lập"
+
+#. module: serenco_base
+#: field:base.config.settings,module_web_one2many_ng:0
+#: model:ir.model.fields,field_description:serenco_base.field_base_config_settings_module_web_one2many_ng
+msgid "Enable widget one2many_ng"
+msgstr "Bật widget one2many_ng"
+
+#. module: serenco_base
+#: field:base.config.settings,module_serenco_translation_vietnam:0
+#: model:ir.model.fields,field_description:serenco_base.field_base_config_settings_module_serenco_translation_vietnam
+msgid "Load Vietnam Language"
+msgstr "Tải tiếng việt"
+
+#. module: serenco_base
+#: field:base.config.settings,module_web_widget_many2many_tags_multi_selection:0
+#: model:ir.model.fields,field_description:serenco_base.field_base_config_settings_module_web_widget_many2many_tags_multi_selection
+msgid "Multi selectable for many2many_tags widget"
+msgstr "Bật chức năng cho chọn nhiều trong widget many2many_tags"
+
+#. module: serenco_base
+#: view:base.config.settings:serenco_base.view_general_configuration_serenco
+msgid "SERENCO BASE SETTING"
+msgstr "Các thiết lập của SERENCO"
+

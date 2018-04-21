@@ -1,0 +1,249 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* serenco_accounting_regularization
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-09 08:18+0000\n"
+"PO-Revision-Date: 2017-03-09 08:18+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model,name:serenco_accounting_regularization.model_account_account
+msgid "Account"
+msgstr "Tài khoản"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model,name:serenco_accounting_regularization.model_account_move
+msgid "Account Entry"
+msgstr "Bút toán kế toán"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model,name:serenco_accounting_regularization.model_account_regularization
+msgid "Account Regularization Model"
+msgstr "Account Regularization Model"
+
+#. module: serenco_accounting_regularization
+#: model:ir.ui.view,arch_db:serenco_accounting_regularization.view_wizard_regularize_form
+msgid "Accounts Regularization"
+msgstr "Kết chuyển chi phí & doanh thu"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_account_regularization_account_ids
+#: model:ir.ui.view,arch_db:serenco_accounting_regularization.view_account_regularization_form
+msgid "Accounts to balance"
+msgstr "Tài khoản cân đối"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_account_regularization_active
+#: model:ir.ui.view,arch_db:serenco_accounting_regularization.view_account_regularization_search
+msgid "Active"
+msgstr "Hiệu lực"
+
+#. module: serenco_accounting_regularization
+#: model:ir.ui.view,arch_db:serenco_accounting_regularization.view_wizard_regularize_form
+msgid "Cancel"
+msgstr "Hủy"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_account_regularization_company_id
+msgid "Company"
+msgstr "Công ty"
+
+#. module: serenco_accounting_regularization
+#: model:ir.ui.view,arch_db:serenco_accounting_regularization.view_wizard_regularize_form
+msgid "Compute"
+msgstr "Tính toán"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_account_regularization_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_wizard_regularize_create_uid
+msgid "Created by"
+msgstr "Được tạo bởi"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_account_regularization_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_wizard_regularize_create_date
+msgid "Created on"
+msgstr "Được tạo vào"
+
+#. module: serenco_accounting_regularization
+#: selection:account.regularization,balance_calc:0
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_wizard_regularize_date_move
+#: selection:wizard.regularize,balance_calc:0
+msgid "Date"
+msgstr "Ngày tháng"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_wizard_regularize_date_from
+msgid "Date From"
+msgstr "Từ ngày"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_wizard_regularize_date_to
+msgid "Date To"
+msgstr "Đến ngày"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model.fields,help:serenco_accounting_regularization.field_wizard_regularize_date_move
+msgid "Date for the move"
+msgstr "Ngày dịch chuyển"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_account_regularization_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_wizard_regularize_display_name
+msgid "Display Name"
+msgstr "Display Name"
+
+#. module: serenco_accounting_regularization
+#: code:addons/serenco_accounting_regularization/wizard/account_regularization_wizard.py:64
+#, python-format
+msgid "Entries"
+msgstr "Entries"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_account_regularization_id
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_wizard_regularize_id
+msgid "ID"
+msgstr "ID"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_account_regularization_journal_id
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_wizard_regularize_journal_id
+msgid "Journal"
+msgstr "Sổ nhật ký"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model.fields,help:serenco_accounting_regularization.field_wizard_regularize_journal_id
+msgid "Journal for the move"
+msgstr "Nhật ký dịch chuyển"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_account_regularization___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_wizard_regularize___last_update
+msgid "Last Modified on"
+msgstr "Last Modified on"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_account_regularization_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_wizard_regularize_write_uid
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_account_regularization_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_wizard_regularize_write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối vào"
+
+#. module: serenco_accounting_regularization
+#: model:ir.ui.view,arch_db:serenco_accounting_regularization.view_account_regularization_form
+msgid "Main"
+msgstr "Kết Chuyển"
+
+#. module: serenco_accounting_regularization
+#: model:ir.ui.view,arch_db:serenco_accounting_regularization.view_account_regularization_form
+msgid "Moves"
+msgstr "Dịch chuyển"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_account_regularization_name
+msgid "Name"
+msgstr "Tên"
+
+#. module: serenco_accounting_regularization
+#: code:addons/serenco_accounting_regularization/model/account_regularization.py:79
+#, python-format
+msgid "No journal defined"
+msgstr "Chưa có Sổ nhật ký"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_wizard_regularize_period_id
+#: selection:wizard.regularize,balance_calc:0
+msgid "Period"
+msgstr "Kỳ kế toán"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model.fields,help:serenco_accounting_regularization.field_wizard_regularize_period_id
+msgid "Period for the move"
+msgstr "Kỳ dịch chuyển"
+
+#. module: serenco_accounting_regularization
+#: selection:account.regularization,balance_calc:0
+msgid "Periods"
+msgstr "Kỳ kế toán"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_account_move_regularization_id
+#: model:ir.ui.view,arch_db:serenco_accounting_regularization.view_account_regularization_form
+#: model:ir.ui.view,arch_db:serenco_accounting_regularization.view_account_regularization_search
+#: model:ir.ui.view,arch_db:serenco_accounting_regularization.view_account_regularization_tree
+msgid "Regularization"
+msgstr "Kết Chuyển"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_account_regularization_move_ids
+msgid "Regularization Moves"
+msgstr "Regularization Moves"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_account_regularization_balance_calc
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_wizard_regularize_balance_calc
+msgid "Regularization time calculation"
+msgstr "Loại kết chuyển"
+
+#. module: serenco_accounting_regularization
+#: model:ir.ui.menu,name:serenco_accounting_regularization.src_menu_regularizations
+msgid "Regularizations"
+msgstr "Kết Chuyển"
+
+#. module: serenco_accounting_regularization
+#: model:ir.actions.act_window,name:serenco_accounting_regularization.action_account_regularization_form
+#: model:ir.ui.menu,name:serenco_accounting_regularization.menu_action_account_regularization_form
+msgid "Regularizations Config"
+msgstr "Cấu Hình Kết Chuyển"
+
+#. module: serenco_accounting_regularization
+#: model:ir.actions.act_window,name:serenco_accounting_regularization.action_view_wizard_regularize_form
+#: model:ir.ui.menu,name:serenco_accounting_regularization.menu_action_view_wizard_regularize_form
+msgid "Regularize Accounts"
+msgstr "Tạo Bút Toán Kết Chuyển"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_account_regularization_credit_account_id
+msgid "Result account, credit"
+msgstr "Tài khoản Có"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_account_regularization_debit_account_id
+msgid "Result account, debit"
+msgstr "Tài khoản Nợ"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model.fields,field_description:serenco_accounting_regularization.field_account_regularization_sequence
+msgid "Sequence"
+msgstr "Trình tự"
+
+#. module: serenco_accounting_regularization
+#: code:addons/serenco_accounting_regularization/wizard/account_regularization_wizard.py:55
+#, python-format
+msgid "There are no Regularization with type '%s'"
+msgstr "There are no Regularization with type '%s'"
+
+#. module: serenco_accounting_regularization
+#: model:ir.ui.view,arch_db:serenco_accounting_regularization.view_wizard_regularize_form
+msgid "or"
+msgstr "hoặc"
+
+#. module: serenco_accounting_regularization
+#: model:ir.model,name:serenco_accounting_regularization.model_wizard_regularize
+msgid "wizard.regularize"
+msgstr "wizard.regularize"
+

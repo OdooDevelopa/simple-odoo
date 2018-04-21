@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="backend.customize">
+        <li id="backend_customize" t-att-title="_t(&quot;Customize Menu&quot;)">
+            <a class="backend_customize" href="#">Customize menu
+            </a>
+        </li>
+    </t>
+</templates>

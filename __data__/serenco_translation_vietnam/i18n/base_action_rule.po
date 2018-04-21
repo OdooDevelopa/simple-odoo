@@ -1,0 +1,444 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* base_action_rule
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-15 07:21+0000\n"
+"PO-Revision-Date: 2016-11-15 07:21+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: base_action_rule
+#: model:ir.ui.view,arch_db:base_action_rule.view_base_action_rule_form
+msgid "<b>Please choose the document type before setting the conditions.</b>"
+msgstr "<b>Vui lòng chọn kiểu tài liệu trước khi thiết lập điều kiện.</b>"
+
+#. module: base_action_rule
+#: model:ir.ui.view,arch_db:base_action_rule.view_base_action_rule_form
+#: model:ir.ui.view,arch_db:base_action_rule.view_base_action_rule_tree
+msgid "Action Rule"
+msgstr "Quy tắc Hành động"
+
+#. module: base_action_rule
+#: model:ir.model,name:base_action_rule.model_base_action_rule_line_test
+msgid "Action Rule Line Test"
+msgstr "Action Rule Line Test"
+
+#. module: base_action_rule
+#: model:ir.model,name:base_action_rule.model_base_action_rule_lead_test
+msgid "Action Rule Test"
+msgstr "Action Rule Test"
+
+#. module: base_action_rule
+#: model:ir.model,name:base_action_rule.model_base_action_rule
+msgid "Action Rules"
+msgstr "Quy tắc Hành động"
+
+#. module: base_action_rule
+#: model:ir.ui.view,arch_db:base_action_rule.view_base_action_rule_form
+msgid "Actions"
+msgstr "Hành động"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_active
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_lead_test_active
+msgid "Active"
+msgstr "Hiệu lực"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_act_followers
+msgid "Add Followers"
+msgstr "Thêm theo dõi"
+
+#. module: base_action_rule
+#: model:ir.actions.act_window,name:base_action_rule.base_action_rule_act
+#: model:ir.ui.menu,name:base_action_rule.menu_base_action_rule_form
+msgid "Automated Actions"
+msgstr "Hành động tự động"
+
+#. module: base_action_rule
+#: selection:base.action.rule,kind:0
+msgid "Based on Form Modification"
+msgstr "Dựa trên sự thay đổi trên form"
+
+#. module: base_action_rule
+#: selection:base.action.rule,kind:0
+msgid "Based on Timed Condition"
+msgstr "Dựa trên Điều kiện thời gian"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_filter_pre_domain
+msgid "Before Update Domain"
+msgstr "Trước khi Cập nhật Miền"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_filter_pre_id
+msgid "Before Update Filter"
+msgstr "Bộ lọc Trước khi Cập nhật"
+
+#. module: base_action_rule
+#: selection:base.action.rule.lead.test,state:0
+msgid "Cancelled"
+msgstr "Đã hủy bỏ"
+
+#. module: base_action_rule
+#: model:ir.model.fields,help:base_action_rule.field_base_action_rule_lead_test_customer
+msgid "Check this box if this contact is a customer."
+msgstr "Đánh dấu nếu liên hệ này là một khách hàng."
+
+#. module: base_action_rule
+#: model:ir.actions.act_window,help:base_action_rule.base_action_rule_act
+msgid "Click to setup a new automated action rule."
+msgstr "Bấm để tạo mới một quy tắc hành động tự động."
+
+#. module: base_action_rule
+#: selection:base.action.rule.lead.test,state:0
+msgid "Closed"
+msgstr "Đã đóng"
+
+#. module: base_action_rule
+#: model:ir.model.fields,help:base_action_rule.field_base_action_rule_on_change_fields
+msgid "Comma-separated list of field names that triggers the onchange."
+msgstr "Danh mục các trường mà sẽ khởi chạy (tri-gơ) sự kiện onchange."
+
+#. module: base_action_rule
+#: model:ir.ui.view,arch_db:base_action_rule.view_base_action_rule_form
+msgid "Conditions"
+msgstr "Điều kiện"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_create_date
+msgid "Create Date"
+msgstr "Ngày tạo"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_create_uid
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_lead_test_create_uid
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_line_test_create_uid
+msgid "Created by"
+msgstr "Created by"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_lead_test_create_date
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_line_test_create_date
+msgid "Created on"
+msgstr "Created on"
+
+#. module: base_action_rule
+#: selection:base.action.rule,trg_date_range_type:0
+msgid "Days"
+msgstr "Ngày"
+
+#. module: base_action_rule
+#: model:ir.ui.view,arch_db:base_action_rule.view_base_action_rule_form
+msgid "Delay After Trigger Date"
+msgstr "Độ trễ sau Ngày Tri-gơ"
+
+#. module: base_action_rule
+#: model:ir.model.fields,help:base_action_rule.field_base_action_rule_trg_date_range
+msgid "Delay after the trigger date.You can put a negative number if you need a delay before thetrigger date, like sending a reminder 15 minutes before a meeting."
+msgstr "Độ trễ sau ngày tri-gơ (Trigger Date). Bạn có thể điền số âm nếu bạn muốn hành động được thực hiện trước Ngày Tri-gơ, kiểu như gửi email nhắc nhở 15 phút trước cuộc họp."
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_trg_date_range
+msgid "Delay after trigger date"
+msgstr "Độ trễ sau ngày tri-gơ"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_trg_date_range_type
+msgid "Delay type"
+msgstr "Kiểu Trễ"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_display_name
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_lead_test_display_name
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_line_test_display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_filter_domain
+msgid "Domain"
+msgstr "Vùng"
+
+#. module: base_action_rule
+#: model:ir.model.fields,help:base_action_rule.field_base_action_rule_server_action_ids
+msgid "Examples: email reminders, call object service, etc."
+msgstr "Ví dụ: nhắc nhở bằng email, gọi một dịch vụ đối tượng, v.v."
+
+#. module: base_action_rule
+#: model:ir.ui.view,arch_db:base_action_rule.view_base_action_rule_form
+msgid "Fields to Change"
+msgstr "Các trường để Thay đổi"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_filter_id
+msgid "Filter"
+msgstr "Bộ lọc"
+
+#. module: base_action_rule
+#: model:ir.model.fields,help:base_action_rule.field_base_action_rule_sequence
+msgid "Gives the sequence order when displaying a list of rules."
+msgstr "Hiển thị danh sách các quy tắc theo trình tự."
+
+#. module: base_action_rule
+#: model:ir.ui.view,arch_db:base_action_rule.view_base_action_rule_form
+msgid "Go to your \"Related Document Model\" page and set the filter parameters in the \"Search\" view (Example of filter based on Leads/Opportunities: Creation Date \"is equal to\" 01/01/2012)"
+msgstr "Chuyển đến trang \"Đối tượng Tài liệu liên quan\" và thiết lập các thông số bộ lọc trong giao diện \"Tìm kiếm\" (Ví dụ về bộ lọc dựa trên Tiềm năng/Cơ hội: Ngày tạo \"bằng\" 01.01/2012)"
+
+#. module: base_action_rule
+#: selection:base.action.rule,trg_date_range_type:0
+msgid "Hours"
+msgstr "Giờ"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_id
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_lead_test_id
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_line_test_id
+msgid "ID"
+msgstr "ID"
+
+#. module: base_action_rule
+#: model:ir.model.fields,help:base_action_rule.field_base_action_rule_filter_domain
+#: model:ir.model.fields,help:base_action_rule.field_base_action_rule_filter_id
+msgid "If present, this condition must be satisfied before executing the action rule."
+msgstr "Nếu có, điều kiện này phải được thoả mãn trước khi thực thi quy tắc hành động"
+
+#. module: base_action_rule
+#: model:ir.model.fields,help:base_action_rule.field_base_action_rule_filter_pre_domain
+#: model:ir.model.fields,help:base_action_rule.field_base_action_rule_filter_pre_id
+msgid "If present, this condition must be satisfied before the update of the record."
+msgstr "Nếu có, điều kiện này phải được thoả mãn trước khi thực thi cập nhật bản ghi"
+
+#. module: base_action_rule
+#: selection:base.action.rule.lead.test,state:0
+msgid "In Progress"
+msgstr "Đang thực hiện"
+
+#. module: base_action_rule
+#: model:ir.ui.view,arch_db:base_action_rule.view_base_action_rule_form
+msgid "In this same \"Search\" view, select the menu \"Save Current Filter\", enter the name (Ex: Create the 01/01/2012) and add the option \"Share with all users\""
+msgstr "Trong cùng giao diện \"Tìm kiếm\", chọn menu \"Lưu bộ lọc hiện tại\", nhập tên cho bộ lọc (vd. Tạo vào ngày 01/01/2012) và chọn tuỳ chọn \"Chia sẻ với tất cả người dùng\""
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_lead_test_customer
+msgid "Is a Customer"
+msgstr "Là Khách hàng"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_lead_test_date_action_last
+msgid "Last Action"
+msgstr "Hành động cuối cùng"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule___last_update
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_lead_test___last_update
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_line_test___last_update
+msgid "Last Modified on"
+msgstr "Sửa lần cuối"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_last_run
+msgid "Last Run"
+msgstr "Lần chạy cuối"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_lead_test_write_uid
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_line_test_write_uid
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_write_uid
+msgid "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_lead_test_write_date
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_line_test_write_date
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối vào"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_line_test_lead_id
+msgid "Lead id"
+msgstr "Lead id"
+
+#. module: base_action_rule
+#: selection:base.action.rule,trg_date_range_type:0
+msgid "Minutes"
+msgstr "Phút"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_model
+msgid "Model"
+msgstr "Model"
+
+#. module: base_action_rule
+#: selection:base.action.rule,trg_date_range_type:0
+msgid "Months"
+msgstr "Tháng"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_line_test_name
+msgid "Name"
+msgstr "Tên"
+
+#. module: base_action_rule
+#: selection:base.action.rule.lead.test,state:0
+msgid "New"
+msgstr "Mới"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_on_change_fields
+msgid "On Change Fields Trigger"
+msgstr "On Change Fields Trigger"
+
+#. module: base_action_rule
+#: selection:base.action.rule,kind:0
+msgid "On Creation"
+msgstr "Khi khởi tạo"
+
+#. module: base_action_rule
+#: selection:base.action.rule,kind:0
+msgid "On Creation & Update"
+msgstr "Khi Khởi tạo & Cập nhật"
+
+#. module: base_action_rule
+#: selection:base.action.rule,kind:0
+msgid "On Deletion"
+msgstr "Khi xoá"
+
+#. module: base_action_rule
+#: selection:base.action.rule,kind:0
+msgid "On Update"
+msgstr "Khi cập nhật"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_lead_test_partner_id
+msgid "Partner"
+msgstr "Đối tác"
+
+#. module: base_action_rule
+#: selection:base.action.rule.lead.test,state:0
+msgid "Pending"
+msgstr "Đang treo"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_model_id
+msgid "Related Document Model"
+msgstr "Related Document Model"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_lead_test_user_id
+msgid "Responsible"
+msgstr "Người phụ trách"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_name
+msgid "Rule Name"
+msgstr "Tên quy tắc"
+
+#. module: base_action_rule
+#: model:ir.ui.view,arch_db:base_action_rule.view_base_action_rule_form
+msgid "Select when the action must be run, and choose records and/or timing conditions."
+msgstr "Chọn tuỳ chọn khi nào thì hành động phải được thực hiện, và thêm các bản ghi và/hoặc điều kiện thời gian."
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_sequence
+msgid "Sequence"
+msgstr "Trình tự"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_server_action_ids
+#: model:ir.ui.view,arch_db:base_action_rule.view_base_action_rule_form
+msgid "Server Actions"
+msgstr "Hành động Phía máy chủ"
+
+#. module: base_action_rule
+#: model:ir.ui.view,arch_db:base_action_rule.view_base_action_rule_form
+msgid "Server actions to run"
+msgstr "Hành động Máy chủ để chạy"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_act_user_id
+msgid "Set Responsible"
+msgstr "Thiết lập Người phụ trách"
+
+#. module: base_action_rule
+#: model:ir.ui.view,arch_db:base_action_rule.view_base_action_rule_form
+msgid "Set selection based on a search filter:"
+msgstr "Thiết lập lựa chọn dựa trên một bộ lọc tìm kiếm:"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_lead_test_state
+msgid "Status"
+msgstr "Trạng thái"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_lead_test_name
+msgid "Subject"
+msgstr "Chủ đề"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_trg_date_id
+msgid "Trigger Date"
+msgstr "Ngày Tri-gơ"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_trg_date_calendar_id
+msgid "Use Calendar"
+msgstr "Sử dụng lịch"
+
+#. module: base_action_rule
+#: model:ir.actions.act_window,help:base_action_rule.base_action_rule_act
+msgid "Use automated actions to automatically trigger actions for\n"
+"                various screens. Example: a lead created by a specific user may\n"
+"                be automatically set to a specific sales team, or an\n"
+"                opportunity which still has status pending after 14 days might\n"
+"                trigger an automatic reminder email."
+msgstr "Sử dụng các hành động tự động để tự khởi chạy (tri-gơ) các hành động\n"
+"                cho một số tình huống. Ví dụ: một tiềm năng được tạo bởi một\n"
+"                người dùng cụ thể nào đó có thể được tự động thiết lập vào một\n"
+"                đội bán hàng, hoặc một cơ hội mà vẫn ở trạng thái treo sau 14\n"
+"                sẽ khởi chạy một hành động nhắc nhở tự động qua email."
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_line_test_user_id
+msgid "User id"
+msgstr "User id"
+
+#. module: base_action_rule
+#: model:ir.model.fields,help:base_action_rule.field_base_action_rule_trg_date_calendar_id
+msgid "When calculating a day-based timed condition, it is possible to use a calendar to compute the date based on working days."
+msgstr "Khi tính toán điều kiện thời gian dựa trên ngày, phần mềm có thể xem xét lịch làm việcđể tính toán ngày dựa trên khung giờ làm việc"
+
+#. module: base_action_rule
+#: model:ir.model.fields,help:base_action_rule.field_base_action_rule_trg_date_id
+msgid "When should the condition be triggered. If present, will be checked by the scheduler. If empty, will be checked at creation and update."
+msgstr "Khi mà điều kiện sẽ được tri-gơ. Nếu có, sẽ được kiểm tra bởi trình ấn định (scheduler). Nếu để trống, sẽ được kiểm tra tại thời điểm khởi tạo và cập nhật"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_kind
+msgid "When to Run"
+msgstr "Điều kiện khởi chạy"
+
+#. module: base_action_rule
+#: model:ir.model.fields,help:base_action_rule.field_base_action_rule_active
+msgid "When unchecked, the rule is hidden and will not be executed."
+msgstr "Khi bỏ đánh dấu, quy tắc bị ẩn đi và sẽ không được thực thi."
+
+#. module: base_action_rule
+#: model:ir.ui.view,arch_db:base_action_rule.view_base_action_rule_form
+msgid "You may also use filters instead of choosing records. In order to create a new filter:"
+msgstr "Bạn có thể sử dụng các bộ lọc thay vì lựa chọn các bản ghi. Để tạo mới một bộ lọc:"
+
+#. module: base_action_rule
+#: model:ir.model.fields,field_description:base_action_rule.field_base_action_rule_lead_test_line_ids
+msgid "unknown"
+msgstr "không xác định"
+

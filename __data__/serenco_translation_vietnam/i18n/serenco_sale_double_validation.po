@@ -1,0 +1,173 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* serenco_sale_double_validation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-12 07:58+0000\n"
+"PO-Revision-Date: 2016-12-12 07:58+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: serenco_sale_double_validation
+#: model:res.groups,name:serenco_sale_double_validation.group_serenco_sale_db_valid_approval_user
+msgid "Approval User"
+msgstr "Nhân viên có quyền duyệt"
+
+#. module: serenco_sale_double_validation
+#: model:ir.ui.view,arch_db:serenco_sale_double_validation.view_order_form
+msgid "Approve"
+msgstr "Chấp thuận"
+
+#. module: serenco_sale_double_validation
+#: model:ir.ui.view,arch_db:serenco_sale_double_validation.view_order_form
+msgid "Confirm Sale"
+msgstr "Xác nhận bán"
+
+#. module: serenco_sale_double_validation
+#: model:ir.model.fields,field_description:serenco_sale_double_validation.field_serenco_setting_so_double_validation_create_uid
+msgid "Created by"
+msgstr "Được tạo bởi"
+
+#. module: serenco_sale_double_validation
+#: model:ir.model.fields,field_description:serenco_sale_double_validation.field_serenco_setting_so_double_validation_create_date
+msgid "Created on"
+msgstr "Được tạo vào"
+
+#. module: serenco_sale_double_validation
+#: model:ir.model.fields,field_description:serenco_sale_double_validation.field_serenco_setting_so_double_validation_name
+msgid "Description"
+msgstr "Mô tả"
+
+#. module: serenco_sale_double_validation
+#: model:ir.model.fields,field_description:serenco_sale_double_validation.field_serenco_setting_so_double_validation_display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: serenco_sale_double_validation
+#: model:ir.ui.view,arch_db:serenco_sale_double_validation.view_serenco_setting_so_double_validation_search
+msgid "Group"
+msgstr "Nhóm"
+
+#. module: serenco_sale_double_validation
+#: model:ir.model.fields,field_description:serenco_sale_double_validation.field_serenco_setting_so_double_validation_group_ids
+msgid "Groups"
+msgstr "Nhóm"
+
+#. module: serenco_sale_double_validation
+#: model:ir.model.fields,field_description:serenco_sale_double_validation.field_serenco_setting_so_double_validation_id
+msgid "ID"
+msgstr "ID"
+
+#. module: serenco_sale_double_validation
+#: model:ir.model.fields,field_description:serenco_sale_double_validation.field_serenco_setting_so_double_validation___last_update
+msgid "Last Modified on"
+msgstr "Sửa lần cuối vào"
+
+#. module: serenco_sale_double_validation
+#: model:ir.model.fields,field_description:serenco_sale_double_validation.field_serenco_setting_so_double_validation_write_uid
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: serenco_sale_double_validation
+#: model:ir.model.fields,field_description:serenco_sale_double_validation.field_serenco_setting_so_double_validation_write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối vào"
+
+#. module: serenco_sale_double_validation
+#: model:ir.model.fields,field_description:serenco_sale_double_validation.field_serenco_setting_so_double_validation_max
+msgid "Max"
+msgstr "Lớn nhất"
+
+#. module: serenco_sale_double_validation
+#: model:ir.model.fields,field_description:serenco_sale_double_validation.field_serenco_setting_so_double_validation_min
+msgid "Min"
+msgstr "Nhỏ nhất"
+
+#. module: serenco_sale_double_validation
+#: selection:serenco.setting.so.double.validation,type:0
+msgid "Percent"
+msgstr "%"
+
+#. module: serenco_sale_double_validation
+#: model:ir.model,name:serenco_sale_double_validation.model_serenco_setting_so_double_validation
+msgid "SETTING SO DOUBLE VALIDATION"
+msgstr "CẤU HÌNH DUYỆT 2 BƯỚC"
+
+#. module: serenco_sale_double_validation
+#: model:ir.module.category,description:serenco_sale_double_validation.module_category_sale_double_valid
+#: model:ir.module.category,name:serenco_sale_double_validation.module_category_sale_double_valid
+msgid "Sale Double Validation"
+msgstr "Bán hàng duyệt 2 bước"
+
+#. module: serenco_sale_double_validation
+#: model:ir.model,name:serenco_sale_double_validation.model_sale_order
+msgid "Sales Order"
+msgstr "Đơn đặt hàng"
+
+#. module: serenco_sale_double_validation
+#: model:res.groups,name:serenco_sale_double_validation.group_serenco_setting_sale_db_valid
+msgid "Sales Super User"
+msgstr "Quản lý bán hàng cao cấp"
+
+#. module: serenco_sale_double_validation
+#: model:ir.model.fields,field_description:serenco_sale_double_validation.field_serenco_setting_so_double_validation_sequence
+msgid "Sequence"
+msgstr "Trình tự"
+
+#. module: serenco_sale_double_validation
+#: model:ir.actions.act_window,name:serenco_sale_double_validation.action_serenco_setting_so_double_validation_search
+#: model:ir.ui.menu,name:serenco_sale_double_validation.menu_serenco_setting_so_double_validation
+#: model:ir.ui.view,arch_db:serenco_sale_double_validation.view_serenco_setting_so_double_validation_search
+#: model:ir.ui.view,arch_db:serenco_sale_double_validation.view_serenco_setting_so_double_validation_tree
+msgid "Setting SO Double Validation"
+msgstr "Cấu hình duyệt 2 bước"
+
+#. module: serenco_sale_double_validation
+#: model:ir.model.fields,field_description:serenco_sale_double_validation.field_serenco_setting_so_double_validation_type
+#: model:ir.ui.view,arch_db:serenco_sale_double_validation.view_serenco_setting_so_double_validation_search
+msgid "Type"
+msgstr "Loại"
+
+#. module: serenco_sale_double_validation
+#: model:ir.ui.view,arch_db:serenco_sale_double_validation.view_serenco_setting_so_double_validation_search
+msgid "Type (percent)"
+msgstr "Loại (%)"
+
+#. module: serenco_sale_double_validation
+#: model:ir.ui.view,arch_db:serenco_sale_double_validation.view_serenco_setting_so_double_validation_search
+msgid "Type (valuation)"
+msgstr "Loại (Giá trị)"
+
+#. module: serenco_sale_double_validation
+#: model:ir.ui.view,arch_db:serenco_sale_double_validation.view_order_form
+msgid "Users"
+msgstr "Người dùng"
+
+#. module: serenco_sale_double_validation
+#: model:ir.model.fields,field_description:serenco_sale_double_validation.field_sale_order_is_valid
+msgid "Valid User"
+msgstr "Người dùng có quyền"
+
+#. module: serenco_sale_double_validation
+#: selection:serenco.setting.so.double.validation,type:0
+msgid "Valuation"
+msgstr "Valuation"
+
+#. module: serenco_sale_double_validation
+#: selection:sale.order,state:0
+msgid "Sales Order"
+msgstr "Đơn hàng"
+
+#. module: serenco_sale_double_validation
+#: selection:sale.order,state:0
+msgid "Waiting Approval"
+msgstr "Đợi phê duyệt"
+
+

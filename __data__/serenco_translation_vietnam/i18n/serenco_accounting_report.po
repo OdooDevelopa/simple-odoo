@@ -1,0 +1,652 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* serenco_accounting_report
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-08 03:02+0000\n"
+"PO-Revision-Date: 2017-05-08 03:02+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:218
+#, python-format
+msgid "  day: "
+msgstr "  ngày: "
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:217
+#, python-format
+msgid " No.: "
+msgstr " Số: "
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:205
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:301
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:211
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:295
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:126
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:133
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:126
+#, python-format
+msgid " month "
+msgstr " tháng "
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:219
+#, python-format
+msgid " month: "
+msgstr " tháng: "
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:206
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:302
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:212
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:296
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:127
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:134
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:127
+#, python-format
+msgid " year "
+msgstr " năm "
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:219
+#, python-format
+msgid " year: "
+msgstr " năm: "
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:202
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:207
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:123
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:130
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:123
+#, python-format
+msgid "(Accompanied with decision No. 200/2014/TT-BTC"
+msgstr "(Ban hành theo Thông tư số 200/2014/TT-BTC"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:151
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:154
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:198
+#, python-format
+msgid "(In words): %s"
+msgstr "(Viết bằng chữ): %s"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:311
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:312
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:313
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:308
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:310
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:312
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:315
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:162
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:163
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:164
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:165
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:164
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:165
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:166
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:167
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:208
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:209
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:210
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:211
+#, python-format
+msgid "(Sign, name)"
+msgstr "(Ký, họ tên)"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:161
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:163
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:207
+#, python-format
+msgid "(Sign, name, stamp)"
+msgstr "(Ký, họ tên, đóng dấu)"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:314
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:313
+#, python-format
+msgid "(Sign, name.)"
+msgstr "(Hoặc bộ phận có nhu cầu nhập)\n"
+"(Ký, họ tên)"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:222
+#, python-format
+msgid "- By.................................... Number: "
+msgstr "- By.................................... Number: "
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:212
+#, python-format
+msgid "- Delivere: %s"
+msgstr "- Họ và tên người giao: %s"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:225
+#, python-format
+msgid "- Details: %s"
+msgstr "- Details: %s"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:300
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:294
+#, python-format
+msgid "- Enclosed:"
+msgstr "- Số chứng từ gốc kèm theo:"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:217
+#, python-format
+msgid "- Follow origin: Purchase order"
+msgstr "- Theo: Đơn mua hàng"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:219
+#, python-format
+msgid "- Receiver: %s"
+msgstr "- Họ và tên người nhận hàng: %s"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:224
+#, python-format
+msgid "- Stock: %s"
+msgstr "- Nhập tại kho: %s"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:227
+#, python-format
+msgid "- Stock: %s."
+msgstr "- Xuất tại kho (ngăn lô): %s."
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:297
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:291
+#, python-format
+msgid "- Total(In works): %s"
+msgstr "- Tổng số tiền (viết bằng chữ): %s"
+
+#. module: serenco_accounting_report
+#: model:ir.model,name:serenco_accounting_report.model_account_voucher
+msgid "Accounting Voucher"
+msgstr "Biên lai kế toán"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:201
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:114
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:141
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:126
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:148
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:119
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:192
+#, python-format
+msgid "Address: %s"
+msgstr "Địa chỉ: %s"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:228
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:229
+#, python-format
+msgid "Address: %s."
+msgstr "Địa điểm: %s."
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:239
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:239
+#, python-format
+msgid "Amount "
+msgstr "Thành tiền"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:147
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:152
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:196
+#, python-format
+msgid "Amount: %s"
+msgstr "Số tiền: %s"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:160
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:162
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:206
+#, python-format
+msgid "Cashier"
+msgstr "Thủ quỹ"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:308
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:303
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:157
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:159
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:203
+#, python-format
+msgid "Chief Accountant"
+msgstr "Kế toán trưởng"
+
+#. module: serenco_accounting_report
+#: model:ir.model.fields,field_description:serenco_accounting_report.field_account_payment_company_currency_id
+msgid "Company Currency"
+msgstr "Company Currency"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:109
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:123
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:116
+#, python-format
+msgid "Company: "
+msgstr "Đơn vị: "
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:196
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:195
+#, python-format
+msgid "Company: %s"
+msgstr "Đơn vị: %s"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:306
+#, python-format
+msgid "Consignee"
+msgstr "Người giao hàng"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:175
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:174
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:218
+#, python-format
+msgid "Conversed amount:"
+msgstr "Số tiền quy đổi:"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:211
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:218
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:134
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:142
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:135
+#, python-format
+msgid "Credit: %s"
+msgstr "Có: %s"
+
+#. module: serenco_accounting_report
+#: model:ir.model.fields,field_description:serenco_accounting_report.field_account_payment_currency_rate
+msgid "Currency Rate"
+msgstr "Tỷ giá"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:204
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:209
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:125
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:132
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:125
+#, python-format
+msgid "Dated 22/12/2014 of the MoF)"
+msgstr "Ngày 22/12/2014 của Bộ Tài Chính)"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:205
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:301
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:211
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:295
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:126
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:133
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:126
+#, python-format
+msgid "Day "
+msgstr "Ngày "
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:210
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:217
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:132
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:140
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:133
+#, python-format
+msgid "Debit: %s"
+msgstr "Nợ: %s"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:236
+#, python-format
+msgid "Demand"
+msgstr "Yêu cầu"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:197
+#, python-format
+msgid "Department: "
+msgstr "Bộ phận: "
+
+#. module: serenco_accounting_report
+#: model:ir.model.fields,field_description:serenco_accounting_report.field_account_payment_depositer_id
+msgid "Depositer"
+msgstr "Người nộp tiền"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:305
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:156
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:158
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:202
+#, python-format
+msgid "Director"
+msgstr "Giám đốc"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:154
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:157
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:201
+#, python-format
+msgid "Enclosed: .................... Original vouchers."
+msgstr "Kèm theo: .................... Chứng từ gốc."
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:173
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:173
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:217
+#, python-format
+msgid "Exchange rate(gold, silver, precious stone):"
+msgstr "Tỷ giá ngoại tệ (vàng, bạc, đá quý):"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:201
+#, python-format
+msgid "Form No.: 01 - VT"
+msgstr "Mẫu số.: 01 - VT"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:129
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:122
+#, python-format
+msgid "Form No.: 01-TT"
+msgstr "Mẫu số.: 01-TT"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:206
+#, python-format
+msgid "Form No.: 02 - VT"
+msgstr "Mẫu số.: 02 - VT"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:122
+#, python-format
+msgid "Form No.: 02-TT"
+msgstr "Mẫu số.: 02-TT"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:232
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:232
+#, python-format
+msgid "Items"
+msgstr "Tên, nhãn hiệu, quy cách, phẩm chất vật tư, dụng cụ sản phẩm, hàng hóa"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:231
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:231
+#, python-format
+msgid "No."
+msgstr "STT"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:209
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:216
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:130
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:138
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:131
+#, python-format
+msgid "No.: %s"
+msgstr "Số: %s"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:214
+#, python-format
+msgid "OUTPUT VOUCHER"
+msgstr "PHIẾU XUẤT KHO"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:128
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:136
+#, python-format
+msgid "PAYMENT VOUCHER"
+msgstr "PHIẾU CHI"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:207
+#, python-format
+msgid "PURCHASE VOUCHER"
+msgstr "PHIẾU NHẬP KHO"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:138
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:145
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:188
+#, python-format
+msgid "Partner: %s"
+msgstr "Đơn vị: %s"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:160
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:204
+#, python-format
+msgid "Payer"
+msgstr "Người nộp tiền"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:142
+#, python-format
+msgid "Payer: %s"
+msgstr "Họ tên người nộp tiền: %s"
+
+#. module: serenco_accounting_report
+#: model:ir.actions.report.xml,name:serenco_accounting_report.report_voucher_payment
+msgid "Payment Delivery Report"
+msgstr "Phiếu chi"
+
+#. module: serenco_accounting_report
+#: model:ir.actions.report.xml,name:serenco_accounting_report.report_voucher_receipt
+msgid "Payment Receipt Report"
+msgstr "Phiếu thu"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:28
+#, python-format
+msgid "Payment Voucher"
+msgstr "Payment Voucher"
+
+#. module: serenco_accounting_report
+#: model:ir.model,name:serenco_accounting_report.model_account_payment
+msgid "Payments"
+msgstr "Thanh toán"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:305
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:299
+#, python-format
+msgid "Peparer"
+msgstr "Người lập phiếu"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:159
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:161
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:205
+#, python-format
+msgid "Preparer"
+msgstr "Người lập phiếu"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:238
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:238
+#, python-format
+msgid "Price"
+msgstr "Đơn giá"
+
+#. module: serenco_accounting_report
+#: model:ir.ui.view,arch_db:serenco_accounting_report.account_voucher_purchase_form_inherit
+#: model:ir.ui.view,arch_db:serenco_accounting_report.view_account_payment_form_inherit
+#: model:ir.ui.view,arch_db:serenco_accounting_report.view_stock_picking_form_inherit
+msgid "Print"
+msgstr "In"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:233
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:233
+#, python-format
+msgid "Prod Code"
+msgstr "Mã số"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:235
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:235
+#, python-format
+msgid "Quantity"
+msgstr "Số lượng"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:129
+#, python-format
+msgid "RECEIPT VOUCHER"
+msgstr "PHIẾU THU"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:237
+#, python-format
+msgid "Real Input"
+msgstr "Thực nhập"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:237
+#, python-format
+msgid "Real Output"
+msgstr "Thực xuất"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:144
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:150
+#, python-format
+msgid "Reason Payment: %s"
+msgstr "Lý do chi: %s"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:195
+#, python-format
+msgid "Reason Receipt: %s"
+msgstr "Lý do thu: %s"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:31
+#, python-format
+msgid "Receipt Voucher"
+msgstr "Phiếu thu"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:300
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:158
+#: model:ir.model.fields,field_description:serenco_accounting_report.field_account_payment_receiver_id
+#, python-format
+msgid "Receiver"
+msgstr "Người nhận tiền"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:144
+#, python-format
+msgid "Receiver: "
+msgstr "Họ và tên người nhận tiền: "
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:136
+#, python-format
+msgid "Receiver: %s"
+msgstr "Họ và tên người nhận tiền: %s"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:24
+#, python-format
+msgid "Stock Incoming"
+msgstr "PNK"
+
+#. module: serenco_accounting_report
+#: model:ir.actions.report.xml,name:serenco_accounting_report.report_stock_incoming
+msgid "Stock Incoming Report"
+msgstr "Phiếu nhập kho"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:24
+#, python-format
+msgid "Stock Outgoing"
+msgstr "PXK"
+
+#. module: serenco_accounting_report
+#: model:ir.actions.report.xml,name:serenco_accounting_report.report_stock_outgoing
+msgid "Stock Outgoing Report"
+msgstr "Phiếu xuất kho"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:307
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:302
+#, python-format
+msgid "Stockkeeper"
+msgstr "Thủ kho"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:285
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:281
+#, python-format
+msgid "Summary"
+msgstr "Cộng"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:202
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:117
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:181
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:186
+#, python-format
+msgid "Tax code: %s"
+msgstr "MST: %s"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/voucher_payment_report.py:169
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:170
+#: code:addons/serenco_accounting_report/report/voucher_receipt_report.py:214
+#, python-format
+msgid "Total amount received(in words): %s"
+msgstr "Đã nhận đủ số tiền (viết bằng chữ): %s"
+
+#. module: serenco_accounting_report
+#: model:ir.model,name:serenco_accounting_report.model_stock_picking
+msgid "Transfer"
+msgstr "Dịch chuyển"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:234
+#: code:addons/serenco_accounting_report/report/stock_outgoing_report.py:234
+#, python-format
+msgid "Unit"
+msgstr "Đơn vị tính"
+
+#. module: serenco_accounting_report
+#: model:ir.model.fields,help:serenco_accounting_report.field_account_payment_company_currency_id
+msgid "Utility field to express amount currency"
+msgstr "Utility field to express amount currency"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/stock_incoming_report.py:236
+#, python-format
+msgid "Voucher"
+msgstr "Theo chứng từ"
+
+#. module: serenco_accounting_report
+#: code:addons/serenco_accounting_report/report/voucher_purchase_payment_report.py:40
+#: model:ir.actions.report.xml,name:serenco_accounting_report.voucher_purchase_payment
+#, python-format
+msgid "Voucher Purchase Payment"
+msgstr "Phiếu chi"
+

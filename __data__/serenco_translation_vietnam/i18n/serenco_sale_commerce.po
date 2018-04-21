@@ -1,0 +1,372 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* serenco_sale_commerce
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-28 09:29+0000\n"
+"PO-Revision-Date: 2016-11-28 09:29+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.t_report_header_new
+msgid "APPROVED"
+msgstr "ĐÃ DUYỆT"
+
+#. module: serenco_sale_commerce
+#: model:ir.model.fields,field_description:serenco_sale_commerce.field_purchase_order_pur_date
+#: model:ir.model.fields,field_description:serenco_sale_commerce.field_sale_order_pur_date
+#: model:ir.model.fields,field_description:serenco_sale_commerce.field_stock_picking_pur_date
+#: model:ir.model.fields,field_description:serenco_sale_commerce.field_account_invoice_pur_date
+#: view:website:serenco_sale_commerce.sale_order_inv_document
+msgid "Contract Date"
+msgstr "Ngày hợp đồng"
+
+#. module: serenco_sale_commerce
+#: model:ir.model.fields,field_description:serenco_sale_commerce.field_purchase_order_pur_no
+#: model:ir.model.fields,field_description:serenco_sale_commerce.field_sale_order_pur_no
+#: model:ir.model.fields,field_description:serenco_sale_commerce.field_stock_picking_pur_no
+#: model:ir.model.fields,field_description:serenco_sale_commerce.field_account_invoice_pur_no
+#: view:website:serenco_sale_commerce.sale_order_inv_document
+msgid "Contract No."
+msgstr "Hợp đồng"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.sale_order_inv_document
+msgid "Delivery Address"
+msgstr "Địa chỉ giao hàng"
+
+#. module: serenco_sale_commerce
+#: model:ir.model.fields,field_description:serenco_sale_commerce.field_account_invoice_sale_id
+msgid "Sale Order"
+msgstr "Đơn bán hàng"
+
+#. module: serenco_sale_commerce
+#: model:ir.model.fields,field_description:serenco_sale_commerce.field_product_template_manufacturer_id
+msgid "Manufacturer"
+msgstr "Nhà sản xuất"
+
+#. module: serenco_sale_commerce
+#: model:ir.model.fields,field_description:serenco_sale_commerce.field_product_template_manufacturer_pname
+msgid "Manufacturer Product Name"
+msgstr "Tên nhà sản xuất"
+
+#. module: serenco_sale_commerce
+#: model:ir.model.fields,field_description:serenco_sale_commerce.field_product_template_manufacturer_pref
+msgid "Manufacturer Product Code"
+msgstr "Mã nhà sản xuất"
+
+#. module: serenco_sale_commerce
+#: model:ir.model.fields,field_description:serenco_sale_commerce.field_product_template_manufacturer_purl
+msgid "Manufacturer Product URL"
+msgstr "Liên kết tới sản phẩm NSX"
+
+#. module: serenco_sale_commerce
+#: model:ir.model.fields,field_description:serenco_sale_commerce.field_product_template_desc_lines
+msgid "Description Lines"
+msgstr "Các dòng mô tả"
+
+#. module: serenco_sale_commerce
+#: model:ir.model.fields,field_description:serenco_sale_commerce.field_product_product_desc_lines
+msgid "Description Lines"
+msgstr "Các dòng mô tả"
+
+#. module: serenco_sale_commerce
+#: model:ir.model.fields,field_description:serenco_sale_commerce.field_sol_description_name
+msgid "Description"
+msgstr "Mô tả"
+
+#. module: serenco_sale_commerce
+#: model:ir.model.fields,field_description:serenco_sale_commerce.field_sol_description_categ_id
+msgid "Category"
+msgstr "Danh mục"
+
+#. module: serenco_sale_commerce
+#: model:ir.model.fields,field_description:serenco_sale_commerce.field_sol_description_categ_id
+msgid "Category"
+msgstr "Danh mục"
+
+#. module: serenco_sale_commerce
+#: model:ir.model.fields,field_description:serenco_sale_commerce.field_sol_description_category_name
+msgid "Name"
+msgstr "Tên"
+
+#. module: serenco_sale_commerce
+#: model:ir.model.fields,field_description:serenco_sale_commerce.field_sol_description_name
+msgid "Description"
+msgstr "Mô tả"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.product_template_manufacturer_form_view
+msgid "Extra Description"
+msgstr "Mô tả kỹ thuật"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.product_template_manufacturer_form_view
+msgid "Manufacturer"
+msgstr "Nhà sản xuất"
+
+#. module: serenco_sale_commerce
+#: model:ir.model.fields,field_description:serenco_sale_commerce.field_account_invoice_purchase_id
+msgid "Purchase Order"
+msgstr "Đơn mua hàng"
+
+#. module: serenco_sale_commerce
+#: model:ir.model.fields,field_description:serenco_sale_commerce.field_report_serenco_sale_commerce_sale_order_inv_report_id
+#: field:report.serenco_sale_commerce.sale_order_inv_report,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.sale_order_inv_document
+msgid "Invoice Address"
+msgstr "Địa chỉ thanh toán"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.t_report_header_new
+msgid "Lầu 4 - Tòa nhà xBuilding - Số 2 Nguyễn Thế Lộc, P.12 - Quận Tân Bình, Hồ Chí Minh, Việt Nam"
+msgstr "Lầu 4 - Tòa nhà xBuilding - Số 2 Nguyễn Thế Lộc, P.12 - Quận Tân Bình, Hồ Chí Minh, Việt Nam"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.t_report_header_new
+msgid '<span class="bold">Phone:</span>'
+msgstr '<span class="bold">SĐT:</span>'
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.sale_order_inv_document
+msgid "Product Name"
+msgstr "Tên sản phẩm"
+
+#. module: serenco_sale_commerce
+#: model:ir.model,name:serenco_sale_commerce.model_purchase_order
+msgid "Purchase Order"
+msgstr "Đơn hàng"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.sale_order_inv_document
+msgid "Quantity"
+msgstr "Số lượng"
+
+#. module: serenco_sale_commerce
+#: model:ir.actions.report.xml,name:serenco_sale_commerce.action_report_sale_order_inv
+msgid "Sale Order To Invoice"
+msgstr "Hóa đơn kế toán"
+
+#. module: serenco_sale_commerce
+#: model:ir.model,name:serenco_sale_commerce.model_sale_order
+msgid "Sales Order"
+msgstr "Đơn đặt hàng"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.sale_order_inv_document
+msgid "Sequence"
+msgstr "STT"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.sale_order_inv_document
+msgid "SubTotal"
+msgstr "Thành tiền"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.sale_order_inv_document
+msgid "Tax Code"
+msgstr "Mã số thuế"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.sale_order_inv_document
+msgid '<span class="bold">Tax: (10%)</span>'
+msgstr '<span class="bold">Thuế: ( 10% )</span>'
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.sale_order_inv_document
+msgid '<span class="bold">Total: </span>'
+msgstr '<span class="bold">Tổng tiền: </span>'
+
+#. module: serenco_sale_commerce
+#: model:ir.model,name:serenco_sale_commerce.model_stock_picking
+msgid "Transfer"
+msgstr "Dịch chuyển"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.sale_order_inv_document
+msgid "Tên khách hàng"
+msgstr "Tên khách hàng"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.sale_order_inv_document
+msgid "Unit Price"
+msgstr "Đơn giá"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.sale_order_inv_document
+msgid "UoM"
+msgstr "Đơn vị tính"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.t_report_header_new
+msgid '<span class="bold">Website:</span>'
+msgstr '<span class="bold">Trang Web:</span>'
+
+#. module: serenco_sale_commerce
+#: model:ir.model.fields,field_description:serenco_sale_commerce.field_purchase_order_website_message_ids
+#: field:purchase.order,website_message_ids:0
+msgid "Website Messages"
+msgstr "Thông điệp Website"
+
+#. module: serenco_sale_commerce
+#: model:ir.model.fields,help:serenco_sale_commerce.field_purchase_order_website_message_ids
+#: help:purchase.order,website_message_ids:0
+msgid "Website communication history"
+msgstr "Lịch sử thông tin liên lạc website"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.purchase_order_suggest_report_document
+msgid "About : Purchasing"
+msgstr "Về việc : Mua hàng"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.purchase_order_suggest_report_document
+msgid "<strong>Chief of Accountant</strong>"
+msgstr "<strong>Kế toán trưởng</strong>"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.purchase_order_suggest_report_document
+msgid "Date :"
+msgstr "Ngày :"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.purchase_order_suggest_report_document
+msgid "Department : Bussiness Department"
+msgstr "Phòng ban : Phòng kinh doanh"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.purchase_order_suggest_report_document
+msgid "Description"
+msgstr "Diễn giải"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.purchase_order_suggest_report_document
+msgid "<strong>Director</strong>"
+msgstr "<strong>Giám đốc</strong>"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.purchase_order_suggest_report_document
+msgid "<strong>Leader</strong>"
+msgstr "<strong>Trưởng bộ phận</strong>"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.purchase_order_suggest_report_document
+msgid "Money by word :"
+msgstr "Bằng chữ :"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.purchase_order_suggest_report_document
+msgid "Note:"
+msgstr "Ghi chú:"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.purchase_order_suggest_report_document
+msgid "PURCHASE SUGGESTION"
+msgstr "PHIẾU ĐỀ NGHỊ MUA HÀNG"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.purchase_order_suggest_report_document
+msgid "Purchase Description :"
+msgstr "Nội dung mua hàng :"
+
+#. module: serenco_sale_commerce
+#: model:ir.actions.report.xml,name:serenco_sale_commerce.purchase_order_suggest_report
+msgid "Purchase Suggestion"
+msgstr "Phiếu đề nghị mua hàng"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.purchase_order_suggest_report_document
+msgid "Quantity"
+msgstr "Số lượng"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.purchase_order_suggest_report_document
+msgid "Sequence"
+msgstr "STT"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.purchase_order_suggest_report_document
+msgid "SubTotal(Not VAT)"
+msgstr "Thành tiền (Chưa VAT)"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.purchase_order_suggest_report_document
+msgid "<strong>Suggested Person</strong>"
+msgstr "<strong>Người đề nghị</strong>"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.purchase_order_suggest_report_document
+msgid "Tax"
+msgstr "Thuế"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.purchase_order_suggest_report_document
+msgid "Total"
+msgstr "Tổng tiền"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.purchase_order_suggest_report_document
+msgid "Unit Price"
+msgstr "Đơn giá"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.purchase_order_suggest_report_document
+msgid "Untaxed"
+msgstr "Số tiền trước thuế"
+
+#. module: serenco_sale_commerce
+#: view:website:serenco_sale_commerce.purchase_order_suggest_report_document
+msgid "Validated By :"
+msgstr "Tên nhân viên :"
+
+#. module: serenco_sale_commerce
+#: model:ir.model.fields,field_description:serenco_sale_commerce.field_purchase_order_website_message_ids
+#: field:purchase.order,website_message_ids:0
+msgid "Website Messages"
+msgstr "Tin nhắn trên Website"
+
+#. module: serenco_sale_commerce
+#: model:ir.model.fields,help:serenco_sale_commerce.field_purchase_order_website_message_ids
+#: help:purchase.order,website_message_ids:0
+msgid "Website communication history"
+msgstr "Lịch sử trò chuyện Website"
+
+#. module: product
+#: model:ir.ui.view,arch_db:serenco_sale_commerce.src_sale_product_category_form_view
+msgid "Internal Code"
+msgstr "Mã nội bộ"
+
+#. module: serenco_sale_commerce
+#: model:ir.model.fields,field_description:serenco_sale_commerce.field_res_partner_is_manufacturer
+#: field:res.partner,is_manufacturer:0
+msgid "Manufacturer"
+msgstr "Là nhà sản xuất?"
+
+#. module: serenco_sale_commerce
+#: model:ir.model.fields,field_description:serenco_sale_commerce.field_res_partner_manufacture_code
+#: field:res.partner,manufacture_code:0
+msgid "Manufacture Code"
+msgstr "Mã nhà sản xuất"
+
+#. module: serenco_sale_commerce
+#: model:ir.model.fields,field_description:serenco_sale_commerce.field_sale_order_is_construction
+#: field:res.partner,manufacture_code:0
+msgid "Is Construction?"
+msgstr "Có thi công"
+
+#. module: serenco_sale_commerce
+#: model:ir.ui.view,arch_db:serenco_sale_commerce.view_order_form_commerce
+msgid "Invite Accountant"
+msgstr "Gửi mail y/c xuất hóa đơn"

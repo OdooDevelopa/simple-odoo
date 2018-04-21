@@ -1,0 +1,466 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_mail
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0rc1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-14 13:09+0000\n"
+"PO-Revision-Date: 2014-12-04 14:29+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: vi_VN\n"
+"X-Generator: Poedit 1.7\n"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "A Great Headline"
+msgstr "Tiêu đề lớn"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "A Punchy Headline"
+msgstr "Tiêu đề nhấn mạnh"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "A Section Subtitle"
+msgstr "Phụ đề cho một phần"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "A Small Subtitle"
+msgstr "Phụ đề nhỏ"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "A good subtitle"
+msgstr "Phụ đề tốt"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid ""
+"A great way to catch your reader's attention is to tell a story.\n"
+"                                    Everything you consider writing can be told as a story."
+msgstr ""
+"Cách tốt nhất để thu hút sự chú ý của người đọc là kể một câu chuyện.\n"
+"                            Mọi thứ bạn cân nhắc viết có thể được kể thành câu chuyện."
+
+#. module: website_mail
+#: code:addons/website_mail/models/mail_message.py:87
+#, python-format
+msgid "Access Denied"
+msgstr "Từ chối truy cập"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Advanced Email Features"
+msgstr "Tính năng email nâng cao"
+
+#. module: website_mail
+#: model:res.groups,comment:website_mail.group_comment
+msgid "Allows website visitors to post comments on blogs, etc."
+msgstr "Cho phép khách truy cập web đăng bình luận trên blog,..."
+
+#. module: website_mail
+#: view:website:website_mail.email_designer
+msgid "Back"
+msgstr "Trở về"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Battery: 12 hours"
+msgstr "Pin: 12 giờ"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Battery: 20 hours"
+msgstr "Pin: 20 giờ"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Battery: 8 hours"
+msgstr "Pin: 8 giờ"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Beginner"
+msgstr "Người bắt đầu"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Big Message"
+msgstr "Thông điệp lớn"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Big Picture"
+msgstr "Hình lớn"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Button"
+msgstr "Nút"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid ""
+"Choose a vibrant image and write an inspiring paragraph\n"
+"                                about it. It does not have to be long, but it should\n"
+"                                reinforce your image."
+msgstr ""
+"Chọn một hình ảnh sống động và viết một đoạn đầy cảm hứng \n"
+"                                 về nó. Không cần phải dài dòng, nhưng nó phải \n"
+"                                 củng cố hình ảnh của bạn."
+
+#. module: website_mail
+#: view:website:website_mail.email_designer
+msgid "Choose an Email Template"
+msgstr "Chọn email mẫu"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Comparisons"
+msgstr "So sánh"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid ""
+"Consider telling\n"
+"                                    a great story that provides personality. Writing a story \n"
+"                                    with personality for potential clients will asist with \n"
+"                                    making a relationship connection. This shows up in small\n"
+"                                    quirks like word choices or phrases. Write from your point \n"
+"                                    of view, not from someone else's experience."
+msgstr ""
+"Xem xét kể \n"
+"                                    một câu chuyện tuyệt vời thể hiện cá tính. Viết một câu chuyện \n"
+"                                    với tính cách cho các khách hàng tiềm năng sẽ hỗ trợ \n"
+"                                    tạo kết nối quan hệ. Việc này thể hiện qua những tiểu tiết như \n"
+"                                    như cách lựa chọn từ hoặc cụm từ. Viết từ quan điểm của bạn,\n"
+"                                    không phải từ kinh nghiệm của người khác."
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Contact us"
+msgstr "Liên Hệ"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer
+msgid "Design Your Email"
+msgstr "Thiết kế email của bạn"
+
+#. module: website_mail
+#: model:mail.group,name:website_mail.group_all_employees
+msgid "Discussion Group"
+msgstr "Nhóm thảo luận"
+
+#. module: website_mail
+#: code:addons/website_mail/models/email_template.py:15
+#: view:email.template:website_mail.email_template_form_inherit_website_link
+#, python-format
+msgid "Edit Template"
+msgstr "Sửa mẫu"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Email Design"
+msgstr "Thiết kế email"
+
+#. module: website_mail
+#: model:ir.model,name:website_mail.model_email_template
+msgid "Email Templates"
+msgstr "Email mẫu"
+
+#. module: website_mail
+#: model:ir.model,name:website_mail.model_mail_thread
+msgid "Email Thread"
+msgstr "Chủ đề email"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Enterprise package"
+msgstr "Gói Doanh nghiệp"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Expert"
+msgstr "Chuyên gia"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Feature One"
+msgstr "Tính năng Một"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Feature Three"
+msgstr "Tính năng Ba"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Feature Two"
+msgstr "Tính năng Hai"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Free shipping, satisfied or reimbursed."
+msgstr "Miễn phí vận chuyển, đáp ứng hoặc hoàn tiền."
+
+#. module: website_mail
+#: view:website:website_mail.email_designer
+msgid "From:"
+msgstr "Từ:"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid ""
+"Great stories are for everyone even when only written for\n"
+"                                    just one person."
+msgstr ""
+"Câu chuyện tuyệt với dành cho mọi người ngay cả khi chỉ viết cho\n"
+"                                   chỉ một người."
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Great stories have personality."
+msgstr "Câu chuyện tuyệt với có cá tính."
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid ""
+"If you try to write with a wide general\n"
+"                                    audience in mind, your story will ring false and be bland. \n"
+"                                    No one will be interested. Write for one person. If it’s genuine\n"
+"                                    for the one, it’s genuine for the rest."
+msgstr ""
+"Nếu bạn thử viết cho nhiều đối tượng chung chung,\n"
+"                                   câu chuyện của bạn sẽ gửi sai và nhạt nhẽo. Không ai thấy thú vị.\n"
+"                                   Hãy viết cho một người. Nếu nó đặc biệt cho một người, nó sẽ\n"
+"                                   đặc biệt cho phần còn lại."
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Image-Text"
+msgstr "Hình-Văn bản"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Limited support"
+msgstr "Hỗ trợ giới hạn"
+
+#. module: website_mail
+#: model:ir.model,name:website_mail.model_mail_message
+msgid "Message"
+msgstr "Message"
+
+#. module: website_mail
+#: help:mail.message,description:0
+msgid "Message description: either the subject, or the beginning of the body"
+msgstr "Mô tả tin nhắn: hoặc là chủ đề, hoặc là phần đầu nội dung."
+
+#. module: website_mail
+#: view:website:website_mail.email_designer
+msgid "New Template"
+msgstr "Mẫu mới"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "No support"
+msgstr "Không hỗ trợ"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Order now"
+msgstr "Đặt ngay"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Our Offers"
+msgstr "Bảng giá của chúng tôi"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Professional"
+msgstr "Chuyên nghiệp"
+
+#. module: website_mail
+#: field:mail.message,website_published:0
+msgid "Published"
+msgstr "Đã xuất bản"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer
+msgid "Save and Continue"
+msgstr "Lưu và tiếp tục"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Screen: 2.5 inch"
+msgstr "Màn hình: 2.5 in"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Screen: 2.8 inch"
+msgstr "Màn hình: 2.8 in"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer
+msgid "Select"
+msgstr "Chọn"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Sell Online. Easily."
+msgstr "Bán trực tuyến. Dễ dàng."
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Separator"
+msgstr "Phân cách"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid ""
+"Start with the customer – find out what they want\n"
+"                                                    and give it to them."
+msgstr ""
+"Khởi đầu với khách hàng - khám phá họ muốn gì\n"
+"                                                    và cung cấp cho họ cái đó."
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Starter Package"
+msgstr "Gói Khởi đầu"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer
+msgid "Subject:"
+msgstr "Chủ đề:"
+
+#. module: website_mail
+#: view:website:website_mail.follow
+msgid "Subscribe"
+msgstr "Đăng ký"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Text Block"
+msgstr "Khối Văn bản"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Text-Image"
+msgstr "Văn bản-Hình"
+
+#. module: website_mail
+#: view:website:website_mail.follow
+msgid "Thanks for your subscription!"
+msgstr "Cám ơn đã đăng ký!"
+
+#. module: website_mail
+#: code:addons/website_mail/models/mail_message.py:88
+#, python-format
+msgid ""
+"The requested operation cannot be completed due to security restrictions. Please contact your system administrator.\n"
+"\n"
+"(Document type: %s, Operation: %s)"
+msgstr ""
+"Thao tác yêu cầu không hoàn tất được vì ràng buộc bảo mật. Vui lòng liên hệ quản trị hệ thống.\n"
+"\n"
+"(Loại tài liệu: %s, Tác vụ: %s)"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "The top of the top"
+msgstr "Trên cùng của phần trên cùng"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Three Columns"
+msgstr "Ba cột"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Two Columns"
+msgstr "Hai Cột"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Unlimited support"
+msgstr "Hỗ trợ vô hạn"
+
+#. module: website_mail
+#: view:website:website_mail.follow
+msgid "Unsubscribe"
+msgstr "Bỏ đăng ký"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "View Product"
+msgstr "Xem sản phẩm"
+
+#. module: website_mail
+#: help:mail.message,website_published:0
+msgid "Visible on the website as a comment"
+msgstr "Hiển thị trên website như một bình luận"
+
+#. module: website_mail
+#: model:res.groups,name:website_mail.group_comment
+msgid "Website Comments"
+msgstr "Ghi chú web"
+
+#. module: website_mail
+#: field:mail.thread,website_message_ids:0
+msgid "Website Messages"
+msgstr "Thông điệp web"
+
+#. module: website_mail
+#: help:mail.thread,website_message_ids:0
+msgid "Website communication history"
+msgstr "Lịch sử trao đổi website"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Weight: 1.1 ounces"
+msgstr "Khôi lượng: 1.1 ounce"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Weight: 1.2 ounces"
+msgstr "Khối lượng: 1.2 ounce"
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid ""
+"Write one or two paragraphs describing your product,\n"
+"                                                    services or a specific feature. To be successful\n"
+"                                                    your content needs to be useful to your readers."
+msgstr ""
+"Viết một hoặc hai đoạn văn mô tả sản phẩm, dịch vụ,\n"
+"                                                    hoặc tính năng đặc biệt của bạn. Để thành công,\n"
+"                                                    nội dung cảu bạn phải hữu ích cho người đọc."
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "Write one sentence to convince visitor about your message."
+msgstr "Viết một câu để thuyết phục khách hàng về các thông điệp của bạn."
+
+#. module: website_mail
+#: view:website:website_mail.email_designer_snippets
+msgid "per month"
+msgstr "mỗi tháng"
+
+#. module: website_mail
+#: field:mail.message,description:0
+msgid "unknown"
+msgstr "không biết"
+
+#. module: website_mail
+#: view:website:website_mail.follow
+msgid "your email..."
+msgstr "email của bạn..."

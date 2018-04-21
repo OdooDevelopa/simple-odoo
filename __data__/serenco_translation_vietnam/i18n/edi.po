@@ -1,0 +1,94 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* edi
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0rc1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-14 13:09+0000\n"
+"PO-Revision-Date: 2014-11-19 09:24+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: vi_VN\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#. module: edi
+#: code:addons/edi/models/edi.py:46
+#, python-format
+msgid "'%s' is an invalid external ID"
+msgstr "'%s' là một mã ID ngoại không hợp lệ"
+
+#. module: edi
+#: model:ir.model,name:edi.model_res_company
+msgid "Companies"
+msgstr "Công ty"
+
+#. module: edi
+#: model:ir.model,name:edi.model_res_currency
+msgid "Currency"
+msgstr "Tiền tệ"
+
+#. module: edi
+#. openerp-web
+#: code:addons/edi/static/src/js/edi.js:61
+#, python-format
+msgid "Document Import Notification"
+msgstr "Thông báo nhập tài liệu"
+
+#. module: edi
+#: model:ir.model,name:edi.model_edi_edi
+msgid "EDI Subsystem"
+msgstr "Hệ thống EDI phụ"
+
+#. module: edi
+#: field:edi.edi,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: edi
+#: code:addons/edi/models/edi.py:129
+#, python-format
+msgid "Missing Application."
+msgstr "Thiếu ứng dùng."
+
+#. module: edi
+#: model:ir.model,name:edi.model_res_partner
+msgid "Partner"
+msgstr "Đối tác"
+
+#. module: edi
+#. openerp-web
+#: code:addons/edi/static/src/js/edi.js:57
+#, python-format
+msgid "Reason:"
+msgstr "Lý do:"
+
+#. module: edi
+#. openerp-web
+#: code:addons/edi/static/src/js/edi.js:55
+#, python-format
+msgid "Sorry, the document could not be imported."
+msgstr "Rất tiếc, tài liệu không thể nhập vào được."
+
+#. module: edi
+#. openerp-web
+#: code:addons/edi/static/src/js/edi.js:50
+#, python-format
+msgid "The document has been successfully imported!"
+msgstr "Tài liệu đã được nhập vào thành công!"
+
+#. module: edi
+#: code:addons/edi/models/edi.py:130
+#, python-format
+msgid ""
+"The document you are trying to import requires the Odoo `%s` application. "
+"You can install it by connecting as the administrator and opening the "
+"configuration assistant."
+msgstr ""
+"Tài liệu bạn đang cố gắng nhập vào yêu cầu ứng dụng `%s`. Bạn có thể cài nó "
+"bằng cái dùng tài khoản quản trị hoặc mở hỗ trợ cấu hình."

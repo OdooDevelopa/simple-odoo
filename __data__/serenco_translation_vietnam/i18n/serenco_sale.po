@@ -1,0 +1,249 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* serenco_sale
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-14 03:39+0000\n"
+"PO-Revision-Date: 2016-11-14 03:39+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: serenco_sale
+#: model:ir.ui.view,arch_db:serenco_sale.sale_order_line_claim_wizard
+msgid "Cancel"
+msgstr "Hủy"
+
+#. module: serenco_sale
+#: model:ir.model,name:serenco_sale.model_crm_claim
+#: model:ir.model.fields,field_description:serenco_sale.field_product_pricelist_claim_id
+#: model:ir.model.fields,field_description:serenco_sale.field_sol_claim_line_claim_id
+msgid "Claim"
+msgstr "Khiếu nại"
+
+#. module: serenco_sale
+#: model:ir.ui.view,arch_db:serenco_sale.sale_order_line_claim_wizard
+msgid "Confirm"
+msgstr "Áp dụng"
+
+#. module: serenco_sale
+#: model:ir.model.fields,field_description:serenco_sale.field_sol_claim_create_uid
+#: model:ir.model.fields,field_description:serenco_sale.field_sol_claim_line_create_uid
+msgid "Created by"
+msgstr "Tạo bởi"
+
+#. module: serenco_sale
+#: model:ir.model.fields,field_description:serenco_sale.field_sol_claim_create_date
+#: model:ir.model.fields,field_description:serenco_sale.field_sol_claim_line_create_date
+msgid "Created on"
+msgstr "Tạo lúc"
+
+#. module: serenco_sale
+#: model:ir.ui.view,arch_db:serenco_sale.sale_order_line_claim_wizard
+msgid "Customer"
+msgstr "Khách hàng"
+
+#. module: serenco_sale
+#: model:ir.actions.act_window,name:serenco_sale.action_sale_order_line_claim_wizard
+#: model:ir.ui.view,arch_db:serenco_sale.sale_order_line_claim_wizard
+msgid "Customer Voucher"
+msgstr "Voucher Khách hàng"
+
+#. module: serenco_sale
+#: model:ir.model.fields,field_description:serenco_sale.field_sol_claim_display_name
+#: model:ir.model.fields,field_description:serenco_sale.field_sol_claim_line_display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: serenco_sale
+#: model:ir.model.fields,field_description:serenco_sale.field_sol_claim_id
+#: model:ir.model.fields,field_description:serenco_sale.field_sol_claim_line_id
+msgid "ID"
+msgstr "ID"
+
+#. module: serenco_sale
+#: model:ir.model.fields,field_description:serenco_sale.field_product_pricelist_is_voucher
+msgid "Is Voucher Pricelist"
+msgstr "Bảng giá voucher"
+
+#. module: serenco_sale
+#: model:ir.model.fields,field_description:serenco_sale.field_sol_claim___last_update
+#: model:ir.model.fields,field_description:serenco_sale.field_sol_claim_line___last_update
+msgid "Last Modified on"
+msgstr "Sửa lần cuối vào"
+
+#. module: serenco_sale
+#: model:ir.model.fields,field_description:serenco_sale.field_sol_claim_line_write_uid
+#: model:ir.model.fields,field_description:serenco_sale.field_sol_claim_write_uid
+msgid "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
+
+#. module: serenco_sale
+#: model:ir.model.fields,field_description:serenco_sale.field_sol_claim_line_write_date
+#: model:ir.model.fields,field_description:serenco_sale.field_sol_claim_write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối vào"
+
+#. module: serenco_sale
+#: model:ir.model.fields,field_description:serenco_sale.field_product_template_country_manufactured_id
+msgid "Made in"
+msgstr "Sản xuất tại"
+
+#. module: serenco_sale
+#: code:addons/serenco_sale/wizard/sale_orderline_claim.py:49
+#, python-format
+msgid "More than one voucher pricelist had selected!"
+msgstr "Mỗi bảng chào giá chỉ được áp dụng 1 voucher, hiện tại bạn đang chọn nhiều hơn 1 voucher."
+
+#. module: serenco_sale
+#: model:ir.model.fields,field_description:serenco_sale.field_sol_claim_partner_id
+msgid "Partner"
+msgstr "Khách hàng"
+
+#. module: serenco_sale
+#: code:addons/serenco_sale/wizard/sale_orderline_claim.py:47
+#, python-format
+msgid "Please select a voucher pricelist to apply for this Quotation!"
+msgstr "Vui lòng chọn một voucher trước khi nhấn áp dụng."
+
+#. module: serenco_sale
+#: model:ir.model,name:serenco_sale.model_product_pricelist
+#: model:ir.model.fields,field_description:serenco_sale.field_sol_claim_line_pricelist_id
+msgid "Pricelist"
+msgstr "Bảng giá"
+
+#. module: serenco_sale
+#: model:ir.model,name:serenco_sale.model_product_product
+msgid "Product"
+msgstr "Biến thể sản phẩm"
+
+#. module: serenco_sale
+#: model:ir.model,name:serenco_sale.model_product_template
+msgid "Product Template"
+msgstr "Sản phẩm"
+
+#. module: serenco_sale
+#: model:ir.ui.view,arch_db:serenco_sale.view_order_form
+msgid "Remove Voucher"
+msgstr "Bỏ áp dụng voucher"
+
+#. module: serenco_sale
+#: model:ir.ui.view,arch_db:serenco_sale.view_order_form
+msgid "Customer Voucher"
+msgstr "Voucher của khách hàng"
+
+#. module: serenco_sale
+#: model:ir.model.fields,field_description:serenco_sale.field_sol_claim_sale_id
+msgid "Sale Order"
+msgstr "Đơn hàng"
+
+#. module: serenco_sale
+#: model:ir.model,name:serenco_sale.model_sale_order
+msgid "Sales Order"
+msgstr "Đơn hàng"
+
+#. module: serenco_sale
+#: model:ir.model,name:serenco_sale.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Dòng đơn hàng"
+
+#. module: serenco_sale
+#: model:ir.model.fields,field_description:serenco_sale.field_sol_claim_line_is_select
+msgid "Select"
+msgstr "Chọn"
+
+#. module: serenco_sale
+#: model:ir.ui.view,arch_db:serenco_sale.sale_order_line_claim_wizard
+msgid "Select a voucher and confirm to apply voucher for Quotation."
+msgstr "Chọn một voucher của khách hàng và ấn nút áp dụng để sử dụng voucher đó cho lần báo giá này."
+
+#. module: serenco_sale
+#: model:ir.model.fields,field_description:serenco_sale.field_sol_claim_line_sol_claim_id
+msgid "Sol Claim"
+msgstr "Bảng giá Voucher"
+
+#. module: serenco_sale
+#: model:ir.model.fields,field_description:serenco_sale.field_product_product_country_manufactured_id
+msgid "Sản xuất tại"
+msgstr "Sản xuất tại"
+
+#. module: serenco_sale
+#: code:addons/serenco_sale/models/crm/crm_claim.py:43
+#: model:ir.model.fields,field_description:serenco_sale.field_crm_claim_count_voucher
+#: model:ir.ui.view,arch_db:serenco_sale.crm_case_claims_form_view
+#, python-format
+msgid "Voucher"
+msgstr "Voucher"
+
+#. module: serenco_sale
+#: model:ir.model.fields,field_description:serenco_sale.field_sale_order_voucher_pricelist_id
+#: model:ir.model.fields,field_description:serenco_sale.field_sol_claim_pricelist_lines
+msgid "Voucher Pricelist"
+msgstr "Bảng giá voucher"
+
+#. module: serenco_sale
+#: code:addons/serenco_sale/models/sale/sale_order.py:50
+#, python-format
+msgid "Voucher Pricelist of Partner"
+msgstr "Bảng giá voucher của khách hàng"
+
+#. module: serenco_sale
+#: model:ir.model.fields,field_description:serenco_sale.field_crm_claim_website_message_ids
+msgid "Website Messages"
+msgstr "Tin nhắn trên Website"
+
+#. module: serenco_sale
+#: model:ir.model.fields,help:serenco_sale.field_crm_claim_website_message_ids
+msgid "Website communication history"
+msgstr "Lịch sử trò chuyện Website"
+
+#. module: serenco_sale
+#: model:ir.model,name:serenco_sale.model_sol_claim
+msgid "sol.claim"
+msgstr "Bảng giá Voucher"
+
+#. module: serenco_sale
+#: model:ir.model,name:serenco_sale.model_sol_claim_line
+msgid "sol.claim.line"
+msgstr "sol.claim.line"
+
+#. module: serenco_sale
+#: view:sale.config.settings:serenco_sale.view_sales_config
+msgid "SERENCO SALE CONFIGURATION"
+msgstr "Cấu hình bán hàng kinh doanh(SERENCO)"
+
+#. module: serenco_sale
+#: model:ir.model.fields,field_description:serenco_sale.field_sale_config_settings_module_serenco_sale_double_validation
+#: field:sale.config.settings,module_serenco_sale_double_validation:0
+msgid "Sale double validation based on discount"
+msgstr "Bật chức năng duyệt bán hàng 2 bước dựa theo giảm giá và công nợ"
+
+#. module: serenco_sale
+#: model:ir.model.fields,field_description:serenco_sale.field_sale_config_settings_module_serenco_partner_address
+#: field:sale.config.settings,module_serenco_partner_address:0
+msgid "Use vietnamese address"
+msgstr "Sử dụng kiểu địa chỉ Việt Nam"
+
+#. module: serenco_sale
+#: model:ir.model.fields,field_description:serenco_sale.field_sale_config_settings_module_serenco_sale_commerce
+#: field:sale.config.settings,module_serenco_sale_commerce:0
+msgid "Sale Commerce (SERENCO STECH)"
+msgstr "Bán hàng thương mại (SERENCO STECH)"
+
+#. module: serenco_sale
+#: model:ir.model.fields,field_description:serenco_sale.field_sale_config_settings_module_serenco_sale_empower_validation
+#: field:sale.config.settings,module_serenco_sale_empower_validation:0
+msgid "Sale User Empower to validate quotation"
+msgstr "Ủy quyền nhân viên bán hàng duyệt báo giá."
+
+#. module: serenco_sale
+#: model:ir.model.fields,field_description:serenco_sale.field_sale_config_settings_sale_empower_id
+#: field:sale.config.settings,sale_empower_id:0
+msgid "Empowered From"
+msgstr "Được ủy quyền bởi"

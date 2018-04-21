@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="view_res_partner_form_inherit" model="ir.ui.view">
+            <field name="name">view.res.partner.form.inherit</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//sheet" position="before">
+                    <header>
+                        <button name="%(action_share_profile)d" string="Share" type="action" class="oe_highlight"/>
+                    </header>
+                </xpath>
+                <field name="phone" position="before">
+                    <field name="date_birth"/>
+                </field>
+            </field>
+        </record>
+    </data>
+</odoo>

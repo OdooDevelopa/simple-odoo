@@ -1,0 +1,47 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* serenco_accounting_landed_cost_extend
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-09 07:34+0000\n"
+"PO-Revision-Date: 2017-03-09 07:34+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: serenco_accounting_landed_cost_extend
+#: model:ir.ui.view,arch_db:serenco_accounting_landed_cost_extend.view_stock_landed_cost_form_inherit
+msgid "Compute Cost lines"
+msgstr "Compute Cost lines"
+
+#. module: serenco_accounting_landed_cost_extend
+#: model:ir.ui.menu,name:serenco_accounting_landed_cost_extend.menu_acc_stock_landed_cost_type
+msgid "Landed Cost Type"
+msgstr "Loại Phí Tổn"
+
+#. module: serenco_accounting_landed_cost_extend
+#: model:ir.ui.menu,name:serenco_accounting_landed_cost_extend.menu_acc_stock_landed_cost
+msgid "Landed Costs"
+msgstr "Phí Tổn Dỡ Hàng"
+
+#. module: serenco_accounting_landed_cost_extend
+#: model:ir.model.fields,field_description:serenco_accounting_landed_cost_extend.field_stock_landed_cost_po_services_ids
+msgid "PO Services"
+msgstr "PO Services"
+
+#. module: serenco_accounting_landed_cost_extend
+#: model:ir.ui.view,arch_db:serenco_accounting_landed_cost_extend.view_stock_landed_cost_form_inherit
+msgid "Services"
+msgstr "Dịch vụ"
+
+#. module: serenco_accounting_landed_cost_extend
+#: model:ir.model,name:serenco_accounting_landed_cost_extend.model_stock_landed_cost
+msgid "Stock Landed Cost"
+msgstr "Stock Landed Cost"
+

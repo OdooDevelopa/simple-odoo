@@ -1,0 +1,619 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_promotion
+# 	* pos_restaurant_cafeshop
+# 	* pos_disocunt_all
+# 	* pos_restaurant_print_bill
+# 	* pos_restaurant_tables
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-17 08:13+0000\n"
+"PO-Revision-Date: 2014-11-25 11:07+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: vi_VN\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#. module: pos_promotion
+#: selection:pos.promotion,state:0
+msgid "Approved"
+msgstr "Duyệt"
+
+#. modules: pos_restaurant_tables, pos_restaurant_print_bill
+#. openerp-web
+#: code:addons/pos_restaurant_print_bill/static/src/js/screens.js:21
+#: code:addons/pos_restaurant_tables/static/src/js/screens.js:14
+#, python-format
+msgid "Back"
+msgstr "Trở về"
+
+#. module: pos_restaurant_print_bill
+#. openerp-web
+#: code:addons/pos_restaurant_print_bill/static/src/xml/printscreen.xml:60
+#, python-format
+msgid "Bill to Kitchen"
+msgstr "Xuất bill cho bếp"
+
+#. module: pos_promotion
+#: sql_constraint:pos.promotion.line:0
+msgid "Can not the same Product and Sequence! Please try again"
+msgstr ""
+"Không thể chấp nhận số thứ tự ưu tiên và sản phẩm bị trùng lặp, vui lòng thử "
+"lại"
+
+#. module: pos_restaurant_cafeshop
+#. openerp-web
+#: code:addons/pos_restaurant_cafeshop/static/src/xml/pos_table.xml:13
+#, python-format
+msgid "Cancel Order"
+msgstr "Hủy đơn hàng"
+
+#. module: pos_restaurant_cafeshop
+#: code:addons/pos_restaurant_cafeshop/models/pos.py:38
+#: view:pos.tables:pos_restaurant_cafeshop.view_pos_restaurant_tables_search
+#: field:pos.tables,capacity:0
+#, python-format
+msgid "Capacity"
+msgstr "Khả năng"
+
+#. module: pos_disocunt_all
+#: field:pos.order,cashier_name:0
+msgid "Cashier"
+msgstr "Thu ngân"
+
+#. module: pos_promotion
+#: field:pos.promotion,categ_ids:0
+msgid "Categories"
+msgstr "Danh mục"
+
+#. module: pos_disocunt_all
+#. openerp-web
+#: code:addons/pos_disocunt_all/static/src/xml/pos_disocunt_all.xml:7
+#, python-format
+msgid "Clear Disc"
+msgstr "Hủy chiết khấu"
+
+#. module: pos_restaurant_cafeshop
+#: field:pos.tables,company_id:0
+msgid "Company"
+msgstr "Công ty"
+
+#. modules: pos_promotion, pos_restaurant_cafeshop
+#: field:pos.promotion,create_uid:0 field:pos.promotion.line,create_uid:0
+#: field:pos.kitchen,create_uid:0 field:pos.tables,create_uid:0
+msgid "Created by"
+msgstr "Người tạo"
+
+#. modules: pos_promotion, pos_restaurant_cafeshop
+#: field:pos.promotion,create_date:0 field:pos.promotion.line,create_date:0
+#: field:pos.kitchen,create_date:0 field:pos.tables,create_date:0
+msgid "Created on"
+msgstr "Ngày tạo"
+
+#. module: pos_restaurant_cafeshop
+#: selection:pos.kitchen,state:0
+msgid "Customer Order"
+msgstr "Khách hàng"
+
+#. module: pos_restaurant_cafeshop
+#. openerp-web
+#: code:addons/pos_restaurant_cafeshop/static/src/xml/pos_table.xml:10
+#, python-format
+msgid "Dell Order"
+msgstr "Xoá đơn hàng"
+
+#. module: pos_promotion
+#. openerp-web
+#: code:addons/pos_promotion/static/src/xml/pos_promotion.xml:41
+#: code:addons/pos_promotion/static/src/xml/pos_promotion.xml:68
+#, python-format
+msgid "Development by: FEOSCO"
+msgstr "Phát triển bởi: FEOS"
+
+#. module: pos_disocunt_all
+#. openerp-web
+#: code:addons/pos_disocunt_all/static/src/xml/pos_disocunt_all.xml:6
+#, python-format
+msgid "Disc All"
+msgstr "Giảm tất cả"
+
+#. module: pos_promotion
+#: field:pos.promotion,sum:0
+msgid "Discount $/%"
+msgstr "Chiết khấu (giá trị hoặc %) đơn hàng"
+
+#. module: pos_promotion
+#. openerp-web
+#: code:addons/pos_promotion/static/src/xml/pos_promotion.xml:15
+#, python-format
+msgid "Discount By Category:"
+msgstr "Chiết khấu theo danh mục"
+
+#. module: pos_promotion
+#. openerp-web
+#: code:addons/pos_promotion/static/src/xml/pos_promotion.xml:14
+#, python-format
+msgid "Discount Promotion:"
+msgstr "Khuyến mại giảm giá"
+
+#. module: pos_restaurant_cafeshop
+#: selection:pos.kitchen,state:0
+msgid "Done"
+msgstr "Hoàn tất"
+
+#. module: pos_restaurant_print_bill
+#. openerp-web
+#: code:addons/pos_restaurant_print_bill/static/src/js/screens.js:29
+#, python-format
+msgid "Done Bill"
+msgstr "Hoàn tất bill"
+
+#. module: pos_promotion
+#: selection:pos.promotion,method:0
+msgid "Down Money"
+msgstr "Giảm tiền"
+
+#. module: pos_promotion
+#: selection:pos.promotion,state:0
+msgid "Draft"
+msgstr "Nháp"
+
+#. module: pos_promotion
+#. openerp-web
+#: code:addons/pos_promotion/static/src/xml/pos_promotion.xml:42
+#: code:addons/pos_promotion/static/src/xml/pos_promotion.xml:69
+#, python-format
+msgid "Email: webmaster@feosco.com"
+msgstr "Email: webmaster@feosco.com"
+
+#. module: pos_restaurant_cafeshop
+#. openerp-web
+#: code:addons/pos_restaurant_cafeshop/static/src/js/models.js:300
+#, python-format
+msgid ""
+"Error: The Point of Sale User must belong to the same company as the Point "
+"of Sale. You are probably trying to load the point of sale as an "
+"administrator in a multi-company setup, with the administrator account set "
+"to the wrong company."
+msgstr ""
+"Lỗi: Người dùng điểm bán hàng phải thuộc cùng công ty với Điểm bán hàng. Bạn "
+"có thể đang tải điểm bán hàng với vai trò quản trị hệ thống trong cấu hình "
+"đa công ty với tài khoản quản trị bị thiết lập sai công ty."
+
+#. module: pos_promotion
+#. openerp-web
+#: code:addons/pos_promotion/static/src/xml/pos_promotion.xml:29
+#, python-format
+msgid "Free from"
+msgstr "Miển phí từ"
+
+#. module: pos_promotion
+#. openerp-web
+#: code:addons/pos_promotion/static/src/xml/pos_promotion.xml:22
+#, python-format
+msgid "Free from:"
+msgstr "Miển phí từ: "
+
+#. module: pos_promotion
+#: field:pos.promotion,dt_from:0
+msgid "From"
+msgstr "Từ"
+
+#. module: pos_promotion
+#: view:pos.promotion:pos_promotion.view_pos_promotion_kanban
+msgid "From:"
+msgstr "Từ:"
+
+#. module: pos_promotion
+#: field:pos.promotion.line,product_to_id:0
+msgid "Gift"
+msgstr "Quà tặng"
+
+#. module: pos_promotion
+#: field:pos.promotion.line,gift_qty:0
+msgid "Gift Qty"
+msgstr "Số lượng tặng"
+
+#. module: pos_restaurant_cafeshop
+#: view:pos.tables:pos_restaurant_cafeshop.view_pos_restaurant_tables_search
+msgid "Group By..."
+msgstr "Nhóm theo..."
+
+#. module: pos_restaurant_cafeshop
+#. openerp-web
+#: code:addons/pos_restaurant_cafeshop/static/src/js/widgets.js:243
+#, python-format
+msgid "Have not line send to Kitchen"
+msgstr "Không có chi tiết nào được gửi xuống bếp"
+
+#. modules: pos_promotion, pos_restaurant_cafeshop
+#: field:pos.promotion,id:0 field:pos.promotion.line,id:0
+#: field:pos.kitchen,id:0 field:pos.tables,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: pos_restaurant_cafeshop
+#. openerp-web
+#: code:addons/pos_restaurant_cafeshop/static/src/js/screens.js:202
+#, python-format
+msgid "If you confirm this, this page re-load and please choice table again"
+msgstr ""
+"Nếu bạn chấp nhận, trang này sẽ tự động tải lại thông tin và chọn lại bàn"
+
+#. module: pos_restaurant_cafeshop
+#: field:pos.kitchen,image:0 field:pos.tables,image:0
+msgid "Image"
+msgstr "Hình ảnh"
+
+#. module: pos_restaurant_cafeshop
+#: model:ir.actions.act_window,name:pos_restaurant_cafeshop.action_view_pos_kitchen
+#: model:ir.ui.menu,name:pos_restaurant_cafeshop.menu_action_view_pos_kitchen
+#: view:pos.kitchen:pos_restaurant_cafeshop.view_pos_kitchen_filter
+#: view:pos.kitchen:pos_restaurant_cafeshop.view_pos_kitchen_form
+#: view:pos.kitchen:pos_restaurant_cafeshop.view_pos_kitchen_tree
+msgid "Kitchen"
+msgstr "Bếp"
+
+#. modules: pos_promotion, pos_restaurant_cafeshop
+#: field:pos.promotion,write_uid:0 field:pos.promotion.line,write_uid:0
+#: field:pos.kitchen,write_uid:0 field:pos.tables,write_uid:0
+msgid "Last Updated by"
+msgstr "Cập nhật cuối bởi"
+
+#. modules: pos_promotion, pos_restaurant_cafeshop
+#: field:pos.promotion,write_date:0 field:pos.promotion.line,write_date:0
+#: field:pos.kitchen,write_date:0 field:pos.tables,write_date:0
+msgid "Last Updated on"
+msgstr "Cập nhật cuối vào"
+
+#. module: pos_promotion
+#: view:pos.promotion:pos_promotion.view_pos_promotion_form
+msgid "Lines"
+msgstr "Chi tiết"
+
+#. module: pos_restaurant_cafeshop
+#. openerp-web
+#: code:addons/pos_restaurant_cafeshop/static/src/js/models.js:469
+#, python-format
+msgid "Loading"
+msgstr "Đang tải"
+
+#. module: pos_promotion
+#: field:pos.promotion,method:0
+msgid "Method"
+msgstr "Phương thức"
+
+#. module: pos_promotion
+#: view:pos.promotion:pos_promotion.view_pos_promotion_kanban
+msgid "Method:"
+msgstr "Phương thức:"
+
+#. module: pos_promotion
+#: field:pos.promotion,min_total_order:0
+msgid "Min Order"
+msgstr "Đơn hàng tối thiểu"
+
+#. module: pos_promotion
+#: field:pos.promotion.line,min_qty:0
+msgid "Min Qty"
+msgstr "Số lượng tối thiểu"
+
+#. module: pos_restaurant_cafeshop
+#. openerp-web
+#: code:addons/pos_restaurant_cafeshop/static/src/xml/pos_table.xml:8
+#, python-format
+msgid "Move Lines"
+msgstr "Tách món"
+
+#. module: pos_restaurant_cafeshop
+#. openerp-web
+#: code:addons/pos_restaurant_cafeshop/static/src/xml/pos_table.xml:11
+#, python-format
+msgid "Move Table"
+msgstr "Tách bàn"
+
+#. module: pos_promotion
+#: field:pos.promotion,multi_discount_thesame_product:0
+msgid "Multi Discount the same Product"
+msgstr "Sử dụng nhiều chương trình giảm giá trên cùng 1 sản phẩm"
+
+#. modules: pos_promotion, pos_restaurant_cafeshop
+#: field:pos.promotion,name:0 field:pos.kitchen,name:0
+msgid "Name"
+msgstr "Tên"
+
+#. module: pos_restaurant_cafeshop
+#: view:pos.kitchen:pos_restaurant_cafeshop.view_pos_kitchen_kanban
+msgid "Name:"
+msgstr "Tên:"
+
+#. module: pos_restaurant_cafeshop
+#. openerp-web
+#: code:addons/pos_restaurant_cafeshop/static/src/js/models.js:19
+#, python-format
+msgid "Order "
+msgstr "Đơn hàng"
+
+#. module: pos_promotion
+#: selection:pos.promotion,state:0
+msgid "Pending"
+msgstr "Đang chờ"
+
+#. module: pos_promotion
+#: selection:pos.promotion,method:0
+msgid "Percent (%)"
+msgstr "Phần trăm (%)"
+
+#. module: pos_restaurant_cafeshop
+#. openerp-web
+#: code:addons/pos_restaurant_cafeshop/static/src/js/widgets.js:226
+#, python-format
+msgid "Please choice line move table"
+msgstr "Vui lòng chọn chi tiết trước khi tách bàn"
+
+#. modules: pos_restaurant_cafeshop, pos_disocunt_all
+#: model:ir.model,name:pos_disocunt_all.model_pos_order
+#: model:ir.model,name:pos_restaurant_cafeshop.model_pos_order
+msgid "Point of Sale"
+msgstr "Điểm bán hàng"
+
+#. module: pos_restaurant_cafeshop
+#: view:pos.kitchen:pos_restaurant_cafeshop.view_pos_kitchen_kanban
+msgid "Price:"
+msgstr "Giá:"
+
+#. module: pos_restaurant_print_bill
+#. openerp-web
+#: code:addons/pos_restaurant_print_bill/static/src/js/screens.js:16
+#, python-format
+msgid "Print"
+msgstr "In"
+
+#. module: pos_restaurant_cafeshop
+#: selection:pos.kitchen,state:0
+msgid "Processing"
+msgstr "Đang xử lý"
+
+#. modules: pos_promotion, pos_restaurant_cafeshop
+#: field:pos.promotion.line,product_from_id:0 field:pos.kitchen,product_id:0
+msgid "Product"
+msgstr "Sản phẩm"
+
+#. module: pos_promotion
+#: selection:pos.promotion,type:0
+msgid "Product Category"
+msgstr "Danh mục sản phẩm"
+
+#. module: pos_promotion
+#: selection:pos.promotion,type:0
+msgid "Product by Product"
+msgstr "Tặng kèm sản phẩm"
+
+#. modules: pos_promotion, pos_restaurant_cafeshop
+#. openerp-web
+#: field:pos.promotion,product_ids:0
+#: code:addons/pos_restaurant_cafeshop/static/src/js/screens.js:44
+#, python-format
+msgid "Products"
+msgstr "Sản phẩm"
+
+#. module: pos_promotion
+#. openerp-web
+#: code:addons/pos_promotion/static/src/xml/pos_promotion.xml:7
+#: view:pos.promotion:pos_promotion.view_pos_promotion_form
+#: field:pos.promotion.line,promotion_id:0
+#, python-format
+msgid "Promotion"
+msgstr "Khuyến mại"
+
+#. module: pos_promotion
+#: model:ir.ui.menu,name:pos_promotion.pos_promotion_menu_root
+msgid "Promotion POS"
+msgstr "Khuyến mại POS"
+
+#. module: pos_promotion
+#. openerp-web
+#: code:addons/pos_promotion/static/src/xml/pos_promotion.xml:58
+#: code:addons/pos_promotion/static/src/xml/pos_promotion.xml:87
+#, python-format
+msgid "Promotion Total:"
+msgstr "Tổng khuyến mại:"
+
+#. module: pos_promotion
+#. openerp-web
+#: code:addons/pos_promotion/static/src/xml/pos_promotion.xml:52
+#: code:addons/pos_promotion/static/src/xml/pos_promotion.xml:80
+#, python-format
+msgid "Promotion by Category:"
+msgstr "Danh mục khuyến mại"
+
+#. module: pos_promotion
+#. openerp-web
+#: code:addons/pos_promotion/static/src/xml/pos_promotion.xml:73
+#, python-format
+msgid "Promotion by Order:"
+msgstr "Khuyến mại theo đơn hàng:"
+
+#. module: pos_promotion
+#. openerp-web
+#: code:addons/pos_promotion/static/src/xml/pos_promotion.xml:46
+#, python-format
+msgid "Promotion by Total Order:"
+msgstr "Khuyến mại theo tổng đơn hàng:"
+
+#. module: pos_promotion
+#: view:pos.promotion:pos_promotion.view_pos_promotion_search
+msgid "Promotion filter"
+msgstr "Bộ lọc"
+
+#. module: pos_promotion
+#: model:ir.actions.act_window,name:pos_promotion.action_pos_promotion
+#: model:ir.ui.menu,name:pos_promotion.pos_promotion_menu
+#: field:pos.config,promotion_ids:0
+#: view:pos.promotion:pos_promotion.view_pos_promotion_tree
+msgid "Promotions"
+msgstr "Khuyến mại"
+
+#. module: pos_promotion
+#: view:pos.config:pos_promotion.child_view_pos_config_form
+msgid "Promotions Online for this POS Table"
+msgstr "Khuyến mại cho bàn"
+
+#. module: pos_restaurant_cafeshop
+#: field:pos.kitchen,qty:0
+msgid "Quantiry"
+msgstr "Số lượng"
+
+#. module: pos_restaurant_cafeshop
+#: view:pos.kitchen:pos_restaurant_cafeshop.view_pos_kitchen_kanban
+msgid "Quantity:"
+msgstr "Số lượng:"
+
+#. module: pos_promotion
+#: selection:pos.promotion,state:0
+msgid "Reject"
+msgstr "Từ chối"
+
+#. module: pos_restaurant_cafeshop
+#: model:ir.ui.menu,name:pos_restaurant_cafeshop.pos_restaurant_menu
+msgid "Restaurant"
+msgstr "Nhà hàng"
+
+#. module: pos_restaurant_cafeshop
+#: code:addons/pos_restaurant_cafeshop/models/pos.py:34
+#: model:ir.model,name:pos_restaurant_cafeshop.model_pos_tables
+#, python-format
+msgid "Restaurant Tables for PoS orders"
+msgstr "Số bàn trong nhà hàng"
+
+#. module: pos_promotion
+#: field:pos.promotion,promotion_line_ids:0
+msgid "Rule Line Products"
+msgstr "Luật"
+
+#. module: pos_promotion
+#: field:pos.promotion,sequence:0
+msgid "Seq"
+msgstr "Trình tự"
+
+#. module: pos_promotion
+#: field:pos.promotion.line,sequence:0
+msgid "Sequence"
+msgstr "Trình tự"
+
+#. module: pos_promotion
+#: help:pos.promotion,multi_discount_thesame_product:0
+msgid ""
+"Set true if you want set multi product the same have discount, example: "
+"Product A sale quantity 10 free Product B (1), quantity 30 free product C "
+"(2), sequence (2) > sequence (1), auto get discount free Product C"
+msgstr ""
+"Thiết lập đúng nếu bạn muốn thiết lập nhiều sản phẩm có cùng chiết khấu: ví "
+"dụ: Bán 10 sản phẩm A, miễn phí sản phẩm B (1). Bán 30 sản phẩm A, miễn phí "
+"sản phẩm C (2). Trình tự (2) > Trình tự (1), tự động lấy chiết khấu miễn phí "
+"sản phẩm C"
+
+#. module: pos_restaurant_tables
+#. openerp-web
+#: code:addons/pos_restaurant_tables/static/src/xml/tables.xml:48
+#, python-format
+msgid "Show Tables"
+msgstr "Hiển thị bàn"
+
+#. modules: pos_promotion, pos_restaurant_cafeshop
+#: field:pos.promotion,state:0 field:pos.kitchen,state:0
+msgid "State"
+msgstr "Trạng thái"
+
+#. module: pos_restaurant_tables
+#. openerp-web
+#: code:addons/pos_restaurant_tables/static/src/xml/tables.xml:13
+#, python-format
+msgid "Subtotal:"
+msgstr "Tổng phụ:"
+
+#. module: pos_restaurant_cafeshop
+#. openerp-web
+#: code:addons/pos_restaurant_cafeshop/static/src/xml/pos_table.xml:9
+#, python-format
+msgid "Sync BackEnd"
+msgstr "Chuyển cho bếp"
+
+#. module: pos_restaurant_cafeshop
+#: code:addons/pos_restaurant_cafeshop/models/pos.py:51
+#: field:pos.kitchen,table_id:0
+#: view:pos.order:pos_restaurant_cafeshop.view_pos_restaurant_pos_order_filter
+#: field:pos.order,table_id:0
+#, python-format
+msgid "Table"
+msgstr "Bàn"
+
+#. module: pos_restaurant_cafeshop
+#: code:addons/pos_restaurant_cafeshop/models/pos.py:37
+#: field:pos.tables,name:0
+#, python-format
+msgid "Table Name"
+msgstr "Tên bàn"
+
+#. module: pos_restaurant_cafeshop
+#. openerp-web
+#: code:addons/pos_restaurant_cafeshop/static/src/js/screens.js:201
+#, python-format
+msgid "Table have in Ordered"
+msgstr "Bàn này đang được đặt hàng"
+
+#. module: pos_restaurant_cafeshop
+#. openerp-web
+#: code:addons/pos_restaurant_cafeshop/static/src/xml/pos_table.xml:102
+#, python-format
+msgid "Table:"
+msgstr "Bàn:"
+
+#. module: pos_restaurant_cafeshop
+#: model:ir.ui.menu,name:pos_restaurant_cafeshop.menu_open_view_pos_restaurant_tables_form_tree
+msgid "Tables"
+msgstr "Bàn"
+
+#. module: pos_restaurant_cafeshop
+#: view:pos.tables:pos_restaurant_cafeshop.view_pos_restaurant_tables_form
+#: view:pos.tables:pos_restaurant_cafeshop.view_pos_restaurant_tables_search
+#: view:pos.tables:pos_restaurant_cafeshop.view_pos_restaurant_tables_tree
+msgid "Tables Detail"
+msgstr "Chi tiết bàn"
+
+#. module: pos_restaurant_cafeshop
+#: model:ir.actions.act_window,name:pos_restaurant_cafeshop.open_view_pos_restaurant_tables_form_tree
+msgid "Tables Details"
+msgstr "Chi tiết bàn"
+
+#. module: pos_promotion
+#: field:pos.promotion,dt_to:0
+msgid "To"
+msgstr "Đến"
+
+#. module: pos_promotion
+#: view:pos.promotion:pos_promotion.view_pos_promotion_kanban
+msgid "To:"
+msgstr "Đến:"
+
+#. module: pos_promotion
+#: selection:pos.promotion,type:0
+msgid "Total Order"
+msgstr "Tổng đơn hàng"
+
+#. module: pos_promotion
+#: field:pos.promotion,type:0
+msgid "Type"
+msgstr "Loại"
+
+#. module: pos_promotion
+#: view:pos.promotion:pos_promotion.view_pos_promotion_kanban
+msgid "Type:"
+msgstr "Loại:"

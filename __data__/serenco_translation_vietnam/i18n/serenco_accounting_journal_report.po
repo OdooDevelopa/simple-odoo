@@ -1,0 +1,978 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* serenco_accounting_journal_report
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-07 08:37+0000\n"
+"PO-Revision-Date: 2017-03-07 08:37+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_account_id
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_account_id
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_line_account_id
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_journal_sale_purchase_line_doc
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_account_id
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_account_id
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_account_id
+msgid "Account"
+msgstr "Tài khoản"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_line_acdu_code
+msgid "Account Code"
+msgstr "TK"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_line_acc_credit
+msgid "Account Credit"
+msgstr "Có"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_line_acc_debit
+msgid "Account Debit"
+msgstr "Nợ"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_line_acdu_code
+msgid "Account Name"
+msgstr "Tên"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_line_account_id
+msgid "Account id"
+msgstr "TK"
+
+#. module: serenco_accounting_journal_report
+#: selection:journal.sale.purchase,target_move:0
+msgid "All Entries"
+msgstr "Tất cả bút toán"
+
+#. module: serenco_accounting_journal_report
+#: selection:journal.sale.purchase,target_move:0
+msgid "All Posted Entries"
+msgstr "Tất cả bút toán đã vào sổ"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_line_amount
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_list_vouchers_line_amount
+msgid "Amount"
+msgstr "Tổng tiền"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_line_amount_tax
+msgid "Amount Tax"
+msgstr "Thuế"
+
+
+#. module: serenco_accounting_journal_report
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_bank_book_form_view
+msgid "Bank Account"
+msgstr "Tài khoản ngân hàng"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_bank_account_ids
+msgid "Bank Accounts"
+msgstr "Tài khoản ngân hàng"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.actions.act_window,name:serenco_accounting_journal_report.action_general_bank_book_report
+#: model:ir.ui.menu,name:serenco_accounting_journal_report.menu_action_general_bank_book_form
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_bank_book_form_view
+msgid "Bank Book"
+msgstr "Sổ Tiền Gửi Ngân Hàng"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_line_bold_flag
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_line_bold_flag
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_line_bold_flag
+msgid "Bold flag"
+msgstr "Bold flag"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_cash_journal_receive_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_cash_book_form_view
+msgid "Cash Account"
+msgstr "Sổ tiền mặt"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_cash_account_ids
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_list_vouchers_cash_account_ids
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_cash_account_ids
+msgid "Cash Accounts"
+msgstr "Tài khoản tiền mặt"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.actions.act_window,name:serenco_accounting_journal_report.action_general_cash_book_report
+#: model:ir.ui.menu,name:serenco_accounting_journal_report.menu_general_cash_book_report_form
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_cash_book_form_view
+msgid "Cash Book"
+msgstr "Sổ Quỹ Tiền Mặt"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_general_ledger_line
+msgid "Cash Journal Receive Lines"
+msgstr "Chi tiết"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_company_id
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_company_id
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_journal_sale_purchase_company_id
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_company_id
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_company_id
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal_company_id
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_company_id
+msgid "Company"
+msgstr "Công ty"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_cost_goods_sold
+msgid "Cost of goods sold"
+msgstr "Giá vốn hàng bán"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_journal_sale_purchase_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_create_uid
+msgid "Created by"
+msgstr "Được tạo bởi"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_journal_sale_purchase_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_create_date
+msgid "Created on"
+msgstr "Được tạo vào"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_line_rec_amount
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_line_rec_amount
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_journal_sale_purchase_line_credit
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_list_vouchers_line_acc_credit
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_line_rec_amount
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_line_rec_amount
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal_line_credit
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_line_rec_amount
+msgid "Credit"
+msgstr "Số dư có"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_list_vouchers_line_credit_ref
+msgid "Credit Ref"
+msgstr "Mã ĐTPN Có"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_line_document_date
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_line_document_date
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_line_document_date
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_line_document_date
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_line_document_date
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal_line_doc_date
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_line_document_date
+#: selection:journal.sale.purchase,sort_selection:0
+msgid "Date"
+msgstr "Ngày tháng"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_date_end
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_date_end
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_date_end
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_list_vouchers_date_end
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_date_end
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_date_end
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal_date_end
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_date_end
+msgid "Date End"
+msgstr "Ngày kết thúc"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_date_start
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_date_start
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_date_start
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_list_vouchers_date_start
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_date_start
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_date_start
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal_date_start
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_date_start
+msgid "Date Start"
+msgstr "Ngày bắt đầu"
+
+#. module: serenco_accounting_journal_report
+#: selection:cash.journal.receive,times:0
+#: selection:general.account.detail,times:0
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_cash_journal_receive_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_account_detail_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_bank_book_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_cash_book_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_journal_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_ledger_form_view
+#: selection:report.general.bank.book,times:0
+#: selection:report.general.cash.book,times:0
+#: selection:report.general.journal,times:0
+#: selection:report.general.ledger,times:0
+msgid "Dates"
+msgstr "Ngày"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_line_pay_amount
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_line_pay_amount
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_journal_sale_purchase_line_debit
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_list_vouchers_line_acc_debit
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_line_pay_amount
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_line_pay_amount
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal_line_debit
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_line_pay_amount
+msgid "Debit"
+msgstr "Nợ"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_list_vouchers_line_debit_ref
+msgid "Debit Ref"
+msgstr "Mã ĐTPN Nợ"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_line_description
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_line_description
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_line_description
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_journal_sale_purchase_line_description
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_list_vouchers_line_description
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_line_description
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_line_description
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal_line_description
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_line_description
+msgid "Description"
+msgstr "Mô tả"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_journal_sale_purchase_form_view
+msgid "Detail"
+msgstr "Chi tiết"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.actions.act_window,name:serenco_accounting_journal_report.action_general_account_detail_report
+#: model:ir.ui.menu,name:serenco_accounting_journal_report.menu_action_general_account_detail_report
+msgid "Detailed Account"
+msgstr "Sổ Chi Tiết Tài Khoản"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.actions.act_window,name:serenco_accounting_journal_report.action_genaral_sale_detai_report
+#: model:ir.ui.menu,name:serenco_accounting_journal_report.menu_action_genaral_sale_detai_report
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_genaral_sale_detai_form_view
+msgid "Detailed Sale"
+msgstr "Sổ Chi Tiết Bán Hàng"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_line_cash_discount
+msgid "Discount-Sale off"
+msgstr "Chiết khấu - giảm giá"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_line_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_line_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_line_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_journal_sale_purchase_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_journal_sale_purchase_line_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_list_vouchers_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_list_vouchers_line_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_procedure_financial_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_procedure_general_bank_book_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_procedure_general_cash_book_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_procedure_general_journal_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_line_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_line_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal_line_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_line_display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_line_gl_date
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_line_gl_date
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_journal_sale_purchase_line_date_book
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_list_vouchers_line_document_date
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_line_gl_date
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_line_gl_date
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal_line_gl_date
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_line_gl_date
+msgid "Document Date"
+msgstr "Ngày ghi sổ"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.actions.act_window,name:serenco_accounting_journal_report.action_list_vouchers_report
+#: model:ir.ui.menu,name:serenco_accounting_journal_report.menu_action_list_vouchers_report
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_list_vouchers_form_view
+msgid "Document List"
+msgstr "Bảng Kê Chứng Từ"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_line_doc_no
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal_line_doc_no
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_line_doc_no
+msgid "Document No"
+msgstr "Số"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_line_doc_no
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_line_doc_no
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_list_vouchers_line_document_no
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_line_doc_no
+msgid "Document No."
+msgstr "Số"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_list_vouchers_line_document_type
+msgid "Document Type"
+msgstr "Loại"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_journal_sale_purchase_date_to
+msgid "End Date"
+msgstr "Ngày kết thúc"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_journal_sale_purchase_sort_selection
+msgid "Entries Sorted by"
+msgstr "Xếp theo"
+
+
+#. module: serenco_accounting_journal_report
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_cash_journal_receive_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_genaral_sale_detai_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_account_detail_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_bank_book_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_cash_book_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_journal_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_ledger_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_list_vouchers_form_view
+msgid "Filters"
+msgstr "Bộ lọc"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_fiscalyear_end
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_fiscalyear_end
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_fiscalyear_end
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_fiscalyear_end
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal_fiscalyear_end
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_fiscalyear_end
+msgid "Fiscal Year End"
+msgstr "Năm kết thúc"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_fiscalyear_start
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_fiscalyear_start
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_fiscalyear_start
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_fiscalyear_start
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal_fiscalyear_start
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_fiscalyear_start
+msgid "Fiscal Year Start"
+msgstr "Năm bắt đầu"
+
+
+#. module: serenco_accounting_journal_report
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_cash_journal_receive_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_genaral_sale_detai_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_account_detail_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_bank_book_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_cash_book_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_journal_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_ledger_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_journal_sale_purchase_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_list_vouchers_form_view
+msgid "General"
+msgstr "Tổng quát"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_general_ledger_line
+msgid "General Account Detail Lines"
+msgstr "Chi tiết"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_account_detail_form_view
+msgid "General Account Detail Report"
+msgstr "Sổ chi tiết tài khoản"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_bank_book_form_view
+msgid "General Bank Book Line"
+msgstr "Chi tiết"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_general_ledger_line
+msgid "General Book Lines"
+msgstr "Chi tiết"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_cash_journal_receive_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_genaral_sale_detai_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_cash_book_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_journal_sale_purchase_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_list_vouchers_form_view
+msgid "General Cash Book Line"
+msgstr "Chi tiết sổ quỹ tiền mặt"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.actions.act_window,name:serenco_accounting_journal_report.action_general_journal_report
+#: model:ir.ui.menu,name:serenco_accounting_journal_report.menu_general_journal_report
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_journal_form_view
+msgid "General Journal"
+msgstr "Sổ Nhật Ký Chung"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_account_detail_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_ledger_form_view
+msgid "General Journal Line"
+msgstr "Chi tiết"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_journal_tree
+msgid "General Journal Report"
+msgstr "Báo cáo Sổ nhật ký chung"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_journal_form_view
+msgid "General Journalt Line"
+msgstr "Thông tin nhật ký chung"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal_general_journalt_line
+msgid "General Journalt Lines"
+msgstr "Chi tiết"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.actions.act_window,name:serenco_accounting_journal_report.action_general_ledger_report
+#: model:ir.ui.menu,name:serenco_accounting_journal_report.menu_general_ledger_report_form
+msgid "General Ledger"
+msgstr "Sổ Cái"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_general_ledger_line
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_general_ledger_line
+msgid "General Ledger Lines"
+msgstr "Chi tiết"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_ledger_form_view
+msgid "General Ledger Report"
+msgstr "Báo cáo sổ cái"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_id
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_id
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_id
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_journal_sale_purchase_id
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_procedure_financial_id
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_procedure_general_bank_book_id
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_procedure_general_cash_book_id
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_procedure_general_journal_id
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_id
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_id
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal_id
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_id
+msgid "ID"
+msgstr "ID"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_line_invoice_date
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_list_vouchers_line_invoice_date
+msgid "Invoice Date"
+msgstr "Ngày Hóa đơn"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_line_invoice_no
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_list_vouchers_line_invoice_no
+msgid "Invoice No."
+msgstr "Số hóa đơn"
+
+#. module: serenco_accounting_journal_report
+#: selection:journal.sale.purchase,sort_selection:0
+msgid "Journal Entry Number"
+msgstr "Sổ nhật ký"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.ui.menu,name:serenco_accounting_journal_report.menu_accountting_journal_report
+msgid "Journal Reports"
+msgstr "Báo Cáo Sổ Nhật Ký"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_journal_sale_purchase_general_ledger_line
+msgid "Journal Sale Purchase Line"
+msgstr "Chi tiết"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_type_journal
+msgid "Journal Type"
+msgstr "Loại"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_journal_sale_purchase_journal_ids
+msgid "Journals"
+msgstr "Sổ nhật ký Bán"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_line___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_line___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_line___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_journal_sale_purchase___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_journal_sale_purchase_line___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_list_vouchers___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_list_vouchers_line___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_procedure_financial___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_procedure_general_bank_book___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_procedure_general_cash_book___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_procedure_general_journal___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_line___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_line___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal_line___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_line___last_update
+msgid "Last Modified on"
+msgstr "Sửa lần cuối vào"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_journal_sale_purchase_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_write_uid
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_journal_sale_purchase_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối vào"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_list_vouchers_general_ledger_line
+msgid "List Vouchers Lines"
+msgstr "Chi tiết"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_journal_sale_purchase_line_bill
+msgid "Move"
+msgstr "Dịch chuyển"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_line_move_id
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_line_move_id
+msgid "Move id"
+msgstr "Move id"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_line_move_line_id
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_line_move_line_id
+msgid "Move line id"
+msgstr "Move line id"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_net_revenue
+msgid "Net revenue"
+msgstr "Doanh thu thuần"
+
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_journal_sale_purchase_line_partner_id
+msgid "Partner"
+msgstr "Đối tác"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_period_end
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_period_end
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_period_end
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_period_end
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal_period_end
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_period_end
+msgid "Period End"
+msgstr "Kỳ kết thúc"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_period_start
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_period_start
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_period_start
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_period_start
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal_period_start
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_period_start
+msgid "Period Start"
+msgstr "Kỳ bắt đầu"
+
+#. module: serenco_accounting_journal_report
+#: selection:cash.journal.receive,times:0
+#: selection:general.account.detail,times:0
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_cash_journal_receive_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_account_detail_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_bank_book_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_cash_book_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_journal_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_ledger_form_view
+#: selection:report.general.bank.book,times:0
+#: selection:report.general.cash.book,times:0
+#: selection:report.general.journal,times:0
+#: selection:report.general.ledger,times:0
+msgid "Periods"
+msgstr "Kỳ kế toán"
+
+#. module: serenco_accounting_journal_report
+#: selection:list.vouchers,type_voucher:0
+msgid "Phiếu chi"
+msgstr "Phiếu chi"
+
+#. module: serenco_accounting_journal_report
+#: selection:list.vouchers,type_voucher:0
+msgid "Phiếu thu"
+msgstr "Phiếu thu"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_line_price_unit
+msgid "Price Unit"
+msgstr "Đơn giá"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_cash_journal_receive_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_genaral_sale_detai_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_account_detail_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_bank_book_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_cash_book_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_journal_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_ledger_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_journal_sale_purchase_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_list_vouchers_form_view
+msgid "Print"
+msgstr "In"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,help:serenco_accounting_journal_report.field_journal_sale_purchase_amount_currency
+msgid "Print Report with the currency column if the currency differs from the company currency."
+msgstr "Print Report with the currency column if the currency differs from the company currency."
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_profit
+msgid "Profit"
+msgstr "Lãi gộp"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_line_quantity
+msgid "Quantity"
+msgstr "Số lượng"
+
+#. module: serenco_accounting_journal_report
+#: selection:cash.journal.receive,type_journal:0
+msgid "Receive"
+msgstr "Receive"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_cash_journal_receive_form_view
+msgid "Receive / Payment Journal"
+msgstr "Nhật Ký Thu/Chi"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.actions.act_window,name:serenco_accounting_journal_report.action_cash_journal_receive_report
+#: model:ir.ui.menu,name:serenco_accounting_journal_report.menu_action_cash_journal_receive_report
+msgid "Reciept / Payment Journal"
+msgstr "Nhật Ký Thu/Chi"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_cash_journal_receive_tree
+msgid "Recieve / Payment Journal Report"
+msgstr "Nhật Ký Thu/Chi"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_line_acc_code
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_line_reciprocal_account
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_line_acc_code
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_line_tk_doiung
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_line_acc_code
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal_line_acc_code
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_line_acc_code
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_line_tk_doiung
+msgid "Reciprocal Account"
+msgstr "TK đối ứng"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_line_acc_code
+msgid "Reciprocal Accountg"
+msgstr "TK đối ứng"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_genaral_sale_detai_tree
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_account_detail_tree
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_bank_book_tree
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_cash_book_tree
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_ledger_tree
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_journal_sale_purchase_tree
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_list_vouchers_tree
+msgid "Regularization"
+msgstr "Kết chuyển"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_general_ledger_line
+msgid "Sale Detai Lines"
+msgstr "Chi tiết"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.actions.act_window,name:serenco_accounting_journal_report.action_journal_sale_purchase_report
+#: model:ir.ui.menu,name:serenco_accounting_journal_report.menu_action_journal_sale_purchase_report
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_journal_sale_purchase_form_view
+msgid "Sales / Purchases Journal"
+msgstr "Nhật Ký Mua/Bán Hàng"
+
+#. module: serenco_accounting_journal_report
+#: selection:cash.journal.receive,type_journal:0
+msgid "Sent"
+msgstr "Chi"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_journal_sale_purchase_date_from
+msgid "Start Date"
+msgstr "Ngày bắt đầu"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal_line_posted
+msgid "State"
+msgstr "Trạng thái"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_journal_sale_purchase_target_move
+msgid "Target Moves"
+msgstr "Loại"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_cash_journal_receive_times
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_general_account_detail_times
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_times
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_times
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal_times
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_ledger_times
+msgid "Time"
+msgstr "Thời gian"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal_line_total_credit
+msgid "Total Credit"
+msgstr "Tổng Có"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_journal_line_total_debit
+msgid "Total Debit"
+msgstr "Tổng Nợ"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_total_arises
+msgid "Total arises"
+msgstr "Cộng số phát sinh"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_list_vouchers_type_voucher
+msgid "Type Voucher"
+msgstr "Loại"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_ton
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_ton
+msgid "Tồn"
+msgstr "Tồn"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_tongtoncuoi
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_tongtoncuoi
+msgid "Tồn cuối kỳ"
+msgstr "Tồn cuối kỳ"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_tong_pschi
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_tong_pschi
+msgid "Tổng chi"
+msgstr "Tổng chi"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_bank_book_tong_psthu
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_report_general_cash_book_tong_psthu
+msgid "Tổng thu"
+msgstr "Tổng thu"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_journal_sale_purchase_amount_currency
+msgid "With Currency"
+msgstr "Với ngoại tệ"
+
+#. module: serenco_accounting_journal_report
+#: selection:cash.journal.receive,times:0
+#: selection:general.account.detail,times:0
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_cash_journal_receive_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_account_detail_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_bank_book_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_cash_book_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_journal_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_journal_report.view_general_ledger_form_view
+#: selection:report.general.bank.book,times:0
+#: selection:report.general.cash.book,times:0
+#: selection:report.general.journal,times:0
+#: selection:report.general.ledger,times:0
+msgid "Years"
+msgstr "Năm"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model,name:serenco_accounting_journal_report.model_cash_journal_receive
+msgid "cash.journal.receive"
+msgstr "Nhật ký thu chi"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model,name:serenco_accounting_journal_report.model_cash_journal_receive_line
+msgid "cash.journal.receive.line"
+msgstr "Chi tiết"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model,name:serenco_accounting_journal_report.model_genaral_sale_detai
+msgid "genaral.sale.detai"
+msgstr "Chi tiết mua hàng"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model,name:serenco_accounting_journal_report.model_genaral_sale_detai_line
+msgid "genaral.sale.detai.line"
+msgstr "Chi tiết"
+
+#. module: serenco_accounting_journal_report
+#: selection:genaral.sale.detai,type_genaral:0
+msgid "Purchase"
+msgstr "Mua"
+
+#. module: serenco_accounting_journal_report
+#: selection:genaral.sale.detai,type_genaral:0
+msgid "Sale"
+msgstr "Bán"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model.fields,field_description:serenco_accounting_journal_report.field_genaral_sale_detai_type_genaral
+msgid "Type"
+msgstr "Loại"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model,name:serenco_accounting_journal_report.model_general_account_detail
+msgid "general.account.detail"
+msgstr "Chi tiết một tài khoản"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model,name:serenco_accounting_journal_report.model_general_account_detail_line
+msgid "general.account.detail.line"
+msgstr "Chi tiết"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model,name:serenco_accounting_journal_report.model_journal_sale_purchase
+msgid "journal.sale.purchase"
+msgstr "Nhật ký mua bán hàng"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model,name:serenco_accounting_journal_report.model_journal_sale_purchase_line
+msgid "journal.sale.purchase.line"
+msgstr "Chi tiết"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model,name:serenco_accounting_journal_report.model_list_vouchers
+msgid "list.vouchers"
+msgstr "Bảng kê chứng từ"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model,name:serenco_accounting_journal_report.model_list_vouchers_line
+msgid "list.vouchers.line"
+msgstr "Chi tiết"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model,name:serenco_accounting_journal_report.model_procedure_financial
+msgid "procedure.financial"
+msgstr "procedure.financial"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model,name:serenco_accounting_journal_report.model_procedure_general_bank_book
+msgid "procedure.general.bank.book"
+msgstr "procedure.general.bank.book"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model,name:serenco_accounting_journal_report.model_procedure_general_cash_book
+msgid "procedure.general.cash.book"
+msgstr "procedure.general.cash.book"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model,name:serenco_accounting_journal_report.model_procedure_general_journal
+msgid "procedure.general.journal"
+msgstr "procedure.general.journal"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model,name:serenco_accounting_journal_report.model_report_general_bank_book
+msgid "report.general.bank.book"
+msgstr "Sổ tiền gửi ngân hàng"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model,name:serenco_accounting_journal_report.model_report_general_bank_book_line
+msgid "report.general.bank.book.line"
+msgstr "Chi tiết"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model,name:serenco_accounting_journal_report.model_report_general_cash_book
+msgid "report.general.cash.book"
+msgstr "Sổ tiền mặt"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model,name:serenco_accounting_journal_report.model_report_general_cash_book_line
+msgid "report.general.cash.book.line"
+msgstr "Chi tiết"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model,name:serenco_accounting_journal_report.model_report_general_journal
+msgid "report.general.journal"
+msgstr "Nhật ký chung"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model,name:serenco_accounting_journal_report.model_report_general_journal_line
+msgid "report.general.journal.line"
+msgstr "Chi tiết"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model,name:serenco_accounting_journal_report.model_report_general_ledger
+msgid "report.general.ledger"
+msgstr "Sổ cái"
+
+#. module: serenco_accounting_journal_report
+#: model:ir.model,name:serenco_accounting_journal_report.model_report_general_ledger_line
+msgid "report.general.ledger.line"
+msgstr "Chi tiết"
+

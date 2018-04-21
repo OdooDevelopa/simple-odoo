@@ -1,0 +1,38 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* serenco_accounting_asset_valuation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-09 07:56+0000\n"
+"PO-Revision-Date: 2017-03-09 07:56+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: serenco_accounting_asset_valuation
+#: model:ir.ui.menu,name:serenco_accounting_asset_valuation.src_menu_action_inventory_form
+msgid "Account Inventory"
+msgstr "Kiểm Kê Tài Sản"
+
+#. module: serenco_accounting_asset_valuation
+#: code:addons/serenco_accounting_asset_valuation/model/accounting_stock_inventory.py:16
+#, python-format
+msgid "By Product Category"
+msgstr "By Product Category"
+
+#. module: serenco_accounting_asset_valuation
+#: model:ir.model.fields,field_description:serenco_accounting_asset_valuation.field_stock_inventory_category_id
+msgid "Category"
+msgstr "Loại"
+
+#. module: serenco_accounting_asset_valuation
+#: model:ir.model,name:serenco_accounting_asset_valuation.model_stock_inventory
+msgid "Inventory"
+msgstr "Tồn kho"
+

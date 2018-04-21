@@ -1,0 +1,205 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* web_settings_dashboard
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-08 09:47+0000\n"
+"PO-Revision-Date: 2016-12-08 09:47+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: web_settings_dashboard
+#. openerp-web
+#: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:90
+#, python-format
+msgid "%\n"
+"                Implementation"
+msgstr "%\n"
+"                Triển khai cài đặt"
+
+#. module: web_settings_dashboard
+#. openerp-web
+#: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:56
+#, python-format
+msgid "Active User"
+msgstr "Người dùng đã kích hoạt"
+
+#. module: web_settings_dashboard
+#. openerp-web
+#: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:57
+#, python-format
+msgid "Active Users"
+msgstr "Người dùng đã kích hoạt"
+
+#. module: web_settings_dashboard
+#. openerp-web
+#: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:42
+#, python-format
+msgid "App store"
+msgstr "Kho Ứng dụng"
+
+#. module: web_settings_dashboard
+#. openerp-web
+#: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:39
+#, python-format
+msgid "Browse Apps"
+msgstr "Xem Ứng dụng"
+
+#. module: web_settings_dashboard
+#. openerp-web
+#: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:102
+#, python-format
+msgid "Browse the documentation."
+msgstr "Xem Tài liệu."
+
+#. module: web_settings_dashboard
+#: model:ir.actions.client,name:web_settings_dashboard.web_settings_dashboard_action
+#: model:ir.ui.menu,name:web_settings_dashboard.web_dashboard_menu
+msgid "Dashboard"
+msgstr "Bảng thông tin"
+
+#. module: web_settings_dashboard
+#. openerp-web
+#: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:66
+#, python-format
+msgid "Enter e-mail addresses (one per line)"
+msgstr "Nhập địa chỉ e-mail addresses (mỗi địa chỉ một dòng)"
+
+#. module: web_settings_dashboard
+#. openerp-web
+#: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:94
+#, python-format
+msgid "Follow these implementation guides to get the most out of Odoo."
+msgstr "Hãy theo các hướng dẫn triển khai cài đặt sau đây để đạt được giá trị lớn nhất mà Odoo mang lại."
+
+#. module: web_settings_dashboard
+#. openerp-web
+#: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:151
+#, python-format
+msgid "Get more features with the Enterprise Edition!"
+msgstr "Get more features with the Enterprise Edition!"
+
+#. module: web_settings_dashboard
+#. openerp-web
+#: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:133
+#, python-format
+msgid "Help us spread the word: Share Odoo's awesomeness with your friends!"
+msgstr "Giúp chúng tôi phổ biến: Chia sẻ sự tuyệt vời của Odoo với bạn bè của bạn!"
+
+#. module: web_settings_dashboard
+#. openerp-web
+#: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:31
+#, python-format
+msgid "Installed App"
+msgstr "Ứng dụng đã cài"
+
+#. module: web_settings_dashboard
+#. openerp-web
+#: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:32
+#, python-format
+msgid "Installed Apps"
+msgstr "Ứng dụng đã cài"
+
+#. module: web_settings_dashboard
+#. openerp-web
+#: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:67
+#, python-format
+msgid "Invite"
+msgstr "Mời"
+
+#. module: web_settings_dashboard
+#. openerp-web
+#: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:65
+#, python-format
+msgid "Invite new users:"
+msgstr "Mời người dùng mới:"
+
+#. module: web_settings_dashboard
+#. openerp-web
+#: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:61
+#, python-format
+msgid "Manage access rights"
+msgstr "Quản lý quyền truy cập"
+
+#. module: web_settings_dashboard
+#. openerp-web
+#: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:101
+#, python-format
+msgid "Need more help?"
+msgstr "Cần thêm sự trợ giúp?"
+
+#. module: web_settings_dashboard
+#. openerp-web
+#: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:34
+#, python-format
+msgid "No app installed"
+msgstr "Chưa có ứng dụng nào được cài đặt"
+
+#. module: web_settings_dashboard
+#. openerp-web
+#: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:150
+#, python-format
+msgid "Odoo Enterprise"
+msgstr "Odoo Enterprise"
+
+#. module: web_settings_dashboard
+#. openerp-web
+#: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:73
+#, python-format
+msgid "Pending invitations:"
+msgstr "Các lời mời đang treo:"
+
+#. module: web_settings_dashboard
+#. openerp-web
+#: code:addons/web_settings_dashboard/static/src/js/dashboard.js:107
+#, python-format
+msgid "Please provide valid email addresses"
+msgstr "Hãy cung cấp địa chỉ email hợp lệ"
+
+#. module: web_settings_dashboard
+#. openerp-web
+#: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:131
+#, python-format
+msgid "Social Share"
+msgstr "Chia sẻ lên mạng xã hội"
+
+#. module: web_settings_dashboard
+#. openerp-web
+#: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:43
+#, python-format
+msgid "Theme store"
+msgstr "Kho Theme"
+
+#. module: web_settings_dashboard
+#. openerp-web
+#: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:154
+#, python-format
+msgid "Upgrade Now"
+msgstr "Cập nhật ngay"
+
+#. module: web_settings_dashboard
+#: model:ir.model,name:web_settings_dashboard.model_res_users
+msgid "Users"
+msgstr "Người dùng"
+
+#. module: web_settings_dashboard
+#. openerp-web
+#: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:109
+#, python-format
+msgid "You need to install some apps first."
+msgstr "Bạn cần cài đặt một số ứng dụng trước."
+
+#. module: web_settings_dashboard
+#. openerp-web
+#: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:79
+#, python-format
+msgid "more"
+msgstr "Thêm"
+

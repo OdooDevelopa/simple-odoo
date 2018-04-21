@@ -1,0 +1,105 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_crm_partner_assign
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0rc1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-14 13:09+0000\n"
+"PO-Revision-Date: 2014-12-03 13:21+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: vi_VN\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#. module: website_crm_partner_assign
+#: code:addons/website_crm_partner_assign/controllers/main.py:57
+#, python-format
+msgid "All Categories"
+msgstr "Tất cả danh mục"
+
+#. module: website_crm_partner_assign
+#: code:addons/website_crm_partner_assign/controllers/main.py:76
+#, python-format
+msgid "All Countries"
+msgstr "Tất cả quốc gia"
+
+#. module: website_crm_partner_assign
+#: view:website:website_crm_partner_assign.index
+msgid "Contact a reseller"
+msgstr "Liên hệ nhà bán lẻ"
+
+#. module: website_crm_partner_assign
+#: view:website:website_crm_partner_assign.index
+msgid "Filter by Country"
+msgstr "Bộ lọc theo quốc gia"
+
+#. module: website_crm_partner_assign
+#: view:website:website_crm_partner_assign.index
+msgid "Filter by Grade"
+msgstr "Lọc theo Thứ hạng"
+
+#. module: website_crm_partner_assign
+#: view:website:website_crm_partner_assign.index
+msgid "Looking For a Local Store?"
+msgstr "Tìm cửa hàng địa phương?"
+
+#. module: website_crm_partner_assign
+#: view:website:website_crm_partner_assign.index
+msgid "No result found"
+msgstr "Không tìm thấy kết quả"
+
+#. module: website_crm_partner_assign
+#: view:website:website_crm_partner_assign.partner
+msgid "Our Partners"
+msgstr "Đối tác của tôi"
+
+#. module: website_crm_partner_assign
+#: view:website:website_partner.partner_detail
+msgid "Partner"
+msgstr "Đối tác"
+
+#. module: website_crm_partner_assign
+#: view:website:website_crm_partner_assign.index
+msgid "Partners"
+msgstr "Đối tác"
+
+#. module: website_crm_partner_assign
+#: field:res.partner.grade,website_published:0
+msgid "Published On Website"
+msgstr "Đã xuất bản trên website"
+
+#. module: website_crm_partner_assign
+#: view:website:website_crm_partner_assign.references_block
+msgid "References"
+msgstr "Tham chiếu"
+
+#. module: website_crm_partner_assign
+#: view:website:website.layout view:website:website_crm_partner_assign.layout
+msgid "Resellers"
+msgstr "Nhà bán lẻ"
+
+#. module: website_crm_partner_assign
+#: view:website:website_crm_partner_assign.index
+msgid "Search"
+msgstr "Tìm"
+
+#. module: website_crm_partner_assign
+#: view:website:website_crm_partner_assign.index
+msgid "World Map"
+msgstr "Bản đồ thế giới"
+
+#. module: website_crm_partner_assign
+#: view:website:website_crm_partner_assign.index
+msgid "pull-left"
+msgstr "Kéo-trái"
+
+#. module: website_crm_partner_assign
+#: view:website:website_crm_partner_assign.index
+msgid "reference(s)"
+msgstr "tham chiếu"

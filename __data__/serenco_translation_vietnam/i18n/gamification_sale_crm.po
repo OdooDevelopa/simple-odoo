@@ -1,0 +1,115 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* gamification_sale_crm
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0rc1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-14 13:09+0000\n"
+"PO-Revision-Date: 2014-11-19 14:38+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: vi_VN\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#. module: gamification_sale_crm
+#: model:gamification.goal.definition,name:gamification_sale_crm.definition_crm_nbr_customer_refunds
+msgid "Customer Refunds"
+msgstr "Hoàn trả khách hàng"
+
+#. module: gamification_sale_crm
+#: model:gamification.goal.definition,name:gamification_sale_crm.definition_crm_lead_delay_close
+msgid "Days to Close a Deal"
+msgstr "Ngày cần đóng giao dịch"
+
+#. module: gamification_sale_crm
+#: model:gamification.challenge,name:gamification_sale_crm.challenge_crm_marketing
+msgid "Lead Acquisition"
+msgstr "Đầu mối đã đạt"
+
+#. module: gamification_sale_crm
+#: model:gamification.goal.definition,name:gamification_sale_crm.definition_crm_nbr_call
+msgid "Logged Calls"
+msgstr "Cuộc gọi đã ghi"
+
+#. module: gamification_sale_crm
+#: model:gamification.challenge,name:gamification_sale_crm.challenge_crm_sale
+msgid "Monthly Sales Targets"
+msgstr "Chỉ tiêu kinh doanh hàng tháng"
+
+#. module: gamification_sale_crm
+#: model:gamification.goal.definition,name:gamification_sale_crm.definition_crm_nbr_new_leads
+msgid "New Leads"
+msgstr "Đầu mối mới"
+
+#. module: gamification_sale_crm
+#: model:gamification.goal.definition,name:gamification_sale_crm.definition_crm_nbr_new_opportunities
+msgid "New Opportunities"
+msgstr "Cơ hội mới"
+
+#. module: gamification_sale_crm
+#: model:gamification.goal.definition,name:gamification_sale_crm.definition_crm_nbr_sale_order_created
+msgid "New Sales Orders"
+msgstr "Đơn hàng mới"
+
+#. module: gamification_sale_crm
+#: model:gamification.goal.definition,name:gamification_sale_crm.definition_crm_nbr_paid_sale_order
+msgid "Paid Sales Orders"
+msgstr "Đơn hàng đã thanh toán"
+
+#. module: gamification_sale_crm
+#: model:gamification.goal.definition,name:gamification_sale_crm.definition_crm_lead_delay_open
+msgid "Time to Qualify a Lead"
+msgstr "Thời gian để phân loại đầu mối"
+
+#. module: gamification_sale_crm
+#: model:gamification.goal.definition,name:gamification_sale_crm.definition_crm_tot_customer_refunds
+msgid "Total Customer Refunds"
+msgstr "Tổng hoàn trả khách hàng"
+
+#. module: gamification_sale_crm
+#: model:gamification.goal.definition,name:gamification_sale_crm.definition_crm_tot_invoices
+msgid "Total Invoiced"
+msgstr "Tổng đã lập hóa đơn"
+
+#. module: gamification_sale_crm
+#: model:gamification.goal.definition,name:gamification_sale_crm.definition_crm_tot_paid_sale_order
+msgid "Total Paid Sales Orders"
+msgstr "Tổng đơn hàng đã trả"
+
+#. module: gamification_sale_crm
+#: model:gamification.goal.definition,suffix:gamification_sale_crm.definition_crm_nbr_call
+msgid "calls"
+msgstr "Cuộc gọi"
+
+#. module: gamification_sale_crm
+#: model:gamification.goal.definition,suffix:gamification_sale_crm.definition_crm_lead_delay_close
+#: model:gamification.goal.definition,suffix:gamification_sale_crm.definition_crm_lead_delay_open
+msgid "days"
+msgstr "ngày"
+
+#. module: gamification_sale_crm
+#: model:gamification.goal.definition,suffix:gamification_sale_crm.definition_crm_nbr_customer_refunds
+msgid "invoices"
+msgstr "hóa đơn"
+
+#. module: gamification_sale_crm
+#: model:gamification.goal.definition,suffix:gamification_sale_crm.definition_crm_nbr_new_leads
+msgid "leads"
+msgstr "đầu mối"
+
+#. module: gamification_sale_crm
+#: model:gamification.goal.definition,suffix:gamification_sale_crm.definition_crm_nbr_new_opportunities
+msgid "opportunities"
+msgstr "cơ hội"
+
+#. module: gamification_sale_crm
+#: model:gamification.goal.definition,suffix:gamification_sale_crm.definition_crm_nbr_paid_sale_order
+#: model:gamification.goal.definition,suffix:gamification_sale_crm.definition_crm_nbr_sale_order_created
+msgid "orders"
+msgstr "đơn hàng"

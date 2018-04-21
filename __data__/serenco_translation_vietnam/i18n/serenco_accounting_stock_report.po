@@ -1,0 +1,1121 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* serenco_accounting_stock_report
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-22 15:52+0000\n"
+"PO-Revision-Date: 2017-05-22 15:52+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/stock_card_report.py:290
+#: code:addons/serenco_accounting_stock_report/report/stock_general_ioi_report.py:627
+#: code:addons/serenco_accounting_stock_report/report/stock_material_detail_report.py:330
+#, python-format
+msgid " month "
+msgstr " tháng "
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:182
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:138
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:230
+#, python-format
+msgid " năm "
+msgstr " năm "
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:181
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:137
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:229
+#, python-format
+msgid " tháng "
+msgstr " tháng "
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/stock_card_report.py:291
+#: code:addons/serenco_accounting_stock_report/report/stock_general_ioi_report.py:628
+#: code:addons/serenco_accounting_stock_report/report/stock_material_detail_report.py:331
+#, python-format
+msgid " year "
+msgstr " năm "
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:82
+#, python-format
+msgid "(Ban hành theo Thông tư số 200/2014/TT-BTC"
+msgstr "(Ban hành theo Thông tư số 200/2014/TT-BTC"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:185
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:187
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:142
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:144
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:233
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:235
+#, python-format
+msgid "(Ký, họ tên)"
+msgstr "(Ký, họ tên)"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:191
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:148
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:239
+#, python-format
+msgid "(Ký, họ tên, đóng dấu)"
+msgstr "(Ký, họ tên, đóng dấu)"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:180
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:228
+#, python-format
+msgid "- Ngày mở sổ: %s"
+msgstr "- Ngày mở sổ: %s"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_account_common_report_account_id
+msgid "Account"
+msgstr "Tài khoản"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model,name:serenco_accounting_stock_report.model_account_common_report
+msgid "Account Common Report"
+msgstr "Account Common Report"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/wizard/stock_card.py:283
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.account_stock_card_tree_view
+#, python-format
+msgid "Account Stock Card"
+msgstr "Thẻ kho"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.account_stock_general_ioi_tree_view
+msgid "Account Stock General"
+msgstr "Tổng hợp NXT kho"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/wizard/stock_material_detail.py:125
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.account_stock_material_detail_tree_view
+#, python-format
+msgid "Account Stock Material Detail"
+msgstr "Sổ chi tiết VTHH"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_amount_end
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_detail_amount_end
+msgid "Amount End"
+msgstr "Giá trị cuối kỳ"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_line_detail_amount_in
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_amount_in
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_detail_amount_in
+msgid "Amount In"
+msgstr "Thành tiền nhập"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_line_amount_inventory
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_line_detail_amount_inventory
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_amount_inventory
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_detail_amount_inventory
+msgid "Amount Inventory"
+msgstr "Thành tiền tồn"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_line_detail_amount_out
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_amount_out
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_detail_amount_out
+msgid "Amount Out"
+msgstr "Thành tiền xuất"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_product_product_asset_category_id
+msgid "Asset Type"
+msgstr "Nhóm Tài Sản"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/stock_general_ioi_report.py:47
+#, python-format
+msgid "BC XNK"
+msgstr "BC XNK"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_product_product_can_be_expensed
+msgid "Can be expensed"
+msgstr "Có thể là khoản chi tiêu"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.stock_card_view
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.stock_general_ioi_view
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.stock_meterial_detail_view
+msgid "Cancel"
+msgstr "Hủy"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:95
+#, python-format
+msgid "Chứng từ"
+msgstr "Chứng từ"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_detail_product_code
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_stock_move_rlt_product_code
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.product_stock_general_ioi_tree_view
+msgid "Code"
+msgstr "Mã"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_company_id
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_ioi_company_id
+msgid "Company"
+msgstr "Công ty"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_line_detail_account_contra
+msgid "Contra Account"
+msgstr "Tài khoản đối ứng"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_store_procedure_stock_card_create_uid
+msgid "Created by"
+msgstr "Được tạo bởi"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_store_procedure_stock_card_create_date
+msgid "Created on"
+msgstr "Được tạo vào"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:84
+#, python-format
+msgid "Cuối kỳ"
+msgstr "Cuối kỳ"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:200
+#, python-format
+msgid "Cộng"
+msgstr "Cộng"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:166
+#, python-format
+msgid "Cộng cuối kỳ"
+msgstr "Cộng cuối kỳ"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:123
+#, python-format
+msgid "Cộng nhóm: %s"
+msgstr "Cộng nhóm: %s"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_account_common_report_date_start
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_date_start
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_ioi_date_start
+msgid "Date From"
+msgstr "Từ ngày"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_account_common_report_date_end
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_date_end
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_ioi_date_end
+msgid "Date To"
+msgstr "Đến ngày"
+
+#. module: serenco_accounting_stock_report
+#: selection:account.common.report,slc_time_type:0
+#: selection:inventory.stock.card,slc_time_type:0
+#: selection:inventory.stock.general.ioi,slc_time_type:0
+msgid "Day"
+msgstr "Ngày"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/stock_card_report.py:290
+#: code:addons/serenco_accounting_stock_report/report/stock_general_ioi_report.py:627
+#: code:addons/serenco_accounting_stock_report/report/stock_material_detail_report.py:330
+#, python-format
+msgid "Day "
+msgstr "Ngày "
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_product_product_deferred_revenue_category_id
+msgid "Deferred Revenue Type"
+msgstr "Deferred Revenue Type"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_line_detail_description
+msgid "Description"
+msgstr "Mô tả"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.inventory_stock_general_ioi_from_view
+msgid "Detail"
+msgstr "Chi tiết"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_line_detail_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_line_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_detail_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_ioi_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_store_procedure_stock_card_display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:84
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:98
+#, python-format
+msgid "Diễn giải"
+msgstr "Diễn giải"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_line_detail_doc_date
+msgid "Document Date"
+msgstr "Ngày ghi sổ"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_line_detail_doc_no
+msgid "Document No"
+msgstr "Số"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_account_common_report_stop_period
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_stop_period_id
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_ioi_stop_period_id
+msgid "End Periods"
+msgstr "Kỳ kết thúc"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_product_product_expense_policy
+msgid "Expense Invoice Policy"
+msgstr "Chính sách hoá đơn chi phí"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.inventory_stock_card_from_view
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.inventory_stock_general_ioi_from_view
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.stock_card_view
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.stock_general_ioi_view
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.stock_meterial_detail_view
+msgid "Filter"
+msgstr "Bộ lọc"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_account_common_report_fiscalyear_start_id
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_fiscalyear_start_id
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_ioi_fiscalyear_start_id
+msgid "Fiscal Year start"
+msgstr "Năm bắt đầu"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_account_common_report_fiscalyear_stop_id
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_fiscalyear_stop_id
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_ioi_fiscalyear_stop_id
+msgid "Fiscal Year stop"
+msgstr "Năm kết thúc"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.inventory_stock_general_ioi_from_view
+msgid "General In/Out Inventory"
+msgstr "Tổng hợp nhập xuất tồn kho"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.inventory_stock_card_from_view
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.inventory_stock_general_ioi_from_view
+msgid "Get Data"
+msgstr "Lấy Dữ Liệu"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:112
+#, python-format
+msgid "Ghi chú"
+msgstr "Ghi chú"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:77
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:80
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:83
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:86
+#, python-format
+msgid "Giá trị"
+msgstr "Giá trị"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:189
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:146
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:237
+#, python-format
+msgid "Giám đốc"
+msgstr "Giám đốc"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_account_common_report_slc_group
+msgid "Group by"
+msgstr "Nhóm theo"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_store_procedure_stock_card_id
+msgid "ID"
+msgstr "ID"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,help:serenco_accounting_stock_report.field_product_product_expense_policy
+msgid "If you invoice at cost, the expense will be invoiced on the sale order at the cost of the analytic line;if you invoice at sales price, the price of the product will be used instead."
+msgstr "Nếu bạn xuất hóa đơn theo giá thành, chi phí sẽ được xuất hóa đơn trên lệnh bán hàng theo chi phí của dòng phát sinh kế toán quản trị; Nếu bạn xuất hóa đơn theo giá bán, giá của sản phẩm sẽ được sử dụng thay thế"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_account_common_report_is_location_child
+msgid "Include child location"
+msgstr "Bao gồm kho con"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.stock_card_view
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.stock_general_ioi_view
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.stock_meterial_detail_view
+msgid "Information"
+msgstr "Thông tin"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_line_detail_qty_inventory
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_line_qty_inventory
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_detail_qty_inventory
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_qty_inventory
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_product_product_inventory
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_stock_move_inventory
+msgid "Inventory"
+msgstr "Tồn kho"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_inventory_card_lines
+msgid "Inventory Card Line"
+msgstr "Inventory Card Line"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_inventory_card_detail_lines
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_ioi_inventory_detail_lines
+msgid "Inventory Card Line Detai"
+msgstr "Inventory Card Line Detai"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.inventory_stock_card_from_view
+msgid "Inventory Card lines"
+msgstr "Inventory Card lines"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.inventory_stock_card_from_view
+msgid "Inventory Card lines Detail"
+msgstr "Inventory Card lines Detail"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.inventory_stock_general_ioi_from_view
+msgid "Inventory Detail Lines"
+msgstr "Inventory Detail Lines"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_line_qty_final
+msgid "Inventory Final"
+msgstr "Inventory Final"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.inventory_stock_general_ioi_from_view
+msgid "Inventory General lines"
+msgstr "Inventory General lines"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_ioi_inventory_general_lines
+msgid "Inventory Stock General"
+msgstr "Tổng hợp NXT kho"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.inventory_stock_general_ioi_from_view
+msgid "Inventory Stock General IOI"
+msgstr "Tổng hợp NXT kho"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.inventory_stock_general_ioi_tree_view
+msgid "Inventory Stock General IOI Tree"
+msgstr "Tổng hợp NXT kho Tree"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_product_product_first_inventory
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_stock_move_first_inventory
+msgid "Inventory first"
+msgstr "Tồn đầu kỳ"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_product_product_inventory_price
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_stock_move_inventory_price
+msgid "Inventory price"
+msgstr "Giá trị tồn kho"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_product_product_first_price
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_stock_move_first_price
+msgid "Inventory price first"
+msgstr "Giá trị tồn đầu kỳ"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:90
+#, python-format
+msgid "Ký xác nhận của kế toán"
+msgstr "Ký xác nhận của kế toán"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:186
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:143
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:234
+#, python-format
+msgid "Kế toán trưởng"
+msgstr "Kế toán trưởng"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_product_product_landed_cost_ok
+msgid "Landed Costs"
+msgstr "Landed Costs"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_line___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_line_detail___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_detail___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_ioi___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_store_procedure_stock_card___last_update
+msgid "Last Modified on"
+msgstr "Sửa lần cuối vào"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_store_procedure_stock_card_write_uid
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_store_procedure_stock_card_write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối vào"
+
+#. module: serenco_accounting_stock_report
+#: selection:account.common.report,slc_group:0
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_account_common_report_location_id
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_location_id
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_ioi_location_id
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_ioi_location_ids
+msgid "Location"
+msgstr "Địa điểm"
+
+#. module: serenco_accounting_stock_report
+#: selection:account.common.report,slc_group:0
+msgid "Location and product category"
+msgstr "Danh mục SP & Địa điểm"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model,name:serenco_accounting_stock_report.model_store_procedure_stock_card
+msgid "Manage store procedure stock card"
+msgstr "Manage store procedure stock card"
+
+#. module: serenco_accounting_stock_report
+#: selection:account.common.report,slc_time_type:0
+#: selection:inventory.stock.card,slc_time_type:0
+#: selection:inventory.stock.general.ioi,slc_time_type:0
+msgid "Month"
+msgstr "Tháng"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:72
+#, python-format
+msgid "Mã hàng"
+msgstr "Mã hàng"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:136
+#, python-format
+msgid "Mã hàng: %s"
+msgstr "Mã hàng: %s"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:91
+#, python-format
+msgid "Mã kho: %s"
+msgstr "Mã kho: %s"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:111
+#, python-format
+msgid "Mã số: %s"
+msgstr "Mã số: %s"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:80
+#, python-format
+msgid "Mẫu số: S10-DN"
+msgstr "Mẫu số: S10-DN"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_name
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_ioi_name
+msgid "Name"
+msgstr "Tên"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.inventory_stock_card_from_view
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.inventory_stock_general_ioi_from_view
+msgid "Name:"
+msgstr "Tên:"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:181
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:137
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:229
+#, python-format
+msgid "Ngày "
+msgstr "Ngày "
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:84
+#, python-format
+msgid "Ngày 22/12/2014 của Bộ Tài chính)"
+msgstr "Ngày 22/12/2014 của Bộ Tài chính)"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:85
+#, python-format
+msgid "Ngày nhập, xuất"
+msgstr "Ngày nhập, xuất"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:80
+#, python-format
+msgid "Ngày, tháng"
+msgstr "Ngày, tháng"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:140
+#, python-format
+msgid "Người lập biểu"
+msgstr "Người lập biểu"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:82
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:87
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:103
+#, python-format
+msgid "Nhập"
+msgstr "Nhập"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:78
+#, python-format
+msgid "Nhập kho"
+msgstr "Nhập kho"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_account_common_report_is_only_quantity
+msgid "Only quantity"
+msgstr "Chỉ hiển thị SL"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/wizard/stock_card.py:151
+#, python-format
+msgid "Please: Date From < Date To \n"
+"Error:                                 Date From %s > Date To %s"
+msgstr "Please: Date From < Date To \n"
+"Error:                                 Date From %s > Date To %s"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_line_detail_price
+msgid "Price"
+msgstr "Giá"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model,name:serenco_accounting_stock_report.model_product_product
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_account_common_report_product_id
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_product_ids
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_ioi_product_ids
+msgid "Product"
+msgstr "Sản phẩm"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_stock_move_rlt_product_category
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.product_stock_general_ioi_tree_view
+msgid "Product Category"
+msgstr "Nhóm sản phẩm"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.product_stock_general_ioi_tree_view
+msgid "Product Stock General"
+msgstr "Tổng hợp NXT kho"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.actions.act_window,name:serenco_accounting_stock_report.product_stock_move_general_normal_action_tree
+msgid "Product Stock Move"
+msgstr "Product Stock Move"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/wizard/stock_general_ioi.py:189
+#, python-format
+msgid "Product Warehouse General"
+msgstr "Tổng hợp NXT kho"
+
+#. module: serenco_accounting_stock_report
+#: selection:account.common.report,slc_group:0
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_account_common_report_categ_id
+msgid "Product category"
+msgstr "Nhóm sản phẩm"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_detail_qty_end
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_qty_end
+msgid "Quantity End"
+msgstr "Quantity End"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_line_detail_qty_in
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_line_qty_in
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_detail_qty_in
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_qty_in
+msgid "Quantity In Stock"
+msgstr "Quantity In Stock"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_line_detail_qty_out
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_line_qty_out
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_detail_qty_out
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_qty_out
+msgid "Quantity Out Stock"
+msgstr "Quantity Out Stock"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:37
+#: model:ir.actions.report.xml,name:serenco_accounting_stock_report.report_inventory_stock_card
+#, python-format
+msgid "Report Inventory Stock Card"
+msgstr "Thẻ kho"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/stock_card_report.py:47
+#, python-format
+msgid "Report Stock Card"
+msgstr "Báo cáo thẻ kho"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.actions.report.xml,name:serenco_accounting_stock_report.report_stock_card
+msgid "Report Stock Card Report"
+msgstr "Báo cáo thẻ kho"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.actions.report.xml,name:serenco_accounting_stock_report.report_inventory_stock_general_ioi
+#: model:ir.actions.report.xml,name:serenco_accounting_stock_report.report_stock_general_ioi
+msgid "Report Stock General In/Out Inventory"
+msgstr "Báo cáo tổng hợp NXT kho"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:36
+#: code:addons/serenco_accounting_stock_report/report/stock_material_detail_report.py:46
+#: model:ir.actions.report.xml,name:serenco_accounting_stock_report.report_inventory_material_detai
+#: model:ir.actions.report.xml,name:serenco_accounting_stock_report.report_stock_material_detail
+#, python-format
+msgid "Report Stock Material Detail"
+msgstr "Báo cáo sổ chi tiết VTHH"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,help:serenco_accounting_stock_report.field_product_product_can_be_expensed
+msgid "Specify whether the product can be selected in an HR expense."
+msgstr "Cho phép sản phẩm có thể được chọn khi kê khai chi tiêu nhân sự (ở phân hệ HR Expense)"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_product_product_split_method
+msgid "Split Method"
+msgstr "Phương thức phân bổ"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_account_common_report_start_period
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_start_period_id
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_ioi_start_period_id
+msgid "Star Periods"
+msgstr "Kỳ bắt đầu"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.ui.menu,name:serenco_accounting_stock_report.menu_stock_parent_report
+msgid "Stock"
+msgstr "Stock"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.actions.act_window,name:serenco_accounting_stock_report.action_stock_card
+#: model:ir.ui.menu,name:serenco_accounting_stock_report.menu_stock_card
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.inventory_stock_card_from_view
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.stock_card_view
+msgid "Stock Card"
+msgstr "Thẻ Kho"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.actions.act_window,name:serenco_accounting_stock_report.action_inventory_stock_card
+#: model:ir.ui.menu,name:serenco_accounting_stock_report.menu_inventory_stock_card
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.inventory_stock_card_from_view
+msgid "Stock Card/Material Detail"
+msgstr "Thẻ kho/Chi tiết VTHH"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.inventory_stock_card_tree_view
+msgid "Stock Card/Material Detail Tree"
+msgstr "Thẻ kho/Chi tiết VTHH Tree"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:35
+#, python-format
+msgid "Stock General In Out Inventory"
+msgstr "Tổng hợp NXT kho"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.actions.act_window,name:serenco_accounting_stock_report.action_inventory_stock_general_ioi
+#: model:ir.ui.menu,name:serenco_accounting_stock_report.menu_inventory_stock_general_ioi
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.stock_general_ioi_view
+msgid "Stock General In/Out Inventory"
+msgstr "Tổng hợp NXT"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.actions.act_window,name:serenco_accounting_stock_report.action_stock_general_ioi
+msgid "Stock General Input-Output-Inventory"
+msgstr "Tổng hợp NXT"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.ui.menu,name:serenco_accounting_stock_report.menu_stock_general_ioi
+msgid "Stock In/Out Inventory"
+msgstr "Tổng Hợp NXT Kho"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_product_product_stock_in
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_stock_move_stock_in
+msgid "Stock Incoming"
+msgstr "Số lượng nhập"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.ui.menu,name:serenco_accounting_stock_report.menu_stock_material_detail
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.inventory_stock_card_from_view
+msgid "Stock Material Detail"
+msgstr "Sổ Chi Tiết VTHH"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.actions.act_window,name:serenco_accounting_stock_report.action_stock_meterial_detail
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.stock_meterial_detail_view
+msgid "Stock Meterial Detail"
+msgstr "Stock Meterial Detail"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.actions.act_window,name:serenco_accounting_stock_report.product_stock_move_normal_action_tree
+#: model:ir.model,name:serenco_accounting_stock_report.model_stock_move
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_product_product_stock_move_id
+msgid "Stock Move"
+msgstr "Dịch chuyển kho"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_product_product_stock_move_ids
+msgid "Stock Moves"
+msgstr "Dịch chuyển kho"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_product_product_stock_out
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_stock_move_stock_out
+msgid "Stock Outgoing"
+msgstr "Số lượng xuất"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_product_product_stock_price_in
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_stock_move_stock_price_in
+msgid "Stock price in"
+msgstr "Giá trị nhập"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_product_product_stock_price_out
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_stock_move_stock_price_out
+msgid "Stock price out"
+msgstr "Giá trị xuất"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:79
+#, python-format
+msgid "Số TT"
+msgstr "Số TT"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:144
+#, python-format
+msgid "Số dư đầu kỳ"
+msgstr "Số dư đầu kỳ"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:96
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:97
+#, python-format
+msgid "Số hiệu"
+msgstr "Số hiệu"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:81
+#, python-format
+msgid "Số hiệu chứng từ"
+msgstr "Số hiệu chứng từ"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:86
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:76
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:79
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:82
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:85
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:104
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:107
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:110
+#, python-format
+msgid "Số lượng"
+msgstr "Số lượng"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:123
+#, python-format
+msgid "Số tồn đầu kỳ"
+msgstr "Số tồn đầu kỳ"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:87
+#, python-format
+msgid "SỔ CHI TIẾT VẬT LIỆU, DỤNG CỤ (SẢN PHẨM, HÀNG HÓA)"
+msgstr "SỔ CHI TIẾT VẬT LIỆU, DỤNG CỤ (SẢN PHẨM, HÀNG HÓA)"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:76
+#, python-format
+msgid "THẺ KHO (SỔ KHO)"
+msgstr "THẺ KHO (SỔ KHO)"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:105
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:108
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:111
+#, python-format
+msgid "Thành tiền"
+msgstr "Thành tiền"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:184
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:232
+#, python-format
+msgid "Thủ kho"
+msgstr "Thủ kho"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_account_common_report_slc_time_type
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_slc_time_type
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_ioi_slc_time_type
+msgid "Time type"
+msgstr "Loại thời gian"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.inventory_stock_card_from_view
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.inventory_stock_general_ioi_from_view
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.stock_card_view
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.stock_general_ioi_view
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.stock_meterial_detail_view
+msgid "Times"
+msgstr "Thời gian"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:99
+#, python-format
+msgid "Tài khoản đối ứng"
+msgstr "Tài khoản đối ứng"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:73
+#, python-format
+msgid "Tên hàng"
+msgstr "Tên hàng"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:114
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:139
+#, python-format
+msgid "Tên hàng: %s"
+msgstr "Tên hàng: %s"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:92
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:93
+#, python-format
+msgid "Tên kho: %s"
+msgstr "Tên kho: %s"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:74
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:67
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:78
+#, python-format
+msgid "Tên đơn vị: %s"
+msgstr "Tên đơn vị: %s"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:89
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:109
+#, python-format
+msgid "Tồn"
+msgstr "Tồn"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:69
+#, python-format
+msgid "TỔNG HỢP TỒN KHO"
+msgstr "TỔNG HỢP TỒN KHO"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:217
+#, python-format
+msgid "Tổng cộng"
+msgstr "Tổng cộng"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_detail_unit
+msgid "Unit"
+msgstr "Đơn vị"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_product_product_unit_price_sm
+msgid "Unit price"
+msgstr "Unit price"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_account_common_report_user_id
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_user_id
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_ioi_user_id
+msgid "User"
+msgstr "Người sử dụng"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_account_common_report_warehouse_id
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_warehouse_id
+msgid "Warehouse"
+msgstr "Kho hàng"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_ioi_warehouse_ids
+msgid "Warehouses"
+msgstr "Kho hàng"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:83
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:88
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:106
+#, python-format
+msgid "Xuất"
+msgstr "Xuất"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:81
+#, python-format
+msgid "Xuất kho"
+msgstr "Xuất kho"
+
+#. module: serenco_accounting_stock_report
+#: selection:account.common.report,slc_time_type:0
+#: selection:inventory.stock.card,slc_time_type:0
+#: selection:inventory.stock.general.ioi,slc_time_type:0
+msgid "Year"
+msgstr "Năm"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.stock_card_view
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.stock_general_ioi_view
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.stock_meterial_detail_view
+msgid "_Export Excel"
+msgstr "_Xuất Excel"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.stock_card_view
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.stock_general_ioi_view
+#: model:ir.ui.view,arch_db:serenco_accounting_stock_report.stock_meterial_detail_view
+msgid "_View chart"
+msgstr "_Xem biểu đồ"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model,name:serenco_accounting_stock_report.model_inventory_stock_card
+msgid "inventory.stock.card"
+msgstr "inventory.stock.card"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model,name:serenco_accounting_stock_report.model_inventory_stock_card_line
+msgid "inventory.stock.card.line"
+msgstr "inventory.stock.card.line"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model,name:serenco_accounting_stock_report.model_inventory_stock_card_line_detail
+msgid "inventory.stock.card.line.detail"
+msgstr "inventory.stock.card.line.detail"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model,name:serenco_accounting_stock_report.model_inventory_stock_general
+msgid "inventory.stock.general"
+msgstr "inventory.stock.general"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model,name:serenco_accounting_stock_report.model_inventory_stock_general_detail
+msgid "inventory.stock.general.detail"
+msgstr "inventory.stock.general.detail"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model,name:serenco_accounting_stock_report.model_inventory_stock_general_ioi
+msgid "inventory.stock.general.ioi"
+msgstr "inventory.stock.general.ioi"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_line_detail_product_id
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_card_line_product_id
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_detail_product_id
+msgid "product"
+msgstr "product"
+
+#. module: serenco_accounting_stock_report
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_detail_warehouse_id
+#: model:ir.model.fields,field_description:serenco_accounting_stock_report.field_inventory_stock_general_warehouse_id
+msgid "wahouse"
+msgstr "wahouse"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:74
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:101
+#, python-format
+msgid "ĐVT"
+msgstr "ĐVT"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:102
+#, python-format
+msgid "Đơn giá"
+msgstr "Đơn giá"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:117
+#, python-format
+msgid "Đơn vị tính: %s"
+msgstr "Đơn vị tính: %s"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:75
+#, python-format
+msgid "Đầu kỳ"
+msgstr "Đầu kỳ"
+
+#. module: serenco_accounting_stock_report
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_card_report.py:75
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_general_ioi_report.py:68
+#: code:addons/serenco_accounting_stock_report/report/inventory_stock_material_detail_report.py:79
+#, python-format
+msgid "Địa chỉ : %s"
+msgstr "Địa chỉ : %s"
+

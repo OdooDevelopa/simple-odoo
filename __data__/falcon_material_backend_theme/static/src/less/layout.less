@@ -1,0 +1,281 @@
+body.o_web_client { 
+	background: @bc-light;
+}
+/* Header
+--------------------*/
+.navbar-inverse {
+	background: @bc-theme;
+	border: none;
+	.navbar-header {
+		.navbar-toggle {
+			background: @bc-theme;
+			border-radius: 0;
+			border: none;
+			margin: 6px 7px 4px 10px;
+		}
+		.oe_mob_logo_backend {
+			display: none;
+
+			@media (max-width:767px) {
+				display: inline-block;
+
+				img {
+					max-width: 100px;
+					max-height: 40px;
+				}
+				.oe_logo_edit {
+					font-size: 0;
+					width: 35px;
+					border-radius: 50%;
+					background: @bc-light;
+					padding: 0;
+					display: inline-block;
+					position: relative;
+					vertical-align: middle;
+					line-height: 35px;
+					color: @bc-theme;
+
+					&:before {
+						content: "\f040";
+						font-family: FontAwesome;
+						font-size: inherit;
+						text-rendering: auto;
+						-moz-osx-font-smoothing: grayscale;
+						font-size: 20px;
+						line-height: 30px;
+						position: absolute;
+						left: 0;
+						height: 30px;
+						width: 100%;
+						text-align: center;
+						right: 0;
+						bottom: 0;
+						top: 0;
+						margin: auto;
+					}
+				}
+			}
+		}
+	}
+	.navbar-collapse {
+		@media (max-width:767px) {
+			max-height: 150px;
+			overflow: auto;
+			background: @bc-theme;
+			border: none;
+		}
+	}
+	.oe_logo_backend {
+		float: left;
+
+		img {
+			max-height: 68px;
+		}
+	}
+	.navbar-nav {
+		@media (max-width:767px) {
+			margin-top: 0;
+			margin-bottom: 0;
+
+			#backend_customize {
+				position: fixed;
+				top: 5px;
+				right: 57px;
+				background: @bc-theme;
+
+				> a {
+					line-height: 33px !important;
+				}
+			}
+			.dropdown-menu {
+				position: relative;
+				display: none;
+				padding: 0;
+			}
+			.open {
+				.dropdown-menu {
+					display: block;
+
+					> li {
+						> a {
+							color: @bc-light;
+							padding: 10px;
+						}
+						&.active {
+							> a {
+								background: darken(@bc-theme, 15%);
+							}
+						}
+					}
+				}
+			}
+		}
+		> li {
+			> a {
+				color: @bc-light;
+				line-height: 68px;
+				padding: 0 10px;
+				margin: 0;
+				font-size: 12px;
+				outline: none;
+
+				&:hover, &:active, &:focus {
+					background: darken(@bc-theme, 10%);
+					color: @bc-light;
+				}
+				@media (max-width:767px) {
+					line-height: 35px;
+					background: transparent;
+					color: @bc-light;
+
+					&:hover, &:active, &:focus {
+						background: darken(@bc-theme, 10%);
+						color: @bc-light;
+					}
+				}
+			}
+			&.active {
+				> a {
+					background: darken(@bc-theme, 10%);
+					color: @bc-light;
+
+					&:hover, &:active, &:focus {
+						background: darken(@bc-theme, 10%);
+						color: @bc-light;
+					}
+					@media (max-width:767px) {
+						background: darken(@bc-theme, 10%);
+						color: @bc-light;
+
+						&:hover, &:active, &:focus {
+							background: darken(@bc-theme, 10%);
+							color: @bc-light;
+						}
+					}
+				}
+			}
+			&.open {
+				> a {
+					background: darken(@bc-light, 10%);
+					color: @bc-header-text;
+
+					&:hover, &:active, &:focus {
+						background: darken(@bc-light, 10%);
+						color: @bc-light;
+					}
+					@media (max-width:767px) {
+						background: darken(@bc-theme, 10%);
+						color: @bc-light;
+
+						&:hover, &:active, &:focus {
+							background: darken(@bc-theme, 10%);
+							color: @bc-light;
+						}
+					}
+				}
+			}
+		}
+		.dropdown-menu {
+			> li {
+				> a {
+					padding: 3px 25px;
+				}
+			}
+		}
+	}
+	.oe_logo_backend {
+		@media (max-width:767px) {
+			display: none;
+		}
+		.oe_logo_edit {
+			font-size: 0;
+			width: 45px;
+			background: @bc-light;
+			border-radius: 50%;
+			padding: 0;
+			display: inline-block;
+			position: relative;
+			vertical-align: middle;
+			line-height: 45px;
+			color: @bc-theme;
+
+			&:before {
+				content: "\f040";
+				font-family: FontAwesome;
+				font-size: inherit;
+				text-rendering: auto;
+				-moz-osx-font-smoothing: grayscale;
+				font-size: 30px;
+				line-height: 30px;
+				position: absolute;
+				left: 0;
+				height: 30px;
+				width: 27px;
+				right: 0;
+				bottom: 0;
+				top: 0;
+				margin: auto;
+			}
+		}
+	}
+	.o_planner_systray {
+		> .progress {
+			margin-top: 28px;
+		}
+	}
+}
+.btn {
+	border-radius: 0px !important;
+	box-shadow: none;
+}
+
+/* o_breadcrumb_full
+--------------------*/
+.o_breadcrumb_full, 
+.o_control_panel {
+	padding: 15px;
+	background: darken(@bc-light, 10%);
+	border: none;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+.o_control_panel {
+	.breadcrumb {
+		> li {
+			color: @bc-darke;
+			&:before{
+				color:@bc-darke;
+			}
+			> a {
+				color: @bc-darke;
+			}
+		}
+		
+	}
+	.o_cp_right{
+		 .o_cp_pager{
+		 	color: @bc-darke;
+		 }
+	}
+}
+.o_searchview {
+	border-radius: 0;
+	box-shadow: none;
+	border: 1px solid darken(@bc-light, 20%);
+}
+.o_content {
+	margin: 10px 0 0 0;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+
+body .o_kanban_view .o_kanban_record { border-radius: 0;}
+
+.o_form_view {
+	.o_form_sheet_bg {
+		padding: 0 0 15px;
+	}
+}
+
+
+.o_web_client .o_main .o_sub_menu { box-shadow: none;}

@@ -1,0 +1,269 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_restaurant
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0rc1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-14 13:08+0000\n"
+"PO-Revision-Date: 2014-11-25 11:10+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: vi_VN\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#. module: pos_restaurant
+#. openerp-web
+#: code:addons/pos_restaurant/static/src/xml/printbill.xml:44
+#, python-format
+msgid "--------------------------------"
+msgstr "--------------------------------"
+
+#. module: pos_restaurant
+#: model:ir.actions.act_window,help:pos_restaurant.action_restaurant_printer_form
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Click to add a Restaurant Order Printer.\n"
+"              </p><p>\n"
+"                Order Printers are used by restaurants and bars to print "
+"the\n"
+"                order updates in the kitchen/bar when the waiter updates the "
+"order.\n"
+"              </p><p>\n"
+"                Each Order Printer has an IP Address that defines the PosBox/"
+"Hardware\n"
+"                Proxy where the printer can be found, and a list of product "
+"categories.\n"
+"                An Order Printer will only print updates for prodcuts "
+"belonging to one of\n"
+"                its categories.\n"
+"              </p>\n"
+"            "
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Nhấn vào đây để thêm Máy in đơn hàng nhà hàng.\n"
+"              </p><p>\n"
+"                Máy in đơn hàng được dùng bởi nhà hàng và bar để in cập nhật "
+"đơn hàng\n"
+"                cho nhà bếp / quầy bar khi bồi bàn cập nhật đơn hàng.\n"
+"              </p><p>\n"
+"                Mỗi máy in đơn hàng có một địa chỉ IP xác định Proxy phần "
+"cứng/Posbox\n"
+"                mà máy in có thể được tìm thấy, và danh sách danh mục sản "
+"phẩm.\n"
+"                Máy in đơn hàng sẽ chỉ in các cập nhật cho sản phẩm thuộc về "
+"một trong\n"
+"                các danh mục của nó.\n"
+"              </p>\n"
+"            "
+
+#. module: pos_restaurant
+#: help:pos.config,iface_printbill:0
+msgid "Allows to print the Bill before payment"
+msgstr "Cho phép in Hóa đơn trước khi thanh toán"
+
+#. module: pos_restaurant
+#: help:restaurant.printer,name:0
+msgid "An internal identification of the printer"
+msgstr "Mã nội bộ của máy in"
+
+#. module: pos_restaurant
+#. openerp-web
+#: code:addons/pos_restaurant/static/src/xml/splitbill.xml:61
+#, python-format
+msgid "Back"
+msgstr "Trở về"
+
+#. module: pos_restaurant
+#: view:pos.config:pos_restaurant.view_pos_config_form
+msgid "Bar & Restaurant"
+msgstr "Nhà hàng & Bar"
+
+#. module: pos_restaurant
+#. openerp-web
+#: code:addons/pos_restaurant/static/src/xml/printbill.xml:6
+#, python-format
+msgid "Bill"
+msgstr "Hóa đơn"
+
+#. module: pos_restaurant
+#: field:pos.config,iface_printbill:0
+msgid "Bill Printing"
+msgstr "In hóa đơn"
+
+#. module: pos_restaurant
+#. openerp-web
+#: code:addons/pos_restaurant/static/src/xml/splitbill.xml:64
+#: field:pos.config,iface_splitbill:0
+#, python-format
+msgid "Bill Splitting"
+msgstr "Tách hóa đơn"
+
+#. module: pos_restaurant
+#. openerp-web
+#: code:addons/pos_restaurant/static/src/xml/multiprint.xml:26
+#, python-format
+msgid "CANCELLED"
+msgstr "Đã hủy"
+
+#. module: pos_restaurant
+#: field:restaurant.printer,create_uid:0
+msgid "Created by"
+msgstr "Người tạo"
+
+#. module: pos_restaurant
+#: field:restaurant.printer,create_date:0
+msgid "Created on"
+msgstr "Ngày tạo"
+
+#. module: pos_restaurant
+#. openerp-web
+#: code:addons/pos_restaurant/static/src/xml/printbill.xml:64
+#, python-format
+msgid "Discount:"
+msgstr "Chiết khấu:"
+
+#. module: pos_restaurant
+#. openerp-web
+#: code:addons/pos_restaurant/static/src/xml/printbill.xml:113
+#, python-format
+msgid "Discounts"
+msgstr "Chiết khấu"
+
+#. module: pos_restaurant
+#: help:pos.config,iface_splitbill:0
+msgid "Enables Bill Splitting in the Point of Sale"
+msgstr "Kích hoạt tách hóa đơn trong điểm bán hàng"
+
+#. module: pos_restaurant
+#: field:restaurant.printer,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: pos_restaurant
+#: field:restaurant.printer,write_uid:0
+msgid "Last Updated by"
+msgstr "Cập nhật cuối bởi"
+
+#. module: pos_restaurant
+#: field:restaurant.printer,write_date:0
+msgid "Last Updated on"
+msgstr "Cập nhật cuối vào"
+
+#. module: pos_restaurant
+#. openerp-web
+#: code:addons/pos_restaurant/static/src/xml/multiprint.xml:40
+#, python-format
+msgid "NEW"
+msgstr "MỚI"
+
+#. module: pos_restaurant
+#. openerp-web
+#: code:addons/pos_restaurant/static/src/xml/multiprint.xml:6
+#, python-format
+msgid "Order"
+msgstr "Đơn hàng"
+
+#. module: pos_restaurant
+#: model:ir.actions.act_window,name:pos_restaurant.action_restaurant_printer_form
+#: model:ir.ui.menu,name:pos_restaurant.menu_restaurant_printer_all
+#: field:pos.config,printer_ids:0
+msgid "Order Printers"
+msgstr "Máy in đơn hàng"
+
+#. module: pos_restaurant
+#: view:restaurant.printer:pos_restaurant.view_restaurant_printer_form
+msgid "POS Printer"
+msgstr "Máy in POS"
+
+#. module: pos_restaurant
+#: field:restaurant.printer,product_categories_ids:0
+msgid "Printed Product Categories"
+msgstr "Danh mục sản phẩm đã in"
+
+#. module: pos_restaurant
+#: field:restaurant.printer,name:0
+msgid "Printer Name"
+msgstr "Tên máy in"
+
+#. module: pos_restaurant
+#: field:restaurant.printer,proxy_ip:0
+msgid "Proxy IP Address"
+msgstr "Địa chỉ IP Proxy"
+
+#. module: pos_restaurant
+#: view:restaurant.printer:pos_restaurant.view_restaurant_printer
+msgid "Restaurant Order Printers"
+msgstr "Máy in đơn hàng nhà hàng"
+
+#. module: pos_restaurant
+#. openerp-web
+#: code:addons/pos_restaurant/static/src/xml/printbill.xml:45
+#, python-format
+msgid "Served by"
+msgstr "Phục vụ bởi"
+
+#. module: pos_restaurant
+#. openerp-web
+#: code:addons/pos_restaurant/static/src/xml/splitbill.xml:6
+#, python-format
+msgid "Split"
+msgstr "Tách"
+
+#. module: pos_restaurant
+#. openerp-web
+#: code:addons/pos_restaurant/static/src/xml/printbill.xml:91
+#, python-format
+msgid "Subtotal"
+msgstr "Tổng phụ"
+
+#. module: pos_restaurant
+#. openerp-web
+#: code:addons/pos_restaurant/static/src/xml/printbill.xml:104
+#, python-format
+msgid "TOTAL"
+msgstr "TỔNG"
+
+#. module: pos_restaurant
+#. openerp-web
+#: code:addons/pos_restaurant/static/src/xml/printbill.xml:29
+#, python-format
+msgid "Tel:"
+msgstr "ĐT:"
+
+#. module: pos_restaurant
+#: help:restaurant.printer,proxy_ip:0
+msgid "The IP Address or hostname of the Printer's hardware proxy"
+msgstr "Tên host hoặc địa chỉ IP của proxy phần cứng máy in"
+
+#. module: pos_restaurant
+#. openerp-web
+#: code:addons/pos_restaurant/static/src/xml/printbill.xml:32
+#, python-format
+msgid "VAT:"
+msgstr "Thuế GTGT:"
+
+#. module: pos_restaurant
+#. openerp-web
+#: code:addons/pos_restaurant/static/src/xml/splitbill.xml:44
+#, python-format
+msgid "With a"
+msgstr "Với một"
+
+#. module: pos_restaurant
+#. openerp-web
+#: code:addons/pos_restaurant/static/src/xml/splitbill.xml:36
+#, python-format
+msgid "at"
+msgstr "vào"
+
+#. module: pos_restaurant
+#. openerp-web
+#: code:addons/pos_restaurant/static/src/xml/splitbill.xml:46
+#, python-format
+msgid "discount"
+msgstr "chiết khấu"

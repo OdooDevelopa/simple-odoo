@@ -1,0 +1,46 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* portal_project_issue
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0rc1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-14 13:09+0000\n"
+"PO-Revision-Date: 2014-11-24 23:35+0700\n"
+"Last-Translator: Trong <nguyen.anhtrong@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: vi_VN\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#. module: portal_project_issue
+#: model:ir.actions.act_window,help:portal_project_issue.project_issue_categ_act0
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Click to create an issue.\n"
+"              </p><p>\n"
+"                You can track your issues from this menu and the action we\n"
+"                will take.\n"
+"              </p>\n"
+"            "
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Nhấn vào đây để tạo phát sinh mới. \n"
+"              </p><p>\n"
+"                Bạn có thể truy xuất các phát sinh từ menu này\n"
+"                và hành động mà chúng ta sẽ thực hiện.\n"
+"              </p>\n"
+"            "
+
+#. module: portal_project_issue
+#: view:project.issue:portal_project_issue.portal_project_issue_kanban_view
+msgid "Creation:"
+msgstr "Tạo:"
+
+#. module: portal_project_issue
+#: model:ir.actions.act_window,name:portal_project_issue.project_issue_categ_act0
+msgid "Issues"
+msgstr "Phát sinh"

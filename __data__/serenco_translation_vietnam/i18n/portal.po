@@ -1,0 +1,457 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* portal
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-23 16:28+0000\n"
+"PO-Revision-Date: 2014-11-24 23:32+0700\n"
+"Last-Translator: Trong <nguyen.anhtrong@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: vi_VN\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#. module: portal
+#: model:ir.actions.client,help:portal.action_mail_inbox_feeds_portal
+msgid ""
+"<p>\n"
+"                    <b>Good Job!</b> Your inbox is empty.\n"
+"                </p><p>\n"
+"                    Your inbox contains private messages or emails sent to "
+"you\n"
+"                    as well as information related to documents or people "
+"you\n"
+"                    follow.\n"
+"                </p>\n"
+"            "
+msgstr ""
+"<p>\n"
+"Rất tốt !</b> Hộp thư bạn trống.\n"
+"                </p><p>\n"
+"                    Hộp thư cảu bạn chứa tin nhắn cá nhân hoặc email được "
+"gửi đến bạn\n"
+"                    cũng như thông tin liên quan đến tài liệu hoặc người mà "
+"bạn đang\n"
+"                    theo dõi.\n"
+"                </p>\n"
+"            "
+
+#. module: portal
+#: model:ir.actions.client,help:portal.action_mail_star_feeds_portal
+msgid ""
+"<p>\n"
+"                    <b>No todo.</b>\n"
+"                </p><p>\n"
+"                    When you process messages in your inbox, you can mark "
+"some\n"
+"                    as <i>todo</i>. From this menu, you can process all your "
+"todo.\n"
+"                </p>\n"
+"            "
+msgstr ""
+"<p>\n"
+"                    <b>Không có việc nào cần thực hiện.</b>\n"
+"                </p><p>\n"
+"                    Khi bạn xử lý tin nhắn trong hộp thư của mình, bạn có "
+"thể đánh dấu một số\n"
+"                    tin nhắn là <i>Cần thực hiện</i>. Từ menu này, bạn có "
+"thể xử lý tất cả những việc bạn cần làm.\n"
+"                </p>\n"
+"            "
+
+#. module: portal
+#: model:ir.actions.client,help:portal.action_mail_archives_feeds_portal
+msgid ""
+"<p>\n"
+"                    No message found and no message sent yet.\n"
+"                </p><p>\n"
+"                    Click on the top-right icon to compose a message. This\n"
+"                    message will be sent by email if it's an internal "
+"contact.\n"
+"                </p>\n"
+"            "
+msgstr ""
+"<p>\n"
+"                    Không tìm thấy tin nhắn và chưa có tin nhắn nào được gửi "
+"đi.\n"
+"                </p><p>\n"
+"                    Nhấn vào icon trên cùng, bên phải để soạn tin nhắn. Tin "
+"nhắn này\n"
+"                    sẽ được gửi bằng email nếu đó là liên hệ nội bộ\n"
+"                </p>\n"
+"            "
+
+#. module: portal
+#: code:addons/portal/mail_message.py:59
+#, python-format
+msgid "Access Denied"
+msgstr "Truy cập bị từ chối"
+
+#. module: portal
+#: model:ir.model,name:portal.model_res_groups
+msgid "Access Groups"
+msgstr "Nhóm truy cập"
+
+#. module: portal
+#: model:ir.ui.menu,name:portal.portal_after_sales
+msgid "After Sale Services"
+msgstr "Dịch vụ hậu mãi"
+
+#. module: portal
+#: view:portal.wizard:portal.wizard_view
+msgid "Apply"
+msgstr "Áp dụng"
+
+#. module: portal
+#: model:ir.actions.client,name:portal.action_mail_archives_feeds_portal
+#: model:ir.ui.menu,name:portal.portal_mail_archivesfeeds
+msgid "Archives"
+msgstr "Lưu trữ"
+
+#. module: portal
+#: model:ir.ui.menu,name:portal.portal_orders
+msgid "Billing"
+msgstr "Hóa đơn"
+
+#. module: portal
+#: view:portal.wizard:portal.wizard_view
+msgid "Cancel"
+msgstr "Hủy"
+
+#. module: portal
+#: field:portal.wizard.user,partner_id:0
+msgid "Contact"
+msgstr "Liên hệ"
+
+#. module: portal
+#: view:portal.wizard.user:portal.wizard_user_tree_view
+msgid "Contacts"
+msgstr "Liên hệ"
+
+#. module: portal
+#: code:addons/portal/wizard/portal_wizard.py:163
+#, python-format
+msgid "Contacts Error"
+msgstr "Lỗi liên hệ"
+
+#. module: portal
+#: field:portal.wizard,create_uid:0 field:portal.wizard.user,create_uid:0
+msgid "Created by"
+msgstr "Người tạo"
+
+#. module: portal
+#: field:portal.wizard,create_date:0 field:portal.wizard.user,create_date:0
+msgid "Created on"
+msgstr "Ngày tạo"
+
+#. module: portal
+#: code:addons/portal/wizard/portal_wizard.py:34
+#, python-format
+msgid ""
+"Dear %(name)s,\n"
+"\n"
+"You have been given access to %(company)s's %(portal)s.\n"
+"\n"
+"Your login account data is:\n"
+"  Username: %(login)s\n"
+"  Portal: %(portal_url)s\n"
+"  Database: %(db)s \n"
+"\n"
+"You can set or change your password via the following url:\n"
+"   %(signup_url)s\n"
+"\n"
+"%(welcome_message)s\n"
+"\n"
+"--\n"
+"Odoo - Open Source Business Applications\n"
+"http://www.openerp.com\n"
+msgstr ""
+"Chào %(name)s,\n"
+"\n"
+"Bạn vừa được cấp quyền truy cập vào %(company)s's %(portal)s.\n"
+"\n"
+"Thông tin đăng nhập tài khoản của bạn là:\n"
+"  Tên đăng nhập: %(login)s\n"
+"  Cổng thông tin: %(portal_url)s\n"
+"  Database: %(db)s \n"
+"\n"
+"Bạn có thể thiết lập hoặc thay đổi mật khẩu thông qua url sau:\n"
+"   %(signup_url)s\n"
+"\n"
+"%(welcome_message)s\n"
+"\n"
+"--\n"
+"FERP - FEOS ERP Solution\n"
+"http://www.feosco.com\n"
+
+#. module: portal
+#: view:share.wizard:portal.share_step2_form_portal
+msgid "Details"
+msgstr "Chi tiết"
+
+#. module: portal
+#: field:portal.wizard.user,email:0
+msgid "Email"
+msgstr "Email"
+
+#. module: portal
+#: code:addons/portal/wizard/portal_wizard.py:225
+#, python-format
+msgid "Email Required"
+msgstr "Email Required"
+
+#. module: portal
+#: model:ir.model,name:portal.model_mail_thread
+msgid "Email Thread"
+msgstr "Chủ đề email"
+
+#. module: portal
+#: code:addons/portal/wizard/share_wizard.py:39
+#, python-format
+msgid "Existing Groups (e.g Portal Groups)"
+msgstr "Nhóm hiện hữu (ví dụ: Nhóm cổng thông tin)"
+
+#. module: portal
+#: view:share.wizard:portal.share_step1_form_portal
+#: field:share.wizard,group_ids:0
+msgid "Existing groups"
+msgstr "Các nhóm hiện hữu"
+
+#. module: portal
+#: view:share.wizard:portal.share_step1_form_portal
+#: field:share.wizard,user_ids:0
+msgid "Existing users"
+msgstr "Người dùng hiện hữu"
+
+#. module: portal
+#: field:portal.wizard,id:0 field:portal.wizard.user,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: portal
+#: help:res.groups,is_portal:0
+msgid "If checked, this group is usable as a portal."
+msgstr "Nếu chọn, nhóm này có tác dụng như một cổng thông tin."
+
+#. module: portal
+#: field:portal.wizard.user,in_portal:0
+msgid "In Portal"
+msgstr "Trong cổng thông tin"
+
+#. module: portal
+#: model:ir.actions.client,name:portal.action_mail_inbox_feeds_portal
+#: model:ir.ui.menu,name:portal.portal_inbox
+msgid "Inbox"
+msgstr "Hộp thư"
+
+#. module: portal
+#: field:portal.wizard,welcome_message:0
+msgid "Invitation Message"
+msgstr "Tin nhắn mời"
+
+#. module: portal
+#: field:portal.wizard,write_uid:0 field:portal.wizard.user,write_uid:0
+msgid "Last Updated by"
+msgstr "Cập nhật cuối bởi"
+
+#. module: portal
+#: field:portal.wizard,write_date:0 field:portal.wizard.user,write_date:0
+msgid "Last Updated on"
+msgstr "Cập nhật cuối vào"
+
+#. module: portal
+#: model:ir.model,name:portal.model_mail_message
+msgid "Message"
+msgstr "Tin nhắn"
+
+#. module: portal
+#: model:ir.ui.menu,name:portal.portal_messages
+msgid "Messaging"
+msgstr "Tin nhắn"
+
+#. module: portal
+#: view:res.groups:portal.group_search_view
+msgid "Non-Portal Groups"
+msgstr "Nhóm không dùng cổng thông tin"
+
+#. module: portal
+#: model:ir.model,name:portal.model_mail_mail
+msgid "Outgoing Mails"
+msgstr "Mail đi"
+
+#. module: portal
+#: code:addons/portal/wizard/share_wizard.py:54
+#, python-format
+msgid "Please select at least one group to share with"
+msgstr "Vui lòng chọn ít nhất một nhóm để chia sẻ"
+
+#. module: portal
+#: code:addons/portal/wizard/share_wizard.py:50
+#, python-format
+msgid "Please select at least one user to share with"
+msgstr "Vui lòng chọn ít nhất một người dùng để chia sẻ"
+
+#. module: portal
+#: model:ir.ui.menu,name:portal.portal_menu field:portal.wizard,portal_id:0
+#: field:res.groups,is_portal:0
+msgid "Portal"
+msgstr "Cổng thông tin"
+
+#. module: portal
+#: model:ir.actions.act_window,name:portal.partner_wizard_action
+#: model:ir.model,name:portal.model_portal_wizard
+#: view:portal.wizard:portal.wizard_view
+msgid "Portal Access Management"
+msgstr "Quản lý truy cập cổng thông tin"
+
+#. module: portal
+#: view:res.groups:portal.group_search_view
+msgid "Portal Groups"
+msgstr "Nhóm cổng thông tin"
+
+#. module: portal
+#: model:ir.model,name:portal.model_portal_wizard_user
+msgid "Portal User Config"
+msgstr "Cổng do người dùng cấu hình"
+
+#. module: portal
+#: model:ir.ui.menu,name:portal.portal_projects
+msgid "Projects"
+msgstr "Dự án"
+
+#. module: portal
+#: view:portal.wizard:portal.wizard_view
+msgid ""
+"Select which contacts should belong to the portal in the list below.\n"
+"                        The email address of each selected contact must be "
+"valid and unique.\n"
+"                        If necessary, you can fix any contact's email "
+"address directly in the list."
+msgstr ""
+"Chọn liên hệ cho cổng thông tin trong danh sách bên dưới.\n"
+"                        Địa chỉ email của mỗi liên hệ được chọn phải hợp lệ "
+"và duy nhất.\n"
+"                        Nếu cần, bạn có thể cố định bất kỳ địa chỉ email "
+"liên hệ nào trực tiếp trong danh sách."
+
+#. module: portal
+#: code:addons/portal/wizard/portal_wizard.py:149
+#, python-format
+msgid "Several contacts have the same email: "
+msgstr "Một số liên hệ có cùng địa chỉ emai:"
+
+#. module: portal
+#: model:ir.model,name:portal.model_share_wizard
+msgid "Share Wizard"
+msgstr "Wizard chia sẻ"
+
+#. module: portal
+#: code:addons/portal/wizard/portal_wizard.py:146
+#, python-format
+msgid "Some contacts don't have a valid email: "
+msgstr "Một số liên hệ không có địa chỉ mail hợp lệ:"
+
+#. module: portal
+#: code:addons/portal/wizard/portal_wizard.py:152
+#, python-format
+msgid "Some contacts have the same email as an existing portal user:"
+msgstr ""
+"Một số liên hệ có địa chỉ mail giống với người dùng cổng thông tin hiện hữu:"
+
+#. module: portal
+#: help:portal.wizard,portal_id:0
+msgid "The portal that users can be added in or removed from."
+msgstr "Cổng thông tin mà người dùng có thể được thêm vào hoặc loại ra."
+
+#. module: portal
+#: code:addons/portal/mail_message.py:60
+#, python-format
+msgid ""
+"The requested operation cannot be completed due to security restrictions. "
+"Please contact your system administrator.\n"
+"\n"
+"(Document type: %s, Operation: %s)"
+msgstr ""
+"Tác vụ yêu cầu không thể hoàn tất do giới hạn an toàn. Vui lòng liên hệ quản "
+"trị hệ thống.\n"
+"\n"
+"(Loại tài liệu: %s, Tác vụ: %s)"
+
+#. module: portal
+#: view:portal.wizard:portal.wizard_view
+msgid "This text is included in the email sent to new portal users."
+msgstr ""
+"Nội dung này được bao gồm trong mail gửi đến người dùng mới của cổng thông "
+"tin."
+
+#. module: portal
+#: help:portal.wizard,welcome_message:0
+msgid "This text is included in the email sent to new users of the portal."
+msgstr ""
+"Nội dung này được bao gồm trong mail gửi đi cho người dùng mới của cổng "
+"thông tin."
+
+#. module: portal
+#: code:addons/portal/wizard/portal_wizard.py:155
+#, python-format
+msgid ""
+"To resolve this error, you can: \n"
+"- Correct the emails of the relevant contacts\n"
+"- Grant access only to contacts with unique emails"
+msgstr ""
+"Để giải quyết lỗi này, bạn có thể: \n"
+"- Sửa lại email của liên hệ liên quan\n"
+"- Chỉ cấp quyền truy cập cho các liên hệ với email duy nhất"
+
+#. module: portal
+#: model:ir.actions.client,name:portal.action_mail_star_feeds_portal
+#: model:ir.ui.menu,name:portal.portal_mail_starfeeds
+msgid "To-do"
+msgstr "Cần thực hiện"
+
+#. module: portal
+#: field:portal.wizard,user_ids:0
+msgid "Users"
+msgstr "Người dùng"
+
+#. module: portal
+#: code:addons/portal/wizard/share_wizard.py:38
+#, python-format
+msgid "Users you already shared with"
+msgstr "Người dùng mà bạn đã chia sẻ"
+
+#. module: portal
+#: field:portal.wizard.user,wizard_id:0
+msgid "Wizard"
+msgstr "Wizard"
+
+#. module: portal
+#: code:addons/portal/wizard/portal_wizard.py:226
+#, python-format
+msgid "You must have an email address in your User Preferences to send emails."
+msgstr ""
+"Bạn phải có một địa chỉ email trong Cấu hình người dùng của bạn để gửi mail"
+
+#. module: portal
+#: code:addons/portal/wizard/portal_wizard.py:33
+#, python-format
+msgid "Your Odoo account at %(company)s"
+msgstr "Tài khoản của bạn ở %(company)s"
+
+#. module: portal
+#: code:addons/portal/mail_mail.py:46
+#, python-format
+msgid "access directly to"
+msgstr "truy cập trực tiếp vào"
+
+#. module: portal
+#: code:addons/portal/mail_mail.py:48
+#, python-format
+msgid "your messages "
+msgstr "tin nhắn của bạn"

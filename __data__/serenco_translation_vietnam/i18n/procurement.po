@@ -1,0 +1,601 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* procurement
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-15 08:29+0000\n"
+"PO-Revision-Date: 2016-11-15 08:29+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: procurement
+#: model:ir.actions.act_window,help:procurement.procurement_order_action_exceptions
+msgid "<b>Procurement Orders</b> represent the need for a certain quantity of products, at a given time, in a given location."
+msgstr "<b>Các Lệnh yêu cầu cung ứng</b> thể hiện nhu cầu về số lượng đối với một sản phẩm nào đó, vào một thời điểm nhất định, ở một địa điểm kho nhất định."
+
+#. module: procurement
+#: model:ir.actions.act_window,help:procurement.procurement_order_action_exceptions
+msgid "<b>Sales Orders</b> are one typical source of Procurement Orders (but these are distinct documents). \n"
+"                <br>Depending on the procurement parameters and the product configuration, the procurement engine will attempt to satisfy the need by reserving products from stock, ordering products from a supplier, or passing a manufacturing order, etc..."
+msgstr "<b>Các đơn hàng bán</b> chính là các nguồn điển hình cho các Nhu cầu cung ứng (mặc dù đây chỉ là một trường hợp đặc thù). \n"
+"                <br/>Phụ thuộc vào các thông số thiết lập đối với từng sản phẩm, cỗ máy cung ứng sẽ tìm cách để thỏa mãn bằng cách dành riêng/xí phần các sản phẩm từ kho, đặt mua từ một nhà cung cấp, hoặc tự tạo một lệnh sản xuất, v.v..."
+
+#. module: procurement
+#: model:ir.actions.act_window,help:procurement.procurement_order_action_exceptions
+msgid "A <b>Procurement Exception</b> occurs when the system cannot find a way to fulfill a procurement. Some exceptions will resolve themselves automatically, but others require manual intervention (those are identified by a specific error message in the chatter)."
+msgstr "<b>Ngoại lệ cung ứng</b> xảy ra khi hệ thống không thể tìm ra được một cách để đáp ứng nhu cầu cung ứng. Một số ngoại lệ sẽ tự động được xử lý, trong khi một số khác sẽ cần phải có sự can thiệp thủ công (those are identified by a specific error message in the chatter)."
+
+#. module: procurement
+#: model:ir.actions.act_window,help:procurement.procurement_action
+#: model:ir.actions.act_window,help:procurement.procurement_order_action_product_product_stat
+#: model:ir.actions.act_window,help:procurement.procurement_order_action_product_template_stat
+msgid "A <b>procurement order</b> is used to record a need for a specific\n"
+"                product at a specific location. Procurement orders are usually\n"
+"                created automatically from <i>sales orders, pull logistic rules or\n"
+"                minimum stock rules.</i>"
+msgstr "Một <b>Nhu cầu cung ứng</b> được sử dụng để ghi nhận nhu cầu về một sản\n"
+"                phẩm tại một địa điểm nhất định. Các nhu cầu cung ứng thường\n"
+"                được tạo tự động từ các <i>đơn hàng bán, quy tắc kéo (pull) trong logistics\n"
+"                hay từ các quy tắc tồn kho tối thiểu</i>."
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_rule_action
+msgid "Action"
+msgstr "Hành động"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_message_needaction
+msgid "Action Needed"
+msgstr "Cần có Hành động"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_rule_active
+msgid "Active"
+msgstr "Hiệu lực"
+
+#. module: procurement
+#: selection:procurement.group,move_type:0
+msgid "All at once"
+msgstr "Tất cả cùng một lúc"
+
+#. module: procurement
+#: model:ir.ui.view,arch_db:procurement.view_compute_schedulers_wizard
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+#. module: procurement
+#: model:ir.ui.view,arch_db:procurement.procurement_form_view
+msgid "Cancel Procurement"
+msgstr "Huỷ nhu cầu cung ứng"
+
+#. module: procurement
+#: selection:procurement.order,state:0
+msgid "Cancelled"
+msgstr "Đã hủy"
+
+#. module: procurement
+#: code:addons/procurement/procurement.py:138
+#, python-format
+msgid "Cannot delete Procurement Order(s) which are in %s state."
+msgstr "Không thể xoá được (các) Nhu cầu cung ứng mà ở trạng thái %s."
+
+#. module: procurement
+#: model:ir.ui.view,arch_db:procurement.procurement_form_view
+msgid "Check Procurement"
+msgstr "Kiểm tra Nhu cầu cung ứng"
+
+#. module: procurement
+#: model:ir.model.fields,help:procurement.field_procurement_order_rule_id
+msgid "Chosen rule for the procurement resolution. Usually chosen by the system but can be manually set by the procurement manager to force an unusual behavior."
+msgstr "Chosen rule for the procurement resolution. Usually chosen by the system but can be manually set by the procurement manager to force an unusual behavior."
+
+#. module: procurement
+#: model:ir.actions.act_window,help:procurement.procurement_order_action_exceptions
+msgid "Click to create a Procurement order in exception state, or remove the filter on the search bar to display all the procurements."
+msgstr "Bấm để tạo một Nhu cầu cung ứng ở trạng thái ngoại lệ, hoặc gỡ bỏ bộ lọc ở ô tìm kiếm để hiển thị tất cả nhu cầu cung ứng."
+
+#. module: procurement
+#: model:ir.actions.act_window,help:procurement.procurement_action
+#: model:ir.actions.act_window,help:procurement.procurement_order_action_product_product_stat
+#: model:ir.actions.act_window,help:procurement.procurement_order_action_product_template_stat
+msgid "Click to create a procurement order."
+msgstr "Bấm để tạo một nhu cầu cung ứng"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_company_id
+#: model:ir.model.fields,field_description:procurement.field_procurement_rule_company_id
+msgid "Company"
+msgstr "Công ty"
+
+#. module: procurement
+#: model:ir.ui.view,arch_db:procurement.view_compute_schedulers_wizard
+msgid "Compute all procurements in the background."
+msgstr "Tính toán ngầm toàn bộ nhu cầu cung ứng"
+
+#. module: procurement
+#: model:ir.model,name:procurement.model_procurement_order_compute_all
+msgid "Compute all schedulers"
+msgstr "Tính toán tất cả lịch điều độ"
+
+#. module: procurement
+#: selection:procurement.order,state:0
+msgid "Confirmed"
+msgstr "Đã được xác nhận"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_group_create_uid
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_compute_all_create_uid
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_create_uid
+#: model:ir.model.fields,field_description:procurement.field_procurement_rule_create_uid
+msgid "Created by"
+msgstr "Created by"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_group_create_date
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_compute_all_create_date
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_create_date
+#: model:ir.model.fields,field_description:procurement.field_procurement_rule_create_date
+msgid "Created on"
+msgstr "Created on"
+
+#. module: procurement
+#: model:ir.model.fields,help:procurement.field_procurement_order_message_last_post
+msgid "Date of the last message posted on the record."
+msgstr "Ngày của thông điệp gần nhất được ghi nhận trên một bản ghi."
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_group_move_type
+msgid "Delivery Method"
+msgstr "Phương thức giao hàng"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_name
+msgid "Description"
+msgstr "Miêu tả"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_group_display_name
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_compute_all_display_name
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_display_name
+#: model:ir.model.fields,field_description:procurement.field_procurement_rule_display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: procurement
+#: selection:procurement.order,state:0
+msgid "Done"
+msgstr "Hoàn thành"
+
+#. module: procurement
+#: selection:procurement.order,state:0
+msgid "Exception"
+msgstr "Ngoại lệ"
+
+#. module: procurement
+#: model:ir.ui.view,arch_db:procurement.view_procurement_filter
+msgid "Exceptions"
+msgstr "Ngoại lệ"
+
+#. module: procurement
+#: model:ir.ui.view,arch_db:procurement.procurement_form_view
+msgid "External note..."
+msgstr "Ghi chú ngoại..."
+
+#. module: procurement
+#: model:ir.ui.view,arch_db:procurement.procurement_form_view
+msgid "Extra Information"
+msgstr "Thông tin bổ sung"
+
+#. module: procurement
+#: selection:procurement.rule,group_propagation_option:0
+msgid "Fixed"
+msgstr "Cố định"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_rule_group_id
+msgid "Fixed Procurement Group"
+msgstr "Nhóm Cung ứng Cố định"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_message_follower_ids
+msgid "Followers"
+msgstr "Người dõi theo"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Kênh dõi theo"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Người dõi theo"
+
+#. module: procurement
+#: model:ir.ui.view,arch_db:procurement.view_procurement_rule_filter
+msgid "Global"
+msgstr "Toàn cục"
+
+#. module: procurement
+#: model:ir.ui.view,arch_db:procurement.view_procurement_filter
+msgid "Group By"
+msgstr "Group By"
+
+#. module: procurement
+#: model:ir.actions.act_window,name:procurement.do_view_procurements
+#: model:ir.ui.view,arch_db:procurement.procurement_form_view
+msgid "Group's Procurements"
+msgstr "Nhu cầu cùng nhóm"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_group_id
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_compute_all_id
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_id
+#: model:ir.model.fields,field_description:procurement.field_procurement_rule_id
+msgid "ID"
+msgstr "ID"
+
+#. module: procurement
+#: model:ir.model.fields,help:procurement.field_procurement_order_message_unread
+msgid "If checked new messages require your attention."
+msgstr "If checked new messages require your attention."
+
+#. module: procurement
+#: model:ir.model.fields,help:procurement.field_procurement_order_message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Nếu được đánh dấu, thông điệp mới sẽ yêu cầu sự có mặt của bạn."
+
+#. module: procurement
+#: model:ir.ui.view,arch_db:procurement.view_procurement_rule_filter
+msgid "If the route is global"
+msgstr "Nếu tuyến đường mang tính toàn cục"
+
+#. module: procurement
+#: model:ir.model.fields,help:procurement.field_procurement_rule_active
+msgid "If unchecked, it will allow you to hide the rule without removing it."
+msgstr "Nếu bỏ chọn, nó sẽ cho phép bạn ẩn quy tắc mà không cần xóa bỏ nó."
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_message_is_follower
+msgid "Is Follower"
+msgstr "Là một người dõi theo"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_message_last_post
+msgid "Last Message Date"
+msgstr "Ngày thông điệp gần nhất"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_group___last_update
+#: model:ir.model.fields,field_description:procurement.field_procurement_order___last_update
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_compute_all___last_update
+#: model:ir.model.fields,field_description:procurement.field_procurement_rule___last_update
+msgid "Last Modified on"
+msgstr "Sửa lần cuối"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_group_write_uid
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_compute_all_write_uid
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_write_uid
+#: model:ir.model.fields,field_description:procurement.field_procurement_rule_write_uid
+msgid "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_group_write_date
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_compute_all_write_date
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_write_date
+#: model:ir.model.fields,field_description:procurement.field_procurement_rule_write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối vào"
+
+#. module: procurement
+#: model:ir.ui.view,arch_db:procurement.view_procurement_filter
+msgid "Late"
+msgstr "Muộn"
+
+#. module: procurement
+#: selection:procurement.rule,group_propagation_option:0
+msgid "Leave Empty"
+msgstr "Để trống"
+
+#. module: procurement
+#: model:ir.ui.view,arch_db:procurement.mrp_company
+msgid "Logistics"
+msgstr "Logistics"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_message_ids
+msgid "Messages"
+msgstr "Thông điệp"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_rule_name
+msgid "Name"
+msgstr "Tên"
+
+#. module: procurement
+#: code:addons/procurement/procurement.py:200
+#, python-format
+msgid "No rule matching this procurement"
+msgstr "Không có quy tắc cung ứng nào khớp với nhu cầu cung ứng này"
+
+#. module: procurement
+#: selection:procurement.order,priority:0
+msgid "Normal"
+msgstr "Thông thường"
+
+#. module: procurement
+#: selection:procurement.order,priority:0
+msgid "Not urgent"
+msgstr "Không gấp"
+
+#. module: procurement
+#: model:ir.ui.view,arch_db:procurement.procurement_form_view
+msgid "Notes"
+msgstr "Ghi chú"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_message_needaction_counter
+msgid "Number of Actions"
+msgstr "Số lượng hành động"
+
+#. module: procurement
+#: model:ir.model.fields,help:procurement.field_procurement_order_message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Số thông điệp cần có hành động"
+
+#. module: procurement
+#: model:ir.model.fields,help:procurement.field_procurement_order_message_unread_counter
+msgid "Number of unread messages"
+msgstr "Số các thông điệp chưa đọc"
+
+#. module: procurement
+#: selection:procurement.group,move_type:0
+msgid "Partial"
+msgstr "Một phần"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_priority
+msgid "Priority"
+msgstr "Mức độ ưu tiên"
+
+#. module: procurement
+#: model:ir.model,name:procurement.model_procurement_order
+#: model:ir.ui.view,arch_db:procurement.procurement_form_view
+#: model:ir.ui.view,arch_db:procurement.view_procurement_filter
+msgid "Procurement"
+msgstr "Mua sắm / Cung ứng"
+
+#. module: procurement
+#: model:ir.actions.act_window,name:procurement.procurement_action5
+#: model:ir.actions.act_window,name:procurement.procurement_order_action_exceptions
+#: model:ir.ui.view,arch_db:procurement.view_procurement_filter
+msgid "Procurement Exceptions"
+msgstr "Ngoại lệ Cung ứng"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_group_id
+msgid "Procurement Group"
+msgstr "Nhóm Nhu cầu cung ứng"
+
+#. module: procurement
+#: model:ir.ui.view,arch_db:procurement.procurement_tree_view
+msgid "Procurement Lines"
+msgstr "Chi tiết nhu cầu cung ứng"
+
+#. module: procurement
+#: model:ir.actions.act_window,name:procurement.procurement_action
+#: model:ir.actions.act_window,name:procurement.procurement_order_action_product_product_stat
+#: model:ir.actions.act_window,name:procurement.procurement_order_action_product_template_stat
+msgid "Procurement Orders"
+msgstr "Nhu cầu cung ứng"
+
+#. module: procurement
+#: model:ir.model,name:procurement.model_procurement_group
+msgid "Procurement Requisition"
+msgstr "Yêu cầu cung ứng"
+
+#. module: procurement
+#: model:ir.model,name:procurement.model_procurement_rule
+#: model:ir.ui.view,arch_db:procurement.view_procurement_rule_form
+msgid "Procurement Rule"
+msgstr "Quy tắc cung ứng"
+
+#. module: procurement
+#: model:ir.ui.view,arch_db:procurement.view_procurement_rule_tree
+msgid "Procurement Rules"
+msgstr "Quy tắc cung ứng"
+
+#. module: procurement
+#: model:ir.ui.view,arch_db:procurement.procurement_group_form_view
+msgid "Procurement group"
+msgstr "Nhóm Cung ứng"
+
+#. module: procurement
+#: model:ir.ui.view,arch_db:procurement.view_procurement_filter
+msgid "Procurement started late"
+msgstr "Cung ứng bị bắt đầu muộn"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_group_procurement_ids
+#: model:ir.ui.view,arch_db:procurement.procurement_group_form_view
+#: model:ir.ui.view,arch_db:procurement.product_product_view_form_procurement_button
+#: model:ir.ui.view,arch_db:procurement.product_template_view_form_procurement_button
+msgid "Procurements"
+msgstr "Mua sắm/Cung ứng"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_product_id
+#: model:ir.ui.view,arch_db:procurement.view_procurement_filter
+msgid "Product"
+msgstr "Sản phẩm"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_product_uom
+msgid "Product Unit of Measure"
+msgstr "Đơn vị đo lường sản phẩm"
+
+#. module: procurement
+#: selection:procurement.rule,group_propagation_option:0
+msgid "Propagate"
+msgstr "Propagate"
+
+#. module: procurement
+#: model:ir.ui.view,arch_db:procurement.view_procurement_rule_form
+msgid "Propagation Options"
+msgstr "Tuỳ chọn Propagation"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_rule_group_propagation_option
+msgid "Propagation of Procurement Group"
+msgstr "Propagation of Procurement Group"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_product_qty
+msgid "Quantity"
+msgstr "Số lượng"
+
+#. module: procurement
+#: model:ir.ui.view,arch_db:procurement.procurement_form_view
+msgid "Reconfirm Procurement"
+msgstr "Tái xác nhận Nhu cầu cung ứng"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_group_name
+msgid "Reference"
+msgstr "Tham chiếu"
+
+#. module: procurement
+#: model:ir.model.fields,help:procurement.field_procurement_order_origin
+msgid "Reference of the document that created this Procurement.\n"
+"This is automatically completed by Odoo."
+msgstr "Dẫn chiếu đến tài liệu mà tạo ra Nhu cầu cung ứng này.\n"
+"Cái này được hoàn thành tự động bởi Odoo."
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_rule_id
+msgid "Rule"
+msgstr "Quy tắc"
+
+#. module: procurement
+#: model:ir.ui.view,arch_db:procurement.procurement_form_view
+msgid "Run Procurement"
+msgstr "Chạy Nhu cầu cung ứng"
+
+#. module: procurement
+#: model:ir.actions.server,name:procurement.procurement_order_server_action
+msgid "Run Procurements"
+msgstr "Chạy Nhu cầu cung ứng"
+
+#. module: procurement
+#: model:ir.actions.act_window,name:procurement.action_compute_schedulers
+#: model:ir.ui.view,arch_db:procurement.view_compute_schedulers_wizard
+msgid "Run Schedulers"
+msgstr "Chạy Trình điều độ"
+
+#. module: procurement
+#: selection:procurement.order,state:0
+msgid "Running"
+msgstr "Đang chạy"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_date_planned
+msgid "Scheduled Date"
+msgstr "Ngày dự kiến"
+
+#. module: procurement
+#: model:ir.ui.view,arch_db:procurement.view_procurement_filter
+msgid "Scheduled Month"
+msgstr "Tháng theo kế hoạch"
+
+#. module: procurement
+#: model:ir.ui.view,arch_db:procurement.view_compute_schedulers_wizard
+msgid "Scheduler Parameters"
+msgstr "Các Tham số Điều độ"
+
+#. module: procurement
+#: model:ir.ui.view,arch_db:procurement.procurement_form_view
+msgid "Scheduling"
+msgstr "Điều độ"
+
+#. module: procurement
+#: model:ir.ui.view,arch_db:procurement.view_procurement_filter
+#: model:ir.ui.view,arch_db:procurement.view_procurement_rule_filter
+msgid "Search Procurement"
+msgstr "Tìm kiếm Nhu cầu cung ứng"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_rule_sequence
+msgid "Sequence"
+msgstr "Trình tự"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_origin
+msgid "Source Document"
+msgstr "Tài liệu nguồn"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_state
+#: model:ir.ui.view,arch_db:procurement.view_procurement_filter
+msgid "Status"
+msgstr "Trạng thái"
+
+#. module: procurement
+#: model:ir.model.fields,help:procurement.field_procurement_rule_name
+msgid "This field will fill the packing origin and the name of its moves"
+msgstr "This field will fill the packing origin and the name of its moves"
+
+#. module: procurement
+#: model:ir.ui.view,arch_db:procurement.procurement_tree_view
+msgid "Unit of Measure"
+msgstr "Đơn vị đo lường"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_message_unread
+msgid "Unread Messages"
+msgstr "Thông điệp chưa đọc"
+
+#. module: procurement
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Bộ đếm thông điệp chưa đọc"
+
+#. module: procurement
+#: selection:procurement.order,priority:0
+msgid "Urgent"
+msgstr "Khẩn cấp"
+
+#. module: procurement
+#: selection:procurement.order,priority:0
+msgid "Very Urgent"
+msgstr "Rất khẩn cấp"
+
+#. module: procurement
+#: model:ir.actions.act_window,help:procurement.procurement_action
+#: model:ir.actions.act_window,help:procurement.procurement_order_action_product_product_stat
+#: model:ir.actions.act_window,help:procurement.procurement_order_action_product_template_stat
+msgid "When the procurement order is confirmed, it automatically\n"
+"                creates the necessary operations to fullfil the need: purchase\n"
+"                order proposition, manufacturing order, etc."
+msgstr "Khi một nhu cầu cầu cung ứng được xác nhận, not sẽ tự động\n"
+"                tạo các hoạt động cần thiết để đáp ứng nhu cầu: đề xuất mua hàng\n"
+"                tạo các lệnh sản xuất, v.v."
+
+#. module: procurement
+#: model:ir.ui.view,arch_db:procurement.view_procurement_rule_form
+msgid "e.g. Buy"
+msgstr "vd: Mua"
+
+#. module: procurement
+#: model:ir.ui.view,arch_db:procurement.procurement_form_view
+msgid "e.g. SO005"
+msgstr "vd: SO005"
+

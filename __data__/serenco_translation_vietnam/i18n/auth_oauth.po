@@ -1,0 +1,184 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* auth_oauth
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0rc1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-14 13:08+0000\n"
+"PO-Revision-Date: 2014-11-13 23:27+0700\n"
+"Last-Translator: Trong <nguyen.anhtrong@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: vi_VN\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#. module: auth_oauth
+#: code:addons/auth_oauth/controllers/main.py:99
+#, python-format
+msgid "Access Denied"
+msgstr "Truy cập bị từ chối"
+
+#. module: auth_oauth
+#: field:base.config.settings,auth_oauth_facebook_enabled:0
+msgid "Allow users to sign in with Facebook"
+msgstr "Cho phép người dùng đăng nhập với Facebook"
+
+#. module: auth_oauth
+#: field:base.config.settings,auth_oauth_google_enabled:0
+msgid "Allow users to sign in with Google"
+msgstr "Cho phép người dùng đăng nhập với Google"
+
+#. module: auth_oauth
+#: field:auth.oauth.provider,enabled:0
+msgid "Allowed"
+msgstr "Đã được phép"
+
+#. module: auth_oauth
+#: field:auth.oauth.provider,auth_endpoint:0
+msgid "Authentication URL"
+msgstr "URL xác thực"
+
+#. module: auth_oauth
+#: field:auth.oauth.provider,body:0
+msgid "Body"
+msgstr "Nội dung"
+
+#. module: auth_oauth
+#: field:auth.oauth.provider,css_class:0
+msgid "CSS class"
+msgstr "CSS class"
+
+#. module: auth_oauth
+#: field:auth.oauth.provider,client_id:0
+#: field:base.config.settings,auth_oauth_facebook_client_id:0
+#: field:base.config.settings,auth_oauth_google_client_id:0
+msgid "Client ID"
+msgstr "ID máy khách"
+
+#. module: auth_oauth
+#: field:auth.oauth.provider,create_uid:0
+msgid "Created by"
+msgstr "Người tạo"
+
+#. module: auth_oauth
+#: field:auth.oauth.provider,create_date:0
+msgid "Created on"
+msgstr "Ngày tạo"
+
+#. module: auth_oauth
+#: field:auth.oauth.provider,data_endpoint:0
+msgid "Data URL"
+msgstr "URL dữ liệu"
+
+#. module: auth_oauth
+#: field:auth.oauth.provider,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: auth_oauth
+#: field:auth.oauth.provider,write_uid:0
+msgid "Last Updated by"
+msgstr "Cập nhật cuối bởi"
+
+#. module: auth_oauth
+#: field:auth.oauth.provider,write_date:0
+msgid "Last Updated on"
+msgstr "Cập nhật cuối vào"
+
+#. module: auth_oauth
+#: field:res.users,oauth_access_token:0
+msgid "OAuth Access Token"
+msgstr "Token truy cập OAuth"
+
+#. module: auth_oauth
+#: field:res.users,oauth_provider_id:0
+msgid "OAuth Provider"
+msgstr "Nhà cung cấp OAuth"
+
+#. module: auth_oauth
+#: model:ir.ui.menu,name:auth_oauth.menu_oauth_providers
+msgid "OAuth Providers"
+msgstr "Nhà cung cấp OAuth"
+
+#. module: auth_oauth
+#: sql_constraint:res.users:0
+msgid "OAuth UID must be unique per provider"
+msgstr "UID OAuth phải là duy nhất cho mỗi nhà cung cấp"
+
+#. module: auth_oauth
+#: field:res.users,oauth_uid:0
+msgid "OAuth User ID"
+msgstr "ID người dung OAuth"
+
+#. module: auth_oauth
+#: model:ir.model,name:auth_oauth.model_auth_oauth_provider
+msgid "OAuth2 provider"
+msgstr "Nhà cung cấp OAuth2"
+
+#. module: auth_oauth
+#: view:res.users:auth_oauth.view_users_form
+msgid "Oauth"
+msgstr "Oauth"
+
+#. module: auth_oauth
+#: help:res.users,oauth_uid:0
+msgid "Oauth Provider user_id"
+msgstr "user_id nhà cung cấp Oauth"
+
+#. module: auth_oauth
+#: field:auth.oauth.provider,name:0
+msgid "Provider name"
+msgstr "Tên nhà cung cấp"
+
+#. module: auth_oauth
+#: model:ir.actions.act_window,name:auth_oauth.action_oauth_provider
+msgid "Providers"
+msgstr "Nhà cung cấp"
+
+#. module: auth_oauth
+#: field:auth.oauth.provider,scope:0
+msgid "Scope"
+msgstr "Phạm vi"
+
+#. module: auth_oauth
+#: code:addons/auth_oauth/controllers/main.py:97
+#, python-format
+msgid "Sign up is not allowed on this database."
+msgstr "Không được phép đăng ký trên database này"
+
+#. module: auth_oauth
+#: model:ir.model,name:auth_oauth.model_res_users
+msgid "Users"
+msgstr "Người dùng"
+
+#. module: auth_oauth
+#: field:auth.oauth.provider,validation_endpoint:0
+msgid "Validation URL"
+msgstr "URL duyệt"
+
+#. module: auth_oauth
+#: code:addons/auth_oauth/controllers/main.py:101
+#, python-format
+msgid ""
+"You do not have access to this database or your invitation has expired. "
+"Please ask for an invitation and be sure to follow the link in your "
+"invitation email."
+msgstr ""
+"Bạn không có quyền truy cập vào database này hoặc thư mời của bạn đã hết "
+"hạn. Vui lòng yêu cầu thư mới khác và đảm bảo theo dõi liên kết trong email "
+"mời."
+
+#. module: auth_oauth
+#: view:auth.oauth.provider:auth_oauth.view_oauth_provider_form
+#: view:auth.oauth.provider:auth_oauth.view_oauth_provider_list
+msgid "arch"
+msgstr "cung"
+
+#. module: auth_oauth
+#: field:auth.oauth.provider,sequence:0
+msgid "unknown"
+msgstr "không biết"

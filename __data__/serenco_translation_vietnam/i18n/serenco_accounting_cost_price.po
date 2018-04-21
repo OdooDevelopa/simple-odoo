@@ -1,0 +1,325 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* serenco_accounting_cost_price
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-15 03:13+0000\n"
+"PO-Revision-Date: 2017-06-15 03:13+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,help:serenco_accounting_cost_price.field_account_compute_cost_price_state
+msgid " * The 'Draft' status is used when a user is encoding a new and unconfirmed Compute Cost Price.\n"
+" * The 'Done' status is used when the Document is Done.\n"
+" * The 'Cancelled' status is used when user cancel Document."
+msgstr " * The 'Draft' status is used when a user is encoding a new and unconfirmed Compute Cost Price.\n"
+" * The 'Done' status is used when the Document is Done.\n"
+" * The 'Cancelled' status is used when user cancel Document."
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model,name:serenco_accounting_cost_price.model_account_compute_cost_price
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_price.src_view_account_compute_cost_price_form
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_price.src_view_account_compute_cost_price_tree
+msgid "Account Compute Cost Price"
+msgstr "Account Compute Cost Price"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_message_needaction
+msgid "Action Needed"
+msgstr "Cần có hành động"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_price.src_view_account_compute_cost_price_form
+msgid "Cancel"
+msgstr "Hủy"
+
+#. module: serenco_accounting_cost_price
+#: selection:account.compute.cost.price,state:0
+msgid "Cancelled"
+msgstr "Cancelled"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.actions.act_window,help:serenco_accounting_cost_price.action_compute_cost_price
+msgid "Click to create a Compute cost price."
+msgstr "Click to create a Compute cost price."
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_company_id
+msgid "Company"
+msgstr "Công ty"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.actions.act_window,name:serenco_accounting_cost_price.action_compute_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_product_cost_history_compute_cost_price_id
+msgid "Compute Cost Price"
+msgstr "Tính Giá Vốn"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_quant_ids
+msgid "Compute Cost Price Quants"
+msgstr "Compute Cost Price Quants"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_price.src_view_account_compute_cost_price_form
+msgid "Convert Data"
+msgstr "Cập Nhật Giá Vốn"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_product_cost_history_cost_price
+#: model:ir.ui.menu,name:serenco_accounting_cost_price.menu_compute_cost_price
+#: model:ir.ui.menu,name:serenco_accounting_cost_price.parent_menu_compute_cost_price
+msgid "Cost Price"
+msgstr "Giá Vốn"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_product_cost_history_create_uid
+msgid "Created by"
+msgstr "Được tạo bởi"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_product_cost_history_create_date
+msgid "Created on"
+msgstr "Được tạo vào"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_date_document
+msgid "Date"
+msgstr "Ngày tháng"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_product_cost_history_date_compute
+msgid "Date Compute"
+msgstr "Date Compute"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,help:serenco_accounting_cost_price.field_account_compute_cost_price_message_last_post
+msgid "Date of the last message posted on the record."
+msgstr "Ngày của thông điệp gần nhất được ghi nhận trên một bản ghi"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_product_cost_history_display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: serenco_accounting_cost_price
+#: selection:account.compute.cost.price,state:0
+msgid "Done"
+msgstr "Hoàn Thành"
+
+#. module: serenco_accounting_cost_price
+#: selection:account.compute.cost.price,state:0
+msgid "Draft"
+msgstr "Dự Thảo"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_price.src_view_account_compute_cost_price_form
+msgid "Entries Before Update"
+msgstr "Bút Toán Trước Khi Cập Nhật"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_price.src_view_account_compute_cost_price_form
+msgid "Entries Updated"
+msgstr "Bút Toán Sau Khi Cập Nhật"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_message_follower_ids
+msgid "Followers"
+msgstr "Người dõi theo"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Kênh dõi theo"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Người dõi theo"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_price.src_view_account_compute_cost_price_form
+msgid "Get Data"
+msgstr "Lấy Dữ Liệu"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_price.src_view_account_compute_cost_price_filter
+msgid "Group By"
+msgstr "Nhóm theo"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_id
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_product_cost_history_id
+msgid "ID"
+msgstr "ID"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,help:serenco_accounting_cost_price.field_account_compute_cost_price_message_unread
+msgid "If checked new messages require your attention."
+msgstr "Nếu đánh dấu kiểm, các thông điệp mới yêu cầu sự có mặt của bạn."
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,help:serenco_accounting_cost_price.field_account_compute_cost_price_message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Nếu được đánh dấu, thông điệp mới sẽ yêu cầu sự có mặt của bạn."
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_message_is_follower
+msgid "Is Follower"
+msgstr "Là một người dõi theo"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_message_last_post
+msgid "Last Message Date"
+msgstr "Ngày thông điệp cuối cùng"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_product_cost_history___last_update
+msgid "Last Modified on"
+msgstr "Sửa lần cuối vào"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_product_cost_history_write_uid
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_product_cost_history_write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối vào"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_message_ids
+msgid "Messages"
+msgstr "Thông điệp"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_name
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_product_cost_history_name
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_price.src_view_account_compute_cost_price_filter
+msgid "Name"
+msgstr "Tên"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_price.src_view_account_compute_cost_price_form
+msgid "Name:"
+msgstr "Tên:"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_note
+msgid "Note"
+msgstr "Ghi chú"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_message_needaction_counter
+msgid "Number of Actions"
+msgstr "Số lượng hành động"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,help:serenco_accounting_cost_price.field_account_compute_cost_price_message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Number of messages which requires an action"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,help:serenco_accounting_cost_price.field_account_compute_cost_price_message_unread_counter
+msgid "Number of unread messages"
+msgstr "Số các thông điệp chưa đọc"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_product_id
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_product_ids
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_product_cost_history_product_tmpl_id
+msgid "Product"
+msgstr "Sản phẩm"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_category_id
+msgid "Product Category"
+msgstr "Nhóm sản phẩm"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_price.src_view_product_price_history_form
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_price.src_view_product_price_history_tree
+msgid "Product Cost History"
+msgstr "Product Cost History"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_price.src_view_account_compute_cost_price_form
+msgid "Product List"
+msgstr "Product List"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_price.src_view_account_compute_cost_price_form
+msgid "Products"
+msgstr "Sản phẩm"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_price.src_view_account_compute_cost_price_filter
+msgid "Search Compute Cost Price"
+msgstr "Search Compute Cost Price"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_state
+msgid "Status"
+msgstr "Trạng thái"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_acc_move_ids
+msgid "Stock Account Move After"
+msgstr "Stock Account Move After"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_acc_move_line_ids
+msgid "Stock Account Move Line Before"
+msgstr "Stock Account Move Line Before"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_price.src_view_account_compute_cost_price_form
+msgid "Terms and conditions..."
+msgstr "Điều khoản và điều kiện..."
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_message_unread
+msgid "Unread Messages"
+msgstr "Thông điệp chưa đọc"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Bộ đếm thông điệp chưa đọc"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_user_id
+msgid "User"
+msgstr "Người sử dụng"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model.fields,field_description:serenco_accounting_cost_price.field_account_compute_cost_price_warehouse_id
+#: model:ir.ui.view,arch_db:serenco_accounting_cost_price.src_view_account_compute_cost_price_filter
+msgid "Warehouse"
+msgstr "Kho hàng"
+
+#. module: serenco_accounting_cost_price
+#: code:addons/serenco_accounting_cost_price/models/compute_cost_price.py:138
+#, python-format
+msgid "You can not delete a document that is already done"
+msgstr "You can not delete a document that is already done"
+
+#. module: serenco_accounting_cost_price
+#: model:ir.model,name:serenco_accounting_cost_price.model_product_cost_history
+msgid "product.cost.history"
+msgstr "product.cost.history"
+

@@ -1,0 +1,922 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* serenco_accounting_liabilities
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-26 08:06+0000\n"
+"PO-Revision-Date: 2017-05-26 08:06+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/account_liabilities_aged_report.py:109
+#: code:addons/serenco_accounting_liabilities/report/general_liabilities_chart_report.py:118
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:217
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:203
+#, python-format
+msgid " năm "
+msgstr " năm "
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/general_liabilities_chart_report.py:52
+#, python-format
+msgid " phải thu"
+msgstr " phải thu"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/general_liabilities_chart_report.py:58
+#, python-format
+msgid " phải thu và trả"
+msgstr " phải thu và trả"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/general_liabilities_chart_report.py:55
+#, python-format
+msgid " phải trả"
+msgstr " phải trả"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/account_liabilities_aged_report.py:108
+#: code:addons/serenco_accounting_liabilities/report/general_liabilities_chart_report.py:117
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:216
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:202
+#, python-format
+msgid " tháng "
+msgstr " tháng "
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:85
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:85
+#, python-format
+msgid "(Ban hành theo Thông tư số 200/2014/TT-BTC"
+msgstr "(Ban hành theo Thông tư số 200/2014/TT-BTC"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:98
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:97
+#, python-format
+msgid "(Dùng cho TK: 131, 331)"
+msgstr "(Dùng cho TK: 131, 331)"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:225
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:227
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:211
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:213
+#, python-format
+msgid "(Ký, họ tên)"
+msgstr "(Ký, họ tên)"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:230
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:216
+#, python-format
+msgid "(Ký, họ tên, đóng dấu)"
+msgstr "(Ký, họ tên, đóng dấu)"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:210
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:196
+#, python-format
+msgid "- Sổ này có ... trang, đánh số từ trang 01 đến trang ..."
+msgstr "- Sổ này có ... trang, đánh số từ trang 01 đến trang ..."
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_aged_one
+#: model:ir.ui.view,arch_db:serenco_accounting_liabilities.src_liabilities_accounting_form_view
+msgid "0-30"
+msgstr "0-30"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/account_liabilities_aged_report.py:81
+#, python-format
+msgid "0-30 ngày"
+msgstr "0-30 ngày"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_aged_five
+#: model:ir.ui.view,arch_db:serenco_accounting_liabilities.src_liabilities_accounting_form_view
+msgid "120+"
+msgstr "120+"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_aged_two
+#: model:ir.ui.view,arch_db:serenco_accounting_liabilities.src_liabilities_accounting_form_view
+msgid "30-60"
+msgstr "30-60"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/account_liabilities_aged_report.py:82
+#, python-format
+msgid "31-60 ngày"
+msgstr "31-60 ngày"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_aged_three
+#: model:ir.ui.view,arch_db:serenco_accounting_liabilities.src_liabilities_accounting_form_view
+msgid "60-90"
+msgstr "60-90"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/account_liabilities_aged_report.py:83
+#, python-format
+msgid "61-90 ngày"
+msgstr "61-90 ngày"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_aged_four
+#: model:ir.ui.view,arch_db:serenco_accounting_liabilities.src_liabilities_accounting_form_view
+msgid "90-120"
+msgstr "90-120"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/account_liabilities_aged_report.py:84
+#, python-format
+msgid "91-120 ngày"
+msgstr "91-120 ngày"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_account_id
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_details_account_id
+msgid "Account"
+msgstr "Tài khoản"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/account_liabilities_aged_report.py:36
+#: model:ir.actions.report.xml,name:serenco_accounting_liabilities.account_liabilities_aged_report
+#, python-format
+msgid "Account Liabilities Aged Report"
+msgstr "Báo cáo công nợ theo tuổi nợ"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_message_needaction
+msgid "Action Needed"
+msgstr "Cần có hành động"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.ui.view,arch_db:serenco_accounting_liabilities.src_liabilities_accounting_form_view
+msgid "Aged Liabilities"
+msgstr "Công nợ theo tuổi nợ"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.ui.view,arch_db:serenco_accounting_liabilities.src_liabilities_accounting_form_view
+msgid "Aged Liabilties"
+msgstr "Công nợ theo tuổi nợ"
+
+#. module: serenco_accounting_liabilities
+#: selection:account.liabilities,target_move:0
+msgid "All Entries"
+msgstr "All Entries"
+
+#. module: serenco_accounting_liabilities
+#: selection:account.liabilities,target_move:0
+msgid "All None Posted Entries"
+msgstr "All None Posted Entries"
+
+#. module: serenco_accounting_liabilities
+#: selection:account.liabilities,target_move:0
+msgid "All Posted Entries"
+msgstr "All Posted Entries"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.ui.view,arch_db:serenco_accounting_liabilities.src_liabilities_accounting_form_view
+msgid "Begin"
+msgstr "Số dư đầu kỳ"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_begin_credit
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_general_begin_credit
+msgid "Begin Credit"
+msgstr "Có đầu kỳ"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_begin_debit
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_general_begin_debit
+msgid "Begin Debit"
+msgstr "Nợ đầu kỳ"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:109
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:108
+#, python-format
+msgid "Chứng từ"
+msgstr "Chứng từ"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_company_id
+msgid "Company"
+msgstr "Công ty"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_aged_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_details_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_general_create_uid
+msgid "Created by"
+msgstr "Được tạo bởi"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_aged_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_details_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_general_create_date
+msgid "Created on"
+msgstr "Được tạo vào"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_credit
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_details_credit
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_general_credit
+msgid "Credit"
+msgstr "Số dư có"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_details_date_document
+msgid "Date"
+msgstr "Ngày tháng"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_date_from_aged
+msgid "Date Aged"
+msgstr "Ngày tuổi nợ"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,help:serenco_accounting_liabilities.field_account_liabilities_message_last_post
+msgid "Date of the last message posted on the record."
+msgstr "Ngày của thông điệp gần nhất được ghi nhận trên một bản ghi"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_debit
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_details_debit
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_general_debit
+msgid "Debit"
+msgstr "Nợ"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.ui.view,arch_db:serenco_accounting_liabilities.src_liabilities_accounting_form_view
+msgid "Details Liabilities"
+msgstr "Tổng hợp chi tiết công nợ"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.ui.view,arch_db:serenco_accounting_liabilities.src_liabilities_accounting_form_view
+msgid "Details Liabilties"
+msgstr "Tổng hợp chi tiết công nợ"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_aged_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_details_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_general_display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:112
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:111
+#, python-format
+msgid "Diễn giải"
+msgstr "Diễn giải"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.ui.view,arch_db:serenco_accounting_liabilities.src_liabilities_accounting_form_view
+msgid "End"
+msgstr "Kết thúc"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_end_credit
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_general_end_credit
+msgid "End Credit"
+msgstr "Có cuối kỳ"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_date_to
+msgid "End Date"
+msgstr "Ngày kết thúc"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_end_debit
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_general_end_debit
+msgid "End Debit"
+msgstr "Nợ cuối kỳ"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_message_follower_ids
+msgid "Followers"
+msgstr "Người dõi theo"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Kênh dõi theo"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Người dõi theo"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.ui.view,arch_db:serenco_accounting_liabilities.src_liabilities_accounting_form_view
+msgid "General Liabilities"
+msgstr "Tổng hợp công nợ"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/general_liabilities_chart_report.py:14
+#, python-format
+msgid "General Liabilities Chart"
+msgstr "Tổng hợp công nợ"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.actions.report.xml,name:serenco_accounting_liabilities.general_liabilities_chart_report
+msgid "General Liabilities Chart Report"
+msgstr "Báo cáo tổng hợp công nợ"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.ui.view,arch_db:serenco_accounting_liabilities.src_liabilities_accounting_form_view
+msgid "General Liabilties"
+msgstr "Tổng hợp công nợ"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.ui.view,arch_db:serenco_accounting_liabilities.src_liabilities_accounting_form_view
+msgid "Get Data"
+msgstr "Lấy Dữ Liệu"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/account_liabilities_aged_report.py:115
+#: code:addons/serenco_accounting_liabilities/report/general_liabilities_chart_report.py:122
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:223
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:209
+#, python-format
+msgid "Giám đốc"
+msgstr "Giám đốc"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_aged_id
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_details_id
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_general_id
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_id
+msgid "ID"
+msgstr "ID"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,help:serenco_accounting_liabilities.field_account_liabilities_message_unread
+msgid "If checked new messages require your attention."
+msgstr "Nếu đánh dấu kiểm, các thông điệp mới yêu cầu sự có mặt của bạn."
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,help:serenco_accounting_liabilities.field_account_liabilities_message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Nếu được đánh dấu, thông điệp mới sẽ yêu cầu sự có mặt của bạn."
+
+#. module: serenco_accounting_liabilities
+#: model:ir.ui.view,arch_db:serenco_accounting_liabilities.src_liabilities_accounting_form_view
+msgid "In Period"
+msgstr "Số phát sinh trong kỳ"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_message_is_follower
+msgid "Is Follower"
+msgstr "Là một người dõi theo"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_journal_ids
+msgid "Journals"
+msgstr "Sổ nhật ký"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/account_liabilities_aged_report.py:79
+#, python-format
+msgid "Không có hạn nợ"
+msgstr "Không có hạn nợ"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/account_liabilities_aged_report.py:113
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:221
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:207
+#, python-format
+msgid "Kế toán trưởng"
+msgstr "Kế toán trưởng"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_message_last_post
+msgid "Last Message Date"
+msgstr "Ngày thông điệp cuối cùng"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_aged___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_details___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_general___last_update
+msgid "Last Modified on"
+msgstr "Sửa lần cuối vào"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_aged_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_details_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_general_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_write_uid
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_aged_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_details_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_general_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối vào"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_aged_liabilities_id
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_details_liabilities_id
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_general_liabilities_id
+#: model:ir.ui.menu,name:serenco_accounting_liabilities.menu_src_partner_report
+msgid "Liabilities"
+msgstr "Công Nợ"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.actions.act_window,name:serenco_accounting_liabilities.action_liabilities_accounting_menu
+#: model:ir.model,name:serenco_accounting_liabilities.model_account_liabilities
+#: model:ir.ui.view,arch_db:serenco_accounting_liabilities.src_liabilities_accounting_tree_view
+msgid "Liabilities Accounting"
+msgstr "Kế Toán Công Nợ"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_liabilities_aged_ids
+msgid "Liabilities Aged Line"
+msgstr "Dòng tuổi nợ"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:36
+#, python-format
+msgid "Liabilities Detail Currency"
+msgstr "Chi tiệt công nợ ngoại tệ"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:36
+#, python-format
+msgid "Liabilities Detail Report"
+msgstr "Báo cáo chi tiết công nợ""
+
+#. module: serenco_accounting_liabilities
+#: model:ir.actions.report.xml,name:serenco_accounting_liabilities.liabilities_details_currency_report
+msgid "Liabilities Details Currency Report"
+msgstr "Báo cáo chi tiết công nợ ngoại tệ"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_liabilities_details_ids
+msgid "Liabilities Details Line"
+msgstr "Các dòng chi tiết công nợ"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.actions.report.xml,name:serenco_accounting_liabilities.liabilities_details_report
+msgid "Liabilities Details Report"
+msgstr "Báo cáo chi tiết công nợ"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_liabilities_general_ids
+msgid "Liabilities General Line"
+msgstr "Liabilities General Line"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_result_selection
+msgid "Liabilities Type"
+msgstr "Kiểu công nợ"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.ui.view,arch_db:serenco_accounting_liabilities.src_liabilities_accounting_form_view
+msgid "Liabilitites Accounting"
+msgstr "Liabilitites Accounting"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:105
+#, python-format
+msgid "Loại ngoại tệ:........................"
+msgstr "Loại ngoại tệ:........................"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:104
+#, python-format
+msgid "Loại tiền: VNĐ"
+msgstr "Loại tiền: VNĐ"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/account_liabilities_aged_report.py:68
+#, python-format
+msgid "MST: %s"
+msgstr "MST: %s"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_message_ids
+msgid "Messages"
+msgstr "Thông điệp"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/account_liabilities_aged_report.py:75
+#: code:addons/serenco_accounting_liabilities/report/general_liabilities_chart_report.py:63
+#, python-format
+msgid "Mã khách hàng"
+msgstr "Mã khách hàng"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:83
+#, python-format
+msgid "Mẫu số S31-DN"
+msgstr "Mẫu số S31-DN"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:83
+#, python-format
+msgid "Mẫu số S32-DN"
+msgstr "Mẫu số S32-DN"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_aged_name
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_details_name
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_general_name
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_name
+msgid "Name"
+msgstr "Tên"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.ui.view,arch_db:serenco_accounting_liabilities.src_liabilities_accounting_form_view
+msgid "Name:"
+msgstr "Tên:"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:116
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:119
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:123
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:126
+#, python-format
+msgid "Ngoại tệ"
+msgstr "Ngoại tệ"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/account_liabilities_aged_report.py:108
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:216
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:202
+#, python-format
+msgid "Ngày "
+msgstr "Ngày "
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:87
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:87
+#, python-format
+msgid "Ngày 22/12/2014 của Bộ Tài chính)"
+msgstr "Ngày 22/12/2014 của Bộ Tài chính)"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:111
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:110
+#, python-format
+msgid "Ngày, tháng"
+msgstr "Ngày, tháng"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:107
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:106
+#, python-format
+msgid "Ngày, tháng ghi sổ"
+msgstr "Ngày, tháng ghi sổ"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:219
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:205
+#, python-format
+msgid "Người ghi sổ"
+msgstr "Người ghi sổ"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/account_liabilities_aged_report.py:111
+#: code:addons/serenco_accounting_liabilities/report/general_liabilities_chart_report.py:120
+#, python-format
+msgid "Người lập"
+msgstr "Người lập"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_aged_not_deadline
+msgid "Not Deadline"
+msgstr "Không có hạn nợ"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_note
+msgid "Note"
+msgstr "Ghi chú"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_message_needaction_counter
+msgid "Number of Actions"
+msgstr "Số lượng hành động"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,help:serenco_accounting_liabilities.field_account_liabilities_message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Number of messages which requires an action"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,help:serenco_accounting_liabilities.field_account_liabilities_message_unread_counter
+msgid "Number of unread messages"
+msgstr "Số các thông điệp chưa đọc"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/account_liabilities_aged_report.py:80
+#, python-format
+msgid "Nợ trước hạn"
+msgstr "Nợ trước hạn"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.ui.menu,name:serenco_accounting_liabilities.menu_odoo_partner_report
+msgid "Odoo Reports"
+msgstr "Báo Cáo Tham Khảo"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_details_origin
+msgid "Origin"
+msgstr "Chứng từ"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/account_liabilities_aged_report.py:69
+#, python-format
+msgid "PHÂN TÍCH CÔNG NỢ PHẢI THU THEO TUỔI NỢ"
+msgstr "PHÂN TÍCH CÔNG NỢ PHẢI THU THEO TUỔI NỢ"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/general_liabilities_chart_report.py:51
+#, python-format
+msgid "PHẢI THU"
+msgstr "PHẢI THU"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/general_liabilities_chart_report.py:57
+#, python-format
+msgid "PHẢI THU VÀ TRẢ"
+msgstr "PHẢI THU VÀ TRẢ"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/general_liabilities_chart_report.py:54
+#, python-format
+msgid "PHẢI TRẢ"
+msgstr "PHẢI TRẢ"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_aged_partner_id
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_details_partner_id
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_general_partner_id
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_partner_id
+msgid "Partner"
+msgstr "Đối tác"
+
+#. module: serenco_accounting_liabilities
+#: selection:account.liabilities,result_selection:0
+msgid "Payable Accounts"
+msgstr "Payable Accounts"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_period_length
+msgid "Period Length (days)"
+msgstr "Khoảng thời gian (tính theo ngày)"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/wizard/general_liabilities_chart.py:136
+#, python-format
+msgid "Please: Date From < Date To \n"
+"Error:                                 Date From %s > Date To %s"
+msgstr "Please: Date From < Date To \n"
+"Error:                                 Date From %s > Date To %s"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:117
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:120
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:124
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:127
+#, python-format
+msgid "Quy ra VNĐ"
+msgstr "Quy ra VNĐ"
+
+#. module: serenco_accounting_liabilities
+#: selection:account.liabilities,result_selection:0
+msgid "Receivable Accounts"
+msgstr "Receivable Accounts"
+
+#. module: serenco_accounting_liabilities
+#: selection:account.liabilities,result_selection:0
+msgid "Receivable and Payable Accounts"
+msgstr "Receivable and Payable Accounts"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_reconciled
+msgid "Reconciled"
+msgstr "Đã đối soát"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_date_from
+msgid "Start Date"
+msgstr "Ngày bắt đầu"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:121
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:116
+#, python-format
+msgid "Số dư"
+msgstr "Số dư"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/general_liabilities_chart_report.py:75
+#, python-format
+msgid "Số dư cuối kỳ"
+msgstr "Số dư cuối kỳ"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/general_liabilities_chart_report.py:67
+#, python-format
+msgid "Số dư đầu kỳ"
+msgstr "Số dư đầu kỳ"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:110
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:109
+#, python-format
+msgid "Số hiệu"
+msgstr "Số hiệu"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/general_liabilities_chart_report.py:71
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:114
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:113
+#, python-format
+msgid "Số phát sinh"
+msgstr "Số phát sinh"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:113
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:112
+#, python-format
+msgid "TK đối ứng"
+msgstr "TK đối ứng"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/general_liabilities_chart_report.py:117
+#, python-format
+msgid "TP.HCM, ngày "
+msgstr "TP.HCM, ngày "
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_target_move
+msgid "Target Moves"
+msgstr "Đối tượng"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.ui.view,arch_db:serenco_accounting_liabilities.src_liabilities_accounting_form_view
+msgid "Terms and conditions..."
+msgstr "Điều khoản và điều kiện..."
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_aged_total
+#: model:ir.ui.view,arch_db:serenco_accounting_liabilities.src_liabilities_accounting_form_view
+msgid "Total"
+msgstr "Tổng"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.ui.view,arch_db:serenco_accounting_liabilities.src_liabilities_accounting_form_view
+msgid "Total Begin Credit"
+msgstr "Total Begin Credit"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.ui.view,arch_db:serenco_accounting_liabilities.src_liabilities_accounting_form_view
+msgid "Total Begin Debit"
+msgstr "Tổng nợ đầu kỳ"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.ui.view,arch_db:serenco_accounting_liabilities.src_liabilities_accounting_form_view
+msgid "Total Credit"
+msgstr "Tổng có"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.ui.view,arch_db:serenco_accounting_liabilities.src_liabilities_accounting_form_view
+msgid "Total Debit"
+msgstr "Tổng nợ"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.ui.view,arch_db:serenco_accounting_liabilities.src_liabilities_accounting_form_view
+msgid "Total End Debit"
+msgstr "Tổng nợ cuối kỳ"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/account_liabilities_aged_report.py:85
+#, python-format
+msgid "Trên 120 ngày"
+msgstr "Trên 120 ngày"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/general_liabilities_chart_report.py:61
+#, python-format
+msgid "Tài khoản: "
+msgstr "Tài khoản: "
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/account_liabilities_aged_report.py:71
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:99
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:98
+#, python-format
+msgid "Tài khoản: %s"
+msgstr "Tài khoản: %s"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/general_liabilities_chart_report.py:46
+#, python-format
+msgid "Tên công ty: %s"
+msgstr "Tên công ty: %s"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/account_liabilities_aged_report.py:76
+#: code:addons/serenco_accounting_liabilities/report/general_liabilities_chart_report.py:65
+#, python-format
+msgid "Tên khách hàng"
+msgstr "Tên khách hàng"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/general_liabilities_chart_report.py:59
+#, python-format
+msgid "TỔNG HỢP CÔNG NỢ "
+msgstr "TỔNG HỢP CÔNG NỢ "
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/account_liabilities_aged_report.py:86
+#, python-format
+msgid "Tổng"
+msgstr "Tổng"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/account_liabilities_aged_report.py:78
+#, python-format
+msgid "Tổng nợ"
+msgstr "Tổng nợ"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/models/liabilities_accounting.py:523
+#, python-format
+msgid "Unknown Partner"
+msgstr "Unknown Partner"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_message_unread
+msgid "Unread Messages"
+msgstr "Thông điệp chưa đọc"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model.fields,field_description:serenco_accounting_liabilities.field_account_liabilities_message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Bộ đếm thông điệp chưa đọc"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model,name:serenco_accounting_liabilities.model_account_liabilities_aged
+msgid "account.liabilities.aged"
+msgstr "account.liabilities.aged"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model,name:serenco_accounting_liabilities.model_account_liabilities_details
+msgid "account.liabilities.details"
+msgstr "account.liabilities.details"
+
+#. module: serenco_accounting_liabilities
+#: model:ir.model,name:serenco_accounting_liabilities.model_account_liabilities_general
+msgid "account.liabilities.general"
+msgstr "account.liabilities.general"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/account_liabilities_aged_report.py:63
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:80
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:80
+#, python-format
+msgid "Đơn vị: %s"
+msgstr "Đơn vị: %s"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/account_liabilities_aged_report.py:77
+#, python-format
+msgid "Địa chỉ"
+msgstr "Địa chỉ"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/account_liabilities_aged_report.py:64
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:81
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:81
+#, python-format
+msgid "Địa chỉ: %s"
+msgstr "Địa chỉ: %s"
+
+#. module: serenco_accounting_liabilities
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_currency_report.py:102
+#: code:addons/serenco_accounting_liabilities/report/liabilities_details_report.py:101
+#, python-format
+msgid "Đối tượng: %s"
+msgstr "Đối tượng: %s"
+

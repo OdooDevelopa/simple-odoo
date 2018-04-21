@@ -1,0 +1,1395 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* serenco_accounting_tax_report
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-12 03:46+0000\n"
+"PO-Revision-Date: 2017-05-12 03:46+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:180
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:180
+#, python-format
+msgid "\n"
+"(Ban hành kèm theo Thông tư số 119/2014/TT-BTC"
+msgstr "\n"
+"(Ban hành kèm theo Thông tư số 119/2014/TT-BTC"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:182
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:182
+#, python-format
+msgid "\n"
+"Ngày 25/8/2014 của Bộ Tài chính)"
+msgstr "\n"
+"Ngày 25/8/2014 của Bộ Tài chính)"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:489
+#, python-format
+msgid "                  - GTGT: Giá trị Gia tăng"
+msgstr "                  - GTGT: Giá trị Gia tăng"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:491
+#, python-format
+msgid "                 - HHDV: Hàng hoá dịch vụ"
+msgstr "                 - HHDV: Hàng hoá dịch vụ"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:146
+#, python-format
+msgid "          Mẫu số: 01/GTGT\n"
+"(Ban hành kèm theo Thông tư\n"
+"     số 26/2015/TT-BTC ngày\n"
+"27/02/2015 của Bộ Tài chính)"
+msgstr "          Mẫu số: 01/GTGT\n"
+"(Ban hành kèm theo Thông tư\n"
+"     số 26/2015/TT-BTC ngày\n"
+"27/02/2015 của Bộ Tài chính)"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:472
+#, python-format
+msgid "         NHÂN VIÊN ĐẠI LÝ THUẾ"
+msgstr "         NHÂN VIÊN ĐẠI LÝ THUẾ"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/distributed_vat_report.py:130
+#, python-format
+msgid "    + Thuế GTGT của HHDV mua vào dùng chung cho SXKD HHDV chịu thuế và không chịu thuế đủ điều kiện khấu trừ:"
+msgstr "    + Thuế GTGT của HHDV mua vào dùng chung cho SXKD HHDV chịu thuế và không chịu thuế đủ điều kiện khấu trừ:"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/distributed_vat_report.py:125
+#, python-format
+msgid "    + Thuế GTGT của HHDV mua vào dùng riêng cho SXKD HHDV chịu thuế đủ điều kiện khấu trừ:"
+msgstr "    + Thuế GTGT của HHDV mua vào dùng riêng cho SXKD HHDV chịu thuế đủ điều kiện khấu trừ:"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/distributed_vat_report.py:128
+#, python-format
+msgid "    + Thuế GTGT của HHDV mua vào không đủ điều kiện khấu trừ:"
+msgstr "    + Thuế GTGT của HHDV mua vào không đủ điều kiện khấu trừ:"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:194
+#, python-format
+msgid " Tỉnh/thành phố: %s"
+msgstr " Tỉnh/thành phố: %s"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/distributed_vat_report.py:156
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:467
+#, python-format
+msgid " năm "
+msgstr " năm "
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/distributed_vat_report.py:155
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:466
+#, python-format
+msgid " tháng "
+msgstr " tháng "
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:222
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:222
+#, python-format
+msgid "(10)"
+msgstr "(10)"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:223
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:223
+#, python-format
+msgid "(11)"
+msgstr "(11)"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:150
+#, python-format
+msgid "(Dành cho người nộp thuế khai thuế giá trị gia tăng theo phương pháp khấu trừ)"
+msgstr "(Dành cho người nộp thuế khai thuế giá trị gia tăng theo phương pháp khấu trừ)"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:185
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:185
+#, python-format
+msgid "(Kèm theo tờ khai thuế GTGT theo mẫu số 01/GTGT)"
+msgstr "(Kèm theo tờ khai thuế GTGT theo mẫu số 01/GTGT)"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:479
+#, python-format
+msgid "(Ký, ghi rõ họ tên; chức vụ và đóng dấu (nếu có))"
+msgstr "(Ký, ghi rõ họ tên; chức vụ và đóng dấu (nếu có))"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:466
+#, python-format
+msgid "..., ngày "
+msgstr "..., ngày "
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:450
+#, python-format
+msgid "4.1"
+msgstr "4.1"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:455
+#, python-format
+msgid "4.2"
+msgstr "4.2"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/distributed_vat_report.py:123
+#, python-format
+msgid "A. Thuế GTGT của HHDV mua vào trong kỳ:"
+msgstr "A. Thuế GTGT của HHDV mua vào trong kỳ:"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_line_set_type
+msgid "Account Active Type"
+msgstr "Account Active Type"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model,name:serenco_accounting_tax_report.model_account_move
+msgid "Account Entry"
+msgstr "Bút toán kế toán"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model,name:serenco_accounting_tax_report.model_account_voucher
+msgid "Accounting Voucher"
+msgstr "Biên lai kế toán"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_account_invoice_active_type
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_account_move_active_type
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_account_voucher_active_type
+msgid "Active Type"
+msgstr "Loại Hoạt Động"
+
+#. module: serenco_accounting_tax_report
+#: selection:value.added.tax,slc_state:0
+msgid "Approval"
+msgstr "Approval"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/distributed_vat_report.py:133
+#, python-format
+msgid "B. Phân bổ số thuế GTGT của HHDV mua vào được khấu trừ trong kỳ như sau:"
+msgstr "B. Phân bổ số thuế GTGT của HHDV mua vào được khấu trừ trong kỳ như sau:"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_line_base_amount
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_line_base_amount
+msgid "Base Amount"
+msgstr "Chưa thuế"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:183
+#, python-format
+msgid "BẢNG KÊ HÓA ĐƠN, CHỨNG TỪ HÀNG HÓA, DỊCH VỤ BÁN RA"
+msgstr "BẢNG KÊ HÓA ĐƠN, CHỨNG TỪ HÀNG HÓA, DỊCH VỤ BÁN RA"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:183
+#, python-format
+msgid "BẢNG KÊ HÓA ĐƠN, CHỨNG TỪ HÀNG HÓA, DỊCH VỤ MUA VÀO"
+msgstr "BẢNG KÊ HÓA ĐƠN, CHỨNG TỪ HÀNG HÓA, DỊCH VỤ MUA VÀO"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/distributed_vat_report.py:118
+#, python-format
+msgid "BẢNG PHÂN BỔ SỐ THUẾ GIÁ TRỊ GIA TĂNG \n"
+"CỦA HÀNG HÓA DỊCH VỤ MUA VÀO ĐƯỢC KHẤU TRỪ TRONG KỲ"
+msgstr "BẢNG PHÂN BỔ SỐ THUẾ GIÁ TRỊ GIA TĂNG \n"
+"CỦA HÀNG HÓA DỊCH VỤ MUA VÀO ĐƯỢC KHẤU TRỪ TRONG KỲ"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.ui.view,arch_db:serenco_accounting_tax_report.value_added_tax_form_view
+#: selection:value.added.tax,slc_state:0
+msgid "Cancel"
+msgstr "Hủy"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_is_tax_previous
+msgid "Check Previous"
+msgstr "Check Previous"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/distributed_vat_report.py:135
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:258
+#, python-format
+msgid "Chỉ tiêu"
+msgstr "Chỉ tiêu"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:474
+#, python-format
+msgid "Chứng chỉ hành nghề số:.........................."
+msgstr "Chứng chỉ hành nghề số:.........................."
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_account_active_type_code
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_symbol_template_invoice_code
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_config_code
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_line_code
+msgid "Code"
+msgstr "Mã"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_distributed_vat_company_id
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_company_id
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_company_id
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_company_id
+msgid "Company"
+msgstr "Công ty"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.actions.act_window,name:serenco_accounting_tax_report.value_added_tax_config_action
+msgid "Config Value Added Tax"
+msgstr "Config Value Added Tax"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.ui.view,arch_db:serenco_accounting_tax_report.value_added_tax_form_view
+msgid "Confirm"
+msgstr "Xác nhận"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_account_active_type_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_distributed_vat_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_line_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_line_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_symbol_template_invoice_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_config_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_line_create_uid
+msgid "Created by"
+msgstr "Được tạo bởi"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_account_active_type_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_distributed_vat_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_line_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_line_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_symbol_template_invoice_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_config_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_line_create_date
+msgid "Created on"
+msgstr "Được tạo vào"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:140
+#, python-format
+msgid "CỘNG HOÀ XÃ  HỘI CHỦ NGHĨA VIỆT NAM"
+msgstr "CỘNG HOÀ XÃ  HỘI CHỦ NGHĨA VIỆT NAM"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_date_end
+msgid "Date End"
+msgstr "Ngày kết thúc"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_date_start
+msgid "Date Start"
+msgstr "Ngày bắt đầu"
+
+#. module: serenco_accounting_tax_report
+#: selection:value.added.tax,times:0
+msgid "Dates"
+msgstr "Dates"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_account_invoice_description
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_account_voucher_description
+msgid "Description"
+msgstr "Mô tả"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_account_active_type_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_distributed_vat_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_line_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_line_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_symbol_template_invoice_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_config_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_line_display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.actions.act_window,name:serenco_accounting_tax_report.action_distributed_vat_report
+#: model:ir.ui.menu,name:serenco_accounting_tax_report.menu_distributed_vat_report
+msgid "Distributed Vat"
+msgstr "Phân Bổ Thuế GTGT MV"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.ui.view,arch_db:serenco_accounting_tax_report.view_distributed_vat_form_view
+msgid "Distributed Vat List"
+msgstr "Phân bổ thuế"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.actions.report.xml,name:serenco_accounting_tax_report.distributed_vat_report
+msgid "Distributed Vat Report"
+msgstr "Distributed Vat Report"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/distributed_vat_report.py:141
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_distributed_vat__active_so_2
+#, python-format
+msgid "Doanh thu HHDV bán ra chịu thuế trong kỳ (2)"
+msgstr "Doanh thu HHDV bán ra chịu thuế trong kỳ (2)"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:208
+#, python-format
+msgid "Doanh thu chưa có Thuế GTGT"
+msgstr "Doanh thu chưa có Thuế GTGT"
+
+#. module: serenco_accounting_tax_report
+#: selection:value.added.tax,slc_state:0
+msgid "Draft"
+msgstr "Draft"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:249
+#, python-format
+msgid "E-mail:"
+msgstr "E-mail:"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:207
+#, python-format
+msgid "E-mail: %s"
+msgstr "E-mail: %s"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.ui.view,arch_db:serenco_accounting_tax_report.value_added_tax_form_view
+msgid "Exponent"
+msgstr "Khai báo"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:246
+#, python-format
+msgid "Fax:"
+msgstr "Fax:"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:203
+#, python-format
+msgid "Fax: %s"
+msgstr "Fax: %s"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_fiscalyear_end
+msgid "Fiscal Year End"
+msgstr "Năm kết thúc"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_fiscalyear_start
+msgid "Fiscal Year Start"
+msgstr "Năm bắt đầu"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.ui.view,arch_db:serenco_accounting_tax_report.value_added_tax_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_tax_report.view_distributed_vat_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_tax_report.view_list_customer_invoice_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_tax_report.view_list_supplier_invoice_form_view
+msgid "General"
+msgstr "Tổng quát"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:488
+#, python-format
+msgid "Ghi Chú"
+msgstr "Ghi Chú"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:212
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:212
+#, python-format
+msgid "Ghi chú"
+msgstr "Ghi chú"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:260
+#, python-format
+msgid "Giá trị HHDV \n"
+"(chưa có thuế GTGT)"
+msgstr "Giá trị HHDV \n"
+"(chưa có thuế GTGT)"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:208
+#, python-format
+msgid "Giá trị HHDV mua vào chưa có thuế"
+msgstr "Giá trị HHDV mua vào chưa có thuế"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:312
+#, python-format
+msgid "Giá trị và thuế GTGT của hàng hoá, dịch vụ mua vào"
+msgstr "Giá trị và thuế GTGT của hàng hoá, dịch vụ mua vào"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:309
+#, python-format
+msgid "Hàng hoá, dịch vụ (HHDV) mua vào trong kỳ"
+msgstr "Hàng hoá, dịch vụ (HHDV) mua vào trong kỳ"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:370
+#, python-format
+msgid "Hàng hoá, dịch vụ bán ra chịu thuế suất 10%"
+msgstr "Hàng hoá, dịch vụ bán ra chịu thuế suất 10%"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:360
+#, python-format
+msgid "Hàng hoá, dịch vụ bán ra chịu thuế suất 5%"
+msgstr "Hàng hoá, dịch vụ bán ra chịu thuế suất 5%"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:380
+#, python-format
+msgid "Hàng hoá, dịch vụ bán ra không tính thuế"
+msgstr "Hàng hoá, dịch vụ bán ra không tính thuế"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:329
+#, python-format
+msgid "Hàng hoá, dịch vụ bán ra trong kỳ"
+msgstr "Hàng hoá, dịch vụ bán ra trong kỳ"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:332
+#, python-format
+msgid "Hàng hóa, dịch vụ bán ra không chịu thuế GTGT"
+msgstr "Hàng hóa, dịch vụ bán ra không chịu thuế GTGT"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:194
+#, python-format
+msgid "Hóa đơn, chứng từ bán ra"
+msgstr "Hóa đơn, chứng từ bán ra"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:194
+#, python-format
+msgid "Hóa đơn, chứng từ, biên lai nộp thuế"
+msgstr "Hóa đơn, chứng từ, biên lai nộp thuế"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:473
+#, python-format
+msgid "Họ và tên:............................"
+msgstr "Họ và tên:............................"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:252
+#, python-format
+msgid "Hợp đồng đại lý thuế: Số"
+msgstr "Hợp đồng đại lý thuế: Số"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_account_active_type_id
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_distributed_vat_id
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_id
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_line_id
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_id
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_line_id
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_symbol_template_invoice_id
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_config_id
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_id
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_line_id
+msgid "ID"
+msgstr "ID"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:328
+#, python-format
+msgid "II"
+msgstr "II"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:396
+#, python-format
+msgid "III"
+msgstr "III"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:404
+#, python-format
+msgid "IV"
+msgstr "IV"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model,name:serenco_accounting_tax_report.model_account_invoice
+msgid "Invoice"
+msgstr "Hoá đơn"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_line_date_invoice
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_line_date_invoice
+msgid "Invoice Date"
+msgstr "Ngày Hóa đơn"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_line_invoice_num
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_line_invoice_num
+msgid "Invoice No"
+msgstr "Số hóa đơn"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model,name:serenco_accounting_tax_report.model_account_move_line
+msgid "Journal Item"
+msgstr "Phát sinh"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:305
+#, python-format
+msgid "Kê khai thuế GTGT phải nộp Ngân sách nhà nước"
+msgstr "Kê khai thuế GTGT phải nộp Ngân sách nhà nước"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:198
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:198
+#, python-format
+msgid "Ký hiệu hóa đơn"
+msgstr "Ký hiệu hóa đơn"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:196
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:196
+#, python-format
+msgid "Ký hiệu mẫu hóa đơn"
+msgstr "Ký hiệu mẫu hóa đơn"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/distributed_vat_report.py:160
+#, python-format
+msgid "Ký tên, đóng dấu (ghi rõ họ tên và chức vụ)"
+msgstr "Ký tên, đóng dấu (ghi rõ họ tên và chức vụ)"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:187
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:187
+#, python-format
+msgid "Kỳ tính thuế: Tháng "
+msgstr "Kỳ tính thuế: Tháng "
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_account_active_type___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_distributed_vat___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_line___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_line___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_symbol_template_invoice___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_config___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_line___last_update
+msgid "Last Modified on"
+msgstr "Sửa lần cuối vào"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_account_active_type_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_distributed_vat_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_line_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_line_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_symbol_template_invoice_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_config_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_line_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_write_uid
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_account_active_type_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_distributed_vat_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_line_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_line_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_symbol_template_invoice_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_config_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_line_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối vào"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_line_parent_id_customer
+msgid "List Customer"
+msgstr "Bảng kê HHDV Bán Ra"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.actions.act_window,name:serenco_accounting_tax_report.action_list_customer_invoice_report
+#: model:ir.ui.menu,name:serenco_accounting_tax_report.menu_list_customer_invoice_report
+#: model:ir.ui.view,arch_db:serenco_accounting_tax_report.view_list_customer_invoice_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_tax_report.view_list_customer_invoice_tree
+msgid "List Customer Invoice"
+msgstr "Bảng Kê HHDV BR"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.actions.report.xml,name:serenco_accounting_tax_report.list_customer_invoice_report
+msgid "List Customer Invoice Report"
+msgstr "Bảng kê HHDV BR"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_line_ids
+msgid "List Customer Line"
+msgstr "Bảng kê HHDV Bán Ra"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_line_parent_id_supplier
+msgid "List Supplier"
+msgstr "Bảng kê HHDV Mua Vào"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.actions.act_window,name:serenco_accounting_tax_report.action_list_supplier_invoice_report
+#: model:ir.ui.menu,name:serenco_accounting_tax_report.menu_list_supplier_invoice_report
+#: model:ir.ui.view,arch_db:serenco_accounting_tax_report.view_list_supplier_invoice_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_tax_report.view_list_supplier_invoice_tree
+msgid "List Supplier Invoice"
+msgstr "Bảng Kê HHDV MV"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.actions.report.xml,name:serenco_accounting_tax_report.list_supplier_invoice_report
+msgid "List Supplier Invoice Report"
+msgstr "Bảng kê HHDV MV"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_line_ids
+msgid "List Supplier Line"
+msgstr "Chi tiết"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:204
+#, python-format
+msgid "Mã số thuế Người mua"
+msgstr "Mã số thuế Người mua"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:204
+#, python-format
+msgid "Mã số thuế người bán"
+msgstr "Mã số thuế người bán"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:161
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:213
+#, python-format
+msgid "Mã số thuế:"
+msgstr "Mã số thuế:"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/distributed_vat_report.py:122
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:191
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:191
+#, python-format
+msgid "Mã số thuế: "
+msgstr "Mã số thuế: "
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:179
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:179
+#, python-format
+msgid "Mẫu số: "
+msgstr "Mẫu số: "
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:206
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:206
+#, python-format
+msgid "Mặt hàng"
+msgstr "Mặt hàng"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/distributed_vat_report.py:158
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:476
+#, python-format
+msgid "NGƯỜI NỘP THUẾ hoặc"
+msgstr "NGƯỜI NỘP THUẾ hoặc"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_account_active_type_name
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_distributed_vat_name
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_line_name
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_name
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_line_name
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_name
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_symbol_template_invoice_name
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_config_name
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_line_name
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_name
+msgid "Name"
+msgstr "Tên"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.ui.view,arch_db:serenco_accounting_tax_report.value_added_tax_form_view
+msgid "Name:"
+msgstr "Tên:"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_tax_next
+msgid "Next Period"
+msgstr "Số dư chuyển sang kỳ sau"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:200
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:200
+#, python-format
+msgid "Ngày, tháng, năm lập hóa đơn"
+msgstr "Ngày, tháng, năm lập hóa đơn"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:254
+#, python-format
+msgid "Ngày:"
+msgstr "Ngày:"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/distributed_vat_report.py:121
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:189
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:189
+#, python-format
+msgid "Người nộp thuế: "
+msgstr "Người nộp thuế: "
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_config_not_tax
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_line_not_tax
+msgid "Not tax"
+msgstr "Chưa thuế"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_line_partner
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_line_partner
+msgid "Partner"
+msgstr "Đối tác"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_line_partner_vat
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_line_partner_vat
+msgid "Partner VAT"
+msgstr "Khách hàng/NCC VAT"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_period_end
+msgid "Period End"
+msgstr "Kỳ kết thúc"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_distributed_vat_period_from
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_period_from
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_period_from
+msgid "Period From"
+msgstr "Từ kỳ"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_period_start
+msgid "Period Start"
+msgstr "Kỳ bắt đầu"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_distributed_vat_period_to
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_period_to
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_period_to
+msgid "Period To"
+msgstr "Đến kỳ"
+
+#. module: serenco_accounting_tax_report
+#: selection:value.added.tax,times:0
+msgid "Periods"
+msgstr "Periods"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/models/value_added_tax.py:163
+#, python-format
+msgid "Please: Date From < Date To \n"
+"Error:                                 Date From %s > Date To %s"
+msgstr "Please: Date From < Date To \n"
+"Error:                                 Date From %s > Date To %s"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_tax_previous
+#: model:ir.ui.view,arch_db:serenco_accounting_tax_report.value_added_tax_form_view
+msgid "Previous Period"
+msgstr "Đầu kỳ"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.ui.view,arch_db:serenco_accounting_tax_report.value_added_tax_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_tax_report.view_distributed_vat_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_tax_report.view_list_customer_invoice_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_tax_report.view_list_supplier_invoice_form_view
+msgid "Print"
+msgstr "In"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:237
+#, python-format
+msgid "Quận/huyện:"
+msgstr "Quận/huyện:"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:190
+#, python-format
+msgid "Quận/huyện: %s"
+msgstr "Quận/huyện: %s"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.ui.view,arch_db:serenco_accounting_tax_report.view_distributed_vat_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_tax_report.view_list_customer_invoice_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_tax_report.view_list_supplier_invoice_form_view
+msgid "Result"
+msgstr "Kết quả"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/distributed_vat_report.py:134
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:193
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:193
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:257
+#, python-format
+msgid "STT"
+msgstr "STT"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.ui.view,arch_db:serenco_accounting_tax_report.value_added_tax_form_view
+msgid "Set to draft"
+msgstr "Set to draft"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_slc_state
+msgid "Status"
+msgstr "Trạng thái"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_account_invoice_symbol_invoice
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_account_voucher_symbol_invoice
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_line_symbol_invoice
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_line_symbol_invoice
+msgid "Symbol Invoice"
+msgstr "Ký hiệu hóa đơn"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_account_invoice_symbol_temp_invoice
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_account_voucher_symbol_temp_invoice
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_line_symbol_temp_invoice
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_line_symbol_temp_invoice
+msgid "Symbol Temp Invoice"
+msgstr "Ký hiệu mẫu hóa đơn"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:199
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:199
+#, python-format
+msgid "Số hóa đơn"
+msgstr "Số hóa đơn"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/distributed_vat_report.py:136
+#, python-format
+msgid "Số tiền"
+msgstr "Số tiền"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_config_tax
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_line_tax
+msgid "Tax"
+msgstr "Thuế"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_line_tax_amount
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_supplier_invoice_line_tax_amount
+msgid "Tax Amount"
+msgstr "Thuế"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.ui.menu,name:serenco_accounting_tax_report.tax_report_configuration
+msgid "Tax Configuration"
+msgstr "Tax Configuration"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_tax_local
+msgid "Tax Local"
+msgstr "VAT phải nộp tài địa phương"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.ui.menu,name:serenco_accounting_tax_report.menu_accountting_tax_report
+msgid "Tax Reports"
+msgstr "Báo Cáo Thuế"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_list_customer_invoice_line_tax_code
+msgid "Tax code"
+msgstr "Mã thuế"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_tax_to_offer
+msgid "Tax to Offer"
+msgstr "Tổng VAT đề nghị hoàn"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:210
+#, python-format
+msgid "Thuế GTGT"
+msgstr "Thuế GTGT"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:446
+#, python-format
+msgid "Thuế GTGT chưa khấu trừ hết kỳ này (nếu [41]=[36]-[22]+[37]-[38]-[39]< 0)"
+msgstr "Thuế GTGT chưa khấu trừ hết kỳ này (nếu [41]=[36]-[22]+[37]-[38]-[39]< 0)"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:441
+#, python-format
+msgid "Thuế GTGT còn phải nộp trong kỳ ([40]=[40a]-[40b])"
+msgstr "Thuế GTGT còn phải nộp trong kỳ ([40]=[40a]-[40b])"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:458
+#, python-format
+msgid "Thuế GTGT còn được khấu trừ chuyển kỳ sau ([43]=[41]-[42])"
+msgstr "Thuế GTGT còn được khấu trừ chuyển kỳ sau ([43]=[41]-[42])"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:299
+#, python-format
+msgid "Thuế GTGT còn được khấu trừ kỳ trước chuyển sang"
+msgstr "Thuế GTGT còn được khấu trừ kỳ trước chuyển sang"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/distributed_vat_report.py:146
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_distributed_vat__active_so_4
+#, python-format
+msgid "Thuế GTGT của HHDV mua vào cần phân bổ trong kỳ (4)"
+msgstr "Thuế GTGT của HHDV mua vào cần phân bổ trong kỳ (4)"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_distributed_vat__active_po_2
+msgid "Thuế GTGT của HHDV mua vào dùng chung cho SXKD HHDV chịu thuế và không chịu thuế đủ điều kiện khấu trừ:"
+msgstr "Thuế GTGT của HHDV mua vào dùng chung cho SXKD HHDV chịu thuế và không chịu thuế đủ điều kiện khấu trừ:"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_distributed_vat__active_po_1
+msgid "Thuế GTGT của HHDV mua vào dùng riêng cho SXKD HHDV chịu thuế đủ điều kiện khấu trừ:"
+msgstr "Thuế GTGT của HHDV mua vào dùng riêng cho SXKD HHDV chịu thuế đủ điều kiện khấu trừ:"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_distributed_vat__active_po
+msgid "Thuế GTGT của HHDV mua vào không đủ điều kiện khấu trừ:"
+msgstr "Thuế GTGT của HHDV mua vào không đủ điều kiện khấu trừ:"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_distributed_vat__active_po_sum
+msgid "Thuế GTGT của HHDV mua vào trong kỳ"
+msgstr "Thuế GTGT của HHDV mua vào trong kỳ"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/distributed_vat_report.py:148
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_distributed_vat__active_so_5
+#, python-format
+msgid "Thuế GTGT của HHDV mua vào được khấu trừ trong kỳ (5) = (4) x (3)"
+msgstr "Thuế GTGT của HHDV mua vào được khấu trừ trong kỳ (5) = (4) x (3)"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:397
+#, python-format
+msgid "Thuế GTGT phát sinh trong kỳ ([36]=[35]-[25])"
+msgstr "Thuế GTGT phát sinh trong kỳ ([36]=[35]-[25])"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/distributed_vat_report.py:153
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_distributed_vat__summary_2
+#, python-format
+msgid "Thuế GTGT phân bổ vào TK chi phí:"
+msgstr "Thuế GTGT phân bổ vào TK chi phí:"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:416
+#, python-format
+msgid "Thuế GTGT đã nộp ở địa phương khác của hoạt động kinh "
+msgstr "Thuế GTGT đã nộp ở địa phương khác của hoạt động kinh "
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/distributed_vat_report.py:151
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_distributed_vat__summary_1
+#, python-format
+msgid "Thuế GTGT được khấu trừ kỳ này:"
+msgstr "Thuế GTGT được khấu trừ kỳ này:"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:210
+#, python-format
+msgid "Thuế GTGT đủ điều kiện khấu trừ thuế"
+msgstr "Thuế GTGT đủ điều kiện khấu trừ thuế"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:262
+#, python-format
+msgid "Thuế GTGT)"
+msgstr "Thuế GTGT)"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_times
+msgid "Time"
+msgstr "Thời gian"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.ui.view,arch_db:serenco_accounting_tax_report.value_added_tax_form_view
+msgid "Times"
+msgstr "Thời gian"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_tune_down
+msgid "Tune Down"
+msgstr "Điều chỉnh giảm"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_tune_up
+msgid "Tune Up"
+msgstr "Điều chỉnh tăng"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:202
+#, python-format
+msgid "Tên người bán"
+msgstr "Tên người bán"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:202
+#, python-format
+msgid "Tên người mua"
+msgstr "Tên người mua"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:463
+#, python-format
+msgid "Tôi cam đoan số liệu khai trên là đúng và chịu trách nhiệm trước pháp luật về những số liệu đã khai./."
+msgstr "Tôi cam đoan số liệu khai trên là đúng và chịu trách nhiệm trước pháp luật về những số liệu đã khai./."
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:240
+#, python-format
+msgid "Tỉnh/thành phố:"
+msgstr "Tỉnh/thành phố:"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:264
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:300
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:336
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:371
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:269
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:306
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:342
+#, python-format
+msgid "Tổng"
+msgstr "Tổng"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/distributed_vat_report.py:139
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_distributed_vat__active_so_1
+#, python-format
+msgid "Tổng doanh thu hàng hóa,  dịch vụ bán ra trong kỳ (1)"
+msgstr "Tổng doanh thu hàng hóa,  dịch vụ bán ra trong kỳ (1)"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:382
+#, python-format
+msgid "Tổng doanh thu hàng hóa, dịch vụ bán ra chịu thuế GTGT:"
+msgstr "Tổng doanh thu hàng hóa, dịch vụ bán ra chịu thuế GTGT:"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:350
+#, python-format
+msgid "Tổng giá trị HHDV mua vào phục vụ SXKD được khấu trừ thuế GTGT:"
+msgstr "Tổng giá trị HHDV mua vào phục vụ SXKD được khấu trừ thuế GTGT:"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:353
+#, python-format
+msgid "Tổng số thuế GTGT của HHDV mua vào đủ điều kiện được khấu trừ:"
+msgstr "Tổng số thuế GTGT của HHDV mua vào đủ điều kiện được khấu trừ:"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:385
+#, python-format
+msgid "Tổng số thuế GTGT của hàng hóa, dịch vụ bán ra:"
+msgstr "Tổng số thuế GTGT của hàng hóa, dịch vụ bán ra:"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:322
+#, python-format
+msgid "Tổng số thuế GTGT được khấu trừ kỳ này"
+msgstr "Tổng số thuế GTGT được khấu trừ kỳ này"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:451
+#, python-format
+msgid "Tổng số thuế GTGT đề nghị hoàn"
+msgstr "Tổng số thuế GTGT đề nghị hoàn"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:144
+#, python-format
+msgid "TỜ KHAI THUẾ GIÁ TRỊ GIA TĂNG"
+msgstr "TỜ KHAI THUẾ GIÁ TRỊ GIA TĂNG"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/distributed_vat_report.py:143
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_distributed_vat__active_so_3
+#, python-format
+msgid "Tỷ lệ % doanh thu HHDV bán ra chịu thuế trên tổng doanh thu của kỳ kê khai (3) = (2) / (1)"
+msgstr "Tỷ lệ % doanh thu HHDV bán ra chịu thuế trên tổng doanh thu của kỳ kê khai (3) = (2) / (1)"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:421
+#, python-format
+msgid "VI"
+msgstr "VI"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.actions.act_window,name:serenco_accounting_tax_report.value_added_tax_action
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_config_parent_id
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_line_parent_id
+#: model:ir.ui.menu,name:serenco_accounting_tax_report.menu_value_added_tax
+#: model:ir.ui.menu,name:serenco_accounting_tax_report.menu_value_added_tax_config
+#: model:ir.ui.view,arch_db:serenco_accounting_tax_report.value_added_tax_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_tax_report.value_added_tax_tree_view
+msgid "Value Added Tax"
+msgstr "Tờ Khai Thuế GTGT"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.ui.view,arch_db:serenco_accounting_tax_report.value_added_tax_config_form_view
+#: model:ir.ui.view,arch_db:serenco_accounting_tax_report.value_added_tax_config_tree_view
+msgid "Value Added Tax Config"
+msgstr "Cấu hình tờ khai thuế GTGT"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_value_added_tax_tax_line
+msgid "Value Added Tax Lines"
+msgstr "Value Added Tax Lines"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:37
+#: model:ir.actions.report.xml,name:serenco_accounting_tax_report.value_added_tax_report
+#, python-format
+msgid "Value Added Tax Report"
+msgstr "Value Added Tax Report"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model.fields,field_description:serenco_accounting_tax_report.field_account_move_line_voucher
+msgid "Voucher"
+msgstr "Biên lai (Voucher)"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:422
+#, python-format
+msgid "Xác định nghĩa vụ thuế GTGT phải nộp trong kỳ:"
+msgstr "Xác định nghĩa vụ thuế GTGT phải nộp trong kỳ:"
+
+#. module: serenco_accounting_tax_report
+#: selection:value.added.tax,times:0
+msgid "Years"
+msgstr "Years"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/models/value_added_tax.py:181
+#, python-format
+msgid "You cannot have 2 value added TAX that overlap!"
+msgstr "You cannot have 2 value added TAX that overlap!"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:506
+#, python-format
+msgid "[01] Kỳ tính thuế: Tháng  năm  đến tháng  năm "
+msgstr "[01] Kỳ tính thuế: Tháng  năm  đến tháng  năm "
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:155
+#, python-format
+msgid "[02] Lần đầu [    ]                         [03] Bổ sung lần thứ [    ]"
+msgstr "[02] Lần đầu [    ]                         [03] Bổ sung lần thứ [    ]"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:158
+#, python-format
+msgid "[04] Tên người nộp thuế: %s"
+msgstr "[04] Tên người nộp thuế: %s"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:210
+#, python-format
+msgid "[12] Tên đại lý thuế (nếu có):"
+msgstr "[12] Tên đại lý thuế (nếu có):"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:315
+#, python-format
+msgid "[23]"
+msgstr "[23]"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:318
+#, python-format
+msgid "[24]"
+msgstr "[24]"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model,name:serenco_accounting_tax_report.model_account_active_type
+msgid "account.active.type"
+msgstr "account.active.type"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model,name:serenco_accounting_tax_report.model_distributed_vat
+msgid "distributed.vat"
+msgstr "Phân Bổ Thuế GTGT"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:417
+#, python-format
+msgid "doanh xây dựng, lắp đặt, bán hàng, bất động sản ngoại tỉnh"
+msgstr "doanh xây dựng, lắp đặt, bán hàng, bất động sản ngoại tỉnh"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model,name:serenco_accounting_tax_report.model_list_customer_invoice
+msgid "list.customer.invoice"
+msgstr "Bản kê HHDV bán ra"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model,name:serenco_accounting_tax_report.model_list_customer_invoice_line
+msgid "list.customer.invoice.line"
+msgstr "Bản kê HHDV bán ra"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model,name:serenco_accounting_tax_report.model_list_supplier_invoice
+msgid "list.supplier.invoice"
+msgstr "Bảng kê HHDV Mua Vào"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model,name:serenco_accounting_tax_report.model_list_supplier_invoice_line
+msgid "list.supplier.invoice.line"
+msgstr "Chi tiết"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/distributed_vat_report.py:155
+#, python-format
+msgid "ngày "
+msgstr "ngày "
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model,name:serenco_accounting_tax_report.model_symbol_template_invoice
+msgid "symbol.template.invoice"
+msgstr "symbol.template.invoice"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model,name:serenco_accounting_tax_report.model_value_added_tax
+msgid "value.added.tax"
+msgstr "value.added.tax"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model,name:serenco_accounting_tax_report.model_value_added_tax_config
+msgid "value.added.tax.config"
+msgstr "value.added.tax.config"
+
+#. module: serenco_accounting_tax_report
+#: model:ir.model,name:serenco_accounting_tax_report.model_value_added_tax_line
+msgid "value.added.tax.line"
+msgstr "value.added.tax.line"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/distributed_vat_report.py:159
+#, python-format
+msgid "ĐAI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ"
+msgstr "ĐAI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:408
+#, python-format
+msgid "Điều chỉnh giảm"
+msgstr "Điều chỉnh giảm"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:412
+#, python-format
+msgid "Điều chỉnh tăng "
+msgstr "Điều chỉnh tăng "
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:405
+#, python-format
+msgid "Điều chỉnh tăng, giảm thuế GTGT còn được khấu trừ của các kỳ trước"
+msgstr "Điều chỉnh tăng, giảm thuế GTGT còn được khấu trừ của các kỳ trước"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:243
+#, python-format
+msgid "Điện thoại:"
+msgstr "Điện thoại:"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:198
+#, python-format
+msgid "Điện thoại: %s"
+msgstr "Điện thoại: %s"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:255
+#, python-format
+msgid "Đơn vị tính: đồng Việt Nam"
+msgstr "Đơn vị tính: đồng Việt Nam"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/list_customer_invoice_report.py:192
+#: code:addons/serenco_accounting_tax_report/report/list_supplier_invoice_report.py:192
+#, python-format
+msgid "Đơn vị: VND"
+msgstr "Đơn vị: VND"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:477
+#, python-format
+msgid "ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ"
+msgstr "ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:234
+#, python-format
+msgid "Địa chỉ:"
+msgstr "Địa chỉ:"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:186
+#, python-format
+msgid "Địa chỉ: %s"
+msgstr "Địa chỉ: %s"
+
+#. module: serenco_accounting_tax_report
+#: code:addons/serenco_accounting_tax_report/report/value_added_tax_report.py:142
+#, python-format
+msgid "Độc lập - Tự do - Hạnh phúc"
+msgstr "Độc lập - Tự do - Hạnh phúc"
+

@@ -1,0 +1,32 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* web_window_title
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-21 06:17+0000\n"
+"PO-Revision-Date: 2016-09-21 06:17+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: web_window_title
+#: model:ir.model.fields,field_description:web_window_title.field_base_config_settings_web_window_title
+msgid "Window Title"
+msgstr ""
+
+#. module: web_window_title
+#: model:ir.model,name:web_window_title.model_base_config_settings
+msgid "base.config.settings"
+msgstr ""
+
+#. module: web_window_title
+#: model:ir.model,name:web_window_title.model_ir_ui_view
+msgid "ir.ui.view"
+msgstr ""
+

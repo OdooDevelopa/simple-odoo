@@ -1,0 +1,99 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* account_full_reconcile
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-15 07:09+0000\n"
+"PO-Revision-Date: 2016-11-15 07:09+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: account_full_reconcile
+#: model:ir.ui.view,arch_db:account_full_reconcile.view_move_line_form
+msgid "-> View partially reconciled entries"
+msgstr "-> Xem các bút toán đối soát một phần"
+
+#. module: account_full_reconcile
+#: model:ir.model.fields,field_description:account_full_reconcile.field_account_full_reconcile_create_uid
+msgid "Created by"
+msgstr "Created by"
+
+#. module: account_full_reconcile
+#: model:ir.model.fields,field_description:account_full_reconcile.field_account_full_reconcile_create_date
+msgid "Created on"
+msgstr "Created on"
+
+#. module: account_full_reconcile
+#: model:ir.model.fields,field_description:account_full_reconcile.field_account_full_reconcile_display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: account_full_reconcile
+#: model:ir.model,name:account_full_reconcile.model_account_full_reconcile
+#: model:ir.model.fields,field_description:account_full_reconcile.field_account_partial_reconcile_full_reconcile_id
+msgid "Full Reconcile"
+msgstr "Đối soát hoàn toàn"
+
+#. module: account_full_reconcile
+#: model:ir.model.fields,field_description:account_full_reconcile.field_account_full_reconcile_id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_full_reconcile
+#: model:ir.model,name:account_full_reconcile.model_account_move_line
+msgid "Journal Item"
+msgstr "Phát sinh"
+
+#. module: account_full_reconcile
+#: model:ir.model.fields,field_description:account_full_reconcile.field_account_full_reconcile___last_update
+msgid "Last Modified on"
+msgstr "Sửa lần cuối"
+
+#. module: account_full_reconcile
+#: model:ir.model.fields,field_description:account_full_reconcile.field_account_full_reconcile_write_uid
+msgid "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
+
+#. module: account_full_reconcile
+#: model:ir.model.fields,field_description:account_full_reconcile.field_account_full_reconcile_write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối vào"
+
+#. module: account_full_reconcile
+#: model:ir.model.fields,field_description:account_full_reconcile.field_account_full_reconcile_reconciled_line_ids
+#: model:ir.ui.view,arch_db:account_full_reconcile.view_full_reconcile_form
+msgid "Matched Journal Items"
+msgstr "Phát sinh KT được khớp"
+
+#. module: account_full_reconcile
+#: model:ir.ui.view,arch_db:account_full_reconcile.view_full_reconcile_form
+msgid "Matching"
+msgstr "Khớp"
+
+#. module: account_full_reconcile
+#: model:ir.model.fields,field_description:account_full_reconcile.field_account_move_line_full_reconcile_id
+msgid "Matching Number"
+msgstr "Số khớp"
+
+#. module: account_full_reconcile
+#: model:ir.model.fields,field_description:account_full_reconcile.field_account_full_reconcile_name
+msgid "Number"
+msgstr "Số"
+
+#. module: account_full_reconcile
+#: model:ir.model,name:account_full_reconcile.model_account_partial_reconcile
+msgid "Partial Reconcile"
+msgstr "Đối soát một phần"
+
+#. module: account_full_reconcile
+#: model:ir.model.fields,field_description:account_full_reconcile.field_account_full_reconcile_partial_reconcile_ids
+msgid "Reconciliation Parts"
+msgstr "Các Phần đối soát"
+

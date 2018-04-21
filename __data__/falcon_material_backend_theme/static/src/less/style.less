@@ -1,0 +1,1234 @@
+// Mixins =================================================================
+.border-none() {
+	border: none !important;
+	-moz-border-radius: 0 !important;
+	-webkit-border-radius: 0px !important;
+	border-radius: 0 !important;
+}
+.flex(@bg) {
+	ms-flex: 0 0 @bg;
+	-moz-flex: 0 0 @bg;
+	-webkit-box-flex: 0;
+	-webkit-flex: 0 0 @bg;
+	flex: 0 0 @bg;
+}
+
+// Top menu =================================================================
+
+#oe_main_menu_navbar {
+	.box-shadow(0px 0px 8px #666666);
+	border: none;
+    
+    .navbar-collapse {
+        padding-right: 15px;
+        padding-left: 30px;
+    }
+}
+.mobile-menu-button{
+	display: none;
+}
+
+.oe_application_menu_placeholder {
+	.dropdown-submenu {
+		position: relative;
+	}
+	
+	.dropdown-submenu>.dropdown-menu {
+		top: 0;
+		left: 100%;
+		margin-top: -6px;
+		margin-left: 0px;
+		.border-none; // reset
+	}
+	
+	.dropdown-submenu:hover>.dropdown-menu {
+		display: block;
+	}
+	
+	.dropdown-submenu>a:after {
+		display: block;
+		content: " ";
+		float: right;
+		width: 0;
+		height: 0;
+		border-color: transparent;
+		border-style: solid;
+		border-width: 5px 0 5px 5px;
+		border-left-color: #ccc;
+		margin-top: 7px;
+		margin-right: -7px;
+	}
+	
+	.dropdown-submenu:hover>a:after {
+		border-left-color: #999;
+	}
+	
+	.dropdown-submenu.pull-left {
+		float: none;
+	}
+	
+	.dropdown-submenu.pull-left>.dropdown-menu {
+		left: -100%;
+		margin-left: 10px;
+	}
+}
+
+// Left bar button
+#appsbar_toggle {
+	float: left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 16px 8px;
+    cursor: pointer;
+	background: inherit;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    z-index: 99999;
+	
+	&:focus {
+		outline: none;  // reset
+    }    
+}
+
+.progress-bar:last-child:before {
+	background-color: @body-bg;
+}
+
+#oe_main_menu_navbar .dropdown-menu > .active {
+	> a, > a:hover, a:focus {
+		color: inherit !important;
+		background-color: #eeeeee !important;
+	}
+}
+	
+#oe_main_menu_navbar, .navbar-nav {
+	.app-name {
+		color: #fff;
+		font-size: 170%;
+		padding: 5px 15px 6px 10px;
+		font-weight: bold;
+	}
+	
+	li {
+		a, button {
+			font-size: 14px !important;
+			padding: 14px 10px !important;
+			margin-top: 0 !important;
+			line-height: 22px !important;
+		}
+		
+		&.o_planner_systray {
+			> .progress {
+				margin-top: 18px;
+				margin-bottom: 0px;
+			}
+		}
+	}
+	
+	.dropdown-menu {
+		li {
+			a, button {
+				padding: 5px 12px !important;
+				font-size: 13px !important;
+			}
+		}
+	}
+	
+	.tnav {
+		&.hide {
+			display: none !important;
+		}
+		
+		.oe_secondary_submenu {
+			li {
+				a, button {
+					padding: 5px 12px !important;
+					font-size: 13px !important;
+				}
+			}
+		}
+	}
+}
+
+// Apps menu =================================================================
+.o_web_client .openerp .oe_appsbar {
+	width: 100%;
+	height: 100%;
+    position: absolute;
+	overflow-y: auto;
+    z-index: 100;
+	background-color: rgba(40, 30, 30, 0.95);
+	padding: 20px 30px;
+    
+    @media screen and (max-width: @screen-sm-min) {
+        padding: 15px 20px;
+    }
+    
+	&.hide {
+    	display: none !important;
+	}
+
+	.oe_apps {
+
+		.oe_app {
+			float: left;
+			margin: 5px 15px;
+            height: 145px;
+            
+            @media screen and (max-width: @screen-sm-min) {
+                height: 110px;
+            }
+
+			a:hover {
+				text-decoration: none;
+				.oe_app_caption {
+					color: #ffffff;
+				}
+			}
+
+			img {
+				width: 100px;
+				height: 100px;
+				border-radius: @border-radius-large;
+                
+                @media screen and (max-width: @screen-sm-min) {
+                    width: 80px;
+				    height: 80px;
+                }
+			}
+
+			.oe_app_caption {
+				width: 100px;
+				margin: 0;
+				padding: 0.67em 0;
+				overflow:hidden; 
+				white-space:nowrap; 
+				text-overflow: ellipsis;
+				text-align: center;
+				font-size: 1.1em;
+				color: #eeeeee;
+                
+                @media screen and (max-width: @screen-sm-min) {
+				    width: 80px;
+                    padding: 0.4em 0;
+                    font-size: 1em;
+			    }
+			}
+            
+            .badge {
+                position: relative;
+                bottom: 34px;
+                right: 0px;
+            }
+		}
+	}
+}
+
+
+// Web client =================================================================
+.o_web_client {
+	.modal-dialog {
+		margin: auto;
+
+		.modal-header {
+			background-color: #f9f9f9;
+			border-bottom: 1px solid #f0f0f0;
+			
+			.o_planner_title_block {
+				h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+					color: @body-bg;
+				}
+			}
+		}
+		.modal-footer {
+			background-color: #f9f9f9;
+			border-top: 1px solid #f0f0f0;
+		}
+		.oe-view-manager {
+			background-color: @body-bg !important; // #ffffff
+		}
+	}
+	
+	// Select menu
+	.ui-menu .ui-menu-item {
+			
+		&.ui-state-focus {
+			color: inherit !important; // reset
+			background-color: #E5E5E5 !important;
+			border: none !important;
+			margin: 0 !important; // reset
+			
+			a {
+				color: #000000 !important;
+			}
+		}
+	}
+}
+
+// Web client / OpenERP =================================================================
+.o_web_client .openerp {
+	font-family: @font-family-base;
+
+	&.ui-autocomplete li:not(.oe_m2o_dropdown_option) + li.oe_m2o_dropdown_option {
+    	margin-top: 0px;
+	}
+		
+	.oe_loading {
+		top: inherit;
+		bottom: 0;
+    	right: 0;
+    	padding: 5px 50px;
+		-moz-border-radius: 0 !important;
+		-webkit-border-radius: 0px !important;
+		border-radius: 0 !important;
+		opacity: 0.8;
+	}
+	
+	&.openerp_webclient_container {
+		width: 100%;
+	}
+	
+	.badge {
+		background-color: @brand-secondary;
+		padding: 4px 6px 3px;
+	}
+	
+	// Left Menu					
+	.nav-pills > li.active > a, .openerp a.list-group-item.active > a {
+		color: #4c4c4c;
+		background-color: #eee;
+		
+		.badge {
+			color: #fff;
+			background-color: @brand-secondary;
+			padding: 4px 6px 3px;
+		}
+		
+		&:hover {
+			color: #4c4c4c;
+			background-color: #eee;
+		}
+	}
+
+	.oe_leftbar {
+		.box-shadow(0 1px 4px rgba(0,0,0,0.3));
+		background-color: #fff;
+		padding: 5px 0;
+		
+		a.oe_logo img {
+    		margin: 14px;
+		}
+		
+		.oe_footer {
+			display: none;
+		}
+		
+		.oe_secondary_menus_container {
+			position: absolute;
+			top: 105px;
+			bottom: 0;
+			right: 0;
+			left: 0;
+	
+			.oe_secondary_menu {
+		
+				.oe_secondary_menu_section {
+					padding: 7px 15px;
+					margin-left: 0px;
+					color: #4c4c4c;
+					
+					&.active {
+						background-color: #eee;
+					}
+					
+					> .oe_menu_leaf {
+						color: #4c4c4c;
+						display: block;
+						text-decoration: none;
+					}
+				}
+					
+				.oe_secondary_submenu {
+					margin-bottom: 0px !important; // reset
+					margin-top: 0px; // reset
+	
+					&.nav-pills {
+						li > a {
+							padding: 7px 15px 7px 30px;
+						}
+					}
+					
+					.oe_secondary_submenu {
+						li {
+							margin-left: 0px;
+						}
+						
+						&.nav-pills {
+							li > a {
+								padding: 7px 15px 7px 45px;
+							}
+						}
+					}
+				}
+			}
+		}
+		
+	}
+	
+	// Forms
+	input, textarea, select {
+		.border-none; // reset
+		&:focus {
+			outline: none;  // reset
+    	}
+	}
+	input[type="checkbox"]:after, .checkbox input[type="checkbox"]:after, .checkbox-inline input[type="checkbox"]:after {
+		margin-right: 0px;
+	}
+	input[type="radio"], input[type="checkbox"] {
+		margin: 3px 4px -4px;
+	}
+	
+	.oe_form_field_radio {
+		&.oe_horizontal {
+			label {
+				margin-left: 30px;
+			}
+		}
+		&.oe_vertical {
+			label {
+				margin-left: 30px;
+			}
+		}
+	}
+
+	.oe_form {
+		input[type="text"], input[type="password"], input[type="file"], textarea {
+			height: auto;  // reset
+			padding: 0;  // reset
+			background-color: #fdfdfd;
+			font-family: @font-family-base;  // reset
+		}
+
+		select {
+			height: auto;  // reset
+			padding: 2px;
+		}
+		
+		.oe_form_field {
+			input[type="radio"], input[type="checkbox"] {
+				margin: 3px 4px -4px;
+			}
+		}
+		
+		.oe_form_required {
+			input:not([disabled]):not([readonly]):not([type="radio"]):not([type="checkbox"]), select:not([disabled]):not([readonly]), textarea:not([disabled]):not([readonly]) {
+				background-color: #fdfdfd !important; // reset
+			    .box-shadow(inset 0 -2px 0 @brand-primary);
+			}
+			input:not([disabled]):not([readonly]) {
+				background-color: #fdfdfd !important; // reset
+			}
+		}
+		td.oe_form_group_cell_label {
+			padding-top: 6px;
+		}
+		
+		// Breadcrumb
+		header {
+    		.border-none;  // reset
+			padding: 10px 0px 10px 14px;
+			background-image: none;
+		}
+	}
+
+	// Breadcrumb
+	ul.oe_form_status li, ul.oe_form_status_clickable li {
+		background-image: none !important;  // reset
+		
+		&:first-child > .label {
+			border-left: none !important;  // reset
+		}
+		&:last-child {
+			border-right: none !important;  // reset
+		}
+		
+		&:hover {
+			background-image: none !important;  // reset
+			background-color: inherit !important;  // reset
+			
+			& > .arrow span {
+				border: solid 2px darken(@gray-light, 15%) !important;
+			}
+			& > .label {
+				color: darken(@gray, 15%);
+			}
+			&.oe_active {
+				& > .arrow span {
+					border: solid 2px darken(@brand-primary, 15%) !important;
+				}
+				& > .label {
+					font-weight: bold;
+					color: darken(@brand-primary, 15%);
+				}
+			}
+		}
+		
+		& > .arrow span {
+			-moz-border-radius: 0;  // reset
+			-webkit-border-radius: 0px;  // reset
+			border-radius: 0;  // reset
+			background-image: none !important;  // reset
+			background-color: inherit !important;  // reset
+			margin-left: -20px !important;
+			.box-shadow(none) !important;
+			border: solid 2px @gray-light !important;
+		}
+		& > .label {
+		 	text-shadow: none !important;
+			color: @gray;
+		}
+		
+		&.oe_active {
+			background-image: none !important;  // reset
+			background-color: inherit !important;  // reset
+
+		 	& > .arrow span {
+				background-image: none !important;  // reset
+				background-color: inherit !important;  // reset
+				.box-shadow(none) !important;
+				border: solid 2px @brand-primary !important;
+			}
+			& > .label {
+		 		text-shadow: none !important;
+				color: @brand-primary;
+			}
+		}
+	}
+	
+	.oe_formview {
+		&.oe_form_editable {
+			.o_form_field_many2manytags {
+				.border-none;  // reset
+			}
+		}
+		.oe_form {
+			label {
+				font-size: 14px;
+			}
+		}
+	}
+
+	// Webclient
+	&.oe_webclient {
+		.oe_application {
+			
+			// Control Panel
+			.oe-control-panel {
+				background-color: inherit;
+
+				.container-fluid {
+					@media screen and (max-width: @screen-sm-min) {
+						padding-left: 8px;
+						padding-right: 8px;
+					}
+				}
+
+				.oe-button-column {
+					height: auto;
+					
+					// Edit / Create Buttons
+					.oe-cp-buttons {
+						display: block;
+    					float: left;
+						
+						.oe_form_buttons{
+							.o_form_buttons_view{
+								> button:last-child {
+									float: left;
+								}
+							}
+						}
+					}
+					// Action Button
+					.oe-cp-sidebar {
+						display: block;
+    					float: left;
+						
+						.oe_sidebar {
+							button {
+								margin-left: 4px;
+							}
+						}
+					}
+				}
+				
+				// Title
+				.oe-cp-title {
+					width: auto;
+					float: left;
+
+					// Breadcrumb
+					.oe-view-title {
+						background-color: inherit;
+						padding: 5px 5px;
+
+						@media screen and (max-width: @screen-sm-min) {
+							font-size: 13px;
+							padding: 0px;
+						}
+						
+						&.breadcrumb {
+							li {
+								display: inline;
+								vertical-align: middle;
+								margin-right: 5px;
+								
+								a {
+									color: @gray;
+								}
+								
+								&.active {
+									color: @gray;
+									font-size: 160%;
+								}
+							}
+							> li + li:before {
+								color: darken(@gray, 10%);
+							}
+						}
+					}
+				}
+				
+				// SeachView
+				.oe-cp-search-view {
+					padding-top: 20px;
+					width: auto;
+					float: right;
+
+					@media screen and (max-width: @screen-sm-min) {
+						padding-top: 5px;
+					}
+					
+					.oe_searchview {
+						width: 482px;
+						border: none;
+						border-radius: 0;
+						-webkit-appearance: none;
+						.box-shadow(inset 0 -1px 0 #bbb);
+
+						// @media screen and (max-width: @screen-sm-min) {
+						// 	width: 282px;
+						// }
+						// @media screen and (max-width: @screen-xs-min) {
+						// 	width: 182px;
+						// }
+
+						&.active {
+							.box-shadow(inset 0 -2px 0 @brand-primary);
+						}
+  
+						.oe-autocomplete {
+							li  {
+								padding: @padding-base-vertical @padding-base-horizontal;
+							}
+						}
+						
+						.oe_searchview_facets .oe_searchview_facet .oe_facet_remove {
+							top: 1px;
+							right: 1px;
+							width: 13px;
+							height: 15px;
+							padding: 3px;
+						}
+					}
+				}
+				
+				// Seach Option
+				.oe-search-options {
+					.dropdown-menu {
+						.btn {
+							padding: @padding-small-vertical @padding-small-horizontal;
+							font-size: @font-size-small;
+							line-height: @line-height-small;
+							border-radius: @border-radius-small;
+						}
+					}
+				}
+				
+				// Right Toolbar
+				.oe-right-toolbar {
+					.btn {
+						.box-shadow(none) !important;
+					}
+				}
+			}
+			
+			.oe-view-manager {
+				background-color: @body-bg !important; // #ffffff
+				
+				// White backgroung for Kanban in tabs
+				.tab-content {
+					.oe-view-manager-content .oe-view-manager-view-kanban .o_kanban_view {
+						background-color: @body-bg !important; // #ffffff
+					}
+				}
+						
+				.oe-view-manager-content {
+					
+					.oe-view-manager-view-calendar {
+						.oe_view {
+							background-color: lighten(@gray-base, 60%) !important; // #999999
+						}
+					}
+
+					.oe-view-manager-view-kanban {
+						background-color: lighten(@gray-base, 60%) !important; // #999999
+						
+						.o_kanban_view {
+							background-color: lighten(@gray-base, 60%) !important; // #999999
+							padding: 10px 15px;
+							
+							.oe_view_nocontent {
+								color: #dddddd;
+								.oe_view_nocontent_create {
+									color: @body-bg;
+								}
+							}
+							
+							&.o_kanban_grouped {
+								padding: 0px 5px;
+							}
+							
+							.o_kanban_record .o_dropdown_kanban {
+								margin-top: -5px;
+								margin-bottom: 5px;
+								.btn {
+									.box-shadow(none) !important;
+								}
+							}
+							
+							.o_kanban_group {
+								background-color: lighten(@gray-base, 60%) !important; // #999999
+								
+								.o_kanban_header {
+									.o_kanban_config i {
+							    		width: 35px;
+									}
+									.o_kanban_quick_add i {
+										width: 35px;
+									}
+								}
+								&.o_column_folded {
+									border-right: 0px;
+								}
+								
+								&:nth-child(odd) {
+									background-color: lighten(@gray-base, 50%) !important; // #808080
+								}
+
+								.oe_kanban_card {
+									.oe_kanban_content .text-muted {
+										color: #777;
+									}
+									
+									&.oe_kanban_color_8 {
+										color: #ddd;
+										.oe_kanban_content .text-muted {
+											color: #ddd;
+										}
+									}
+									
+									&.oe_kanban_color_9 {
+										.oe_kanban_content .text-muted {
+											color: #666;
+										}
+									}
+								}
+							}
+							
+							.o_column_quick_create {
+								background-color: lighten(@gray-base, 40%) !important;
+							}
+							
+							.o_column_title, .o_kanban_title, .o_kanban_add_column, .o_column_unfold {
+								color: @body-bg !important;
+							}
+							
+							.o_kanban_config i, .o_kanban_quick_add i { 
+								color: @body-bg !important;
+								
+								&:hover {
+									color: darken(@body-bg, 20%) !important;
+									background-color: inherit !important;
+								}
+							}
+							
+						}
+	
+					}
+					
+					// View form - start
+					.oe-view-manager-view-form {
+						.oe_formview {
+							background-color: inherit;
+							
+							.oe_form_container {
+								.oe_form {
+									.oe_form_configuration {
+										> div {
+											padding-top: 10px;
+										}
+									}
+								}
+							}
+							.oe_form_sheetbg {
+								padding: @padding-large-vertical @padding-large-horizontal;
+								background-image: none;
+								background-color: lighten(@gray-base, 60%) !important; // #999999
+								
+								@media screen and (max-width: @screen-sm-min) {
+									padding: 5px 5px;
+								}
+								@media screen and (max-width: @screen-xs-min) {
+									padding: 5px 0px;
+								}
+									
+								.oe_form_sheet_width{
+									min-width: inherit;
+									max-width: inherit;
+									width: 85%;
+
+									@media screen and (max-width: @screen-lg-min) {
+										width: 95%;
+									}
+									@media screen and (max-width: @screen-md-min) {
+										width: 100%;
+									}
+									@media screen and (max-width: @screen-sm-min) {
+										width: 100%;
+									}
+
+									.oe_button_box {
+										width: 60%;
+										
+										.oe_stat_button {
+											border: none !important;
+											.box-shadow(1px 1px 3px rgba(0,0,0,.4)) !important;
+											background: #f5f5f5;
+											margin: 2px;
+											width: 140px !important;
+											
+											&:hover {
+												background: #e5e5e5;
+											}
+											
+											.o_stat_info .o_stat_text {
+												font-size: 11px;
+											}
+											
+											.o_button_icon {
+												color: #777;
+												font-size: 20px;
+												width: 25%;
+											}
+										}
+									}
+								}
+							}
+							.oe_button_box + .oe_avatar + .oe_title {
+								width: 39%;
+							}
+							.oe_chatter {
+								min-width: inherit;
+								max-width: inherit;
+								
+							}
+	
+						}
+					}
+					// View form - stop
+
+
+					// Grid - start
+					.oe-view-manager-view-list {
+						.o_list_view {
+							.oe_list_content {
+								> thead > tr {
+									th {
+										padding: 0px;
+									}
+									
+									&.oe_list_header_columns {
+										th {
+											padding: 10px 6px;
+										}
+									}
+								}
+								
+								> tbody > tr {
+									height: auto;
+									
+									> td.oe_list_field_cell {
+										padding: 10px 6px;
+									}
+									
+									&:nth-child(odd) {
+										background-image: none;
+										background-color: #F9F9F9;
+									}
+								}
+
+								// drag and drop
+								td.oe_list_field_handle .oe_list_handle {
+									font-size: 8px;
+									color: #bbb;
+									padding: 15px 6px 15px 6px;
+									margin: 0;
+								}
+							}
+						}
+					}
+					// Grid - stop
+
+				}
+			}
+
+			// Discuss - start
+			.o_mail_chat {
+
+				@media screen and (max-width: @screen-sm-min) {
+					position: absolute; // reset
+					height: 100%; // reset
+				}
+
+
+				.o_mail_chat_sidebar {
+					color: #4c4c4c;
+					background-color: @body-bg;
+				    border-right: 1px solid #cbcbcb;
+
+					@media screen and (max-width: @screen-xs-min) {
+						.flex(150px);
+					}
+					
+					.o_mail_sidebar_title .o_add:hover {
+						background-color: #eeeeee;
+					}
+					
+					.o_mail_chat_channel_item {
+						&:hover, &.o_active {
+						    background-color: #eeeeee;
+						}
+						> .badge {
+						    margin: 2px;
+							background-color: @brand-secondary;
+						}
+					}
+				}
+				.o_mail_chat_content {
+					background-color: #f5f5f5;
+					
+					.o_chat_composer {
+						border-top: 1px solid #999999;
+						background-color: #dcdcdc;
+					}
+					.text-muted {
+						color: #4c4c4c;
+					}
+					
+					.o_mail_thread {
+						.o_thread_date_separator {
+							border-bottom: solid #d3d3d3 2px;
+							
+							.o_thread_date {
+								padding: 2px 10px;
+								background-color: #f5f5f5;
+							}
+						}
+					}
+				}
+			}
+			// Discuss - stop
+
+		}
+	}
+
+	.oe_horizontal_separator {
+		font-size: 18px;
+	    color: @brand-primary;
+	}
+	.oe_form_field_one2many .oe-view-manager .o_kanban_view .o_kanban_record, .oe_form_field_many2many .oe-view-manager .o_kanban_view .o_kanban_record {
+		background-color: #f5f5f5;
+		overflow: hidden;
+	}
+
+	// Calendar
+	.o_calendar_container .o_calendar_view .o_calendar_widget .fc-week-number, .o_calendar_container .o_calendar_view .o_calendar_widget .fc-widget-header {
+		padding: 2px;
+	}
+	.o_calendar_container .o_calendar_sidebar_container .ui-datepicker {
+		font-size: 9pt;
+		table td {
+			padding: 2px 2px 0px 0;
+		}
+	}
+	
+	// Badge
+	.badge {
+	    padding: 4px 6px 4px;
+	}
+	
+	// Buttons
+	.btn-default {
+		border-color: transparent;
+	}
+	
+	// Label
+	.label {
+	    padding: 0.3em .6em .3em;
+	}
+	.label-default {
+    	background-color: #999;
+	}
+
+	.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+		@media screen and (max-width: @screen-xs-min) {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	}
+}
+
+// Chat - start
+.o_chat_window {
+	.o_chat_header {
+		background-color: @brand-secondary;
+		
+		.o_chat_window_close:hover {
+			background-color: darken(@brand-secondary, 15%);
+			text-decoration: none;
+		}
+	}
+	.o_chat_content {
+		.text-muted {
+			color: #4c4c4c;
+		}
+	}
+}
+// Chat - stop
+
+// Website
+@media (min-width: 767px) {
+	nav.navbar + #wrapwrap {
+		padding-top: 60px;
+	}
+}
+
+#web_editor-top-edit {
+	min-height: auto !important;
+    height: auto !important;
+    background-color: @brand-primary !important;
+	
+	form {
+    	padding: 14px 10px 13px 15px !important;
+	}
+	
+	.btn-link {
+    	color: @body-bg !important;
+	}
+}
+
+#oe_snippets {
+	#o_left_bar, #o_arrow {
+	    top: 60px !important;
+	}
+	.o_panel_header {
+    	background: @gray-lighter !important;
+	}
+}
+
+.editor_enable {
+	.note-popover .popover, .o_css_editor .popover {
+		top: 15px !important;
+	}
+}
+
+.oe_mobile_preview.modal .modal-content .modal-header .modal-title {
+    color: @body-bg !important;
+}
+
+@media screen and (max-width: @screen-md-min) {
+    .o_web_client {
+        .modal-dialog {
+            width: 90%;
+        }
+    }
+    
+	.oe_form {
+		.oe_form_sheetbg {
+
+			.oe_form_sheet.oe_form_sheet_width {
+
+				max-width: 100%;
+    			min-width: 100%;
+
+				.oe_avatar {
+
+					.oe_form_field_image_controls {
+
+						.fa.fa-pencil {
+							margin-left:10px;
+							margin-top:5px;
+						}
+					}
+				}
+
+				.tab-content.nav.nav-tabs  {
+
+					#notebook_page_30,
+					#notebook_page_68 {
+
+						.oe_form_group  tr.oe_form_group_row > td{
+							display:block;
+							width:100%;
+							padding-left:0px;
+						}	
+					}
+				}
+			}
+		}
+	}						
+}
+.app-title {
+    display: none;
+}
+
+@media screen and (max-width: @screen-sm-min) {
+    .o_web_client {
+        .modal-dialog {
+            width: 100%;
+        }
+    }
+
+	#oe_main_menu_navbar .app-name, .navbar-nav .app-name{
+		display: none;
+	}
+	.openerp .oe_form .oe_title h1, .openerp .oe_form h1{
+		width: 50%;
+	}
+	.oe_form_group_cell{
+		width: 100%;
+		display: block;;
+	}
+	.openerp .oe_form .oe_form_group .oe_form_group_cell.oe_group_right{
+		padding: 0px;
+	}
+	.oe_application_menu_placeholder {
+			.dropdown-submenu:hover>.dropdown-menu{
+				left:0;
+				margin-left: 12px;
+			}
+		}
+
+	#oe_main_menu_placeholder{
+		background-color: #a24689;
+		/*height: auto !important;*/
+	}
+	.navbar-collapse.collapse.in{
+		display: block !important;
+	}
+	/*.navbar-collapse.collapse{
+		display: none !important;
+	}*/
+	#leftbar_toggle{
+		display: none;
+	}
+	nav div ul li ul.tnav.oe_secondary_submenu li:hover ul.oe_secondary_submenu{
+		left: 0px;
+		float: none;
+		padding-left: 8px;
+	}
+	#oe_main_menu_placeholder > ul.nav.navbar-nav.navbar-left.oe_application_menu_placeholder > li.tnav > ul > li > ul{
+		display: none !important;
+	}
+	#oe_main_menu_placeholder > ul.nav.navbar-nav.navbar-left.oe_application_menu_placeholder > li.tnav > ul > li:hover > ul{
+		display: none !important;
+	}
+	#oe_main_menu_placeholder > ul.nav.navbar-nav.navbar-left.oe_application_menu_placeholder > li.tnav > ul > li:hover > ul{
+		display: block !important;
+	}
+	#oe_main_menu_placeholder > ul.nav.navbar-nav.navbar-left.oe_application_menu_placeholder > li.tnav > ul > li > ul > li > ul{
+		display: none !important;
+	}
+	#oe_main_menu_placeholder > ul.nav.navbar-nav.navbar-left.oe_application_menu_placeholder > li.tnav > ul > li > ul > li:hover > ul{
+		display: block !important;
+		padding-left: 15px;
+		border:none !important;
+	}
+	ul.dropdown-menu {
+	    width: 100%;
+	    border: 1px solid black;
+	    position: relative !important;
+	}
+	.nav-pills>li:hover{
+		    border-left: 2px solid #a24689 !important
+	}
+	.navbar-inverse {
+        .navbar-toggle{
+            padding: 2px 3px;
+            z-index: 99999;
+            .icon-bar {
+                background-color: #fff;
+            }
+        }
+    }
+	.oe_menu_text.lable {
+	    font-size: 18px;
+	    font-weight: 700;
+	    color: #FFF;
+	}
+	.app-title {
+		display: block !important;
+        position: absolute;
+	    top: 7px;
+	    color: #fff;
+	    text-align: center;
+	    width: 100%;
+	    font-size: 20px;
+	    font-weight: 700;
+	}
+	nav div.navbar-collapse.in ul li:hover ul.tnav.oe_secondary_submenu {
+        background-color: #252525;
+        color: #FFF;
+ 
+    }
+    #oe_main_menu_placeholder  ul.nav.navbar-nav.navbar-left.oe_application_menu_placeholder{
+    	> li.tnav > ul > li > ul > li > a:hover{
+			color:#000;
+		}
+    } 
+    #oe_main_menu_placeholder > ul.nav.navbar-nav.navbar-left.oe_application_menu_placeholder{
+    	> li.tnav > ul > li > a:hover{
+    		color:#000;
+    	}
+    } 
+    #oe_main_menu_placeholder > ul.nav.navbar-nav.navbar-left.oe_application_menu_placeholder > li.tnav{
+		 > ul > li > ul > li > ul > li > a:hover{
+			 color:#000;
+		}
+	}
+	.dropdown-menu{
+		background-color: #252525 !important;
+	}
+	.navbar-collapse{
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+	.navbar-nav{
+		    margin-left: 0!important;
+    margin-right: 0px !important;
+	}
+}

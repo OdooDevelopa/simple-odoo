@@ -1,0 +1,574 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* serenco_accounting_asset_extra
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-04 08:21+0000\n"
+"PO-Revision-Date: 2017-05-04 08:21+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:242
+#, python-format
+msgid " năm "
+msgstr " năm "
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:241
+#, python-format
+msgid " tháng "
+msgstr " tháng "
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_history_updown_asset_h_asset_id
+msgid "Asset"
+msgstr "Tài Sản"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_account_asset_asset_asset_code
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_line_asset_code
+msgid "Asset Code"
+msgstr "Mã TS"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.actions.act_window,name:serenco_accounting_asset_extra.action_asset_depreciation_report
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_line_parent_depreciation_id
+#: model:ir.ui.menu,name:serenco_accounting_asset_extra.src_menu_asset_depreciation_report
+msgid "Asset Depreciation"
+msgstr "Khấu hao TSCD"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_general_ledger_line
+msgid "Asset Depreciation Line"
+msgstr "Khấu hao TSCD"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:39
+#: model:ir.actions.report.xml,name:serenco_accounting_asset_extra.asset_depreciation_report
+#, python-format
+msgid "Asset Depreciation Report"
+msgstr "Asset Depreciation Report"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_line_asset_name
+msgid "Asset Name"
+msgstr "Tên Tài Sản"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_account_asset_asset_asset_date_purchase
+msgid "Asset Purchase Date"
+msgstr "Ngày mua"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.ui.view,arch_db:serenco_accounting_asset_extra.view_asset_depreciation_form_view
+msgid "Asset Report"
+msgstr "Asset Report"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.ui.menu,name:serenco_accounting_asset_extra.menu_asset_report
+msgid "Asset Reports"
+msgstr "Báo cáo Khấu hao TSCD"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_account_asset_asset_asset_date_up
+msgid "Asset Up Date"
+msgstr "Ngày ghi tăng"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_account_asset_asset_asset_date_use
+msgid "Asset Use Date"
+msgstr "Ngày sử dụng"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.ui.view,arch_db:serenco_accounting_asset_extra.src_asset_modify_form_inherit
+msgid "Asset Value to Modify"
+msgstr "Asset Value to Modify"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model,name:serenco_accounting_asset_extra.model_account_asset_category
+msgid "Asset category"
+msgstr "Nhóm Tài Sản"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model,name:serenco_accounting_asset_extra.model_account_asset_depreciation_line
+msgid "Asset depreciation line"
+msgstr "Chi tiết khấu hao Tài Sản"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/models/account_asset.py:119
+#, python-format
+msgid "Asset sold or disposed. Accounting entry awaiting for validation."
+msgstr "Asset sold or disposed. Accounting entry awaiting for validation."
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/wizard/account_asset_change_value.py:57
+#, python-format
+msgid "Asset value modified"
+msgstr "Asset value modified"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model,name:serenco_accounting_asset_extra.model_account_asset_asset
+msgid "Asset/Revenue Recognition"
+msgstr "Asset/Revenue Recognition"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:137
+#, python-format
+msgid "BẢNG KHẤU HAO TÀI SẢN CỐ ĐỊNH"
+msgstr "BẢNG KHẤU HAO TÀI SẢN CỐ ĐỊNH"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.ui.view,arch_db:serenco_accounting_asset_extra.src_asset_modify_form_inherit
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_category_id
+msgid "Category Name"
+msgstr "Tên danh mục"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_company_id
+msgid "Company"
+msgstr "Công ty"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/wizard/account_asset_change_value.py:62
+#, python-format
+msgid "Created Asset Up/Down Values Moves"
+msgstr "Created Asset Up/Down Values Moves"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_line_create_uid
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_history_updown_asset_create_uid
+msgid "Created by"
+msgstr "Được tạo bởi"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_line_create_date
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_history_updown_asset_create_date
+msgid "Created on"
+msgstr "Được tạo vào"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_history_updown_asset_h_history_date
+msgid "Date"
+msgstr "Ngày tháng"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_line_date_depreciation_start
+msgid "Date Depreciation Start"
+msgstr "Ngày khấu hao"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_account_asset_asset_department
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_department
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_line_department
+msgid "Department"
+msgstr "Phòng/Ban"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_line_depreciation_account
+msgid "Depreciation Account"
+msgstr "Tài khoản khấu hao"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_line_depreciation_down
+msgid "Depreciation Down"
+msgstr "Giảm khấu hao"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_line_depreciation_end
+msgid "Depreciation End"
+msgstr "Kết thúc khấu hao"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_period
+msgid "Depreciation Period"
+msgstr "Kỳ khấu hao"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_line_depreciation_start
+msgid "Depreciation Start"
+msgstr "Khấu hao đầu kỳ"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_line_depreciation_time
+msgid "Depreciation Time"
+msgstr "Thời gian khấu hao"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_line_depreciation_up
+msgid "Depreciation Up"
+msgstr "Tăng khấu hao"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_history_updown_asset_h_description
+msgid "Description"
+msgstr "Mô tả"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.ui.view,arch_db:serenco_accounting_asset_extra.src_view_account_asset_asset_form_inherit
+msgid "Detail donate vinegar"
+msgstr "Chi tiết tăng giảm TS"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_line_display_name
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_history_updown_asset_display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/models/account_asset.py:124
+#, python-format
+msgid "Disposal Move"
+msgstr "Disposal Move"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/models/account_asset.py:127
+#, python-format
+msgid "Disposal Moves"
+msgstr "Disposal Moves"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_account_asset_asset_move_line_id
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_modify_move_line_id
+msgid "Entries"
+msgstr "Bút toán"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.ui.view,arch_db:serenco_accounting_asset_extra.view_asset_depreciation_form_view
+msgid "General"
+msgstr "Tổng quát"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:160
+#, python-format
+msgid "Giá trị còn lại cuối kỳ"
+msgstr "Giá trị còn lại cuối kỳ"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:246
+#, python-format
+msgid "Giám đốc"
+msgstr "Giám đốc"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:153
+#, python-format
+msgid "Giảm NG"
+msgstr "Giảm NG"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_account_asset_asset_history_id
+msgid "History id"
+msgstr "History id"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:146
+#, python-format
+msgid "Hóa đơn mua"
+msgstr "Hóa đơn mua"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_id
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_line_id
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_history_updown_asset_id
+msgid "ID"
+msgstr "ID"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model,name:serenco_accounting_asset_extra.model_account_invoice
+msgid "Invoice"
+msgstr "Hoá đơn"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_line_invoice_date
+msgid "Invoice Date"
+msgstr "Ngày Hóa đơn"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model,name:serenco_accounting_asset_extra.model_account_invoice_line
+msgid "Invoice Line"
+msgstr "Dòng hoá đơn"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_line_invoice_name
+msgid "Invoice No"
+msgstr "Số hóa đơn"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_account_invoice_invoice_number
+msgid "Invoice Number"
+msgstr "Invoice Number"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:155
+#, python-format
+msgid "Khấu hao"
+msgstr "Khấu hao"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:245
+#, python-format
+msgid "Kế toán trưởng"
+msgstr "Kế toán trưởng"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_line___last_update
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_history_updown_asset___last_update
+msgid "Last Modified on"
+msgstr "Sửa lần cuối"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_line_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_write_uid
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_history_updown_asset_write_uid
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_line_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_write_date
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_history_updown_asset_write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model,name:serenco_accounting_asset_extra.model_asset_modify
+msgid "Modify Asset"
+msgstr "Chỉnh sửa Tài Sản"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.ui.view,arch_db:serenco_accounting_asset_extra.src_asset_modify_form_inherit
+msgid "Modify Asset Value"
+msgstr "Modify Asset Value"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.actions.act_window,name:serenco_accounting_asset_extra.action_asset_modify_value
+#: model:ir.ui.view,arch_db:serenco_accounting_asset_extra.src_asset_modify_form_inherit
+#: model:ir.ui.view,arch_db:serenco_accounting_asset_extra.src_view_account_asset_asset_form_inherit
+msgid "Modify Value"
+msgstr "Modify Value"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:141
+#, python-format
+msgid "Mã TS"
+msgstr "Mã TS"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:136
+#, python-format
+msgid "Mã số thuế : %s"
+msgstr "Mã số thuế : %s"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:154
+#, python-format
+msgid "NG cuối kỳ"
+msgstr "NG cuối kỳ"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:151
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:156
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:157
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:158
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:159
+#, python-format
+msgid "NG đầu kỳ"
+msgstr "NG đầu kỳ"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_name
+msgid "Name"
+msgstr "Tên"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.ui.view,arch_db:serenco_accounting_asset_extra.view_asset_depreciation_form_view
+msgid "Name:"
+msgstr "Tên:"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:150
+#, python-format
+msgid "Nguyên giá"
+msgstr "Nguyên giá"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:241
+#, python-format
+msgid "Ngày "
+msgstr "Ngày "
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:148
+#, python-format
+msgid "Ngày khấu hao"
+msgstr "Ngày khấu hao"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:147
+#, python-format
+msgid "Ngày mua"
+msgstr "Ngày mua"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:244
+#, python-format
+msgid "Người lập"
+msgstr "Người lập"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.ui.view,arch_db:serenco_accounting_asset_extra.view_asset_depreciation_form_view
+msgid "Print"
+msgstr "In"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_line_recognition_income_account
+msgid "Recognition Income Account"
+msgstr "Recognition Income Account"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_account_asset_category_account_residual_id
+msgid "Residual Account"
+msgstr "Residual Account"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_line_period_value_end
+msgid "Residual Value End Period"
+msgstr "Giá trị còn lại cuối kỳ"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.ui.view,arch_db:serenco_accounting_asset_extra.view_asset_depreciation_form_view
+msgid "Result"
+msgstr "Kết quả"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:140
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_line_stt
+#, python-format
+msgid "STT"
+msgstr "STT"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:149
+#, python-format
+msgid "Thời gian khấu hao (tháng)"
+msgstr "Thời gian khấu hao (tháng)"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:145
+#, python-format
+msgid "Tài khoản Khấu hao"
+msgstr "Tài khoản Khấu hao"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:144
+#, python-format
+msgid "Tài khoản chi phí"
+msgstr "Tài khoản chi phí"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:142
+#, python-format
+msgid "Tên tài sản"
+msgstr "Tên tài sản"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:152
+#, python-format
+msgid "Tăng NG"
+msgstr "Tăng NG"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:197
+#, python-format
+msgid "Tổng cộng"
+msgstr "Tổng cộng"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_line_value_start
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_history_updown_asset_h_value
+msgid "Value"
+msgstr "Giá trị"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_line_value_down
+msgid "Value Down"
+msgstr "Nguyên giá giảm"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_line_value_end
+msgid "Value End"
+msgstr "Nguyên giá cuối kỳ"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_modify_value_new
+msgid "Value New"
+msgstr "Value New"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_modify_value_old
+msgid "Value Old"
+msgstr "Value Old"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_modify_value_plus
+msgid "Value Plus"
+msgstr "Value Plus"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_modify_value_residual_new
+msgid "Value Residual New"
+msgstr "Value Residual New"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_modify_value_residual_old
+msgid "Value Residual Old"
+msgstr "Value Residual Old"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model.fields,field_description:serenco_accounting_asset_extra.field_asset_depreciation_line_value_up
+msgid "Value Up"
+msgstr "Nguyên giá tăng"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model,name:serenco_accounting_asset_extra.model_asset_depreciation
+msgid "asset.depreciation"
+msgstr "Khấu hao tài sản"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model,name:serenco_accounting_asset_extra.model_asset_depreciation_line
+msgid "asset.depreciation.line"
+msgstr "Khấu hao tài sản"
+
+#. module: serenco_accounting_asset_extra
+#: model:ir.model,name:serenco_accounting_asset_extra.model_history_updown_asset
+msgid "history.updown.asset"
+msgstr "Lịch sử tăng giảm NG"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:143
+#, python-format
+msgid "Đơn vị/phòng ban sử dụng"
+msgstr "Đơn vị/phòng ban sử dụng"
+
+#. module: serenco_accounting_asset_extra
+#: code:addons/serenco_accounting_asset_extra/report/asset_depreciation_report.py:135
+#, python-format
+msgid "Địa chỉ : %s"
+msgstr "Địa chỉ : %s"
+

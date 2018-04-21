@@ -1,0 +1,64 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* serenco_translation_vietnam
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-17 07:48+0000\n"
+"PO-Revision-Date: 2016-11-17 07:48+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+
+#. module: serenco_translation_vietnam
+#: model:ir.model.fields,field_description:serenco_translation_vietnam.field_serenco_vietnam_translate_create_uid
+#: field:serenco.vietnam.translate,create_uid:0
+msgid "Created by"
+msgstr "Tạo bởi"
+
+#. module: serenco_translation_vietnam
+#: model:ir.model.fields,field_description:serenco_translation_vietnam.field_serenco_vietnam_translate_create_date
+#: field:serenco.vietnam.translate,create_date:0
+msgid "Created on"
+msgstr "Tạo lúc"
+
+#. module: serenco_translation_vietnam
+#: model:ir.model.fields,field_description:serenco_translation_vietnam.field_serenco_vietnam_translate_id
+#: field:serenco.vietnam.translate,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: serenco_translation_vietnam
+#: model:ir.model.fields,field_description:serenco_translation_vietnam.field_serenco_vietnam_translate_write_uid
+#: field:serenco.vietnam.translate,write_uid:0
+msgid "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
+
+#. module: serenco_translation_vietnam
+#: model:ir.model.fields,field_description:serenco_translation_vietnam.field_serenco_vietnam_translate_write_date
+#: field:serenco.vietnam.translate,write_date:0
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối vào"
+
+#. module: serenco_translation_vietnam
+#: view:serenco.vietnam.translate:serenco_translation_vietnam.serenco_vietnam_translate_form
+msgid "Translate"
+msgstr "Nạp bản dịch"
+
+#. module: serenco_translation_vietnam
+#: view:serenco.vietnam.translate:serenco_translation_vietnam.serenco_vietnam_translate_form
+msgid "Translate Vietnamsese"
+msgstr "Nạp tiếng việt"
+
+#. module: serenco_translation_vietnam
+#: model:ir.actions.act_window,name:serenco_translation_vietnam.act_serenco_vietnam_translate_form
+#: model:ir.ui.menu,name:serenco_translation_vietnam.menu_act_serenco_vietnam_translate_form
+msgid "Translate to Vietnam"
+msgstr "Nạp tiếng việt"
+

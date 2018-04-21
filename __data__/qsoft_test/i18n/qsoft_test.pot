@@ -1,0 +1,180 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* qsoft_test
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-18 08:18+0000\n"
+"PO-Revision-Date: 2017-03-18 08:18+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: qsoft_test
+#: model:mail.template,body_html:qsoft_test.share_profile_email_template
+msgid "\n"
+"            \n"
+"              <p>Dear ${(object.partner_id.name)},<br/><br/>\n"
+"              We just shared your profile. For more information, please view attachment file!<br/><br/></p>\n"
+"                  Regards,<br/>\n"
+"                  ${(object.company_id.name)}\n"
+"            \n"
+"	        "
+msgstr ""
+
+#. module: qsoft_test
+#: model:mail.template,subject:qsoft_test.share_profile_email_template
+msgid "${object.name}"
+msgstr ""
+
+#. module: qsoft_test
+#: model:ir.ui.view,arch_db:qsoft_test.report_shareprofile
+msgid "<b>Email: </b>"
+msgstr ""
+
+#. module: qsoft_test
+#: model:ir.ui.view,arch_db:qsoft_test.report_shareprofile
+msgid "<b>Họ và Tên: </b>"
+msgstr ""
+
+#. module: qsoft_test
+#: model:ir.ui.view,arch_db:qsoft_test.report_shareprofile
+msgid "<b>Mobile: </b>"
+msgstr ""
+
+#. module: qsoft_test
+#: model:ir.ui.view,arch_db:qsoft_test.report_shareprofile
+msgid "<b>Năm sinh: </b>"
+msgstr ""
+
+#. module: qsoft_test
+#: model:ir.model.fields,field_description:qsoft_test.field_share_profile_attachment_id
+#: model:ir.ui.view,arch_db:qsoft_test.view_share_profile_wizard
+msgid "Attachment"
+msgstr ""
+
+#. module: qsoft_test
+#: model:ir.model.fields,field_description:qsoft_test.field_res_partner_date_birth
+msgid "Birthday"
+msgstr ""
+
+#. module: qsoft_test
+#: model:ir.ui.view,arch_db:qsoft_test.view_share_profile_wizard
+msgid "Cancel"
+msgstr ""
+
+#. module: qsoft_test
+#: model:ir.model.fields,field_description:qsoft_test.field_share_profile_company_id
+msgid "Company"
+msgstr ""
+
+#. module: qsoft_test
+#: model:ir.model.fields,field_description:qsoft_test.field_share_profile_create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: qsoft_test
+#: model:ir.model.fields,field_description:qsoft_test.field_share_profile_create_date
+msgid "Created on"
+msgstr ""
+
+#. module: qsoft_test
+#: model:ir.model.fields,field_description:qsoft_test.field_share_profile_datas
+msgid "Datas"
+msgstr ""
+
+#. module: qsoft_test
+#: model:ir.model.fields,field_description:qsoft_test.field_share_profile_display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: qsoft_test
+#: model:ir.model.fields,field_description:qsoft_test.field_share_profile_datas_fname
+msgid "File Name"
+msgstr ""
+
+#. module: qsoft_test
+#: model:ir.model.fields,field_description:qsoft_test.field_share_profile_email_from
+msgid "From:"
+msgstr ""
+
+#. module: qsoft_test
+#: model:ir.model.fields,field_description:qsoft_test.field_share_profile_id
+msgid "ID"
+msgstr ""
+
+#. module: qsoft_test
+#: model:ir.model.fields,field_description:qsoft_test.field_share_profile___last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: qsoft_test
+#: model:ir.model.fields,field_description:qsoft_test.field_share_profile_write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: qsoft_test
+#: model:ir.model.fields,field_description:qsoft_test.field_share_profile_write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: qsoft_test
+#: model:ir.model,name:qsoft_test.model_res_partner
+#: model:ir.model.fields,field_description:qsoft_test.field_share_profile_partner_id
+msgid "Partner"
+msgstr ""
+
+#. module: qsoft_test
+#: code:addons/qsoft_test/wizard/share_profile.py:80
+#, python-format
+msgid "Please enter a valid email address"
+msgstr ""
+
+#. module: qsoft_test
+#: model:ir.ui.view,arch_db:qsoft_test.report_shareprofile
+msgid "QSoft Test"
+msgstr ""
+
+#. module: qsoft_test
+#: model:ir.ui.view,arch_db:qsoft_test.view_share_profile_wizard
+msgid "Send"
+msgstr ""
+
+#. module: qsoft_test
+#: model:ir.ui.view,arch_db:qsoft_test.view_res_partner_form_inherit
+msgid "Share"
+msgstr ""
+
+#. module: qsoft_test
+#: model:ir.actions.act_window,name:qsoft_test.action_share_profile
+#: model:ir.actions.report.xml,name:qsoft_test.report_share_profile
+#: model:ir.model,name:qsoft_test.model_share_profile
+#: model:ir.ui.view,arch_db:qsoft_test.view_share_profile_wizard
+msgid "Share Profile"
+msgstr ""
+
+#. module: qsoft_test
+#: model:ir.model.fields,field_description:qsoft_test.field_share_profile_name
+msgid "Title"
+msgstr ""
+
+#. module: qsoft_test
+#: model:ir.model.fields,field_description:qsoft_test.field_share_profile_email_to
+msgid "To:"
+msgstr ""
+
+#. module: qsoft_test
+#: model:ir.model,name:qsoft_test.model_report_partner_report_shareprofile
+msgid "report.partner.report_shareprofile"
+msgstr ""
+
+#. module: qsoft_test
+#: model:ir.model,name:qsoft_test.model_report_res_report_shareprofile
+msgid "report.res.report_shareprofile"
+msgstr ""
+

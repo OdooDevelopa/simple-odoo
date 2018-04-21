@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <report
+            id="report_share_profile"
+            string="Share Profile"
+            model="res.partner"
+            report_type="qweb-pdf"
+            name="qsoft_test.report_shareprofile"
+            file="qsoft_test.report_shareprofile"/>
+    </data>
+</odoo>

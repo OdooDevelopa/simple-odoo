@@ -1,0 +1,3345 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-23 16:28+0000\n"
+"PO-Revision-Date: 2014-12-06 15:42+0700\n"
+"Last-Translator: Trong <nguyen.anhtrong@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: vi_VN\n"
+"X-Generator: Poedit 1.7\n"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.snippets.xml:34
+#: code:addons/website/static/src/xml/website.snippets.xml:35
+#: code:addons/website/static/src/xml/website.snippets.xml:36
+#, python-format
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#. module: website
+#: view:website:website.info view:website:website.themes
+msgid "&times;"
+msgstr "&times;"
+
+#. module: website
+#: view:website:website.500
+msgid "' in the box below if you want to confirm."
+msgstr "' trong hộp chọn bên dưới nếu bạn muốn xác nhận."
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:366
+#, python-format
+msgid "(Youtube, Vimeo, Dailymotion)"
+msgstr "(Youtube, Vimeo, Dailymotion)"
+
+#. module: website
+#: view:website:website.info
+msgid ""
+",\n"
+"                            updated:"
+msgstr ""
+",\n"
+"                            đã cập nhật:"
+
+#. module: website
+#: view:website:website.layout
+msgid ""
+",\n"
+"                the #1"
+msgstr ""
+",\n"
+"                Số #1"
+
+#. module: website
+#: view:website:website.info
+msgid ", author:"
+msgstr ", tác giả"
+
+#. module: website
+#: view:website:website.info
+msgid ", updated:"
+msgstr ", đã cập nhật"
+
+#. module: website
+#: view:website:website.sitemap_index_xml
+msgid ".xml"
+msgstr ".xml"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.seo.xml:22
+#, python-format
+msgid "1. Define Keywords"
+msgstr "1. Xác định từ khóa"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.seo.xml:40
+#, python-format
+msgid "2. Reference Your Page"
+msgstr "2. Thông tin liên quan"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.seo.xml:57
+#, python-format
+msgid "3. Preview"
+msgstr "3. Kiểm tra lại"
+
+#. module: website
+#: view:website:website.403
+msgid "403: Forbidden"
+msgstr "403: Có lổi"
+
+#. module: website
+#: view:website:website.404
+msgid "404: Page not found!"
+msgstr "404: Không tìm thấy trang !"
+
+#. module: website
+#: view:website:website.snippets
+msgid "50,000+ companies run Odoo to grow their businesses."
+msgstr ""
+"50,000+ công ty đang sử dụng hệ thống để phát triển hoạt động kinh doanh của "
+"họ."
+
+#. module: website
+#: model:ir.actions.act_window,help:website.action_module_website
+msgid ""
+"<p><b>No website module found!</b></p>\n"
+"              <p>You should try others search criteria.</p>\n"
+"            "
+msgstr ""
+"<p><b>Không tìm thấy module web nào!</b></p>\n"
+"              <p>Bạn nên thử lại với tiêu chí tìm khác.</p>\n"
+"            "
+
+#. module: website
+#: view:website:website.snippets
+msgid "A Great Headline"
+msgstr "Tiêu đề lớn"
+
+#. module: website
+#: view:website:website.snippets
+msgid "A Punchy Headline"
+msgstr "Tiêu đề nhấn mạnh"
+
+#. module: website
+#: view:website:website.snippets
+msgid "A Section Subtitle"
+msgstr "Phụ đề cho một phần"
+
+#. module: website
+#: view:website:website.snippets
+msgid "A Small Subtitle"
+msgstr "Phụ đề nhỏ"
+
+#. module: website
+#: view:website:website.themes
+msgid "A calm blue sky"
+msgstr "Xanh da trời dịu"
+
+#. module: website
+#: help:ir.actions.server,website_published:0
+msgid ""
+"A code server action can be executed from the website, using a "
+"dedicatedcontroller. The address is <base>/website/action/<website_path>.Set "
+"this field as True to allow users to run this action. If itset to is False "
+"the action cannot be run through the website."
+msgstr ""
+"Hành mã server có thể được thực thi từ website, dùng điều khiển chuyên dụng. "
+"Địa chỉ là <base>/website/action/<website_path>. Thiết lập trường này là "
+"Đúng để cho phép người dùng thực thi hành động này. Nếu thiết lập Sai, hành "
+"động không thể thực thi thông qua website"
+
+#. module: website
+#: view:website:website.themes
+msgid "A friendly foundation"
+msgstr "Nền tảng thân thiện"
+
+#. module: website
+#: view:website:website.snippets
+msgid "A good subtitle"
+msgstr "Phụ đề tốt"
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"A great way to catch your reader's attention is to tell a story.\n"
+"                            Everything you consider writing can be told as a "
+"story."
+msgstr ""
+"Cách tốt nhất để thu hút sự chú ý của người đọc là kể một câu chuyện.\n"
+"                            Mọi thứ bạn cân nhắc viết có thể được kể thành "
+"câu chuyện."
+
+#. module: website
+#: view:website:website.snippets
+msgid "A small explanation of this great"
+msgstr "Giải thích nhỏ cho "
+
+#. module: website
+#: view:website:website.aboutus view:website:website.layout
+msgid "About us"
+msgstr "Chúng tôi"
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"Adapt these three columns to fit you design need.\n"
+"                            To duplicate, delete or move columns, select "
+"the\n"
+"                            column and use the top icons to perform your "
+"action."
+msgstr ""
+"Điều chỉnh 3 cột này để phù hợp với yêu cầu thiết kế của bạn.\n"
+"                            Để nhân bản, xóa hoặc chuyển cột, chọn cột và "
+"dùng\n"
+"                            các biểu tượng trên cùng để thực hiện hành động "
+"của bạn."
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:225
+#: code:addons/website/static/src/xml/website.seo.xml:30
+#, python-format
+msgid "Add"
+msgstr "Thêm"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:67
+#, python-format
+msgid "Add Another Block"
+msgstr "Thêm khối khác"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.contentMenu.xml:39
+#: code:addons/website/static/src/xml/website.contentMenu.xml:47
+#, python-format
+msgid "Add Menu Entry"
+msgstr "Thêm thư mục"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Add Slide"
+msgstr "Thêm trình chiếu"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Add a great slogan"
+msgstr "Thêm khẩu hiệu tuyệt vời"
+
+#. module: website
+#: view:website:website.layout
+msgid "Add a language..."
+msgstr "Thêm ngôn ngữ"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:222
+#, python-format
+msgid "Add an image URL"
+msgstr "Thêm đường dẫn hình"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.seo.xml:25
+#, python-format
+msgid "Add keyword:"
+msgstr "Thêm từ khóa:"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:111
+#, python-format
+msgid "Add new pages and menus"
+msgstr "Thêm mới trang và thư mục"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.contentMenu.js:50
+#, python-format
+msgid "Add page in menu"
+msgstr "Thêm trang trong thư mục"
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"All these icons are licensed under creative commons so that you can use them."
+msgstr ""
+"Tất cả các biểu tượng này đã được cấp phép theo các phổ biến sáng tạo để bạn "
+"có thể dùng chúng"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:212
+#, python-format
+msgid "Alternate Upload"
+msgstr "Tải lên thay thế"
+
+#. module: website
+#: view:website:website.themes
+msgid "Amelia"
+msgstr "Amelia"
+
+#. module: website
+#: view:website:website.500
+msgid "An error occured while rendering the template"
+msgstr "Lỗi phát sinh khi kết xuất mẫu"
+
+#. module: website
+#: view:website:website.themes
+msgid "An ode to Metro"
+msgstr "An ode to Metro"
+
+#. module: website
+#: view:website:website.snippets
+msgid "And a great subtitle too"
+msgstr "Và phụ đề tuyệt vời nữa"
+
+#. module: website
+#: view:website:website.themes view:website:website.view_website_form
+#: view:website.config.settings:website.view_website_config_settings
+msgid "Apply"
+msgstr "Thêm"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Aqua"
+msgstr "Aqua"
+
+#. module: website
+#: field:ir.attachment,website_url:0
+msgid "Attachment URL"
+msgstr "Đính kèm đường dẫn"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Author of this quote"
+msgstr "Tác giả của trích dẫn này"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.snippets.xml:44
+#, python-format
+msgid "Auto Resize"
+msgstr "Tự động thay đổi size"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:404
+#, python-format
+msgid "Autoplay"
+msgstr "Tự động chơi"
+
+#. module: website
+#: field:ir.actions.server,website_published:0
+msgid "Available on the Website"
+msgstr "Sẵn có cho trang web"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Baby Blue"
+msgstr "Baby Blue"
+
+#. module: website
+#: view:website:website.500
+msgid "Back"
+msgstr "Quay về"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Background"
+msgstr "Phông nền"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Banner"
+msgstr "Bảng quảng cáo"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Banner Odoo Image"
+msgstr "Banner hình"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:92
+#, python-format
+msgid "Basic"
+msgstr "Cơ bản"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Battery: 12 hours"
+msgstr "Pin: 12 giờ"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Battery: 20 hours"
+msgstr "Pin: 20 giờ"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Battery: 8 hours"
+msgstr "Pin: 8 giờ"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Beginner"
+msgstr "Người bắt đầu"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Big Message"
+msgstr "Thông điệp lớn"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Big Picture"
+msgstr "Hình lớn"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Bigger Text"
+msgstr "Văn bản lớn hơn"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Black"
+msgstr "Đen"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.snippets.xml:13
+#, python-format
+msgid "Block style"
+msgstr "Kiểu khối"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Box"
+msgstr "Hộp"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:8
+#, python-format
+msgid "Build a page"
+msgstr "Dựng trang"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Business Guy"
+msgstr "Người làm kinh doanh"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Button"
+msgstr "Nút"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Can I use it to manage projects based on agile methodologies?"
+msgstr "Tôi có thể dùng nó để quản lý dự án dựa trên phương pháp Agile không?"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:310
+#: code:addons/website/static/src/xml/website.translator.xml:46
+#: code:addons/website/static/src/xml/website.xml:74 view:website:website.500
+#: view:website:website.view_website_form
+#: view:website.config.settings:website.view_website_config_settings
+#, python-format
+msgid "Cancel"
+msgstr "Hủy"
+
+#. module: website
+#: view:website:website.themes
+msgid "Cerulean"
+msgstr "Cerulean"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:318
+#, python-format
+msgid "Change"
+msgstr "Thay đổi"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Change Background"
+msgstr "Đổi nền"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Change Icons"
+msgstr "Đổi biểu tượng"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:325
+#, python-format
+msgid "Change Media"
+msgstr "Đổi phương tiện truyền thông"
+
+#. module: website
+#: view:website:website.layout
+msgid "Change Theme"
+msgstr "Thay đổi giao diện"
+
+#. module: website
+#: view:website:website.contactus
+msgid "Change address"
+msgstr "Thay đổi địa chỉ"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Change..."
+msgstr "Thay đổi..."
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:103
+#, python-format
+msgid "Check Mobile Preview"
+msgstr "Kiểm tra số di động"
+
+#. module: website
+#: field:website.menu,child_id:0
+msgid "Child Menus"
+msgstr "Menu con"
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"Choose a vibrant image and write an inspiring paragraph\n"
+"                            about it. It does not have to be long, but it "
+"should\n"
+"                            reinforce your image."
+msgstr ""
+"Chọn một hình ảnh sống động và viết một đoạn đầy cảm hứng \n"
+"                                 về nó. Không cần phải dài dòng, nhưng nó "
+"phải \n"
+"                                 củng cố hình ảnh của bạn."
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Choose an image..."
+msgstr "Chọn hình..."
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Circle"
+msgstr "Vòng tròn"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:28
+#, python-format
+msgid "Click here to insert blocks of content in the page."
+msgstr "Nhấn vào đây để chèn thêm khối nội dung vào trang."
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:43
+#, python-format
+msgid "Click in the text and start editing it."
+msgstr "Nhấn vào văn bản và bắt đầu chỉnh sửa"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Click on the icon to adapt it to your feature"
+msgstr "Nhấn vào biểu tượng để thích ứng nó với tính năng của bạn."
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:49
+#: view:website:website.snippets
+#, python-format
+msgid "Click to customize this text"
+msgstr "Nhấn để tùy chỉnh văn bản này"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.ace.xml:11
+#: code:addons/website/static/src/xml/website.seo.xml:13
+#: code:addons/website/static/src/xml/website.translator.xml:11
+#: code:addons/website/static/src/xml/website.xml:10
+#: code:addons/website/static/src/xml/website.xml:26
+#: code:addons/website/static/src/xml/website.xml:43
+#, python-format
+msgid "Close"
+msgstr "Đóng"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:113
+#, python-format
+msgid "Close Tutorial"
+msgstr "Đóng Hướng dẫn"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Color Splash"
+msgstr "Vệt màu"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:86
+#, python-format
+msgid "Color Style"
+msgstr "Kiểu màu"
+
+#. module: website
+#: model:ir.model,name:website.model_res_company
+msgid "Companies"
+msgstr "Công ty"
+
+#. module: website
+#: field:website,company_id:0
+msgid "Company"
+msgstr "Công ty"
+
+#. module: website
+#: view:website:website.layout
+msgid "Company name"
+msgstr "Tên công ty"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Comparisons"
+msgstr "Sự so sánh"
+
+#. module: website
+#: view:website.config.settings:website.view_website_config_settings
+msgid "Configure Website"
+msgstr "Cấu hình web"
+
+#. module: website
+#: view:website.config.settings:website.view_website_config_settings
+msgid "Configure website menus"
+msgstr "Cấu hình menu website"
+
+#. module: website
+#: view:website:website.layout
+msgid "Connect with us"
+msgstr "Liên hệ với chúng tôi"
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"Consider telling\n"
+"                            a great story that provides personality. Writing "
+"a story\n"
+"                            with personality for potential clients will "
+"asist with\n"
+"                            making a relationship connection. This shows up "
+"in small\n"
+"                            quirks like word choices or phrases. Write from "
+"your point\n"
+"                            of view, not from someone else's experience."
+msgstr ""
+"Xem xét kể \n"
+"                                    một câu chuyện tuyệt vời thể hiện cá "
+"tính. Viết một câu chuyện \n"
+"                                    với tính cách cho các khách hàng tiềm "
+"năng sẽ hỗ trợ \n"
+"                                    tạo kết nối quan hệ. Việc này thể hiện "
+"qua những tiểu tiết như \n"
+"                                    như cách lựa chọn từ hoặc cụm từ. Viết "
+"từ quan điểm của bạn,\n"
+"                                    không phải từ kinh nghiệm của người khác."
+
+#. module: website
+#: view:website:website.403 view:website:website.404
+msgid "Contact Us"
+msgstr "Liên Hệ"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Contact Us Now"
+msgstr "Liên Hệ ngay"
+
+#. module: website
+#: view:website:website.contactus view:website:website.layout
+#: view:website:website.snippets
+#: model:website.menu,name:website.menu_contactus
+msgid "Contact us"
+msgstr "Liên Hệ"
+
+#. module: website
+#: view:website:website.contactus
+msgid "Contact us about anything related to our company or services."
+msgstr "Liên hệ để biết thêm về công ty và các dịch vụ đi kèm"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Contact us »"
+msgstr "Liên hệ  »"
+
+#. module: website
+#: view:website:website.layout view:website:website.snippets
+msgid "Content"
+msgstr "Nội dung"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.translator.xml:22
+#, python-format
+msgid "Content to translate"
+msgstr "Nội dung dịch"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:61
+#: code:addons/website/static/src/js/website.tour.banner.js:90
+#: code:addons/website/static/src/js/website.tour.banner.js:105
+#: code:addons/website/static/src/xml/website.xml:73
+#, python-format
+msgid "Continue"
+msgstr "Tiếp tục"
+
+#. module: website
+#: view:website:website.layout
+msgid "Copyright &copy;"
+msgstr "Bản quyền & bản sao;"
+
+#. module: website
+#: view:website:website.themes
+msgid "Cosmo"
+msgstr "Cosmo"
+
+#. module: website
+#: view:website:website.page_404
+msgid "Create Page"
+msgstr "Thêm trang"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.editor.js:987
+#, python-format
+msgid "Create page '%s'"
+msgstr "Thêm trang '%s'"
+
+#. module: website
+#: field:website,create_uid:0 field:website.config.settings,create_uid:0
+#: field:website.converter.test.sub,create_uid:0
+#: field:website.menu,create_uid:0 field:website.seo.metadata,create_uid:0
+msgid "Created by"
+msgstr "Tạo bởi"
+
+#. module: website
+#: field:website,create_date:0 field:website.config.settings,create_date:0
+#: field:website.converter.test.sub,create_date:0
+#: field:website.menu,create_date:0 field:website.seo.metadata,create_date:0
+msgid "Created on"
+msgstr "Tạo vào"
+
+#. module: website
+#: view:website:website.themes
+msgid "Crisp like a new sheet of paper."
+msgstr "Khô như tờ giấy mới"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:323
+#: code:addons/website/static/src/xml/website.snippets.xml:31
+#: view:website:website.layout
+#, python-format
+msgid "Customize"
+msgstr "Thay đổi"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:60
+#, python-format
+msgid ""
+"Customize any block through this menu. Try to change the background of the "
+"banner."
+msgstr "Tùy chỉnh khối bất kỳ thông qua menu này. Thử thay đổi nền của banner"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:42
+#, python-format
+msgid "Customize banner's text"
+msgstr "Tùy chỉnh nội dung banner"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:59
+#, python-format
+msgid "Customize the banner"
+msgstr "Tùy chỉnh banner"
+
+#. module: website
+#: view:website:website.themes
+msgid "Cyborg"
+msgstr "Cyborg"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:107
+#, python-format
+msgid "Danger"
+msgstr "Nguy hiểm"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Dark Blue"
+msgstr "Xanh dương đậm"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Darken"
+msgstr "Đậm hơn"
+
+#. module: website
+#: field:ir.attachment,datas_checksum:0
+msgid "Datas checksum"
+msgstr "Checksum dữ liệu"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:123
+#: view:website:website.themes
+#, python-format
+msgid "Default"
+msgstr "Mặc định"
+
+#. module: website
+#: view:website:website.themes
+msgid "Default Theme"
+msgstr "Giao diện mặc định"
+
+#. module: website
+#: field:website,default_lang_id:0
+#: field:website.config.settings,default_lang_id:0
+msgid "Default language"
+msgstr "Ngôn ngữ mặc định"
+
+#. module: website
+#: field:website,default_lang_code:0
+#: field:website.config.settings,default_lang_code:0
+msgid "Default language code"
+msgstr "Mã ngôn ngữ mặc định"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Delete Blocks"
+msgstr "Xóa khối"
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"Delete the above image or replace it with a picture\n"
+"                            that illustrates your message. Click on the "
+"picture to\n"
+"                            change it's"
+msgstr ""
+"Xóa hình ở trên hoặc thay nó bằng hình mô tả\n"
+"                            thông điệp của bạn. Nhấn vào hình để thay đổi"
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"Deploy new stores with just an internet connection: no\n"
+"                    installation, no specific hardware required. It works "
+"with any\n"
+"                    iPad, Tablet PC, laptop or industrial POS machine."
+msgstr ""
+"Triển khai cửa hàng mới chỉ với một kết nối internet: không\n"
+"                    cần cài đặt, không yêu cầu cần phần cứng cụ thể. Nó hoạt "
+"động\n"
+"                    với bất cứ iPad, máy tính bảng, laptop hoặc máy POS công "
+"nghiệp nào."
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.seo.xml:49
+#, python-format
+msgid "Description"
+msgstr "Mô tả"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.seo.xml:120
+#, python-format
+msgid "Description..."
+msgstr "Mô tả..."
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:11
+#: code:addons/website/static/src/xml/website.editor.xml:30
+#: code:addons/website/static/src/xml/website.editor.xml:191
+#: code:addons/website/static/src/xml/website.editor.xml:249
+#: code:addons/website/static/src/xml/website.editor.xml:308
+#: code:addons/website/static/src/xml/website.seo.xml:71
+#, python-format
+msgid "Discard"
+msgstr "Hủy"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:298
+#, python-format
+msgid "Discard edition"
+msgstr "Hủy chỉnh sửa"
+
+#. module: website
+#: view:website:website.template_partner_comment
+msgid "Discuss and Comments"
+msgstr "Thảo luận và Bình luận"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.translator.xml:41
+#, python-format
+msgid "Do not show this dialog later."
+msgstr "Không hiển thị hộp thoại này sau đó."
+
+#. module: website
+#: view:website:website.snippets
+msgid "Does it works offline?"
+msgstr "Nó có hoạt động khi không kết nối không?"
+
+#. module: website
+#: view:website:website.view_website_form field:website,name:0
+#: view:website.config.settings:website.view_website_config_settings
+msgid "Domain"
+msgstr "Tên miền"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:74
+#, python-format
+msgid "Drag & Drop This Block"
+msgstr "Kéo thả khối này"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:34
+#, python-format
+msgid "Drag & Drop a Banner"
+msgstr "Kéo thả banner"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.contentMenu.xml:34
+#, python-format
+msgid "Drag a menu to the right to create a sub-menu"
+msgstr "Kéo menu về bên phải để tạo menu phụ"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:75
+#, python-format
+msgid "Drag the <em>'Features'</em> block and drop it below the banner."
+msgstr "Kéo khối <em>'Tính năng'</em> và thả nó dưới banner."
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:35
+#, python-format
+msgid "Drag the Banner block and drop it in your page."
+msgstr "Kéo khối Banner và thả nó vào trang của bạn"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.snippets.xml:34
+#, python-format
+msgid "Drag to Move"
+msgstr "Kéo để di chuyển"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Duplicate"
+msgstr "Nhân bản"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.snippets.xml:35
+#, python-format
+msgid "Duplicate Container"
+msgstr "Nhân bản vùng chứa"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Duplicate blocks to add more features."
+msgstr "Nhân bản khối và thêm tính năng"
+
+#. module: website
+#: view:website:website.layout view:website:website.publish_management
+msgid "Edit"
+msgstr "Sửa"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.contentMenu.xml:27
+#: view:website:website.layout
+#, python-format
+msgid "Edit Menu"
+msgstr "Sửa menu"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.contentMenu.xml:48
+#, python-format
+msgid "Edit Menu Entry"
+msgstr "Sửa mục menu"
+
+#. module: website
+#: view:website:website.layout
+msgid "Edit Top Menu"
+msgstr "Sửa menu trên cùng"
+
+#. module: website
+#: view:website:website.publish_management
+msgid "Edit in backend"
+msgstr "Sửa ở trang quản trị"
+
+#. module: website
+#: view:website:website.page_404
+msgid ""
+"Edit the content below this line to adapt the default \"page not found\" "
+"page."
+msgstr ""
+"Sửa nội dung bên dưới chi tiết này để tương thích với trang \"Không tìm thấy "
+"trang\" mặc định."
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:20
+#, python-format
+msgid "Edit this page"
+msgstr "Sửa trang này"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Effects"
+msgstr "Hiệu ứng"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:378
+#, python-format
+msgid "Embed Video (HTML)"
+msgstr "Nhúng Video (mã HTML)"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Enterprise package"
+msgstr "Gói Doanh nghiệp"
+
+#. module: website
+#: view:website:website.http_error_debug
+msgid "Error"
+msgstr "Lỗi"
+
+#. module: website
+#: view:website:website.http_error_debug
+msgid "Error message:"
+msgstr "Thông báo lỗi:"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:21
+#, python-format
+msgid ""
+"Every page of your website can be modified through the <i>Edit</i> button."
+msgstr "Mỗi trang web của bạn có thể được chỉnh sửa thông qua nút <i>Sửa</i>."
+
+#. module: website
+#: view:website:website.snippets
+msgid "Expert"
+msgstr "Chuyên gia"
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"Explain the benefits you offer. Don't write about products or\n"
+"            services here, write about solutions."
+msgstr ""
+"Diễn giải lợi ích mà bạn đem lại. Đừng viết về sản phẩm hoặc\n"
+"             dịch vụ ở đây, hãy viết về giải pháp."
+
+#. module: website
+#: field:ir.actions.server,xml_id:0
+msgid "External ID"
+msgstr "ID ngoại"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:117
+#, python-format
+msgid "Extra Small"
+msgstr "Rất nhỏ"
+
+#. module: website
+#: view:website:website.snippets
+msgid "FAQ"
+msgstr "Hỏi đáp"
+
+#. module: website
+#: field:website,social_facebook:0
+#: field:website.config.settings,social_facebook:0
+msgid "Facebook Account"
+msgstr "Tài khoản Facebook"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Fast"
+msgstr "Nhanh"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Feature Grid"
+msgstr "Bảng tính năng"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Feature One"
+msgstr "Tính năng Một"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Feature Three"
+msgstr "Tính năng Ba"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Feature Title"
+msgstr "Tiêu đề tính năng"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Feature Two"
+msgstr "Tính năng Hai"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Features"
+msgstr "Tính năng"
+
+#. module: website
+#: view:website:website.snippets
+msgid "First Feature"
+msgstr "Tính năng đầu tiên"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Fixed"
+msgstr "Cố định"
+
+#. module: website
+#: view:website:website.themes
+msgid "Flat and modern"
+msgstr "Phẳng và hiện đại"
+
+#. module: website
+#: view:website:website.themes
+msgid "Flatly"
+msgstr "Phẳng"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Flowers Field"
+msgstr "Trường người theo dõi"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.ace.xml:10
+#, python-format
+msgid "Format"
+msgstr "Định dạng"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Free shipping, satisfied or reimbursed."
+msgstr "Miễn phí vận chuyển, đáp ứng hoặc hoàn tiền."
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"From the main container, you can change the background to highlight features."
+msgstr ""
+"Từ vùng chứa nội dung chính, bạn có thể đổi nền để làm nổi bật các tính năng."
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:52
+#, python-format
+msgid "Get banner properties"
+msgstr "Lây thuộc tính banner"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.seo.xml:15
+#, python-format
+msgid ""
+"Get this page efficiently referenced in Google to attract more visitors."
+msgstr ""
+"Làm cho trang này được tham chiếu hiệu quả trên Google để thu hút khách truy "
+"cập"
+
+#. module: website
+#: field:website,social_github:0 field:website.config.settings,social_github:0
+msgid "GitHub Account"
+msgstr "Tài khoản GitHub"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:88
+#, python-format
+msgid "Good Job!"
+msgstr "Tuyệt vời"
+
+#. module: website
+#: field:website,google_analytics_key:0
+#: field:website.config.settings,google_analytics_key:0
+msgid "Google Analytics Key"
+msgstr "Khóa Google Analytics"
+
+#. module: website
+#: field:website,social_googleplus:0
+#: field:website.config.settings,social_googleplus:0
+msgid "Google+ Account"
+msgstr "Tài khoản Google+"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Great Value"
+msgstr "Giá trị lớn"
+
+#. module: website
+#: view:website:website.aboutus
+msgid "Great products for great people"
+msgstr "Chúng tôi mang lại sản phẩm tốt nhất cho bạn"
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"Great stories are for everyone even when only written for\n"
+"                            just one person."
+msgstr ""
+"Câu chuyện tuyệt với dành cho mọi người ngay cả khi chỉ viết cho\n"
+"                                   chỉ một người."
+
+#. module: website
+#: view:website:website.snippets
+msgid "Great stories have personality."
+msgstr "Câu chuyện tuyệt với có cá tính."
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Green"
+msgstr "Xanh lá"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Greenfields"
+msgstr "Vùng xanh"
+
+#. module: website
+#: view:website:website.layout
+msgid "HELP & TUTORIALS"
+msgstr "TRỢ GIÚP & HƯỚNG DẪN"
+
+#. module: website
+#: view:website:website.layout
+msgid "HTML Editor"
+msgstr "Trình soạn thảo HTML"
+
+#. module: website
+#: model:ir.model,name:website.model_ir_http
+msgid "HTTP routing"
+msgstr "Định tuyến HTTP"
+
+#. module: website
+#: view:website:website.themes
+msgid "Have a look at"
+msgstr "Hãy xem"
+
+#. module: website
+#: view:website:website.layout
+msgid "Help"
+msgstr "Trợ giúp"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.translator.xml:19
+#, python-format
+msgid "Here are the visuals used to help you translate efficiently:"
+msgstr "Đay là hiển thị được dùng để giúp dịch thuật hiệu quả:"
+
+#. module: website
+#: view:website:website.500 view:website:website.layout
+#: model:website.menu,name:website.menu_homepage
+msgid "Home"
+msgstr "Trang Chủ"
+
+#. module: website
+#: view:website:website.403 view:website:website.404
+#: view:website:website.layout
+msgid "Homepage"
+msgstr "Trang Chủ"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:331
+#, python-format
+msgid "Horizontal flip"
+msgstr "Lật ngang"
+
+#. module: website
+#: field:website,id:0 field:website.config.settings,id:0
+#: field:website.converter.test.sub,id:0 field:website.menu,id:0
+#: field:website.qweb,id:0 field:website.qweb.field,id:0
+#: field:website.qweb.field.contact,id:0 field:website.qweb.field.date,id:0
+#: field:website.qweb.field.datetime,id:0
+#: field:website.qweb.field.duration,id:0 field:website.qweb.field.float,id:0
+#: field:website.qweb.field.html,id:0 field:website.qweb.field.image,id:0
+#: field:website.qweb.field.integer,id:0
+#: field:website.qweb.field.many2one,id:0
+#: field:website.qweb.field.monetary,id:0 field:website.qweb.field.qweb,id:0
+#: field:website.qweb.field.relative,id:0
+#: field:website.qweb.field.selection,id:0 field:website.qweb.field.text,id:0
+#: field:website.seo.metadata,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: website
+#: help:ir.actions.server,xml_id:0
+msgid "ID of the action if defined in a XML file"
+msgstr "ID của hành động nếu được xác định trong tập tin xml"
+
+#. module: website
+#: view:website:website.500
+msgid ""
+"If this error is caused by a change of yours in the templates, you have the "
+"possibility to reset one or more templates to their"
+msgstr ""
+"Nếu lỗi này phát sinh bởi một thay đổi trong mẫu của bạn, có thể bạn phải "
+"thiết lập lại một hoặc nhiều mẫu cho"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:301
+#, python-format
+msgid "If you discard the current edition,"
+msgstr "Nếu bạn hủy phiên bản hiện tại,"
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"If you try to write with a wide general\n"
+"                            audience in mind, your story will ring false and "
+"be bland.\n"
+"                            No one will be interested. Write for one person. "
+"If it’s genuine for the one, it’s genuine for the rest."
+msgstr ""
+"Nếu bạn thử viết cho nhiều đối tượng chung chung,\n"
+"                                   câu chuyện của bạn sẽ gửi sai và nhạt "
+"nhẽo. Không ai thấy thú vị.\n"
+"                                   Hãy viết cho một người. Nếu nó đặc biệt "
+"cho một người, nó sẽ\n"
+"                                   đặc biệt cho phần còn lại."
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:156
+#, python-format
+msgid "Image"
+msgstr "Hình ảnh"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Image Gallery"
+msgstr "Thư viện hình"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Image-Text"
+msgstr "Hình-Văn bản"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.translator.xml:30
+#, python-format
+msgid ""
+"In this mode, you can only translate texts.  To\n"
+"                            change the structure of the page, you must edit "
+"the\n"
+"                            master page. Each modification on the master "
+"page\n"
+"                            is automatically applied to all translated\n"
+"                            versions."
+msgstr ""
+"Ở chế độ này, bạn chỉ có thể dịch văn bản. Để\n"
+"                            thay đổi cấu trúc trang, bạn phải sửa trang "
+"tổng. Mỗi\n"
+"                            chỉnh sửa trên trang tổng được áp dụng tự động "
+"lên\n"
+"                            cho tất cả các phiên bản dịch"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:101
+#, python-format
+msgid "Info"
+msgstr "Thông tin"
+
+#. module: website
+#: view:website:website.info
+msgid "Information about the"
+msgstr "Thông tin về"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.snippets.xml:7
+#, python-format
+msgid "Insert Blocks"
+msgstr "Chèn Khối"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:27
+#, python-format
+msgid "Insert building blocks"
+msgstr "Chèn khối dựng"
+
+#. module: website
+#: view:website:website.layout
+msgid "Install Apps"
+msgstr "Cài Ứng dụng"
+
+#. module: website
+#: model:ir.model,name:website.model_base_language_install
+msgid "Install Language"
+msgstr "Cài ngôn ngữ"
+
+#. module: website
+#: view:website:website.info
+msgid "Installed Applications"
+msgstr "Ứng dụng đã cài"
+
+#. module: website
+#: view:website:website.info
+msgid "Installed Modules"
+msgstr "Các Module đã cài"
+
+#. module: website
+#: view:website:website.500
+msgid "Internal Server Error"
+msgstr "Lỗi server nội bộ"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.xml:35
+#, python-format
+msgid ""
+"It might be possible to edit the relevant items\n"
+"                                or fix the issue in"
+msgstr ""
+"Có thể có khả năng sửa các chi tiết liên quan\n"
+"                                 hoặc khắc phục các phát sinh trong"
+
+#. module: website
+#: view:website:website.themes
+msgid "Jet black and electric blue"
+msgstr "Đen tuyền và xanh dương tươi"
+
+#. module: website
+#: view:website:website.snippets
+msgid "John Doe, CEO"
+msgstr "John Doe, CEO"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Join us and make your company a better place."
+msgstr "Tham gia với chung tôi và giúp công ty của bạn trở nên tốt hơn"
+
+#. module: website
+#: view:website:website.themes
+msgid "Journal"
+msgstr "Nhật ký "
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Landscape"
+msgstr "Khổ ngang"
+
+#. module: website
+#: view:website.config.settings:website.view_website_config_settings
+msgid "Language"
+msgstr "Ngôn ngữ"
+
+#. module: website
+#: field:website,language_ids:0 field:website.config.settings,language_ids:0
+msgid "Languages"
+msgstr "Ngôn ngữ"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:126
+#, python-format
+msgid "Large"
+msgstr "Lớn"
+
+#. module: website
+#: field:website,write_uid:0 field:website.config.settings,write_uid:0
+#: field:website.converter.test.sub,write_uid:0 field:website.menu,write_uid:0
+#: field:website.seo.metadata,write_uid:0
+msgid "Last Updated by"
+msgstr "Cập nhật cuối bởi"
+
+#. module: website
+#: field:website,write_date:0 field:website.config.settings,write_date:0
+#: field:website.converter.test.sub,write_date:0
+#: field:website.menu,write_date:0 field:website.seo.metadata,write_date:0
+msgid "Last Updated on"
+msgstr "Cập nhật cuối vào"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:68
+#, python-format
+msgid "Let's add another building block to your page."
+msgstr "Hãy thêm khối dựng khác vào trang của bạn"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:97
+#, python-format
+msgid "Let's check how your homepage looks like on mobile devices."
+msgstr "Hãy kiểm tra trang chủ của bạn trông như thế nào trên thiết bị di động"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Limited support"
+msgstr "Hỗ trợ giới hạn"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:89
+#, python-format
+msgid "Link"
+msgstr "Liên kết"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:71
+#, python-format
+msgid "Link text"
+msgstr "Nội dung liên kết"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:41
+#, python-format
+msgid "Link to"
+msgstr "Liên kết đến"
+
+#. module: website
+#: field:website,social_linkedin:0
+#: field:website.config.settings,social_linkedin:0
+msgid "LinkedIn Account"
+msgstr "Tài khoản LinkedIn"
+
+#. module: website
+#: view:website:website.snippets
+msgid "List of Features"
+msgstr "Danh sách tính năng"
+
+#. module: website
+#: view:website:website.layout
+msgid "Logout"
+msgstr "Đăng xuất"
+
+#. module: website
+#: field:website,menu_id:0
+msgid "Main Menu"
+msgstr "Menu chính"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Mango"
+msgstr "Xoài"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.snippets.xml:60
+#, python-format
+msgid "Margin resize"
+msgstr "Đổi kích thước biên"
+
+#. module: website
+#: view:website:website.403 view:website:website.404
+msgid "Maybe you were looking for one of these popular pages ?"
+msgstr "Có thể bạn đang tìm một trong các trang phổ biến này?"
+
+#. module: website
+#: view:website.config.settings:website.view_website_config_settings
+#: field:website.menu,name:0
+msgid "Menu"
+msgstr "Menu"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.contentMenu.xml:55
+#, python-format
+msgid "Menu Label"
+msgstr "Nhãn menu"
+
+#. module: website
+#: view:website:website.template_partner_comment
+msgid "Message"
+msgstr "Thông điệp"
+
+#. module: website
+#: field:ir.attachment,mimetype:0
+msgid "Mime Type"
+msgstr "Loại mở rộng"
+
+#. module: website
+#: view:website:website.themes
+msgid "Mini and minimalist."
+msgstr "Nhỏ và tối giãn"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.xml:11
+#: view:website:website.layout
+#, python-format
+msgid "Mobile preview"
+msgstr "Xem trước trên di động"
+
+#. module: website
+#: view:website:website.snippets
+msgid "More than 500 happy customers."
+msgstr "Hơn 500 khách hàng hài lòng."
+
+#. module: website
+#: view:website:website.snippets
+msgid "More than 500 successful projects"
+msgstr "Hơn 500 dự án thành công"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.seo.xml:36
+#, python-format
+msgid "Most searched topics related to your keywords, ordered by importance:"
+msgstr ""
+"Các chủ đề được tìm nhiều nhất liên quan đến từ khóa của bạn, xếp theo độ "
+"quan trọng:"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Mountains"
+msgstr "Núi"
+
+#. module: website
+#: view:website:website.layout
+msgid "My Account"
+msgstr "Vào hệ thống"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Narrow"
+msgstr "Thu hẹp"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.contentMenu.js:38
+#: view:website:website.layout
+#, python-format
+msgid "New Page"
+msgstr "Trang mới"
+
+#. module: website
+#: field:website.menu,new_window:0
+msgid "New Window"
+msgstr "Cửa sổ mới"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.editor.js:972
+#, python-format
+msgid "New or existing page"
+msgstr "Trang mới hoặc hiện hữu"
+
+#. module: website
+#: view:website:website.kanban_contain view:website:website.pager
+msgid "Next"
+msgstr "Kế tiếp"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:162
+#, python-format
+msgid "Next →"
+msgstr "Kế tiếp →"
+
+#. module: website
+#: view:website:website.snippets
+msgid "No support"
+msgstr "Không hỗ trợ"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "None"
+msgstr "Không"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.backend.xml:10
+#: view:website:website.publish_management view:website:website.publish_short
+#, python-format
+msgid "Not Published"
+msgstr "Không xuất bản"
+
+#. module: website
+#: view:website:website.info
+msgid "Note: To hide this page, uncheck it from the top Customize menu."
+msgstr "Ghi chú: Để ẩn trang này, bỏ chọn nó từ menu tùy chỉnh trên cùng"
+
+#. module: website
+#: view:website:website.layout
+msgid "Odoo"
+msgstr "FERP"
+
+#. module: website
+#: view:website:website.info
+msgid "Odoo Version"
+msgstr "Phiên bản"
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"Odoo provides essential platform for our project management.\n"
+"                                                    Things are better "
+"organized and more visible with it."
+msgstr ""
+"Hệ thống cung cấp nền tảng cần thiết cho quản lý dự án của bạn.\n"
+"                                                    Mọi việc trở nên có tổ "
+"chức và dễ thấy hơn với hệ thống này."
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"Odoo provides essential platform for our project management.\n"
+"                                            Things are better organized and "
+"more visible with it."
+msgstr ""
+"Hệ thống cung cấp nền tảng cần thiết cho quản lý dự án của bạn.\n"
+"                                            Mọi việc trở nên có tổ chức và "
+"dễ thấy hơn với hệ thống này."
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"Odoo provides essential platform for our project management.\n"
+"                                Things are better organized and more visible "
+"with it."
+msgstr ""
+"Hệ thống cung cấp nền tảng cần thiết cho quản lý dự án của bạn.\n"
+"                                Mọi việc trở nên có tổ chức và dễ thấy hơn "
+"với hệ thống này."
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"Odoo's POS is a web application that can run on any device that\n"
+"                    can display websites with little to no setup required."
+msgstr ""
+"Hệ thống POS là một ứng dụng web có thể chạy được trên thiết bị\n"
+"                     có thể hiển thị web bất kỳ với ít hoặc không có yêu cầu "
+"thiết lập."
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.translator.xml:44
+#, python-format
+msgid "Ok"
+msgstr "Đồng ý"
+
+#. module: website
+#: view:website:website.info
+msgid "Open Source ERP"
+msgstr "FEOS ERP"
+
+#. module: website
+#: view:website:website.layout
+msgid "Open Source eCommerce"
+msgstr "FEOS ERP"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:56
+#, python-format
+msgid "Open in new window"
+msgstr "Mở ở cửa sổ mới"
+
+#. module: website
+#: view:website:website.themes
+msgid "Optimized for legibility"
+msgstr "Tối ưu để dễ đọc"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Orange"
+msgstr "Màu cam"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Orange Red"
+msgstr "Đỏ cam"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Order now"
+msgstr "Đặt ngay"
+
+#. module: website
+#: view:website:website.view_website_form
+msgid "Other Info"
+msgstr "Thông tin khác"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Our Customer References"
+msgstr "Tham chiếu khách hàng"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Our Offers"
+msgstr "Bảng giá của chúng tôi"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Our References"
+msgstr "Tham chiếu của chúng tôi"
+
+#. module: website
+#: view:website:website.aboutus
+msgid "Our Team"
+msgstr "Nhóm của tôi"
+
+#. module: website
+#: view:website:website.layout
+msgid "Our products & Services"
+msgstr "Sản phẩm & Dịch vụ của chúng tôi"
+
+#. module: website
+#: view:website:website.aboutus
+msgid ""
+"Our products are designed for small to medium size companies willing to "
+"optimize\n"
+"                                      their performance."
+msgstr ""
+"Sản phẩm của chúng tôi được thiết kế cho công ty vừa và nhỏ muốn tối ưu hiệu "
+"quả\n"
+"                                      hoạt động của họ."
+
+#. module: website
+#: view:website:website.layout
+msgid ""
+"Our products are designed for small to medium size companies willing to "
+"optimize\n"
+"                            their performance."
+msgstr ""
+"Sản phẩm của chúng tôi được thiết kế cho công ty vừa và nhỏ muốn tối ưu hiệu "
+"quả\n"
+"                            hoạt động của họ."
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:46
+#, python-format
+msgid "Page"
+msgstr "Trang"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.contentMenu.js:39
+#, python-format
+msgid "Page Title"
+msgstr "Tiêu đề trang"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Panel"
+msgstr "Bảng điều khiển"
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"Panels are a great tool to compare offers or to emphasize on\n"
+"                key features. To compare products, use the inside columns."
+msgstr ""
+"Các bảng là công cụ tuyệt vời để so sánh chào giá hoặc để nhấn mạnh\n"
+"                các tính năng chính. Để so sánh sản phẩm, dùng các cột bên "
+"trong."
+
+#. module: website
+#: view:website:website.snippets
+msgid "Parallax"
+msgstr "Thị sai"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Parallax Slider"
+msgstr "Trượt thị sai"
+
+#. module: website
+#: field:website.menu,parent_left:0
+msgid "Parent Left"
+msgstr "Cấp cha bên trái"
+
+#. module: website
+#: field:website.menu,parent_id:0
+msgid "Parent Menu"
+msgstr "Menu cha"
+
+#. module: website
+#: field:website.menu,parent_right:0
+msgid "Parent Right"
+msgstr "Cấp cha bên phải"
+
+#. module: website
+#: model:ir.model,name:website.model_res_partner
+msgid "Partner"
+msgstr "Đối tác"
+
+#. module: website
+#: view:website:website.template_partner_post
+msgid "Partner Detail"
+msgstr "Chi tiết đối tác"
+
+#. module: website
+#: view:website:website.template_partner_comment
+msgid "Partners"
+msgstr "Đối tác"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "People"
+msgstr "Mọi người"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:157
+#, python-format
+msgid "Pictogram"
+msgstr "Tượng hình"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Point of Sale Questions"
+msgstr "Câu hỏi Điểm bán hàng"
+
+#. module: website
+#: view:website:website.layout
+msgid "Powered by"
+msgstr "Phát triển bởi"
+
+#. module: website
+#: view:website:website.kanban_contain view:website:website.pager
+msgid "Prev"
+msgstr "Trước"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:135
+#: code:addons/website/static/src/xml/website.editor.xml:375
+#: code:addons/website/static/src/xml/website.editor.xml:386
+#, python-format
+msgid "Preview"
+msgstr "Xem trước"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:98
+#, python-format
+msgid "Primary"
+msgstr "Đầu tiên"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Professional"
+msgstr "Chuyên nghiệp"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Project Management Questions"
+msgstr "Câu hỏi Quản lý Dự án"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.seo.xml:5
+#: view:website:website.layout
+#, python-format
+msgid "Promote"
+msgstr "Thúc đẩy"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.seo.xml:14
+#, python-format
+msgid "Promote This Page"
+msgstr "Đưa trang lên web"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.seo.xml:5
+#: view:website:website.layout
+#, python-format
+msgid "Promote page on the web"
+msgstr "Đưa trang lên web"
+
+#. module: website
+#: field:website,partner_id:0
+msgid "Public Partner"
+msgstr "Đối tác công khai"
+
+#. module: website
+#: field:website,user_id:0
+msgid "Public User"
+msgstr "Người dùng công khai"
+
+#. module: website
+#: view:website:website.publish_management
+msgid "Publish"
+msgstr "Xuất bản"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:83
+#, python-format
+msgid "Publish your page by clicking on the <em>'Save'</em> button."
+msgstr "Xuất bản trang của bạn bằng cách nhấn vào nút <em>'Lưu'</em>"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.backend.xml:11
+#: view:website:website.publish_management view:website:website.publish_short
+#, python-format
+msgid "Published"
+msgstr "Đã xuất bản"
+
+#. module: website
+#: view:website:website.themes
+msgid "Pure Bootstrap"
+msgstr "Bootstrap thuần"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Purple"
+msgstr "Tím"
+
+#. module: website
+#: view:website:website.http_error_debug
+msgid "QWeb"
+msgstr "QWeb"
+
+#. module: website
+#: view:website:website.snippet_options view:website:website.snippets
+msgid "Quote"
+msgstr "Trích dẫn"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Quotes Slider"
+msgstr "Dấu ngoặc kép trượt"
+
+#. module: website
+#: view:website:website.themes
+msgid "Readable"
+msgstr "Đọc được"
+
+#. module: website
+#: view:website:website.template_partner_comment
+msgid "Recipient"
+msgstr "Người nhận"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Red"
+msgstr "Đỏ"
+
+#. module: website
+#: view:website:website.snippets
+msgid "References"
+msgstr "Tham chiếu"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.snippets.xml:36
+#, python-format
+msgid "Remove Block"
+msgstr "Xoá khối"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:37
+#, python-format
+msgid "Remove Link"
+msgstr "Xoá link"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Remove Slide"
+msgstr "Xoá trình chiếu"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Reset Transformation"
+msgstr "Tái lập Biến đổi"
+
+#. module: website
+#: view:website:website.500
+msgid "Reset selected templates"
+msgstr "Tái lập mẫu đã chọn"
+
+#. module: website
+#: view:website:website.500
+msgid "Reset templates"
+msgstr "Tái lập mẫu"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.snippets.xml:45
+#, python-format
+msgid "Resize"
+msgstr "Thay đổi kích thước"
+
+#. module: website
+#: field:ir.attachment,datas_big:0
+msgid "Resized file content"
+msgstr "Nội dung tập tin đã hiệu chỉnh kích thước"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:328
+#, python-format
+msgid "Rotation"
+msgstr "Xoay"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Rounded corners"
+msgstr "Góc tròn"
+
+#. module: website
+#: model:ir.model,name:website.model_website_seo_metadata
+msgid "SEO metadata"
+msgstr "Thẻ metadata SEO"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Sample images"
+msgstr "Hình mẫu"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.ace.xml:9
+#: code:addons/website/static/src/xml/website.editor.xml:9
+#: code:addons/website/static/src/xml/website.editor.xml:27
+#: code:addons/website/static/src/xml/website.editor.xml:188
+#: code:addons/website/static/src/xml/website.seo.xml:69
+#, python-format
+msgid "Save"
+msgstr "Lưu"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:82
+#, python-format
+msgid "Save your modifications"
+msgstr "Lưu chỉnh sửa của bạn"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Screen: 2.5 inch"
+msgstr "Màn hình: 2.5 in"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Screen: 2.8 inch"
+msgstr "Màn hình: 2.8 in"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Scroll Speed"
+msgstr "Tốc độ cuộn"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:104
+#, python-format
+msgid "Scroll to check rendering and then close the mobile preview."
+msgstr ""
+"Cuộn để kiểm tra kết xuất và sau đó đóng màn hình xem trước trên di động."
+
+#. module: website
+#: view:website:website.snippets
+msgid "Second Feature"
+msgstr "Tính năng thứ cấp"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Second List"
+msgstr "Danh sách thứ cấp"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.snippets.xml:29
+#, python-format
+msgid "Select Container Block"
+msgstr "Chọn khối vùng chứa"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:152
+#, python-format
+msgid "Select a Media"
+msgstr "Chọn phương tiện truyền thông"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:242
+#, python-format
+msgid "Select a Picture"
+msgstr "Chọn hình"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Select and delete blocks to remove some features."
+msgstr "Chọn và xóa khôi để xóa một số tính năng"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:53
+#, python-format
+msgid "Select the parent container to get the global options of the banner."
+msgstr "Chọn vùng chứa cấp cha để lấy tùy chọn toàn cục của banner."
+
+#. module: website
+#: view:website:website.snippets
+msgid "Sell Online. Easily."
+msgstr "Bán trực tuyến. Dễ dàng."
+
+#. module: website
+#: view:website:website.template_partner_comment
+msgid "Send"
+msgstr "Gửi"
+
+#. module: website
+#: view:website:website.template_partner_comment
+msgid "Send a Message to our Partners"
+msgstr "Gửi tin nhắn cho Đối tác của chúng tôi"
+
+#. module: website
+#: view:website:website.contactus
+msgid "Send us an email"
+msgstr "Gửi email cho chúng tôi"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Separator"
+msgstr "Phân cách"
+
+#. module: website
+#: field:website.menu,sequence:0
+msgid "Sequence"
+msgstr "Trình tự"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:367
+#, python-format
+msgid "Set a video URL"
+msgstr "Thiết lập URL video"
+
+#. module: website
+#: view:website:website.themes
+msgid "Shades of gunmetal gray"
+msgstr "Sắc xám hợp kim"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Shadow"
+msgstr "Bóng"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Share"
+msgstr "Chia sẻ"
+
+#. module: website
+#: field:ir.ui.view,customize_show:0
+msgid "Show As Optional Inherit"
+msgstr "Hiển thị thành kế thừa tùy chọn"
+
+#. module: website
+#: view:website:website.layout
+msgid "Sign in"
+msgstr "Đăng nhập"
+
+#. module: website
+#: view:website:website.themes
+msgid "Silvery and sleek."
+msgstr "Ánh bạc bóng"
+
+#. module: website
+#: view:website:website.themes
+msgid "Simplex"
+msgstr "Đơn hình"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:114
+#, python-format
+msgid "Size"
+msgstr "Kích thước"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:14
+#, python-format
+msgid "Skip It"
+msgstr "Bỏ qua"
+
+#. module: website
+#: view:website:website.themes
+msgid "Slate"
+msgstr "Xám đen"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Slow"
+msgstr "Chậm"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:120
+#, python-format
+msgid "Small"
+msgstr "Nhỏ"
+
+#. module: website
+#: view:website:website.view_website_form
+#: view:website.config.settings:website.view_website_config_settings
+msgid "Social Media"
+msgstr "Truyền thông xã hội"
+
+#. module: website
+#: view:website:website.themes
+msgid "Spacelab"
+msgstr "Phòng thí nghiệm không gian"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:330
+#: view:website:website.snippet_options
+#, python-format
+msgid "Spin"
+msgstr "Xoay"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:14
+#, python-format
+msgid "Start Tutorial"
+msgstr "Bắt đầu hướng dẫn"
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"Start with the customer – find out what they want\n"
+"                            and give it to them."
+msgstr ""
+"Khởi đầu với khách hàng - khám phá những gì họ muốn\n"
+"                           và cung cấp cho họ cái đó."
+
+#. module: website
+#: view:website:website.snippets
+msgid "Starter package"
+msgstr "Gói Khởi đầu"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Static"
+msgstr "Tĩnh"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Structure"
+msgstr "Cấu trúc"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:81
+#: code:addons/website/static/src/xml/website.editor.xml:326
+#: view:website:website.snippet_options
+#, python-format
+msgid "Style"
+msgstr "Kiểu"
+
+#. module: website
+#: view:website:website.layout
+msgid "Subtitle"
+msgstr "Phụ đề"
+
+#. module: website
+#: view:website:website.layout
+msgid "Subtitle 2"
+msgstr "Phụ đề 2"
+
+#. module: website
+#: view:website:website.layout
+msgid "Subtitle 3"
+msgstr "Phụ đề 3"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:95
+#, python-format
+msgid "Success"
+msgstr "Thành công"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Sunflower"
+msgstr "Hoa hướng dương"
+
+#. module: website
+#: view:website:website.themes
+msgid "Sweet and cheery"
+msgstr "Ngọt ngào và vui vẻ"
+
+#. module: website
+#: view:website:website.info
+msgid "Technical name:"
+msgstr "Thuật ngữ:"
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"Tell features the visitor would like to know, not what you'd like to say."
+msgstr ""
+"Kể ra các tính năng mà khách hàng muốn biết, không phải những gì mà bạn muốn "
+"nói."
+
+#. module: website
+#: view:website:website.snippets
+msgid "Tell what's the value for the"
+msgstr "Kể ra những giá trị cho"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.ace.js:234
+#, python-format
+msgid "Template ID: %s"
+msgstr "ID mẫu: %s"
+
+#. module: website
+#: view:website:website.500
+msgid "Template fallback"
+msgstr "Mẫu dự phòng"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:96
+#, python-format
+msgid "Test Your Mobile Version"
+msgstr "Kiểm tra phiên bản di động của bạn"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Text Block"
+msgstr "Khối Văn bản"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Text-Image"
+msgstr "Văn bản-Hình"
+
+#. module: website
+#: view:website:website.template_partner_post
+msgid "Thank you for posting a message !"
+msgstr "Cám ơn bạn đã đăng tin nhắn!"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:112
+#, python-format
+msgid "The 'Content' menu allows you to add pages or add the top menu."
+msgstr "Menu 'Nội dung' cho phép bạn thêm trang hoặc menu trên cùng."
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"The Point of Sale works perfectly on any kind of touch enabled\n"
+"                    device, whether it's multi-touch tablets like an iPad "
+"or\n"
+"                    keyboardless resistive touchscreen terminals."
+msgstr ""
+"Điểm bán hàng hoạt động hoàn hảo trên bất kỳ thiết bị có giao diện\n"
+"                    chạm, dù đó là máy tính bảng đa chạm như iPad hay\n"
+"                    Thiết bị đầu cuối có màn hình cảm ứng điện dung không "
+"dây."
+
+#. module: website
+#: view:website:website.http_error_debug
+msgid "The error occured while rendering the template"
+msgstr "Lỗi phát sinh khi kết xuất mẫu"
+
+#. module: website
+#: view:website:website.http_error_debug
+msgid "The following error was raised in the website controller"
+msgstr "Lỗi sau đây đã được đưa ra trong điều khiển website"
+
+#. module: website
+#: help:ir.actions.server,website_url:0
+msgid "The full URL to access the server action through the website."
+msgstr "URL đầy đủ để truy cập tác vụ server thông qua website."
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:268
+#, python-format
+msgid ""
+"The image could not be deleted because it is used in the\n"
+"               following pages or views:"
+msgstr ""
+"Hình không thể xóa vì đang được dùng trong các trang\n"
+"               hoặc màn hình sau đây:"
+
+#. module: website
+#: view:website:website.403
+msgid "The page you were looking for could not be authorized."
+msgstr "Trang mà bạn đã tìm không được cấp quyền."
+
+#. module: website
+#: view:website:website.404
+msgid ""
+"The page you were looking for could not be found; it is possible you have\n"
+"                        typed the address incorrectly, but it has most "
+"probably been removed due\n"
+"                        to the recent website reorganisation."
+msgstr ""
+"Trang mà bạn đã tìm không được tìm thấy; có thể bạn nhập sai địa chỉ,\n"
+"                       nhưng cũng có thể đã được xóa bỏ do tổ chức lại "
+"website gần đây."
+
+#. module: website
+#: view:website:website.500
+msgid "The selected templates will be reset to their factory settings."
+msgstr ""
+"Mẫu đã chọn sẽ được thiết lập lại về các thiết lập theo nhà sản xuất của "
+"chúng."
+
+#. module: website
+#: view:website:website.snippets
+msgid "The top of the top"
+msgstr "Trên cùng của phần trên cùng"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.xml:34
+#, python-format
+msgid "The web site has encountered an error."
+msgstr "Website đang gặp lỗi."
+
+#. module: website
+#: view:website:website.themes
+msgid "Theme Changed!"
+msgstr "Giao diện đã đổi!"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Third Feature"
+msgstr "Tính năng thứ ba"
+
+#. module: website
+#: view:website:website.page_404
+msgid ""
+"This page does not exists, but you can create it as you are administrator of "
+"this site."
+msgstr ""
+"Trang này không tồn tại, nhưng bạn có thể tạo nó vì bạn là quản trị hệ thống "
+"của trang web này."
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:13
+#, python-format
+msgid ""
+"This tutorial will guide you to build your home page. We will start by "
+"adding a banner."
+msgstr ""
+"Hướng dẫn này sẽ hướng dẫn bạn xây dựng trang chủ. Chúng tôi sẽ bắt đầu bằng "
+"cách thêm banner."
+
+#. module: website
+#: view:website:website.snippets
+msgid "Three Columns"
+msgstr "Ba cột"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.seo.xml:43
+#: view:website:website.snippets
+#, python-format
+msgid "Title"
+msgstr "Tiêu đề"
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"To add a fourth column, reduce the size of these\n"
+"                            three columns using the right icon of each "
+"block.\n"
+"                            Then, duplicate one of the column to create a "
+"new\n"
+"                            one as a copy."
+msgstr ""
+"Để thêm cột thứ tư vào, hãy giảm kích thước của\n"
+"                            ba cột bằng cách dùng biểu tượng bên phải của "
+"mỗi khối.\n"
+"                            Sau đó, nhân bản một trong các cột để tạo cột "
+"mới\n"
+"                            như một bản sao."
+
+#. module: website
+#: view:website:website.layout
+msgid "Toggle navigation"
+msgstr "Bật tắt chuyển hướng"
+
+#. module: website
+#: model:website.menu,name:website.main_menu
+msgid "Top Menu"
+msgstr "Menu trên cùng"
+
+#. module: website
+#: view:website:website.http_error_debug
+msgid "Traceback"
+msgstr "Truy ngược"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Transform"
+msgstr "Biến đổi"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.translator.xml:12
+#, python-format
+msgid "Translate this page"
+msgstr "Dịch trang này"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.translator.xml:25
+#, python-format
+msgid "Translated content"
+msgstr "Nội dung đã dịch"
+
+#. module: website
+#: view:website:website.themes
+msgid "Try a New Theme"
+msgstr "Thử giao diện mới"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Turquoise"
+msgstr "Ngọc lam"
+
+#. module: website
+#: field:website,social_twitter:0
+#: field:website.config.settings,social_twitter:0
+msgid "Twitter Account"
+msgstr "Tài khoản Twitter"
+
+#. module: website
+#: view:website:website.500
+msgid "Type '"
+msgstr "Loại"
+
+#. module: website
+#: view:website:website.view_website_form
+#: view:website.config.settings:website.view_website_config_settings
+msgid "UA-XXXXXXXX-Y"
+msgstr "UA-XXXXXXXX-Y"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:61
+#, python-format
+msgid "URL or Email Address"
+msgstr "URL hoặc địa chỉ email"
+
+#. module: website
+#: view:website:website.themes
+msgid "Ubuntu orange and unique font"
+msgstr "Màu cam Ubuntu và font duy nhất"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Uniform Color"
+msgstr "Màu đồng nhất"
+
+#. module: website
+#: view:website:website.themes
+msgid "United"
+msgstr "United"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Unlimited support"
+msgstr "Hỗ trợ vô hạn"
+
+#. module: website
+#: view:website:website.publish_management
+msgid "Unpublish"
+msgstr "Bỏ xuất bản"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:209
+#, python-format
+msgid "Upload an image from your computer"
+msgstr "Tải hình lên từ máy của bạn"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:215
+#, python-format
+msgid "Upload image without optimization"
+msgstr "Tải hình lên, không tối ưu hình"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:218
+#, python-format
+msgid "Uploading..."
+msgstr "Đang tải lên..."
+
+#. module: website
+#: field:website.menu,url:0
+msgid "Url"
+msgstr "Url"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Various"
+msgstr "Đa dạng"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Velour"
+msgstr "Nhung"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:332
+#, python-format
+msgid "Vertical flip"
+msgstr "Lật dọc"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Very Fast"
+msgstr "Rất nhanh"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Very Slow"
+msgstr "Rất chậm"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:158
+#, python-format
+msgid "Video"
+msgstr "Video"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.backend.xml:18
+#, python-format
+msgid "View in frontend"
+msgstr "Xem ở trang người dùng"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:104
+#, python-format
+msgid "Warning"
+msgstr "Cảnh báo"
+
+#. module: website
+#: view:website:website.aboutus
+msgid ""
+"We are a team of passionate people whose goal is to improve everyone's\n"
+"                                      life through disruptive products. We "
+"build great products to solve your\n"
+"                                      business problems."
+msgstr ""
+"Chúng tôi là một đội gồm những người nhiệt huyết với mục tiêu cải thiện\n"
+"                                      cuộc sống của mọi người thông qua các "
+"sản phẩm đột phá. Chúng tôi xây dựng\n"
+"                                      sản phẩm tuyệt vời để giải quyết những "
+"vấn đề trong kinh doanh của bạn"
+
+#. module: website
+#: view:website:website.layout
+msgid ""
+"We are a team of passionate people whose goal is to improve everyone's\n"
+"                            life through disruptive products. We build great "
+"products to solve your\n"
+"                            business problems."
+msgstr ""
+"Chúng tôi là một đội gồm những người nhiệt huyết với mục tiêu cải thiện\n"
+"                            cuộc sống của mọi người thông qua các sản phẩm "
+"đột phá. Chúng tôi xây dựng\n"
+"                            sản phẩm tuyệt vời để giải quyết những vấn đề "
+"trong kinh doanh của bạn"
+
+#. module: website
+#: view:website:website.contactus
+msgid "We'll do our best to get back to you as soon as possible."
+msgstr "Chúng tôi cố hết sức để liên hệ với bạn trong thời gian sớm nhất"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.backend.xml:18
+#: model:ir.actions.act_url,name:website.action_website
+#: view:ir.actions.server:website.view_server_action_search_website
+#: model:ir.model,name:website.model_website
+#: model:ir.ui.menu,name:website.menu_website view:website:website.layout
+#: field:website.menu,website_id:0
+#, python-format
+msgid "Website"
+msgstr "Website"
+
+#. module: website
+#: model:ir.actions.act_window,name:website.action_module_website
+msgid "Website Apps"
+msgstr "Ứng dụng web"
+
+#. module: website
+#: model:ir.actions.act_url,name:website.action_website_homepage
+msgid "Website Homepage"
+msgstr "Trang chủ web"
+
+#. module: website
+#: model:ir.actions.act_window,name:website.action_website_menu
+#: model:ir.model,name:website.model_website_menu
+msgid "Website Menu"
+msgstr "Menu website"
+
+#. module: website
+#: model:ir.actions.server,name:website.action_partner_post
+msgid "Website Partner Post and Thanks Demo"
+msgstr "Demo Bài viết và lời cảm ơn đối tác trên web"
+
+#. module: website
+#: model:ir.actions.server,name:website.action_partner_comment
+msgid "Website Partners Comment Form"
+msgstr "Biểu bình luận đối tác trên web"
+
+#. module: website
+#: field:ir.actions.server,website_path:0
+msgid "Website Path"
+msgstr "Đường dẫn web"
+
+#. module: website
+#: model:crm.case.section,name:website.salesteam_website_sales
+msgid "Website Sales"
+msgstr "Bán hàng qua web"
+
+#. module: website
+#: model:ir.actions.act_window,name:website.action_website_configuration
+#: model:ir.ui.menu,name:website.menu_website_configuration
+#: view:website:website.view_website_form
+msgid "Website Settings"
+msgstr "Thiết lập web"
+
+#. module: website
+#: field:ir.actions.server,website_url:0
+msgid "Website URL"
+msgstr "URL website"
+
+#. module: website
+#: model:ir.actions.act_url,name:website.action_website_tutorial
+msgid "Website With Tutorial"
+msgstr "Website với Hướng dẫn"
+
+#. module: website
+#: view:website.menu:website.menu_tree
+msgid "Website menu"
+msgstr "Menu website"
+
+#. module: website
+#: field:ir.ui.view,website_meta_description:0
+#: field:website.seo.metadata,website_meta_description:0
+msgid "Website meta description"
+msgstr "Thẻ meta mô tả website"
+
+#. module: website
+#: field:ir.ui.view,website_meta_keywords:0
+#: field:website.seo.metadata,website_meta_keywords:0
+msgid "Website meta keywords"
+msgstr "Thẻ meta từ khóa website"
+
+#. module: website
+#: field:ir.ui.view,website_meta_title:0
+#: field:website.seo.metadata,website_meta_title:0
+msgid "Website meta title"
+msgstr "Thể meta tiêu đề website"
+
+#. module: website
+#: view:website:website.view_website_tree
+msgid "Websites"
+msgstr "Website"
+
+#. module: website
+#: field:base.language.install,website_ids:0
+msgid "Websites to translate"
+msgstr "Website cần dịch"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Weight: 1.1 ounces"
+msgstr "Khối lượng: 1.1 ounce"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Weight: 1.2 ounces"
+msgstr "Khối lượng: 1.2 ounce"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:12
+#, python-format
+msgid "Welcome to your website!"
+msgstr "Chào mừng đến cửa hàng của bạn!"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Well"
+msgstr "Tốt"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:89
+#, python-format
+msgid "Well done, you created your homepage."
+msgstr "Rất tốt, bạn đã tạo xong trang chủ."
+
+#. module: website
+#: field:ir.ui.view,page:0
+msgid "Whether this view is a web page template (complete)"
+msgstr "Cho dù màn hình này có là trang web mẫu (hoàn thiện)"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Which hardware does Odoo POS support?"
+msgstr "Phần cứng nào được hệ thống POS hỗ trợ?"
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"While an internet connection is required to start the Point of\n"
+"                    Sale, it will stay operational even after a complete "
+"disconnection."
+msgstr ""
+"Trong khi kết nối internet là bắt buộc để bắt đầu Điểm bán hàng, nó sẽ\n"
+"                   vẫn hoạt động kể cả sau khi mất kết nối hoàn toàn"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Wood"
+msgstr "Gỗ"
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"Write a quote here from one of your customers. Quotes are a\n"
+"                                                    great way to build "
+"confidence in your products or services."
+msgstr ""
+"Viết một trích dẫn tại đây từ một trong các khách hàng của bạn.\n"
+"                                                  Trích dẫn là cách tuyệt "
+"vời để xây dựng sự tin tưởng cho các sản phẩm hoặc dịch vụ của bạn."
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"Write a quote here from one of your customers. Quotes are a\n"
+"                                            great way to build confidence in "
+"your products or services."
+msgstr ""
+"Viết một trích dẫn tại đây từ một trong các khách hàng của bạn.\n"
+"                                            Trích dẫn là cách tuyệt vời để "
+"xây dựng sự tin tưởng cho các sản phẩm hoặc dịch vụ của bạn."
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"Write a quote here from one of your customers. Quotes are a\n"
+"                                great way to build confidence in your "
+"products or services."
+msgstr ""
+"Viết một trích dẫn tại đây từ một trong các khách hàng của bạn.\n"
+"                                Trích dẫn là cách tuyệt vời để xây dựng sự "
+"tin tưởng cho các sản phẩm hoặc dịch vụ của bạn."
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"Write a quote here from one of your customers. Quotes are a\n"
+"                great way to build confidence in your products or services."
+msgstr ""
+"Viết một trích dẫn tại đây từ một trong các khách hàng của bạn.\n"
+"                Trích dẫn là cách tuyệt vời để xây dựng sự tin tưởng cho các "
+"sản phẩm hoặc dịch vụ của bạn."
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"Write one or two paragraphs describing your product or\n"
+"                            services. To be successful your content needs to "
+"be\n"
+"                            useful to your readers."
+msgstr ""
+"Viết một hoặc hai đoạn văn mô tả sản phẩm hay dịch vụ\n"
+"                           của bạn. Để thành công, nội dung của bạn cần "
+"phải\n"
+"                           hữu ích cho người đọc"
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"Write one or two paragraphs describing your product,\n"
+"                            services or a specific feature. To be "
+"successful\n"
+"                            your content needs to be useful to your readers."
+msgstr ""
+"Viết một hoặc hai đoạn văn mô tả sản phẩm hay dịch vụ\n"
+"                           của bạn. Để thành công, nội dung của bạn cần "
+"phải\n"
+"                           hữu ích cho người đọc"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Write one sentence to convince visitor about your message."
+msgstr "Viết một câu để thuyết phục khách hàng về thông điệp của bạn"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Write what the customer would like to know,"
+msgstr "Viết những gì mà khách hàng muốn biết,"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Yellow Green"
+msgstr "Vàng xanh lá"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Yes."
+msgstr "Đồng ý."
+
+#. module: website
+#: view:website:website.themes
+msgid "Yeti"
+msgstr "Yeti"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.translator.xml:16
+#, python-format
+msgid "You are about to enter the translation mode."
+msgstr "Bạn chuẩn bị nhập chế độ dịch."
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:305
+#, python-format
+msgid "You can cancel to return to the edition mode."
+msgstr "Bạn có thể hủy bỏ để trở về chế độ soạn thảo."
+
+#. module: website
+#: view:website:website.themes
+msgid "You'll be able to change the theme at anytime"
+msgstr "Bạn có thể thay đổi giao diện bất cứ lúc nào"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/website.tour.banner.js:48
+#: view:website:website.snippets
+#, python-format
+msgid "Your Banner Title"
+msgstr "Tiêu đề banner của bạn"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Your Website Title"
+msgstr "Tiêu đề website của bạn"
+
+#. module: website
+#: field:website,social_youtube:0
+#: field:website.config.settings,social_youtube:0
+msgid "Youtube Account"
+msgstr "Tài khoản Youtube"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:302
+#, python-format
+msgid "all"
+msgstr "tất cả"
+
+#. module: website
+#: view:website:website.http_error_debug
+msgid "and evaluating the following expression:"
+msgstr "và đánh giá chuỗi sau đây:"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:335
+#, python-format
+msgid "border"
+msgstr "biên"
+
+#. module: website
+#: view:website:website.snippets
+msgid "customer for this feature."
+msgstr "khách hàng cho tính năng này."
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.seo.xml:22
+#, python-format
+msgid "describing your page content"
+msgstr "mô tả nội dung trang của bạn"
+
+#. module: website
+#: view:website:website.500
+msgid "factory settings"
+msgstr "thiết lập theo nhà sản xuất"
+
+#. module: website
+#: view:website:website.snippets
+msgid "feature, in clear words."
+msgstr "tính năng, bằng lời rõ ràng"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.seo.xml:57
+#, python-format
+msgid "how your page will be listed on Google"
+msgstr "Cách mà trang của bạn sẽ được liệt kê trên Google"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:66
+#, python-format
+msgid "http://openerp.com"
+msgstr "http://www.feosco.com"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:224
+#, python-format
+msgid "http://openerp.com/logo.png"
+msgstr "FEOS.com"
+
+#. module: website
+#: view:website:website.view_website_form
+msgid "http://www.linkedin.com/company/odoo"
+msgstr "https://www.linkedin.com/company/feos-co.-ltd."
+
+#. module: website
+#: view:website.config.settings:website.view_website_config_settings
+msgid "http://www.linkedin.com/company/openerp"
+msgstr "FEOS"
+
+#. module: website
+#: view:website.config.settings:website.view_website_config_settings
+msgid "http://www.youtube.com/channel/HCU842OHPPNrQ"
+msgstr "http://www.youtube.com/channel/HCU842OHPPNrQ"
+
+#. module: website
+#: view:website:website.view_website_form
+msgid "https://facebook.com/odoo"
+msgstr "FERP"
+
+#. module: website
+#: view:website.config.settings:website.view_website_config_settings
+msgid "https://facebook.com/openerp"
+msgstr "FERP"
+
+#. module: website
+#: view:website:website.view_website_form
+msgid "https://plus.google.com/+Odooapps"
+msgstr "https://www.linkedin.com/secure/developer"
+
+#. module: website
+#: view:website.config.settings:website.view_website_config_settings
+msgid "https://plus.google.com/+openerp"
+msgstr "FERP"
+
+#. module: website
+#: view:website:website.view_website_form
+msgid "https://twitter.com/odooapps"
+msgstr "https://www.feosco.com"
+
+#. module: website
+#: view:website.config.settings:website.view_website_config_settings
+msgid "https://twitter.com/openerp"
+msgstr "https://www.feosco.com"
+
+#. module: website
+#: view:website:website.view_website_form
+msgid "https://www.youtube.com/channel/UCkQPikELWZFLgQNHd73jkdg"
+msgstr "https://www.linkedin.com/secure/developer"
+
+#. module: website
+#: view:website:website.view_website_form
+#: view:website.config.settings:website.view_website_config_settings
+msgid "https://youraccount.github.io"
+msgstr "https://www.feosco.com"
+
+#. module: website
+#: view:website:website.info
+msgid "instance of Odoo, the"
+msgstr "trường hợp của hệ thống,"
+
+#. module: website
+#: view:website:website.snippets
+msgid "not what you want to show."
+msgstr "không phải những gì bạn muốn thể hiện"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:9
+#: code:addons/website/static/src/xml/website.editor.xml:28
+#: code:addons/website/static/src/xml/website.editor.xml:189
+#: code:addons/website/static/src/xml/website.editor.xml:308
+#: code:addons/website/static/src/xml/website.seo.xml:69
+#: code:addons/website/static/src/xml/website.translator.xml:44
+#, python-format
+msgid "or"
+msgstr "hoặc"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.translator.xml:4
+#, python-format
+msgid "or Edit Master"
+msgstr "hoặc Sửa trang tổng"
+
+#. module: website
+#: view:website:website.themes
+msgid "or try another theme below."
+msgstr "hoặc thử giao diện khác bên dưới."
+
+#. module: website
+#: view:website:website.snippets
+msgid "per month"
+msgstr "mỗi tháng"
+
+#. module: website
+#: view:website:website.snippets
+msgid "rounded corner"
+msgstr "góc tròn"
+
+#. module: website
+#: view:website:website.sitemap_index_xml
+msgid "sitemap-"
+msgstr "sitemap-"
+
+#. module: website
+#: view:website:website.robots
+msgid "sitemap.xml"
+msgstr "sitemap.xml"
+
+#. module: website
+#: view:website:website.snippets
+msgid "style."
+msgstr "kiểu"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.xml:37
+#, python-format
+msgid "the classic Odoo interface"
+msgstr "Giao diện cổ điển"
+
+#. module: website
+#: field:website.converter.test.sub,name:0
+msgid "unknown"
+msgstr "không xác định"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:302
+#, python-format
+msgid "unsaved changes will be lost."
+msgstr "các thay đổi chưa lưu sẽ bị mất"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.seo.xml:40
+#, python-format
+msgid "using above suggested keywords"
+msgstr "dùng từ khóa gợi ý bên trên"
+
+#. module: website
+#: field:website.config.settings,website_id:0
+msgid "website"
+msgstr "website"
+
+#. module: website
+#: view:website:website.500
+msgid "yes"
+msgstr "đồng ý"
+
+#. module: website
+#: view:website:website.themes
+msgid "your homepage"
+msgstr "trang chủ"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:221
+#: code:addons/website/static/src/xml/website.editor.xml:378
+#, python-format
+msgid "— or —"
+msgstr "— hoặc —"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:161
+#, python-format
+msgid "← Previous"
+msgstr "← Trước"

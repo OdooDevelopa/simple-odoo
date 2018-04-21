@@ -1,0 +1,7 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+access_bms_document_template_category_user,access_bms_document_template_category,model_bms_document_template_category,group_e_gov_user,1,0,0,0
+access_bms_document_template_category_manager,access_bms_document_template_category,model_bms_document_template_category,group_e_gov_manager,1,1,1,1
+access_bms_document_template_user,access_bms_document_template,model_bms_document_template,group_e_gov_user,1,0,0,0
+access_bms_document_template_manager,access_bms_document_template,model_bms_document_template,group_e_gov_manager,1,1,1,1
+access_bms_session_user,access_bms_session,model_bms_session,group_e_gov_user,1,1,1,0
+access_bms_session_manager,access_bms_session,model_bms_session,group_e_gov_manager,1,1,1,1

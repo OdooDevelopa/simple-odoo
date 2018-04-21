@@ -1,0 +1,356 @@
+# Vietnamese translation for openobject-addons
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: support@feosco.com\n"
+"POT-Creation-Date: 2012-12-21 17:04+0000\n"
+"PO-Revision-Date: 2014-11-25 00:05+0700\n"
+"Last-Translator: Trong <nguyen.anhtrong@gmail.com>\n"
+"Language-Team: Vietnamese <vi@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-04-22 07:11+0000\n"
+"X-Generator: Poedit 1.6.10\n"
+"Language: vi\n"
+
+#. module: pos_loyalty
+#: code:addons/pos_loyalty/model/pos_promotion_point.py:25
+#, python-format
+msgid " Price cover to Point can not <= 0"
+msgstr "Giá trị chuyển thành điểm không thể bé hơn 0"
+
+#. module: pos_loyalty
+#: field:pos.loyalty.category,active:0
+msgid "Active"
+msgstr "Hiệu lực"
+
+#. module: pos_loyalty
+#: selection:pos.promotion.point,apply:0
+msgid "Apply for Products your chocie"
+msgstr "Áp dụng cho sản phẩm đã chọn"
+
+#. module: pos_loyalty
+#: selection:pos.promotion.point,apply:0
+msgid "Apply for Total Order POS"
+msgstr "Áp dụng cho tổng giá trị đơn hàng"
+
+#. module: pos_loyalty
+#: model:ir.actions.act_window,name:pos_loyalty.pos_promotion_point_action
+#: model:ir.ui.menu,name:pos_loyalty.pos_promotion_point_menu
+msgid "Categories Point"
+msgstr "Danh mục điểm"
+
+#. module: pos_loyalty
+#: field:pos.loyalty.category,code:0 field:pos.promotion.point,code:0
+msgid "Code"
+msgstr "Mã"
+
+#. module: pos_loyalty
+#: field:pos.loyalty.category,point_to_price:0
+msgid "Covert point to price"
+msgstr "Hệ số chuyển đổi từ điểm sang tiền"
+
+#. module: pos_loyalty
+#: field:pos.loyalty.category,price_to_point:0
+msgid "Covert price to point"
+msgstr "Hệ số chuyển đổi từ tiền sang điểm"
+
+#. module: pos_loyalty
+#: field:pos.loyalty.category,create_uid:0
+#: field:pos.promotion.point,create_uid:0 field:res.partner.pos,create_uid:0
+msgid "Created by"
+msgstr "Người tạo"
+
+#. module: pos_loyalty
+#: field:pos.loyalty.category,create_date:0
+#: field:pos.promotion.point,create_date:0
+msgid "Created on"
+msgstr "Ngày tạo"
+
+#. module: pos_loyalty
+#: code:addons/pos_loyalty/model/pos_order.py:77
+#, python-format
+msgid "Customer Invoice"
+msgstr "Hoá đơn khách hàng"
+
+#. module: pos_loyalty
+#. openerp-web
+#: code:addons/pos_loyalty/static/src/xml/pos_loyalty.xml:15
+#, python-format
+msgid "Customer Point:"
+msgstr "Điểm tích lũy:"
+
+#. module: pos_loyalty
+#: field:pos.loyalty.category,default:0
+msgid "Default Type Loyalty for Customer"
+msgstr "Mặc định loại thẻ cho khách hàng"
+
+#. module: pos_loyalty
+#: code:addons/pos_loyalty/model/pos_promotion_point.py:25
+#, python-format
+msgid "Error"
+msgstr "Lỗi"
+
+#. module: pos_loyalty
+#: code:addons/pos_loyalty/model/pos_order.py:28
+#, python-format
+msgid "Error!"
+msgstr "Lỗi!"
+
+#. module: pos_loyalty
+#: field:pos.order,total_gift_point:0
+msgid "Gift Point Order"
+msgstr "Điểm tích lũy trên đơn hàng"
+
+#. module: pos_loyalty
+#. openerp-web
+#: code:addons/pos_loyalty/static/src/xml/pos_loyalty.xml:16
+#: code:addons/pos_loyalty/static/src/xml/pos_loyalty.xml:63
+#, python-format
+msgid "Gift Point:"
+msgstr "Điểm tích lũy"
+
+#. module: pos_loyalty
+#: field:pos.loyalty.category,id:0 field:pos.promotion.point,id:0
+#: field:res.partner.pos,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_account_invoice
+msgid "Invoice"
+msgstr "Hóa đơn"
+
+#. module: pos_loyalty
+#: field:res.partner,pos_startdate:0
+msgid "Join in date"
+msgstr "Tham gia ngày"
+
+#. module: pos_loyalty
+#: field:res.partner,pos_last_shopingdate:0
+msgid "Last Shopping date"
+msgstr "Mua hàng lần cuối ngày"
+
+#. module: pos_loyalty
+#: field:pos.loyalty.category,write_uid:0
+#: field:pos.promotion.point,write_uid:0 field:res.partner.pos,write_uid:0
+msgid "Last Updated by"
+msgstr "Cập nhật cuối bởi"
+
+#. module: pos_loyalty
+#: field:pos.loyalty.category,write_date:0
+#: field:pos.promotion.point,write_date:0 field:res.partner.pos,write_date:0
+msgid "Last Updated on"
+msgstr "Cập nhật cuối vào"
+
+#. module: pos_loyalty
+#. openerp-web
+#: code:addons/pos_loyalty/static/src/xml/pos_loyalty.xml:8
+#: model:ir.actions.act_window,name:pos_loyalty.pos_loyalty_category_action
+#: model:ir.ui.menu,name:pos_loyalty.pos_loyalty_category_action_menu
+#: view:pos.loyalty.category:pos_loyalty.pos_loyalty_category_from
+#: view:pos.loyalty.category:pos_loyalty.pos_loyalty_category_tree
+#: view:res.partner:pos_loyalty.view_partner_form
+#, python-format
+msgid "Loyalty"
+msgstr "Hội viên"
+
+#. module: pos_loyalty
+#: field:pos.order,pos_loyalty_category_id:0
+#: field:res.partner,pos_loyalty_category_id:0
+msgid "Loyalty Category"
+msgstr "Danh mục hội viên"
+
+#. module: pos_loyalty
+#: model:ir.ui.menu,name:pos_loyalty.loyalty_management_menu
+msgid "Loyalty Management"
+msgstr "Quản lý hội viên"
+
+#. module: pos_loyalty
+#: view:pos.loyalty.category:pos_loyalty.pos_loyalty_category_search
+msgid "Loyalty filter"
+msgstr "Lọc hội viên"
+
+#. module: pos_loyalty
+#: field:res.partner,pos_member:0
+msgid "Member POS"
+msgstr "Thành viên POS"
+
+#. module: pos_loyalty
+#: model:ir.actions.act_window,name:pos_loyalty.loyalty_customer_member
+#: model:ir.ui.menu,name:pos_loyalty.pos_loyalty_customer_menu
+msgid "Members Loyalty"
+msgstr "Thành viên của hội"
+
+#. module: pos_loyalty
+#: field:pos.promotion.point,apply:0
+msgid "Method Apply"
+msgstr "Phương thức áp dụng"
+
+#. module: pos_loyalty
+#: field:pos.promotion.point,min_order:0
+msgid "Min Order"
+msgstr "Đơn hàng tối thiểu"
+
+#. module: pos_loyalty
+#: field:pos.loyalty.category,name:0 field:pos.promotion.point,name:0
+msgid "Name"
+msgstr "Tên"
+
+#. module: pos_loyalty
+#: field:res.partner.pos,pos_order_id:0
+msgid "POS Order"
+msgstr "Đơn hàng POS"
+
+#. module: pos_loyalty
+#. openerp-web
+#: code:addons/pos_loyalty/static/src/xml/pos_loyalty.xml:51
+#, python-format
+msgid "Paid Point:"
+msgstr "Điểm tích lũy thanh toán:"
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_res_partner
+#: field:res.partner.pos,partner_id:0
+msgid "Partner"
+msgstr "Đối tác"
+
+#. module: pos_loyalty
+#: code:addons/pos_loyalty/model/pos_order.py:28
+#, python-format
+msgid "Please provide a partner for the sale."
+msgstr "Vui lòng xác định đối tác cho đơn hàng"
+
+#. module: pos_loyalty
+#. openerp-web
+#: code:addons/pos_loyalty/static/src/xml/pos_loyalty.xml:23
+#, python-format
+msgid "Point Covert Money:"
+msgstr "Điểm chuyển thành tiền:"
+
+#. module: pos_loyalty
+#: field:account.invoice,pos_point_paid:0 field:pos.order,point_paid:0
+msgid "Point Paid"
+msgstr "Số điểm dùng thanh toán"
+
+#. module: pos_loyalty
+#. openerp-web
+#: code:addons/pos_loyalty/static/src/xml/pos_loyalty.xml:33
+#, python-format
+msgid "Point Paid:"
+msgstr "Số điểm dùng thanh toán:"
+
+#. module: pos_loyalty
+#. openerp-web
+#: code:addons/pos_loyalty/static/src/xml/pos_loyalty.xml:27
+#, python-format
+msgid "Point Total Order:"
+msgstr "Điểm tích lũy trên tổng đơn hàng:"
+
+#. module: pos_loyalty
+#: field:res.partner,res_partner_pos_ids:0
+#: view:res.partner.pos:pos_loyalty.res_partner_pos_tree
+msgid "Point Transaction"
+msgstr "Điểm tích lũy giao dịch"
+
+#. module: pos_loyalty
+#: help:pos.order,point_paid:0
+msgid "Point of Customer use paid order POS"
+msgstr "Điểm đã chuyển thanh toán"
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_pos_order
+msgid "Point of Sale"
+msgstr "Điểm bán hàng"
+
+#. module: pos_loyalty
+#: field:pos.promotion.point,price_to_point:0
+msgid "Price covert Point"
+msgstr "Tiền chuyển thành điểm"
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_product_product
+msgid "Product"
+msgstr "Sản phẩm"
+
+#. module: pos_loyalty
+#: field:pos.promotion.point,product_ids:0
+msgid "Products"
+msgstr "Sản phẩm"
+
+#. module: pos_loyalty
+#: view:pos.promotion.point:pos_loyalty.pos_promotion_point_from
+#: view:pos.promotion.point:pos_loyalty.pos_promotion_point_tree
+msgid "Promotion Point"
+msgstr "Khuyến mãi tích lũy điểm"
+
+#. module: pos_loyalty
+#: view:pos.promotion.point:pos_loyalty.pos_promotion_point_search
+msgid "Promotion Point Filter"
+msgstr "Bộ lọc điểm tích lũy"
+
+#. module: pos_loyalty
+#: field:pos.loyalty.category,purchase_limit:0
+msgid "Purchase Limit"
+msgstr "Giới hạn mua"
+
+#. module: pos_loyalty
+#: field:res.partner,pos_redeemed_point:0
+msgid "Redeemed Point"
+msgstr "Điểm chuyển đổi"
+
+#. module: pos_loyalty
+#. openerp-web
+#: code:addons/pos_loyalty/static/src/xml/pos_loyalty.xml:69
+#, python-format
+msgid "Remain Point:"
+msgstr "Số điểm còn lại"
+
+#. module: pos_loyalty
+#: field:res.partner.pos,create_date:0
+msgid "Shopping date"
+msgstr "Ngày mua"
+
+#. module: pos_loyalty
+#: field:res.partner.pos,total_amount:0
+msgid "Total Amount"
+msgstr "Tổng giá trị"
+
+#. module: pos_loyalty
+#: field:res.partner,pos_total_point:0
+msgid "Total Point"
+msgstr "Tổng điểm"
+
+#. module: pos_loyalty
+#: field:res.partner.pos,total_point:0
+msgid "Total Point / Order"
+msgstr "Tổng điểm / đơn hàng"
+
+#. module: pos_loyalty
+#. openerp-web
+#: code:addons/pos_loyalty/static/src/xml/pos_loyalty.xml:57
+#, python-format
+msgid "Total Point:"
+msgstr "Tổng điểm:"
+
+#. module: pos_loyalty
+#: field:pos.order,use_point:0
+msgid "Use Point"
+msgstr "Điểm đã dùng"
+
+#. module: pos_loyalty
+#. openerp-web
+#: code:addons/pos_loyalty/static/src/xml/pos_loyalty.xml:45
+#, python-format
+msgid "Use Point:"
+msgstr "Điểm thanh toán:"
+
+#. module: pos_loyalty
+#: view:pos.order:pos_loyalty.view_pos_order_tree_01
+msgid ""
+"gray:state in ('done','cancel');black:state not in('done','cancel'); blue: "
+"use_point != 0"
+msgstr ""
+"gray:state in ('done','cancel');black:state not in('done','cancel'); blue: "
+"use_point != 0"

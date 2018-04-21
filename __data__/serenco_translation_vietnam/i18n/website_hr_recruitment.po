@@ -1,0 +1,244 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_hr_recruitment
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-23 16:28+0000\n"
+"PO-Revision-Date: 2014-12-03 23:16+0700\n"
+"Last-Translator: Trong <nguyen.anhtrong@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: vi_VN\n"
+"X-Generator: Poedit 1.7\n"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.index
+msgid "All Countries"
+msgstr "Tất cả quốc gia"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.index
+msgid "All Departments"
+msgstr "Tất cả phòng ban"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.index
+msgid "All Offices"
+msgstr "Tất cả văn phòng"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.detail
+msgid "Apply"
+msgstr "Ứng tuyển"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.apply
+msgid "Apply Job"
+msgstr "Ứng tuyển"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.index
+msgid "Click on \"Content\" to define a new job offer or \"Help\" for more informations."
+msgstr "Nhấn vào \"Nội dung\" để xác định việc đang tuyển mới hoặc \"Trợ giúp\" để biết thêm chi tiết."
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.thankyou
+msgid "Continue To Our Website"
+msgstr "Tiếp tục với website của chúng tôi"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.apply
+msgid "Job Application Form"
+msgstr "Biểu ứng tuyển"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.detail
+msgid "Job Detail"
+msgstr "Chi tiết việc làm"
+
+#. module: website_hr_recruitment
+#: model:ir.model,name:website_hr_recruitment.model_hr_job
+msgid "Job Position"
+msgstr "Vị trí công việc"
+
+#. module: website_hr_recruitment
+#: view:website:website.layout
+#: model:website.menu,name:website_hr_recruitment.menu_jobs
+msgid "Jobs"
+msgstr "Công việc"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.index
+msgid "Join us and help disrupt the enterprise market!"
+msgstr "Tham gia với chúng tôi và giúp phân chia thị trường doanh nghiệp!"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.index
+msgid ""
+"Join us, we offer you an extraordinary chance to learn, to\n"
+"                                    develop and to be part of an exciting experience and\n"
+"                                    team."
+msgstr ""
+"Tham gia với chúng tôi, chúng tôi sẽ mở ra cho bạn một cơ hội đặc biệt để học,\n"
+"                                    phát triển, và là một phẩn của nhóm và trãi nghiệm thú vị."
+
+#. module: website_hr_recruitment
+#: code:addons/website_hr_recruitment/controllers/main.py:69
+#: view:website:website.layout
+#, python-format
+msgid "New Job Offer"
+msgstr "Việc đang tuyển mới"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.index
+msgid "No job offer found"
+msgstr "Không tìm thấy việc đang tuyển nào"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.index
+msgid "Our Job Offers"
+msgstr "Việc đang tuyển của chúng tôi"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.detail
+msgid "Our Jobs"
+msgstr "Việc làm của chúng tôi"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.apply
+msgid "Please send again your resume."
+msgstr "Vui lòng gửi lại lý lịch của bạn"
+
+#. module: website_hr_recruitment
+#: field:hr.job,website_published:0
+msgid "Published"
+msgstr "Đã xuất bản"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.apply
+msgid "Resume"
+msgstr "Lý lịch"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.apply
+msgid "Short Introduction"
+msgstr "Giới thiệu ngắn"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.apply
+msgid "Submit"
+msgstr "Gửi duyệt"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.thankyou
+msgid "Thank you!"
+msgstr "Cảm ơn!"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.index
+msgid "There isn't job offer published now, click"
+msgstr "Hiện tại không có việc đang tuyển nào được xuất bản, nhấn"
+
+#. module: website_hr_recruitment
+#: model:ir.actions.act_url,name:website_hr_recruitment.action_open_website
+msgid "Website Recruitment Form"
+msgstr "Mẫu tuyển dụng trên web"
+
+#. module: website_hr_recruitment
+#: field:hr.job,website_url:0
+msgid "Website URL"
+msgstr "URL website"
+
+#. module: website_hr_recruitment
+#: field:hr.job,website_description:0
+msgid "Website description"
+msgstr "Mô tả website"
+
+#. module: website_hr_recruitment
+#: field:hr.job,website_meta_description:0
+msgid "Website meta description"
+msgstr "Thẻ meta mô tả web"
+
+#. module: website_hr_recruitment
+#: field:hr.job,website_meta_keywords:0
+msgid "Website meta keywords"
+msgstr "Thẻ meta từ khóa web"
+
+#. module: website_hr_recruitment
+#: field:hr.job,website_meta_title:0
+msgid "Website meta title"
+msgstr "Thể meta tiêu đề web"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.index
+msgid ""
+"With a small team of smart people, we released the most\n"
+"                                    disruptive enterprise management software in the world.\n"
+"                                    Odoo is fully open source, super easy, full featured\n"
+"                                    (3000+ apps) and its online offer is 3 times cheaper than\n"
+"                                    traditional competitors like SAP and Ms Dynamics."
+msgstr ""
+"With a small team of smart people, we released the most\n"
+"                                    disruptive enterprise management software in the world.\n"
+"                                    Odoo is fully open source, super easy, full featured\n"
+"                                    (3000+ apps) and its online offer is 3 times cheaper than\n"
+"                                    traditional competitors like SAP and Ms Dynamics."
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.apply
+msgid "Your Email"
+msgstr "Email của bạn"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.apply
+msgid "Your Name"
+msgstr "Tên của bạn"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.apply
+msgid "Your Phone"
+msgstr "Điện thoại của bạn"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.thankyou
+msgid ""
+"Your job application has been successfully registered,\n"
+"                        we will get back to you soon."
+msgstr ""
+"Đơn ứng tuyển của bạn đã được đăng ký thành công,\n"
+"                        chúng tôi sẽ sớm liên hệ với bạn."
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.index
+msgid "col-md-3"
+msgstr "col-md-3"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.index
+msgid "col-md-9"
+msgstr "col-md-9"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.index
+msgid "here"
+msgstr "ở đây"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.index
+msgid "not published"
+msgstr "không xuất bản"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.index
+msgid "open positions"
+msgstr "vị trí đang mở"
+
+#. module: website_hr_recruitment
+#: view:website:website_hr_recruitment.index
+msgid "to contact us"
+msgstr "để liên hệ"
